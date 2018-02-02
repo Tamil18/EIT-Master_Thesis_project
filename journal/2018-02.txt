@@ -1,0 +1,4 @@
+1: {text: Linux and Windows installation}
+2: {text: 'Workspace setup, workflow setup, solving qemu problem
+
+    KVM problem - solved'}

@@ -1,0 +1,7 @@
+31: {text: 'Github repositories setup,
+
+    Workspace research
+
+    Writing of thesis
+
+'}
