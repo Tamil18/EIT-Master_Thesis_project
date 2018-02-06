@@ -1,4 +1,22 @@
-1: {text: Linux and Windows installation}
+1: {text: 'Linux and Windows installation
+
+    Writing of thesis'}
 2: {text: 'Workspace setup, workflow setup, solving qemu problem
 
-    KVM problem - solved'}
+    KVM problem - solved
+
+    solving resend of Wi-Fi cards
+
+    Writing of thesis'}
+5: {text: 'ordering of Turris Omnia
+
+    Compex Wi-Fi cards - solved, resend to right address
+
+    Writing of thesis
+
+'}
+6: {text: 'Configuration of Windows
+
+    Writing of thesis
+
+    Installing SDKs for Jae'}
