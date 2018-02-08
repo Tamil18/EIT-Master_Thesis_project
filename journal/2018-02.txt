@@ -20,3 +20,11 @@
     Writing of thesis
 
     Installing SDKs for Jae'}
+7: {text: 'Switch of PCs and SSDs
+
+    reinstalling Windows drivers
+
+'}
+8: {text: 'learning commands: iw, iwconfig, hcitool
+
+    reading: SFP, SFP+, SFP10'}
