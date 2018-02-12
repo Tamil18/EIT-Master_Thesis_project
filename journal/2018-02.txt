@@ -28,3 +28,13 @@
 8: {text: 'learning commands: iw, iwconfig, hcitool
 
     reading: SFP, SFP+, SFP10'}
+9: {text: 'nethogs
+
+    FFPGA serial connection '}
+12: {text: 'Ubuntu Xenial configuration on Rock64
+
+    Aravis compilation x86 and ARM64
+
+    rtl8812au drive compilation
+
+    Wi-Fi cards delivered!!!'}
