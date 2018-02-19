@@ -38,3 +38,20 @@
     rtl8812au drive compilation
 
     Wi-Fi cards delivered!!!'}
+13: {text: 'updting BIOS and drivers on both PC with 10 Gb cards
+
+    testing 10Gb network - fail, only 5-6Gb/s'}
+14: {text: 'macchiatobin first run, trying to compile rtl8812au drivers -fail
+
+    fixing 10 Gb network - disabling jumbo packets'}
+15: {text: 'expanding filesystem to 128GB
+
+    downloading kernel
+
+    installation of gnome'}
+16: {text: 'build of linux-headers-xxx.deb package -fail
+
+    first benchmarking of CPU'}
+19: {text: 'applied kernel patch, build headers package - success
+
+    install headers package, compile rtl8812au driver - success'}

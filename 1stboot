@@ -1,0 +1,645 @@
+Welcome to minicom 2.7.1
+
+OPTIONS: I18n 
+Compiled on Aug 13 2017, 15:25:34.
+Port /dev/ttyUSB0, 11:08:45
+
+Press CTRL-A Z for help on special keys
+
+
+BootROM - 2.03
+Starting CP-0 IOROM 1.07
+Booting from SD 0 (0x29)
+SD - wait_for_sd_interrupt: Error interrupt -  00008000
+SD - wait_for_sd_interrupt: Error interrupt status 00000003
+SD - sd_get_cmd_response: Get command response failed.
+
+SD - sd_init: Failed - ret = 00000081
+Error: Failed initializing interface
+Error: Failed boot attempt 01. error = 0x0C1
+
+BootROM - 2.03                                                                                                                                
+Starting CP-0 IOROM 1.07                                                                                                                      
+Booting from SD 0 (0x29)                                                                                                                      
+SD - wait_for_sd_interrupt: Error interrupt -  00008000                                                                                       
+SD - wait_for_sd_interrupt: Error interrupt status 00000003                                                                                   
+SD - sd_get_cmd_response: Get command response failed.                                                                                        
+                                                                                                                                              
+SD - sd_init: Failed - ret = 00000081                                                                                                         
+Error: Failed initializing interface                                                                                                          
+Found valid image at boot postion 0x000                                                                                                       
+lNOTICE:  Starting binary extension                                                                                                           
+NOTICE:  SVC: SW Revision 0x0. SVC is not supported                                                                                           
+mv_ddr: mv_ddr-armada-17.10.3-g656440a (Jan 30 2018 - 08:26:37)                                                                               
+mv_ddr: completed successfully                                                                                                                
+NOTICE:  Cold boot                                                                                                                            
+NOTICE:  Booting Trusted Firmware                                                                                                             
+NOTICE:  BL1: v1.3(release):armada-17.10.3:71dd56e                                                                                            
+NOTICE:  BL1: Built : 08:26:42, Jan 30 2018                                                                                                   
+NOTICE:  BL1: Booting BL2                                                                                                                     
+lNOTICE:  BL2: v1.3(release):armada-17.10.3:71dd56e                                                                                           
+NOTICE:  BL2: Built : 08:26:44, Jan 30 2018                                                                                                   
+BL2: Initiating SCP_BL2 transfer to SCP                                                                                                       
+NOTICE:  SCP_BL2 contains 2 concatenated images                                                                                               
+NOTICE:  Load image to CP1 MSS                                                                                                                
+NOTICE:  Loading MSS image from address 0x4023020 Size 0x1378 to MSS at 0xf4280000                                                            
+NOTICE:  Done                                                                                                                                 
+NOTICE:  Load image to AP MSS                                                                                                                 
+NOTICE:  Loading MSS image from address 0x4024398 Size 0x1f68 to MSS at 0xf0580000                                                            
+N                                                                                                                                             
+                                                                                                                                              
+FreeRTOS 7.3.0 - Marvell cm3 - A8K release armada-17.10.1                                                                                     
+                                                                                                                                              
+OTICE:  Done                                                                                                                                  
+NOTICE:  SCP Image doesn't contain PM firmware                                                                                                
+NOTICE:  BL1: Booting BL31                                                                                                                    
+lNOTICE:  MSS PM is not supported in this build                                                                                               
+NOTICE:  BL31: v1.3(release):armada-17.10.3:71dd56e                                                                                           
+NOTICE:  BL31: Built : 08:26:46, Jan 30 2018                                                                                                  
+l                                                                                                                                             
+                                                                                                                                              
+U-Boot 2017.03-armada-17.10.1-g9e422a2-dirty (Jan 30 2018 - 08:25:55 +0000)                                                                   
+                                                                                                                                              
+Model: MACCHIATOBin-8040                                                                                                                      
+Clock:  CPU     2000 [MHz]                                                                                                                    
+        DDR     1200 [MHz]                                                                                                                    
+        FABRIC  1200 [MHz]                                                                                                                    
+        MSS     200  [MHz]                                                                                                                    
+DRAM:  16 GiB                                                                                                                                 
+U-Boot DT blob at : 000000007f70ac38                                                                                                          
+EEPROM configuration pattern not detected.                                                                                                    
+Comphy chip #0:                                                                                                                               
+Comphy-0: PEX0                                                                                                                                
+Comphy-1: PEX0                                                                                                                                
+Comphy-2: PEX0                                                                                                                                
+Comphy-3: PEX0                                                                                                                                
+Comphy-4: SFI                                                                                                                                 
+Comphy-5: SATA1                                                                                                                               
+Comphy chip #1:                                                                                                                               
+Comphy-0: SGMII1        1.25 Gbps                                                                                                             
+Comphy-1: SATA0                                                                                                                               
+Comphy-2: USB3_HOST0                                                                                                                          
+Comphy-3: SATA1                                                                                                                               
+Comphy-4: SFI                                                                                                                                 
+Comphy-5: SGMII2        3.125 Gbps                                                                                                            
+UTMI PHY 0 initialized to USB Host0                                                                                                           
+going to start mss_periodic_ihb_wa for mss                                                                                                    
+SATA link 0 timeout.                                                                                                                          
+SATA link 1 timeout.                                                                                                                          
+AHCI 0001.0000 32 slots 2 ports 6 Gbps 0x3 impl SATA mode                                                                                     
+flags: 64bit ncq led only pmp fbss pio slum part sxs                                                                                          
+SATA link 0 timeout.                                                                                                                          
+SATA link 1 timeout.                                                                                                                          
+AHCI 0001.0000 32 slots 2 ports 6 Gbps 0x3 impl SATA mode                                                                                     
+flags: 64bit ncq led only pmp fbss pio slum part sxs                                                                                          
+PCIE-0: Link down                                                                                                                             
+MMC:   sdhci@6e0000: 0, sdhci@780000: 1                                                                                                       
+*** Warning - bad CRC, using default environment                                                                                              
+                                                                                                                                              
+Net:   eth0: mvpp2-0 [PRIME]mdio_register: non unique device name 'ethernet@0'                                                                
+, eth1: mvpp2-3, eth2: mvpp2-4, eth3: mvpp2-5                                                                                                 
+Hit any key to stop autoboot:  0                                                                                                              
+switch to partitions #0, OK                                                                                                                   
+mmc1 is current device                                                                                                                        
+12783616 bytes read in 1177 ms (10.4 MiB/s)                                                                                                   
+36904 bytes read in 11 ms (3.2 MiB/s)                                                                                                         
+## Flattened Device Tree blob at 01000000                                                                                                     
+   Booting using the fdt blob at 0x1000000                                                                                                    
+   Using Device Tree in place at 0000000001000000, end 000000000100c027                                                                       
+                                                                                                                                              
+Starting kernel ...                                                                                                                           
+                                                                                                                                              
+[    0.000000] Booting Linux on physical CPU 0x0                                                                                              
+[    0.000000] Initializing cgroup subsys cpu                                                                                                 
+[    0.000000] Linux version 4.4.52-armada-17.10.3-g6adee55  (build@0559a0127736) (gcc version 5.4.0 20160609 (Ubuntu/Linaro 5.4.0-6ubuntu1~18
+[    0.000000] Boot CPU: AArch64 Processor [410fd081]                                                                                         
+[    0.000000] efi: Getting EFI parameters from FDT:                                                                                          
+[    0.000000] efi: UEFI not found.                                                                                                           
+[    0.000000] cma: Reserved 64 MiB at 0x00000000bc000000                                                                                     
+[    0.000000] psci: probing for conduit method from DT.                                                                                      
+[    0.000000] psci: PSCIv1.0 detected in firmware.                                                                                           
+[    0.000000] psci: Using standard PSCI v0.2 function IDs                                                                                    
+[    0.000000] psci: MIGRATE_INFO_TYPE not supported.                                                                                         
+[    0.000000] PERCPU: Embedded 16 pages/cpu @ffffffc43ff57000 s24728 r8192 d32616 u65536                                                     
+[    0.000000] Detected PIPT I-cache on CPU0                                                                                                  
+[    0.000000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 4128264                                                   
+[    0.000000] Kernel command line: console=ttyS0,115200 root=/dev/mmcblk1p2 rw rootwait                                                      
+[    0.000000] log_buf_len individual max cpu contribution: 4096 bytes                                                                        
+[    0.000000] log_buf_len total cpu_extra contributions: 12288 bytes                                                                         
+[    0.000000] log_buf_len min size: 16384 bytes                                                                                              
+[    0.000000] log_buf_len: 32768 bytes                                                                                                       
+[    0.000000] early log buf free: 14688(89%)                                                                                                 
+[    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)                                                                           
+[    0.000000] Dentry cache hash table entries: 2097152 (order: 12, 16777216 bytes)                                                           
+[    0.000000] Inode-cache hash table entries: 1048576 (order: 11, 8388608 bytes)                                                             
+[    0.000000] software IO TLB [mem 0xb7fff000-0xbbfff000] (64MB) mapped at [ffffffc0b7fff000-ffffffc0bbffefff]                               
+[    0.000000] Memory: 16343404K/16775168K available (8547K kernel code, 532K rwdata, 2952K rodata, 344K init, 261K bss, 366228K reserved, 65)
+[    0.000000] Virtual kernel memory layout:                                                                                                  
+[    0.000000]     vmalloc : 0xffffff8000000000 - 0xffffffbdbfff0000   (   246 GB)                                                            
+[    0.000000]     vmemmap : 0xffffffbdc0000000 - 0xffffffbfc0000000   (     8 GB maximum)                                                    
+[    0.000000]               0xffffffbdc0000000 - 0xffffffbdd1000000   (   272 MB actual)                                                     
+[    0.000000]     fixed   : 0xffffffbffa7fd000 - 0xffffffbffac00000   (  4108 KB)                                                            
+[    0.000000]     PCI I/O : 0xffffffbffae00000 - 0xffffffbffbe00000   (    16 MB)                                                            
+[    0.000000]     modules : 0xffffffbffc000000 - 0xffffffc000000000   (    64 MB)                                                            
+[    0.000000]     memory  : 0xffffffc000000000 - 0xffffffc440000000   ( 17408 MB)                                                            
+[    0.000000]       .init : 0xffffffc000bbd000 - 0xffffffc000c13000   (   344 KB)                                                            
+[    0.000000]       .text : 0xffffffc000080000 - 0xffffffc000bbced4   ( 11508 KB)                                                            
+[    0.000000]       .data : 0xffffffc000c2c000 - 0xffffffc000cb1000   (   532 KB)                                                            
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1                                                                     
+[    0.000000] Preemptible hierarchical RCU implementation.                                                                                   
+[    0.000000]  Build-time adjustment of leaf fanout to 64.                                                                                   
+[    0.000000]  RCU restricting CPUs from NR_CPUS=64 to nr_cpu_ids=4.                                                                         
+[    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=64, nr_cpu_ids=4                                                                   
+[    0.000000] NR_IRQS:64 nr_irqs:64 0                                                                                                        
+[    0.000000] GICv2m: Overriding V2M MSI_TYPER (base:160, num:32)                                                                            
+[    0.000000] GICv2m: Node v2m: range[0xf0280000:0xf0280fff], SPI[160:192]                                                                   
+[    0.000000] GICv2m: Overriding V2M MSI_TYPER (base:192, num:32)                                                                            
+[    0.000000] GICv2m: Node v2m: range[0xf0290000:0xf0290fff], SPI[192:224]                                                                   
+[    0.000000] GICv2m: Overriding V2M MSI_TYPER (base:224, num:32)                                                                            
+[    0.000000] GICv2m: Node v2m: range[0xf02a0000:0xf02a0fff], SPI[224:256]                                                                   
+[    0.000000] GICv2m: Overriding V2M MSI_TYPER (base:256, num:32)                                                                            
+[    0.000000] GICv2m: Node v2m: range[0xf02b0000:0xf02b0fff], SPI[256:288]                                                                   
+[    0.000000] mvebu-pic: registered with 19 irqs                                                                                             
+[    0.000000] mvebu-sei: registered with 64 irqs                                                                                             
+[    0.000000] Architected cp15 timer(s) running at 25.00MHz (phys).                                                                          
+[    0.000000] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x5c40939b5, max_idle_ns: 440795202646 ns                    
+[    0.000001] sched_clock: 56 bits at 25MHz, resolution 40ns, wraps every 4398046511100ns                                                    
+[    0.000086] Console: colour dummy device 80x25                                                                                             
+[    0.000095] Calibrating delay loop (skipped), value calculated using timer frequency.. 50.00 BogoMIPS (lpj=100000)                         
+[    0.000099] pid_max: default: 32768 minimum: 301                                                                                           
+[    0.000118] Security Framework initialized                                                                                                 
+[    0.000132] Mount-cache hash table entries: 32768 (order: 6, 262144 bytes)                                                                 
+[    0.000135] Mountpoint-cache hash table entries: 32768 (order: 6, 262144 bytes)                                                            
+[    0.000405] Initializing cgroup subsys memory                                                                                              
+[    0.000415] Initializing cgroup subsys hugetlb                                                                                             
+[    0.000509] EFI services will not be available.                                                                                            
+[    0.000518] ASID allocator initialised with 65536 entries                                                                                  
+[    0.036126] Detected PIPT I-cache on CPU1                                                                                                  
+[    0.036145] CPU1: Booted secondary processor [410fd081]                                                                                    
+[    0.048129] Detected PIPT I-cache on CPU2                                                                                                  
+[    0.048146] CPU2: Booted secondary processor [410fd081]                                                                                    
+[    0.060136] Detected PIPT I-cache on CPU3                                                                                                  
+[    0.060147] CPU3: Booted secondary processor [410fd081]                                                                                    
+[    0.060169] Brought up 4 CPUs                                                                                                              
+[    0.060177] SMP: Total of 4 processors activated.                                                                                          
+[    0.060181] CPU: All CPU(s) started at EL2                                                                                                 
+[    0.060363] devtmpfs: initialized                                                                                                          
+[    0.062861] DMI not present or invalid.                                                                                                    
+[    0.062946] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns                                
+[    0.062954] futex hash table entries: 1024 (order: 5, 131072 bytes)                                                                        
+[    0.063515] xor: measuring software checksum speed                                                                                         
+[    0.100042]    8regs     :  8015.000 MB/sec                                                                                                
+[    0.140060]    8regs_prefetch:  7021.000 MB/sec                                                                                            
+[    0.180079]    32regs    :  9427.000 MB/sec                                                                                                
+[    0.220098]    32regs_prefetch:  7881.000 MB/sec                                                                                           
+[    0.220101] xor: using function: 32regs (9427.000 MB/sec)                                                                                  
+[    0.220111] pinctrl core: initialized pinctrl subsystem                                                                                    
+[    0.220513] NET: Registered protocol family 16                                                                                             
+[    0.232117] cpuidle: using governor ladder                                                                                                 
+[    0.248123] cpuidle: using governor menu                                                                                                   
+[    0.248172] vdso: 2 pages (1 code @ ffffffc000c31000, 1 data @ ffffffc000c30000)                                                           
+[    0.248185] hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.                                                                  
+[    0.248487] DMA: preallocated 256 KiB pool for atomic allocations                                                                          
+[    0.248520] Serial: AMBA PL011 UART driver                                                                                                 
+[    0.249390] armada-ap806-pinctrl f06f4000.pinctrl: registered pinctrl driver                                                               
+[    0.250375] armada-cp110-pinctrl f2440000.pinctrl: registered pinctrl driver                                                               
+[    0.252002] armada-cp110-pinctrl f4440000.pinctrl: registered pinctrl driver                                                               
+[    0.336231] raid6: int64x1  gen()  1396 MB/s                                                                                               
+[    0.404233] raid6: int64x1  xor()   988 MB/s                                                                                               
+[    0.472280] raid6: int64x2  gen()  2173 MB/s                                                                                               
+[    0.540294] raid6: int64x2  xor()  1632 MB/s                                                                                               
+[    0.608334] raid6: int64x4  gen()  3084 MB/s                                                                                               
+[    0.676367] raid6: int64x4  xor()  1833 MB/s                                                                                               
+[    0.744399] raid6: int64x8  gen()  3157 MB/s                                                                                               
+[    0.812428] raid6: int64x8  xor()  1733 MB/s                                                                                               
+[    0.880456] raid6: neonx1   gen()  2622 MB/s                                                                                               
+[    0.948499] raid6: neonx1   xor()  1613 MB/s                                                                                               
+[    1.016520] raid6: neonx2   gen()  4056 MB/s                                                                                               
+[    1.084555] raid6: neonx2   xor()  2601 MB/s                                                                                               
+[    1.152592] raid6: neonx4   gen()  5038 MB/s                                                                                               
+[    1.220616] raid6: neonx4   xor()  3303 MB/s                                                                                               
+[    1.288662] raid6: neonx8   gen()  4410 MB/s                                                                                               
+[    1.356687] raid6: neonx8   xor()  3299 MB/s                                                                                               
+[    1.356689] raid6: using algorithm neonx4 gen() 5038 MB/s                                                                                  
+[    1.356692] raid6: .... xor() 3303 MB/s, rmw enabled                                                                                       
+[    1.356694] raid6: using intx1 recovery algorithm                                                                                          
+[    1.357229] arm-smmu f0100000.iommu: probing hardware configuration...                                                                     
+[    1.357233] arm-smmu f0100000.iommu: SMMUv2 with:                                                                                          
+[    1.357236] arm-smmu f0100000.iommu:         stage 1 translation                                                                           
+[    1.357238] arm-smmu f0100000.iommu:         stage 2 translation                                                                           
+[    1.357241] arm-smmu f0100000.iommu:         nested translation                                                                            
+[    1.357244] arm-smmu f0100000.iommu:         coherent table walk                                                                           
+[    1.357247] arm-smmu f0100000.iommu:         stream matching with 16 register groups, mask 0x7fff                                          
+[    1.357250] arm-smmu f0100000.iommu:         8 context banks (0 stage-2 only)                                                              
+[    1.357253] arm-smmu f0100000.iommu:         Supported page sizes: 0x60211000                                                              
+[    1.357256] arm-smmu f0100000.iommu:         Stage-1: 48-bit VA -> 48-bit IPA                                                              
+[    1.357258] arm-smmu f0100000.iommu:         Stage-2: 48-bit IPA -> 48-bit PA                                                              
+[    1.357275] arm-smmu f0100000.iommu: registered 2 master devices                                                                           
+[    1.357893] vgaarb: loaded                                                                                                                 
+[    1.357985] SCSI subsystem initialized                                                                                                     
+[    1.358135] usbcore: registered new interface driver usbfs                                                                                 
+[    1.358154] usbcore: registered new interface driver hub                                                                                   
+[    1.358179] usbcore: registered new device driver usb                                                                                      
+[    1.358411] pps_core: LinuxPPS API ver. 1 registered                                                                                       
+[    1.358414] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>                                       
+[    1.358425] PTP clock support registered                                                                                                   
+[    1.358547] dmi: Firmware registration failed.                                                                                             
+[    1.358957] clocksource: Switched to clocksource arch_sys_counter                                                                          
+[    1.361567] NET: Registered protocol family 2                                                                                              
+[    1.361757] TCP established hash table entries: 131072 (order: 8, 1048576 bytes)                                                           
+[    1.361996] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes)                                                                   
+[    1.362234] TCP: Hash tables configured (established 131072 bind 65536)                                                                    
+[    1.362268] UDP hash table entries: 8192 (order: 6, 262144 bytes)                                                                          
+[    1.362330] UDP-Lite hash table entries: 8192 (order: 6, 262144 bytes)                                                                     
+[    1.362465] NET: Registered protocol family 1                                                                                              
+[    1.362584] RPC: Registered named UNIX socket transport module.                                                                            
+[    1.362588] RPC: Registered udp transport module.                                                                                          
+[    1.362590] RPC: Registered tcp transport module.                                                                                          
+[    1.362592] RPC: Registered tcp NFSv4.1 backchannel transport module.                                                                      
+[    1.362794] hw perfevents: enabled with armv8_cortex_a72 PMU driver, 7 counters available                                                  
+[    1.362985] kvm [1]: interrupt-controller@f0240000 IRQ7                                                                                    
+[    1.363052] kvm [1]: timer IRQ5                                                                                                            
+[    1.363060] kvm [1]: Hyp mode initialized successfully                                                                                     
+[    1.364045] audit: initializing netlink subsys (disabled)                                                                                  
+[    1.364059] audit: type=2000 audit(1.360:1): initialized                                                                                   
+[    1.364325] HugeTLB registered 2 MB page size, pre-allocated 0 pages                                                                       
+[    1.366999] VFS: Disk quotas dquot_6.6.0                                                                                                   
+[    1.367062] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)                                                                 
+[    1.367839] NFS: Registering the id_resolver key type                                                                                      
+[    1.367855] Key type id_resolver registered                                                                                                
+[    1.367857] Key type id_legacy registered                                                                                                  
+[    1.367864] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).                                                                       
+[    1.367959] jffs2: version 2.2. (NAND) �© 2001-2006 Red Hat, Inc.                                                                          
+[    1.368141] fuse init (API version 7.23)                                                                                                   
+[    1.368302] 9p: Installing v9fs 9p2000 file system support                                                                                 
+[    1.368687] async_tx: api initialized (async)                                                                                              
+[    1.368701] io scheduler noop registered                                                                                                   
+[    1.368757] io scheduler cfq registered (default)                                                                                          
+[    1.369445] mvebu-gpio f06f5040.gpio: Couldn't get OF id                                                                                   
+[    1.369600] irq: Cannot allocate irq_descs @ IRQ49, assuming pre-allocated                                                                 
+[    1.369720] irq: Cannot allocate irq_descs @ IRQ81, assuming pre-allocated                                                                 
+[    1.369816] Ethernet Channel Bonding Driver: v3.7.1 (April 27, 2011)                                                                       
+[    1.370640] libphy: Fixed MDIO Bus: probed                                                                                                 
+[    1.370645] tun: Universal TUN/TAP device driver, 1.6                                                                                      
+[    1.370647] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>                                                                         
+[    1.370715] libphy: mdio_driver_register: mv88e6xxx                                                                                        
+[    1.370793] libphy: orion_mdio_bus: probed                                                                                                 
+[    1.371059] libphy: orion_mdio_bus: probed                                                                                                 
+[    1.371126] libphy: Marvell XSMI MDIO Bus: probed                                                                                          
+[    1.374602] libphy: Marvell XSMI MDIO Bus: probed                                                                                          
+[    1.374664] sky2: driver version 1.30                                                                                                      
+[    1.374841] e1000e: Intel(R) PRO/1000 Network Driver - 3.2.6-k                                                                             
+[    1.374844] e1000e: Copyright(c) 1999 - 2015 Intel Corporation.                                                                            
+[    1.374863] igb: Intel(R) Gigabit Ethernet Network Driver - version 5.3.0-k                                                                
+[    1.374865] igb: Copyright (c) 2007-2014 Intel Corporation.                                                                                
+[    1.374884] igbvf: Intel(R) Gigabit Virtual Function Network Driver - version 2.0.2-k                                                      
+[    1.374886] igbvf: Copyright (c) 2009 - 2012 Intel Corporation.                                                                            
+[    1.374904] ixgbe: Intel(R) 10 Gigabit PCI Express Network Driver - version 4.2.1-k                                                        
+[    1.374906] ixgbe: Copyright (c) 1999-2015 Intel Corporation.                                                                              
+[    1.374931] ixgbevf: Intel(R) 10 Gigabit PCI Express Virtual Function Network Driver - version 2.12.1-k                                    
+[    1.374933] ixgbevf: Copyright (c) 2009 - 2012 Intel Corporation.                                                                          
+[    1.375116] ixgb: Intel(R) PRO/10GbE Network Driver - version 1.0.135-k2-NAPI                                                              
+[    1.375119] ixgb: Copyright (c) 1999-2008 Intel Corporation.                                                                               
+[    1.375240] usbcore: registered new interface driver asix                                                                                  
+[    1.375265] usbcore: registered new interface driver ax88179_178a                                                                          
+[    1.375280] usbcore: registered new interface driver cdc_ether                                                                             
+[    1.375296] usbcore: registered new interface driver net1080                                                                               
+[    1.375313] usbcore: registered new interface driver cdc_subset                                                                            
+[    1.375329] usbcore: registered new interface driver zaurus                                                                                
+[    1.375358] usbcore: registered new interface driver cdc_ncm                                                                               
+[    1.375642] mv_xor_v2 f0400000.dma_xor: Marvell Version 2 XOR driver                                                                       
+[    1.375849] mv_xor_v2 f0420000.dma_xor: Marvell Version 2 XOR driver                                                                       
+[    1.375985] mv_xor_v2 f0440000.dma_xor: Marvell Version 2 XOR driver                                                                       
+[    1.376144] mv_xor_v2 f0460000.dma_xor: Marvell Version 2 XOR driver                                                                       
+[    1.376296] mv_xor_v2 f26a0000.dma_xor: Marvell Version 2 XOR driver                                                                       
+[    1.376331] mv_xor_v2 f26c0000.dma_xor: Marvell Version 2 XOR driver                                                                       
+[    1.376369] mv_xor_v2 f46a0000.dma_xor: Marvell Version 2 XOR driver                                                                       
+[    1.376396] mv_xor_v2 f46c0000.dma_xor: Marvell Version 2 XOR driver                                                                       
+[    1.377528] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled                                                                       
+[    1.377979] console [ttyS0] disabled                                                                                                       
+[    1.398173] f0512000.serial: ttyS0 at MMIO 0xf0512000 (irq = 13, base_baud = 12500000) is a 16550A                                         
+[    2.594031] console [ttyS0] enabled                                                                                                        
+[    2.598117] Unable to detect cache hierarchy from DT for CPU 0                                                                             
+[    2.604257] brd: module loaded                                                                                                             
+[    2.608830] loop: module loaded                                                                                                            
+[    2.612885] VFIO - User Level meta-driver version: 0.3                                                                                     
+[    2.618332] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver                                                                     
+[    2.624894] ehci-pci: EHCI PCI platform driver                                                                                             
+[    2.629376] ehci-platform: EHCI generic platform driver                                                                                    
+[    2.634673] ehci-orion: EHCI orion driver                                                                                                  
+[    2.638744] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver                                                                         
+[    2.644958] ohci-pci: OHCI PCI platform driver                                                                                             
+[    2.649439] ohci-platform: OHCI generic platform driver                                                                                    
+[    2.654890] usbcore: registered new interface driver usb-storage                                                                           
+[    2.661124] mousedev: PS/2 mouse device common for all mice                                                                                
+[    2.666969] armada38x-rtc f4284000.rtc: rtc core: registered f4284000.rtc as rtc0                                                          
+[    2.674538] i2c /dev entries driver                                                                                                        
+[    2.688319] armada_thermal f06f808c.thermal: Overheat threshold between 93..107                                                            
+[    2.705719] armada_thermal f2400078.thermal: Overheat threshold between 92..107                                                            
+[    2.723154] armada_thermal f4400078.thermal: Overheat threshold between 92..107                                                            
+[    2.730588] md: linear personality registered for level -1                                                                                 
+[    2.736101] md: raid0 personality registered for level 0                                                                                   
+[    2.741437] md: raid1 personality registered for level 1                                                                                   
+[    2.746776] md: raid10 personality registered for level 10                                                                                 
+[    2.752345] md: raid6 personality registered for level 6                                                                                   
+[    2.757686] md: raid5 personality registered for level 5                                                                                   
+[    2.763023] md: raid4 personality registered for level 4                                                                                   
+[    2.768482] device-mapper: ioctl: 4.34.0-ioctl (2015-10-28) initialised: dm-devel@redhat.com                                               
+[    2.777304] sdhci: Secure Digital Host Controller Interface driver                                                                         
+[    2.783518] sdhci: Copyright(c) Pierre Ossman                                                                                              
+[    2.787896] sdhci-pltfm: SDHCI platform and OF driver helper                                                                               
+[    2.793709] xenon-sdhci f06e0000.sdhci: No vmmc regulator found                                                                            
+[    2.834965] mmc0: SDHCI controller on f06e0000.sdhci [f06e0000.sdhci] using ADMA 64-bit                                                    
+[    2.843098] xenon-sdhci f2780000.sdhci: Failed to setup input clk: -517                                                                    
+[    2.849838] ledtrig-cpu: registered to indicate activity on CPUs                                                                           
+[    2.856078] usbcore: registered new interface driver usbhid                                                                                
+[    2.861677] usbhid: USB HID core driver                                                                                                    
+[    2.866262] of_graph_get_next_endpoint(): no port node found in /ap806/config-space/axim-ddr-rd@840000                                     
+[    2.875693] coresight-axim f0840000.axim-ddr-rd: AXIM 4.0 2.0 initialized                                                                  
+[    2.882524] of_graph_get_next_endpoint(): no port node found in /ap806/config-space/axim-ddr-wr@841000                                     
+[    2.891941] coresight-axim f0841000.axim-ddr-wr: AXIM 4.0 2.0 initialized                                                                  
+[    2.898770] of_graph_get_next_endpoint(): no port node found in /ap806/config-space/axim-sb-rd@848000                                      
+[    2.908101] coresight-axim f0848000.axim-sb-rd: AXIM 4.0 2.0 initialized                                                                   
+[    2.914844] of_graph_get_next_endpoint(): no port node found in /ap806/config-space/axim-sb-wr@849000                                      
+[    2.924175] coresight-axim f0849000.axim-sb-wr: AXIM 4.0 2.0 initialized                                                                   
+[    2.930919] of_graph_get_next_endpoint(): no port node found in /cpn-110-master/config-space/axim-cp-rd@3c5000                             
+[    2.941036] coresight-axim f23c5000.axim-cp-rd: AXIM 4.0 1.0 initialized                                                                   
+[    2.947778] of_graph_get_next_endpoint(): no port node found in /cpn-110-master/config-space/axim-cp-wr@3c6000                             
+[    2.957897] coresight-axim f23c6000.axim-cp-wr: AXIM 4.0 1.0 initialized                                                                   
+[    2.964481] mmc0: MAN_BKOPS_EN bit is not set                                                                                              
+[    2.967987] mmc0: new high speed MMC card at address 0001                                                                                  
+[    2.968136] mmcblk0: mmc0:0001 8GME4R 7.28 GiB                                                                                             
+[    2.968194] mmcblk0boot0: mmc0:0001 8GME4R partition 1 4.00 MiB                                                                            
+[    2.968249] mmcblk0boot1: mmc0:0001 8GME4R partition 2 4.00 MiB                                                                            
+[    2.968308] mmcblk0rpmb: mmc0:0001 8GME4R partition 3 512 KiB                                                                              
+[    2.996667] of_graph_get_next_endpoint(): no port node found in /cpn-110-master/config-space/axim-ppv2-rd@3c0000                           
+[    3.006982] coresight-axim f23c0000.axim-ppv2-rd: AXIM 4.0 1.0 initialized                                                                 
+[    3.013900] of_graph_get_next_endpoint(): no port node found in /cpn-110-master/config-space/axim-ppv2-wr@3c1000                           
+[    3.024196] coresight-axim f23c1000.axim-ppv2-wr: AXIM 4.0 1.0 initialized                                                                 
+[    3.031114] of_graph_get_next_endpoint(): no port node found in /cpn-110-master/config-space/axim-hb1-rd@3c8000                            
+[    3.041324] coresight-axim f23c8000.axim-hb1-rd: AXIM 4.0 1.0 initialized                                                                  
+[    3.048154] of_graph_get_next_endpoint(): no port node found in /cpn-110-master/config-space/axim-hb1-wr@3c9000                            
+[    3.058363] coresight-axim f23c9000.axim-hb1-wr: AXIM 4.0 1.0 initialized                                                                  
+[    3.065194] of_graph_get_next_endpoint(): no port node found in /cpn-110-slave/config-space/axim-cp-rd@3c5000                              
+[    3.075233] coresight-axim f43c5000.axim-cp-rd: AXIM 4.0 1.0 initialized                                                                   
+[    3.081978] of_graph_get_next_endpoint(): no port node found in /cpn-110-slave/config-space/axim-cp-wr@3c6000                              
+[    3.092014] coresight-axim f43c6000.axim-cp-wr: AXIM 4.0 1.0 initialized                                                                   
+[    3.098756] of_graph_get_next_endpoint(): no port node found in /cpn-110-slave/config-space/axim-ppv2-rd@3c0000                            
+[    3.108966] coresight-axim f43c0000.axim-ppv2-rd: AXIM 4.0 1.0 initialized                                                                 
+[    3.115882] of_graph_get_next_endpoint(): no port node found in /cpn-110-slave/config-space/axim-ppv2-wr@3c1000                            
+[    3.126093] coresight-axim f43c1000.axim-ppv2-wr: AXIM 4.0 1.0 initialized                                                                 
+[    3.133010] of_graph_get_next_endpoint(): no port node found in /cpn-110-slave/config-space/axim-hb1-rd@3c8000                             
+[    3.143133] coresight-axim f43c8000.axim-hb1-rd: AXIM 4.0 1.0 initialized                                                                  
+[    3.149962] of_graph_get_next_endpoint(): no port node found in /cpn-110-slave/config-space/axim-hb1-wr@3c9000                             
+[    3.160086] coresight-axim f43c9000.axim-hb1-wr: AXIM 4.0 1.0 initialized                                                                  
+[    3.167231] NET: Registered protocol family 10                                                                                             
+[    3.172008] sit: IPv6 over IPv4 tunneling driver                                                                                           
+[    3.176825] NET: Registered protocol family 17                                                                                             
+[    3.181304] bridge: automatic filtering via arp/ip/ip6tables has been deprecated. Update your scripts to load br_netfilter if you need thi.
+[    3.194076] 8021q: 802.1Q VLAN Support v1.8                                                                                                
+[    3.198300] 9pnet: Installing 9P2000 support                                                                                               
+[    3.202613] Key type dns_resolver registered                                                                                               
+[    3.206903] openvswitch: Open vSwitch switching datapath                                                                                   
+[    3.212317] mpls_gso: MPLS GSO support                                                                                                     
+[    3.216310] registered taskstats version 1                                                                                                 
+[    3.221175] Btrfs loaded                                                                                                                   
+[    3.228613] mac_addr 0:51:82:11:22:0                                                                                                       
+[    3.239305] mvpp2 f2000000.ppv22 eth0: Using device tree mac address 00:51:82:11:22:00                                                     
+[    3.252675] mac_addr 0:51:82:11:22:1                                                                                                       
+[    3.263597] mvpp2 f4000000.ppv22 eth1: Using device tree mac address 00:51:82:11:22:01                                                     
+[    3.336831] mac_addr 0:51:82:11:22:2                                                                                                       
+[    3.347712] mvpp2 f4000000.ppv22 eth2: Using device tree mac address 00:51:82:11:22:02                                                     
+[    3.355935] mac_addr 0:51:82:11:22:3                                                                                                       
+[    3.366701] mvpp2 f4000000.ppv22 eth3: Using device tree mac address 00:51:82:11:22:03                                                     
+[    3.775079] PCI host bridge /cpn-110-master/pcie@0x600000 ranges:                                                                          
+[    3.781219]    IO 0xf9000000..0xf900ffff -> 0xf9000000                                                                                     
+[    3.786385]   MEM 0xf6000000..0xf6efffff -> 0xf6000000                                                                                     
+[    3.792918] armada8k-pcie f2600000.pcie: Link not up after reconfiguration                                                                 
+[    3.799877] armada8k-pcie f2600000.pcie: PCI host bridge to bus 0000:00                                                                    
+[    3.806523] pci_bus 0000:00: root bus resource [bus 00-ff]                                                                                 
+[    3.812037] pci_bus 0000:00: root bus resource [io  0x0000-0xffff] (bus address [0xf9000000-0xf900ffff])                                   
+[    3.821559] pci_bus 0000:00: root bus resource [mem 0xf6000000-0xf6efffff]                                                                 
+[    3.828611] iommu: Adding device 0000:00:00.0 to group 0                                                                                   
+[    3.834022] pci 0000:00:00.0: BAR 0: assigned [mem 0xf6000000-0xf60fffff]                                                                  
+[    3.840845] pci 0000:00:00.0: PCI bridge to [bus 01]                                                                                       
+[    4.153228] pcieport 0000:00:00.0: Signaling PME through PCIe PME interrupt                                                                
+[    4.160319] mv_xor_v2 f26a0000.dma_xor: Marvell Version 2 XOR driver                                                                       
+[    4.166898] mv_xor_v2 f26c0000.dma_xor: Marvell Version 2 XOR driver                                                                       
+[    4.173479] mv_xor_v2 f46a0000.dma_xor: Marvell Version 2 XOR driver                                                                       
+[    4.180056] mv_xor_v2 f46c0000.dma_xor: Marvell Version 2 XOR driver                                                                       
+[    4.186672] omap_rng f2760000.trng: Random Number Generator ver. 203b34c                                                                   
+[    4.193463] omap_rng f4760000.trng: Random Number Generator ver. 203b34c                                                                   
+[    4.202447] ahci-mvebu f2540000.sata: masking port_map 0x3 -> 0x2                                                                          
+[    4.208596] ahci-mvebu f2540000.sata: AHCI 0001.0000 32 slots 2 ports 6 Gbps 0x2 impl platform mode                                        
+[    4.217688] ahci-mvebu f2540000.sata: flags: 64bit ncq sntf led only pmp fbs pio slum part sxs                                             
+[    4.226763] scsi host0: ahci-mvebu                                                                                                         
+[    4.230313] scsi host1: ahci-mvebu                                                                                                         
+[    4.233817] ata1: DUMMY                                                                                                                    
+[    4.236279] ata2: SATA max UDMA/133 mmio [mem 0xf2540000-0xf256ffff] port 0x180 irq 27                                                     
+[    4.248661] ahci-mvebu f4540000.sata: masking port_map 0x3 -> 0x3                                                                          
+[    4.254818] ahci-mvebu f4540000.sata: AHCI 0001.0000 32 slots 2 ports 6 Gbps 0x3 impl platform mode                                        
+[    4.263917] ahci-mvebu f4540000.sata: flags: 64bit ncq sntf led only pmp fbs pio slum part sxs                                             
+[    4.273215] scsi host2: ahci-mvebu                                                                                                         
+[    4.276745] scsi host3: ahci-mvebu                                                                                                         
+[    4.280233] ata3: SATA max UDMA/133 mmio [mem 0xf4540000-0xf456ffff] port 0x100 irq 40                                                     
+[    4.288188] ata4: SATA max UDMA/133 mmio [mem 0xf4540000-0xf456ffff] port 0x180 irq 40                                                     
+[    4.297283] xhci-hcd f4500000.usb3: xHCI Host Controller                                                                                   
+[    4.302629] xhci-hcd f4500000.usb3: new USB bus registered, assigned bus number 1                                                          
+[    4.310285] xhci-hcd f4500000.usb3: hcc params 0x0a000990 hci version 0x100 quirks 0x00010090                                              
+[    4.318863] xhci-hcd f4500000.usb3: irq 41, io mem 0xf4500000                                                                              
+[    4.324862] hub 1-0:1.0: USB hub found                                                                                                     
+[    4.328639] hub 1-0:1.0: 1 port detected                                                                                                   
+[    4.343978] xhci-hcd f4500000.usb3: xHCI Host Controller                                                                                   
+[    4.349318] xhci-hcd f4500000.usb3: new USB bus registered, assigned bus number 2                                                          
+[    4.356856] usb usb2: We don't know the algorithms for LPM for this host, disabling LPM.                                                   
+[    4.365148] hub 2-0:1.0: USB hub found                                                                                                     
+[    4.368924] hub 2-0:1.0: 1 port detected                                                                                                   
+[    4.373313] xenon-sdhci f2780000.sdhci: No vmmc regulator found                                                                            
+[    4.414965] mmc1: SDHCI controller on f2780000.sdhci [f2780000.sdhci] using ADMA 64-bit                                                    
+[    4.423912] armada38x-rtc f4284000.rtc: setting system clock to 1970-02-08 00:14:02 UTC (3284042)                                          
+[    4.465570] mmc1: new high speed SDHC card at address 0001                                                                                 
+[    4.471235] mmcblk1: mmc1:0001 00000 29.8 GiB                                                                                              
+[    4.476340]  mmcblk1: p1 p2                                                                                                                
+[    4.562970] ata2: SATA link down (SStatus 0 SControl 300)                                                                                  
+[    4.618967] ata3: SATA link down (SStatus 0 SControl 300)                                                                                  
+[    4.624409] ata4: SATA link down (SStatus 0 SControl 300)                                                                                  
+[    4.629862] md: Waiting for all devices to be available before autodetect                                                                  
+[    4.636683] md: If you don't use raid, use raid=noautodetect                                                                               
+[    4.642579] md: Autodetecting RAID arrays.                                                                                                 
+[    4.646697] md: Scanned 0 and added 0 devices.                                                                                             
+[    4.651161] md: autorun ...                                                                                                                
+[    4.653964] md: ... autorun DONE.                                                                                                          
+[    4.657819] EXT4-fs (mmcblk1p2): mounting ext3 file system using the ext4 subsystem                                                        
+[    4.683108] EXT4-fs (mmcblk1p2): mounted filesystem with ordered data mode. Opts: (null)                                                   
+[    4.691253] VFS: Mounted root (ext3 filesystem) on device 179:34.                                                                          
+[    4.700249] devtmpfs: mounted                                                                                                              
+[    4.703355] Freeing unused kernel memory: 344K (ffffffc000bbd000 - ffffffc000c13000)                                                       
+[    4.711148] Freeing alternatives memory: 72K (ffffffc000c13000 - ffffffc000c25000)                                                         
+[    4.975368] systemd[1]: System time before build time, advancing clock.                                                                    
+[    5.019994] random: systemd: uninitialized urandom read (16 bytes read, 8 bits of entropy available)                                       
+[    5.030416] systemd[1]: systemd 229 running in system mode. (+PAM +AUDIT +SELINUX +IMA +APPARMOR +SMACK +SYSVINIT +UTMP +LIBCRYPTSETUP +GC)
+[    5.048618] systemd[1]: Detected architecture arm64.                                                                                       
+                                                                                                                                              
+Welcome to Ubuntu 16.04.3 LTS!                                                                                                                
+                                                                                                                                              
+[    5.063550] systemd[1]: Set hostname to <localhost.localdomain>.                                                                           
+[    5.077401] random: systemd: uninitialized urandom read (16 bytes read, 8 bits of entropy available)                                       
+[    5.086592] systemd[1]: Initializing machine ID from random generator.                                                                     
+[    5.114873] random: systemd: uninitialized urandom read (16 bytes read, 8 bits of entropy available)                                       
+[    5.124841] random: systemd: uninitialized urandom read (16 bytes read, 9 bits of entropy available)                                       
+[    5.162874] random: systemd-cryptse: uninitialized urandom read (16 bytes read, 10 bits of entropy available)                              
+[    5.165162] random: systemd-sysv-ge: uninitialized urandom read (16 bytes read, 10 bits of entropy available)                              
+[    5.181638] random: systemd-gpt-aut: uninitialized urandom read (16 bytes read, 10 bits of entropy available)                              
+[    5.181690] random: systemd-gpt-aut: uninitialized urandom read (16 bytes read, 10 bits of entropy available)                              
+[    5.181702] random: systemd-gpt-aut: uninitialized urandom read (16 bytes read, 10 bits of entropy available)                              
+[    5.181799] random: systemd-gpt-aut: uninitialized urandom read (16 bytes read, 10 bits of entropy available)                              
+[    5.307449] systemd[1]: Listening on Journal Audit Socket.                                                                                 
+[  OK  ] Listening on Journal Audit Socket.                                                                                                   
+[    5.323082] systemd[1]: Started Trigger resolvconf update for networkd DNS.                                                                
+[  OK  ] Started Trigger resolvconf update for networkd DNS.                                                                                  
+[    5.343019] systemd[1]: Listening on udev Kernel Socket.                                                                                   
+[  OK  ] Listening on udev Kernel Socket.                                                                                                     
+[    5.358991] systemd[1]: Reached target Remote File Systems (Pre).                                                                          
+[  OK  ] Reached target Remote File Systems (Pre).                                                                                            
+[    5.375026] systemd[1]: Listening on /dev/initctl Compatibility Named Pipe.                                                                
+[  OK  ] Listening on /dev/initctl Compatibility Named Pipe.                                                                                  
+[    5.395044] systemd[1]: Listening on Syslog Socket.                                                                                        
+[  OK  ] Listening on Syslog Socket.                                                                                                          
+[    5.411036] systemd[1]: Listening on Journal Socket.                                                                                       
+[  OK  ] Listening on Journal Socket.                                                                                                         
+[    5.427000] systemd[1]: Reached target Remote File Systems.                                                                                
+[  OK  ] Reached target Remote File Systems.                                                                                                  
+[    5.442990] systemd[1]: Reached target Encrypted Volumes.                                                                                  
+[  OK  ] Reached target Encrypted Volumes.                                                                                                    
+[    5.459040] systemd[1]: Started Dispatch Password Requests to Console Directory Watch.                                                     
+[  OK  ] Started Dispatch Password Requests to Console Directory Watch.                                                                       
+[    5.478993] systemd[1]: Reached target Swap.                                                                                               
+[  OK  ] Reached target Swap.                                                                                                                 
+[    5.491032] systemd[1]: Started Forward Password Requests to Wall Directory Watch.                                                         
+[  OK  ] Started Forward Password Requests to Wall Directory Watch.                                                                           
+[    5.510990] systemd[1]: Reached target Paths.                                                                                              
+[  OK  ] Reached target Paths.                                                                                                                
+[    5.523052] systemd[1]: Created slice System Slice.                                                                                        
+[  OK  ] Created slice System Slice.                                                                                                          
+[    5.539001] systemd[1]: Reached target Slices.                                                                                             
+[  OK  ] Reached target Slices.                                                                                                               
+[    5.567158] systemd[1]: Starting Set console keymap...                                                                                     
+         Starting Set console keymap...                                                                                                       
+[    5.582717] systemd[1]: Starting Load Kernel Modules...                                                                                    
+         Starting Load Kernel Modules...                                                                                                      
+[    5.599616] systemd[1]: Starting Nameserver information manager...                                                                         
+         Starting Nameserver information manager...                                                                                           
+[    5.615679] systemd[1]: Mounting POSIX Message Queue File System...                                                                        
+         Mounting POSIX Message Queue File System...                                                                                          
+[    5.631640] systemd[1]: Starting Load/Save Random Seed...                                                                                  
+         Starting Load/Save Random Seed...                                                                                                    
+[    5.651323] systemd[1]: Starting Create Static Device Nodes in /dev...                                                                     
+         Starting Create Static Device Nodes in /dev...                                                                                       
+[    5.667104] systemd[1]: Listening on udev Control Socket.                                                                                  
+[  OK  ] Listening on udev Control Socket.                                                                                                    
+[    5.683123] systemd[1]: Created slice system-serial\x2dgetty.slice.                                                                        
+[  OK  ] Created slice system-serial\x2dgetty.slice.                                                                                          
+[    5.699085] systemd[1]: Listening on Journal Socket (/dev/log).                                                                            
+[  OK  ] Listening on Journal Socket (/dev/log).                                                                                              
+[    5.714996] systemd[1]: Reached target Sockets.                                                                                            
+[  OK  ] Reached target Sockets.                                                                                                              
+[    5.743081] systemd[1]: Mounting Huge Pages File System...                                                                                 
+         Mounting Huge Pages File System...                                                                                                   
+[    5.759564] systemd[1]: Mounting Debug File System...                                                                                      
+         Mounting Debug File System...                                                                                                        
+[    5.771610] systemd[1]: Starting Journal Service...                                                                                        
+         Starting Journal Service...                                                                                                          
+[    5.783671] systemd[1]: Started Read required files in advance.                                                                            
+[  OK  ] Started Read required files in advance.                                                                                              
+[    5.799814] systemd[1]: Starting udev Coldplug all Devices...                                                                              
+         Starting udev Coldplug all Devices...                                                                                                
+[    5.816110] systemd[1]: Mounted Huge Pages File System.                                                                                    
+[  OK  ] Mounted Huge Pages File System.                                                                                                      
+[    5.831070] systemd[1]: Mounted Debug File System.                                                                                         
+[  OK  ] Mounted Debug File System.                                                                                                           
+[    5.843094] systemd[1]: Mounted POSIX Message Queue File System.                                                                           
+[  OK  ] Mounted POSIX Message Queue File System.                                                                                             
+[    5.859262] systemd[1]: Started Set console keymap.                                                                                        
+[  OK  ] Started Set console keymap.                                                                                                          
+[    5.875338] systemd[1]: Started Load Kernel Modules.                                                                                       
+[  OK  ] Started Load Kernel Modules.                                                                                                         
+[    5.911728] systemd[1]: Started Load/Save Random Seed.                                                                                     
+[  OK  ] Started Load/Save Random Seed.                                                                                                       
+[    5.927341] systemd[1]: Started Create Static Device Nodes in /dev.                                                                        
+[  OK  ] Started Create Static Device Nodes in /dev.                                                                                          
+[    5.943344] systemd[1]: ureadahead.service: Main process exited, code=exited, status=5/NOTINSTALLED                                        
+[    5.952760] systemd[1]: ureadahead.service: Unit entered failed state.                                                                     
+[    5.959350] systemd[1]: ureadahead.service: Failed with result 'exit-code'.                                                                
+[    5.975943] systemd[1]: Started Nameserver information manager.                                                                            
+[  OK  ] Started Nameserver information manager.                                                                                              
+[    5.992286] systemd[1]: Started Journal Service.                                                                                           
+[  OK  ] Started Journal Service.                                                                                                             
+[  OK  ] Started udev Coldplug all Devices.                                                                                                   
+         Starting Flush Journal to Persistent Storage...                                                                                      
+[  OK  ] Reached target Network (Pre).                                                                                                        
+         Starting udev Kernel Device Manager...                                                                                               
+         Mounting Configuration File System...                                                                                                
+         Starting Apply Kernel Variables...                                                                                                   
+         Mounting FUSE Control File System...                                                                                                 
+[  OK  ] Reached target Local File Systems (Pre).                                                                                             
+[  OK  ] Reached target Local File Systems.                                                                                                   
+         Starting Set console font and keymap...                                                                                              
+[  OK  ] Mounted Configuration File System.                                                                                                   
+[  OK  ] Mounted FUSE Control File System.                                                                                                    
+[  OK  ] Started udev Kernel Device Manager.                                                                                                  
+[  OK  ] Started Apply Kernel Variables.                                                                                                      
+[  OK  ] Found device /dev/ttyS0.                                                                                                             
+         Starting Raise network interfaces...                                                                                                 
+[  OK  ] Started Flush Journal to Persistent Storage.                                                                                         
+         Starting Create Volatile Files and Directories...                                                                                    
+[  OK  ] Started Create Volatile Files and Directories.                                                                                       
+         Starting Network Time Synchronization...                                                                                             
+         Starting Update UTMP about System Boot/Shutdown...                                                                                   
+[  OK  ] Started Set console font and keymap.                                                                                                 
+[  OK  ] Created slice system-getty.slice.                                                                                                    
+[  OK  ] Started Update UTMP about System Boot/Shutdown.                                                                                      
+[  OK  ] Started Network Time Synchronization.                                                                                                
+[  OK  ] Started ifup for eth1.                                                                                                               
+[  OK  ] Started ifup for eth0.                                                                                                               
+[  OK  ] Reached target System Initialization.                                                                                                
+[  OK  ] Started Daily Cleanup of Temporary Directories.                                                                                      
+[  OK  ] Reached target Basic System.                                                                                                         
+         Starting System Logging Service...                                                                                                   
+         Starting LSB: Set the CPU Frequency Scaling governor to "ondemand"...                                                                
+[  OK  ] Started Regular background program processing daemon.                                                                                
+         Starting getty on tty2-tty6 if dbus and logind are not available...                                                                  
+         Starting Permit User Sessions...                                                                                                     
+[  OK  ] Reached target System Time Synchronized.                                                                                             
+[  OK  ] Started ifup for eth2.                                                                                                               
+[  OK  ] Started System Logging Service.                                                                                                      
+[  OK  ] Started Permit User Sessions.                                                                                                        
+[  OK  ] Started Raise network interfaces.                                                                                                    
+[  OK  ] Started LSB: Set the CPU Frequency Scaling governor to "ondemand".                                                                   
+[  OK  ] Reached target Network.                                                                                                              
+[  OK  ] Reached target Network is Online.                                                                                                    
+         Starting /etc/rc.local Compatibility...                                                                                              
+[  OK  ] Started Daily apt download activities.                                                                                               
+[  OK  ] Started Daily apt upgrade and clean activities.                                                                                      
+[  OK  ] Reached target Timers.                                                                                                               
+         Starting Set console scheme...                                                                                                       
+[  OK  ] Started /etc/rc.local Compatibility.                                                                                                 
+[  OK  ] Started Set console scheme.                                                                                                          
+[  OK  ] Started Getty on tty6.                                                                                                               
+[  OK  ] Started Getty on tty5.                                                                                                               
+[  OK  ] Started Getty on tty2.                                                                                                               
+[  OK  ] Started Getty on tty1.                                                                                                               
+[  OK  ] Started Getty on tty4.                                                                                                               
+[  OK  ] Started Serial Getty on ttyS0.                                                                                                       
+[  OK  ] Started Getty on tty3.                                                                                                               
+[  OK  ] Started getty on tty2-tty6 if dbus and logind are not available.                                                                     
+[  OK  ] Reached target Login Prompts.                                                                                                        
+[  OK  ] Reached target Multi-User System.                                                                                                    
+[  OK  ] Reached target Graphical Interface.                                                                                                  
+[  OK  ] Started Stop ureadahead data collection 45s after completed startup.                                                                 
+         Starting Update UTMP about System Runlevel Changes...                                                                                
+[  OK  ] Started Update UTMP about System Runlevel Changes.                                                                                   
+                                                                                                                                              
+Ubuntu 16.04.3 LTS localhost.localdomain ttyS0                                                                                                
+                                                                                                                                              
+localhost login: 
+
