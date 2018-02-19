@@ -1,3 +1,4 @@
+cd /home/jaroslav/
 git clone https://github.com/MarvellEmbeddedProcessors/linux-marvell
 cd linux-marvell
 git checkout linux-4.4.52-armada-17.10
