@@ -1,4 +1,4 @@
-cd ~/Downloads
+cd ~/
 sudo apt update
 sudo apt full-upgrade -y
 wget http://ftp.acc.umu.se/pub/GNOME/sources/aravis/0.5/aravis-0.5.11.tar.xz

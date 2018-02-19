@@ -1,4 +1,4 @@
-cd ~/Downloads
+cd ~/
 sudo apt update
 sudo apt full-upgrade -y
 git clone https://github.com/gordboy/rtl8812au.git
