@@ -1,4 +1,4 @@
-
+#!/bin/bash
 cd ~/
 mkdir -p toolchain
 cd toolchain/

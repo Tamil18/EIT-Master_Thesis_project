@@ -1,3 +1,4 @@
+#!/bin/bash
 cd ~/
 sudo apt update
 sudo apt full-upgrade -y
