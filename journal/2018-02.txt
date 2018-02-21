@@ -55,3 +55,15 @@
 19: {text: 'applied kernel patch, build headers package - success
 
     install headers package, compile rtl8812au driver - success'}
+20: {text: 'compiling bootloader - ATF fail
+
+    reporting on github
+
+    60GHz in Windows works
+
+    solving boot issue with other distributions
+
+    photographs macchiato, wifi modules'}
+21: {text: 'reinstall Ubuntu after EPIC fail - rewrite of /
+
+    trying different linaro 5'}
