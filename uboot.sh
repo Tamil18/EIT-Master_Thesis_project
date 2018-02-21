@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt install -y device-tree-compiler swig libpython-dev libssl-dev
+sudo apt install -y device-tree-compiler swig libpython-dev libssl-dev gcc-aarch64-linux-gnu
 cd ~/
 mkdir u-boot && cd u-boot
 export CROSS_COMPILE=aarch64-linux-gnu-
