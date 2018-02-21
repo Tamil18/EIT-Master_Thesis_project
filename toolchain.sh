@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt install -y which sed make binutils build-essential gcc g++ bash patch gzip bzip2 perl tar cpio python unzip rsync ncurses5
+sudo apt install -y ubuntu-dev-tools sed make binutils build-essential gcc g++ bash patch gzip bzip2 perl tar cpio python unzip rsync libncurses5*
 cd ~/
 mkdir -p toolchain
 cd toolchain/
