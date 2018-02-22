@@ -67,3 +67,12 @@
 21: {text: 'reinstall Ubuntu after EPIC fail - rewrite of /
 
     trying different linaro 5'}
+22: {text: 'created openWRT SD-card
+
+    succesfull boot of openWRT
+
+    sent fix to SolidRun for their instructions
+
+    found out there is no mvebu64 repository
+
+    asked on forum if they are going to added it'}
