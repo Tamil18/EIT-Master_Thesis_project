@@ -10,4 +10,3 @@ sudo chown -R $(whoami):$(id -gn) /opt/openwrt/openwrt-dd/
 ./openwrt-dd/scripts/feeds install -a
 cd openwrt-dd
 make menuconfig
-wait && make

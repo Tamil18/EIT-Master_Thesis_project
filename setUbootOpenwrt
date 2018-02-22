@@ -1,0 +1,7 @@
+mmc dev 1
+ext4ls mmc 1:2
+setenv image_name boot/openwrt-armada-a8k-MACHIATOBin-Image
+setenv fdt_name boot/armada-8040-mcbin.dtb
+setenv bootmmc 'mmc dev 1; ext4load mmc 1:2 $kernel_addr $image_name;ext4load mmc 1:2 $fdt_addr $fdt_name;setenv bootargs $console root=/dev/mmcblk1p2 rw rootwait; booti $kernel_addr - $fdt_addr'
+saveenv
+run bootmmc
