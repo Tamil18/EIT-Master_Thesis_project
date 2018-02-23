@@ -1,0 +1,76 @@
+1: {text: 'Linux and Windows installation
+
+    Writing of thesis'}
+2: {text: 'Workspace setup, workflow setup, solving qemu problem
+
+    KVM problem - solved
+
+    solving resend of Wi-Fi cards
+
+    Writing of thesis'}
+5: {text: 'ordering of Turris Omnia
+
+    Compex Wi-Fi cards - solved, resend to right address
+
+    Writing of thesis
+
+'}
+6: {text: 'Configuration of Windows
+
+    Writing of thesis
+
+    Installing SDKs for Jae'}
+7: {text: 'Switch of PCs and SSDs
+
+    reinstalling Windows drivers
+
+'}
+8: {text: 'learning commands: iw, iwconfig, hcitool
+
+    reading: SFP, SFP+, SFP10'}
+9: {text: 'nethogs
+
+    FFPGA serial connection '}
+12: {text: 'Ubuntu Xenial configuration on Rock64
+
+    Aravis compilation x86 and ARM64
+
+    rtl8812au drive compilation
+
+    Wi-Fi cards delivered!!!'}
+13: {text: 'updting BIOS and drivers on both PC with 10 Gb cards
+
+    testing 10Gb network - fail, only 5-6Gb/s'}
+14: {text: 'macchiatobin first run, trying to compile rtl8812au drivers -fail
+
+    fixing 10 Gb network - disabling jumbo packets'}
+15: {text: 'expanding filesystem to 128GB
+
+    downloading kernel
+
+    installation of gnome'}
+16: {text: 'build of linux-headers-xxx.deb package -fail
+
+    first benchmarking of CPU'}
+19: {text: 'applied kernel patch, build headers package - success
+
+    install headers package, compile rtl8812au driver - success'}
+20: {text: 'compiling bootloader - ATF fail
+
+    reporting on github
+
+    60GHz in Windows works
+
+    solving boot issue with other distributions
+
+    photographs macchiato, wifi modules'}
+21: {text: 'reinstall Ubuntu after EPIC fail - rewrite of /
+
+    trying different linaro 5'}
+22: {text: 'created openWRT SD-card
+
+    succesfull boot of openWRT
+
+    sent fix to SolidRun for their instructions
+
+    found out there is no mvebu64 repository'}
