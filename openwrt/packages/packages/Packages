@@ -1,0 +1,547 @@
+Package: bridge
+Version: 1.5-5
+Depends: libc
+Source: feeds/packages/net/bridge-utils
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Architecture: mvebu64
+Installed-Size: 8960
+Filename: bridge_1.5-5_mvebu64.ipk
+Size: 9778
+MD5Sum: 509075c93bdd9921dee7c2d17399c8f9
+SHA256sum: f38a66d4969142f6c01d16be07d38b5d400cc6ccb586cfb9a68937ab9f86ff69
+Description:  Manage ethernet bridging: a way to connect networks together to
+ form a larger network.
+
+Package: glib2
+Version: 2.55.1-1
+Depends: libc, zlib, libpthread, libffi, libattr
+Source: feeds/packages/libs/glib2
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: mvebu64
+Installed-Size: 856924
+Filename: glib2_2.55.1-1_mvebu64.ipk
+Size: 851535
+MD5Sum: 33a6408ef85a8bca700e438ac7c97ae9
+SHA256sum: 1bb8f709d038f0bf974eda3688e1fb41d4d851c3d1e25989ea38e459529b77d6
+Description:  The GLib library of C routines
+
+Package: htop
+Version: 2.0.2-1
+Depends: libc, libncurses
+Source: feeds/packages/admin/htop
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mvebu64
+Installed-Size: 52430
+Filename: htop_2.0.2-1_mvebu64.ipk
+Size: 53260
+MD5Sum: d8a7a2af9d5f485feefdc7d614dcb865
+SHA256sum: 432ed6acac6e1867da16c440c5c1afff789a2a155027aa69811bab32485b3015
+Description:  Htop is an ncursed-based process viewer similar to top, but
+ it allows to scroll the list vertically and horizontally to
+ see all processes and their full command lines.
+
+Package: ipmitool
+Version: 1.8.18-1
+Depends: libc, libopenssl, libncurses, libreadline
+Source: feeds/packages/admin/ipmitool
+License: BSD-3-clause
+LicenseFiles: COPYING
+Section: admin
+Maintainer: Alexander Couzens <lynxis@fe80.eu>
+Architecture: mvebu64
+Installed-Size: 445357
+Filename: ipmitool_1.8.18-1_mvebu64.ipk
+Size: 443061
+MD5Sum: 3c127e2f889c2d5ed191348cc004db68
+SHA256sum: 522b36a899b3121fa21139f4dbb274083c7f93cec1ef49258e45455b0c2309d0
+Description:  Command-line interface to IPMI-enabled devices
+
+Package: libattr
+Version: 20170915-1
+Depends: libc
+Source: feeds/packages/utils/attr
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: libs
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: mvebu64
+Installed-Size: 6160
+Filename: libattr_20170915-1_mvebu64.ipk
+Size: 6929
+MD5Sum: 512a0b1f0df11343e89be95a24f27e2e
+SHA256sum: 6375b9a27d4d6b5b03c15f6d97dd7ffbf71ba61397b38f816c8dac13875a054f
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libeventlog
+Version: 0.2.12-2
+Depends: libc
+Source: feeds/packages/libs/eventlog
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: mvebu64
+Installed-Size: 6021
+Filename: libeventlog_0.2.12-2_mvebu64.ipk
+Size: 6599
+MD5Sum: 891ab3f6d3bf8c0fd38cdeeace4ea76b
+SHA256sum: 0d3baa6d94ddd2e594fafab5999879c34bda1cc8478848cb41150f215cbd5ce6
+Description:  A new API to format and send structured log messages.
+
+Package: libffi
+Version: 3.2.1-3
+Depends: libc
+Source: feeds/packages/libs/libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: mvebu64
+Installed-Size: 6840
+Filename: libffi_3.2.1-3_mvebu64.ipk
+Size: 7895
+MD5Sum: 05a88597d692a6c994973e0cbf594520
+SHA256sum: d80645dd5ef68bc6847ebe23ca458ba960f282436760f2c95cb3193f96ee6d25
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libpcre
+Version: 8.41-2
+Depends: libc
+Source: feeds/packages/libs/pcre
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: mvebu64
+Installed-Size: 76913
+Filename: libpcre_8.41-2_mvebu64.ipk
+Size: 77618
+MD5Sum: 2d9c6df7da29497a1e66932fbd4d5be0
+SHA256sum: 8dcd25c0f5669771fad0b2e19a69a1e81928c86e046ebbd9b54fdff108f0c171
+Description:  A Perl Compatible Regular Expression library
+
+Package: libsqlite3
+Version: 3210000-3
+Depends: libc, libpthread
+Source: feeds/packages/libs/sqlite3
+License: PUBLICDOMAIN
+Section: libs
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mvebu64
+Installed-Size: 330766
+Filename: libsqlite3_3210000-3_mvebu64.ipk
+Size: 331289
+MD5Sum: 6f974927f1872a6c2c15fb6b14f7f9ef
+SHA256sum: 88821ace189ce01f77c3a7ad1eeb0446b1f43df69450c9e4b211aa4cae82abf1
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: luafilesystem
+Version: 1.6.2-1
+Depends: libc, liblua
+Source: feeds/packages/lang/luafilesystem
+Section: lang
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: mvebu64
+Installed-Size: 4963
+Filename: luafilesystem_1.6.2-1_mvebu64.ipk
+Size: 5712
+MD5Sum: 98536a886847035ae319a8129178dd35
+SHA256sum: 20e0e3da661a79c3b18b018c4ed7f861bdf6af70fa214b68a9a6b00751222498
+Description:  This package contains the LuaFileSystem library, a set of portable
+ functions for directory creation, listing and deletion and for file
+ locking.
+
+Package: mksh
+Version: 56b-1
+Depends: libc
+Source: feeds/packages/utils/mksh
+License: MirOS
+Section: shells
+Maintainer: Thorsten Glaser <tg@mirbsd.org>
+Architecture: mvebu64
+Installed-Size: 108320
+Filename: mksh_56b-1_mvebu64.ipk
+Size: 109630
+MD5Sum: 5d88b27f399ab37923e971ae17c891b6
+SHA256sum: 79e4a78914e1c63b0c2d319993beb96e0445bf700b41d1addef6022c764ccfc5
+Description:  mksh is the MirBSD enhanced version of the Public Domain Korn
+ shell (pdksh), a Bourne-compatible shell which is largely si-
+ milar to the original AT&T Korn shell; mksh is the only pdksh
+ derivate currently being actively developed.  It includes bug
+ fixes and feature improvements, in order to produce a modern,
+ robust shell good for interactive and especially script use.
+ mksh has UTF-8 support (in substring operations and the Emacs
+ editing mode) and - while R50 corresponds to OpenBSD 5.5-cur-
+ rent ksh (without GNU bash-like PS1 and fancy character clas-
+ ses) - adheres to SUSv4 and is much more robust. The code has
+ been cleaned up and simplified, bugs fixed, standards compli-
+ ance added, and several enhancements (for extended compatibi-
+ lity to other modern shells - as well as a couple of its own)
+ are available. It has sensible defaults as usual with BSD.
+
+Package: mmc-utils
+Version: 2017-03-20-37c86e60-1
+Depends: libc
+Source: feeds/packages/utils/mmc-utils
+License: GPL-2.0
+Section: utils
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: mvebu64
+Installed-Size: 30234
+Filename: mmc-utils_2017-03-20-37c86e60-1_mvebu64.ipk
+Size: 30897
+MD5Sum: 7803d3f1c8a47ba41a548c01b74423d8
+SHA256sum: 00260821e70a79c6f85091cfebcd3728df71f8043805f8117fad354f1066095d
+Description:  This package contains the userspace mmc utils, the userspace
+ counterpart to the Linux MMC/SD subsystem.
+
+Package: monit-nossl
+Version: 5.24.0-1
+Depends: libc, libpthread, zlib
+Source: feeds/packages/admin/monit
+License: AGPL-3.0
+LicenseFiles: COPYING
+Section: admin
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mvebu64
+Installed-Size: 236710
+Filename: monit-nossl_5.24.0-1_mvebu64.ipk
+Size: 236701
+MD5Sum: f596b3fcaff3ee9f9a67abab855872f7
+SHA256sum: 39214bc838d6cf3a71442c0bd20fcedd65a7989ad9a70156f73d5b34916a7824
+Description:  An utility for monitoring services on a Unix system
+ This package is built without SSL support.
+
+Package: monit
+Version: 5.24.0-1
+Depends: libc, libpthread, zlib, libopenssl
+Source: feeds/packages/admin/monit
+License: AGPL-3.0
+LicenseFiles: COPYING
+Section: admin
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mvebu64
+Installed-Size: 243674
+Filename: monit_5.24.0-1_mvebu64.ipk
+Size: 243298
+MD5Sum: bc4df820bcf5f18fb730c1b24f6e973c
+SHA256sum: 9ca85bd7a900ca811778e005fb606a132f40cfc1048781830dede86e3cb56c42
+Description:  An utility for monitoring services on a Unix system
+ This package is built with SSL support.
+
+Package: muninlite
+Version: 1.0.4-8
+Depends: libc, xinetd
+Source: feeds/packages/admin/muninlite
+License: GPL-2.0+
+LicenseFiles: LICENSE
+Section: admin
+Architecture: mvebu64
+Installed-Size: 6424
+Filename: muninlite_1.0.4-8_mvebu64.ipk
+Size: 7162
+MD5Sum: 68ee5124feed7f30ab3f772417654ab8
+SHA256sum: 8ceaceacca6e411de11d033258194da03c7ef05adde37f9fec9526ce3521d8e1
+Description:  Munin node implemented in shell
+
+Package: netdata
+Version: 1.9.0-1
+Depends: libc, zlib, libuuid, libmnl
+Source: feeds/packages/admin/netdata
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: admin
+Architecture: mvebu64
+Installed-Size: 1564207
+Filename: netdata_1.9.0-1_mvebu64.ipk
+Size: 1564301
+MD5Sum: 6629f8efbc94ea4934659b0244781eab
+SHA256sum: fd95eae37d00e659fb5a7b810ed078c2ab46e964a1e3970758fdd913f17ce32c
+Description:  netdata is a highly optimized Linux daemon providing real-time performance
+ monitoring for Linux systems, applications and SNMP devices over the web.
+
+Package: openwisp-config-cyassl
+Version: 0.4.5-2
+Depends: libc, curl, lua, libuci-lua, luafilesystem, ca-certificates, libcyassl
+Source: feeds/packages/admin/openwisp-config
+License: GPL-3.0
+Section: admin
+Maintainer: Federico Capoano <f.capoano@cineca.it>
+Architecture: mvebu64
+Installed-Size: 9925
+Filename: openwisp-config-cyassl_0.4.5-2_mvebu64.ipk
+Size: 10770
+MD5Sum: e0e03f7ed6389a53c4bb2a4940fd6bc7
+SHA256sum: bbcceef4546a9ce7ec7ed99bb8b83f2d3c71c557c4940e162d2f472818216718
+Description:  Remote configuration management agent (CyaSSL variant)
+
+Package: openwisp-config-mbedtls
+Version: 0.4.5-2
+Depends: libc, curl, lua, libuci-lua, luafilesystem, ca-certificates, libmbedtls
+Source: feeds/packages/admin/openwisp-config
+License: GPL-3.0
+Section: admin
+Maintainer: Federico Capoano <f.capoano@cineca.it>
+Architecture: mvebu64
+Installed-Size: 9925
+Filename: openwisp-config-mbedtls_0.4.5-2_mvebu64.ipk
+Size: 10767
+MD5Sum: 7b54ce5f3601c2a7258ff2787586b37f
+SHA256sum: a0fa876f5cee1c90a59f681ca927a3c83d7c8b4617e85b436045592d713c51db
+Description:  Remote configuration management agent (mbedTLS variant)
+
+Package: openwisp-config-nossl
+Version: 0.4.5-2
+Depends: libc, curl, lua, libuci-lua, luafilesystem
+Source: feeds/packages/admin/openwisp-config
+License: GPL-3.0
+Section: admin
+Maintainer: Federico Capoano <f.capoano@cineca.it>
+Architecture: mvebu64
+Installed-Size: 9926
+Filename: openwisp-config-nossl_0.4.5-2_mvebu64.ipk
+Size: 10753
+MD5Sum: 552d552bb5b9b2c358350c184871c78c
+SHA256sum: 3052599065e6f18c1d30c89b608da655070cc276cd3d21e91ae6c38a23b2fc3f
+Description:  Remote configuration management agent (No SSL variant)
+
+Package: openwisp-config-openssl
+Version: 0.4.5-2
+Depends: libc, curl, lua, libuci-lua, luafilesystem, ca-certificates, libopenssl
+Source: feeds/packages/admin/openwisp-config
+License: GPL-3.0
+Section: admin
+Maintainer: Federico Capoano <f.capoano@cineca.it>
+Architecture: mvebu64
+Installed-Size: 9925
+Filename: openwisp-config-openssl_0.4.5-2_mvebu64.ipk
+Size: 10766
+MD5Sum: 898bb466e333599f9e3ba9103845c4d3
+SHA256sum: 6b7818a8088863e607482d7af003e1f2783782df2f28c4fa30c0dc65d2d86351
+Description:  Remote configuration management agent (OpenSSL variant)
+
+Package: sqm-scripts-extra
+Version: 2016-06-08-1
+Depends: libc, sqm-scripts
+Source: feeds/packages/net/sqm-scripts-extra
+License: GPLv2
+Section: net
+Maintainer: Kevin Darbyshire-Bryant <kevin@darbyshire-bryant.me.uk>, Sebastian Moeller <moeller0@gmx.de>
+Architecture: all
+Installed-Size: 2257
+Filename: sqm-scripts-extra_2016-06-08-1_all.ipk
+Size: 3107
+MD5Sum: 754e5c2c252972404d37c54abc6e1fb6
+SHA256sum: 6a27e01190207c8f66bb9fd4ca0b3c0e65e75f049d2aa4e3a0fdaf0369c888bc
+Description:  A set of experimental scripts for sqm-scripts QoS package. The contents of this package may
+ change as new qdiscs like 'cake' are developed and tested.
+
+Package: sqm-scripts
+Version: 1.1.3-1
+Depends: libc, tc, kmod-sched-core, kmod-sched-cake, kmod-ifb, iptables, iptables-mod-ipopt, iptables-mod-conntrack-extra
+Source: feeds/packages/net/sqm-scripts
+License: GPLv2
+Section: net
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 14653
+Filename: sqm-scripts_1.1.3-1_all.ipk
+Size: 15491
+MD5Sum: 371eae0aa6932177e48d007803e10c2f
+SHA256sum: 1152af1b1b795dabca245ac579bf85add293edb8f57d7fe777b2dd0c3bfdd9e5
+Description:  A set of scripts that does simple SQM configuration.
+
+Package: sudo
+Version: 1.8.21p2-1
+Depends: libc
+Source: feeds/packages/admin/sudo
+License: ISC
+LicenseFiles: doc/LICENSE
+Section: admin
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Architecture: mvebu64
+Installed-Size: 274499
+Filename: sudo_1.8.21p2-1_mvebu64.ipk
+Size: 274952
+MD5Sum: d81f0281fab3d128d510b9d1268cfd2f
+SHA256sum: eb985f804c5b5e6ddc753209a3f3a7eba6644991968935a9da1e4d28815690b9
+Description:  Sudo (su "do") allows a system administrator to delegate authority to
+ give certain users (or groups of users) the ability to run some (or
+ all) commands as root or another user while providing an audit trail of
+ the commands and their arguments.
+
+Package: syslog-ng
+Version: 3.9.1-3
+Depends: libc, libpcre, glib2, libeventlog, libopenssl, libuuid, libcurl
+Source: feeds/packages/admin/syslog-ng
+Section: admin
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: mvebu64
+Installed-Size: 450292
+Filename: syslog-ng_3.9.1-3_mvebu64.ipk
+Size: 442089
+MD5Sum: 646cb55dfcc264708ce0456172ccdca3
+SHA256sum: d32f73e3281d0f2d60c1db41da4f708a574261eb2eb267f807880a68870bca15
+Description:  syslog-ng reads and logs messages to the system console, log
+ files, other machines and/or users as specified by its
+ configuration file.
+
+Package: xinetd
+Version: 2.3.15-5
+Depends: libc
+Source: feeds/packages/net/xinetd
+License: xinetd
+LicenseFiles: COPYRIGHT
+Section: net
+Architecture: mvebu64
+Installed-Size: 58158
+Filename: xinetd_2.3.15-5_mvebu64.ipk
+Size: 59052
+MD5Sum: 8d40d4019eae4f94121524927050806f
+SHA256sum: ab208925580e59a5a21d8773d4b1f574311dad19adc3561cfe11502659ddee05
+Description:  xinetd has access control mechanisms, extensive logging capabilities,
+ the ability to make services available based on time, can place limits
+ on the number of servers that can be started, and has deployable
+ defence mechanisms to protect against port scanners, among other
+ things.
+
+Package: zabbix-agentd
+Version: 3.2.7-2
+Depends: libc
+Source: feeds/packages/admin/zabbix
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Require-User: zabbix=53:zabbix=53
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mvebu64
+Installed-Size: 126847
+Filename: zabbix-agentd_3.2.7-2_mvebu64.ipk
+Size: 127626
+MD5Sum: 2055efecdbd01151fb74a18d87e5d639
+SHA256sum: 7663fa0fe74b25ce65c9d582d5e55caec0f1cd7648d6d9fe6a8628ffa822d239
+Description:  Zabbix agentd
+
+Package: zabbix-extra-network
+Version: 3.2.7-2
+Depends: libc, zabbix-agentd, libuci-lua, lua
+Source: feeds/packages/admin/zabbix
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Require-User: zabbix=53:zabbix=53
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mvebu64
+Installed-Size: 521
+Filename: zabbix-extra-network_3.2.7-2_mvebu64.ipk
+Size: 1447
+MD5Sum: 916953a93c0f61f5f2d880a9dc55607d
+SHA256sum: e2558824966e89a7f18a3b3b147e70cd735c82a2299cd4bbf4a7a9039a5e357e
+Description:  An extra package for zabbix-agentd that adds a discovery rule for openwrt network interfaces.
+ The idea here is to discover only interfaces listed in /etc/config/network (discover br-lan and not eth0.1 and wlan0)
+ See http://wiki.openwrt.org/doc/howto/zabbix for ready to use zabbix templates.
+
+Package: zabbix-extra-wifi
+Version: 3.2.7-2
+Depends: libc, zabbix-agentd, libiwinfo-lua, libuci-lua, lua
+Source: feeds/packages/admin/zabbix
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Require-User: zabbix=53:zabbix=53
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mvebu64
+Installed-Size: 1137
+Filename: zabbix-extra-wifi_3.2.7-2_mvebu64.ipk
+Size: 2072
+MD5Sum: 02a9c9f7c01dec166b056d181850a2fa
+SHA256sum: 91f9c57677a55c01169d1d1ade2aa374cd0b289c93ebda8770062dafa36c5c03
+Description:  An extra package for zabbix-agentd that adds a discovery rule for wifi interfaces and many userparameters.
+ As it uses libiwinfo, it works with all wifi devices supported by openwrt.
+ See http://wiki.openwrt.org/doc/howto/zabbix for ready to use zabbix templates.
+
+Package: zabbix-get
+Version: 3.2.7-2
+Depends: libc
+Source: feeds/packages/admin/zabbix
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Require-User: zabbix=53:zabbix=53
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mvebu64
+Installed-Size: 41133
+Filename: zabbix-get_3.2.7-2_mvebu64.ipk
+Size: 41882
+MD5Sum: 0a8f8207a2407b68894a59031bb73de2
+SHA256sum: de29eaa658aeedde1c85b36d2a535e057ea144d5bba3e3aa5ce72a8c71f89f0f
+Description:  Zabbix get
+
+Package: zabbix-proxy
+Version: 3.2.7-2
+Depends: libc, libsqlite3
+Source: feeds/packages/admin/zabbix
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Require-User: zabbix=53:zabbix=53
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mvebu64
+Installed-Size: 326140
+Filename: zabbix-proxy_3.2.7-2_mvebu64.ipk
+Size: 325802
+MD5Sum: 51ebe3468219d11621126bb18607ce2c
+SHA256sum: 2dea698cda7fff7252c6d50d6964d6083e32849af772f9dc42b816fe496de02d
+Description:  Zabbix proxy
+
+Package: zabbix-sender
+Version: 3.2.7-2
+Depends: libc
+Source: feeds/packages/admin/zabbix
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Require-User: zabbix=53:zabbix=53
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mvebu64
+Installed-Size: 48690
+Filename: zabbix-sender_3.2.7-2_mvebu64.ipk
+Size: 49492
+MD5Sum: c3474aa6b097d6f76616b38070f256df
+SHA256sum: ee57b619fbae25e0351cc9b31aab0fce3515fb5a870497cb4c01ad9a72d6ae32
+Description:  Zabbix sender
+
+Package: zabbix-server
+Version: 3.2.7-2
+Depends: libc, libsqlite3
+Source: feeds/packages/admin/zabbix
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Require-User: zabbix=53:zabbix=53
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mvebu64
+Installed-Size: 361428
+Filename: zabbix-server_3.2.7-2_mvebu64.ipk
+Size: 360812
+MD5Sum: 886f1569b2b08612b0d5029ad25ca1b5
+SHA256sum: 8379ebd18dd615ff50583a488d9c61adcadda8c45a9d9998bb326938ac575f6f
+Description:  Zabbix server
+
