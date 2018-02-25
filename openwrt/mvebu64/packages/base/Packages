@@ -1,3 +1,17 @@
+Package: ar3k-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 208128
+Filename: ar3k-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 208887
+MD5Sum: 1a8de3293835578a70f29c04b7addf91
+SHA256sum: a2a61439f52d4eb5764fce86500f54911fb4a02e8439cc95234564a28da31cd2
+Description:  ath3k firmware
+
 Package: ar
 Version: 2.25-1
 Depends: libc, zlib, libbfd
@@ -12,6 +26,33 @@ Size: 23037
 MD5Sum: d2e29f508a78826f6c42a1af671afcb3
 SHA256sum: a940b8cb0c98617bcea4b58dcb8f3273ea24f3755531cf2736f1ff9c5078a538
 Description:  ar
+
+Package: ath9k-htc-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 61887
+Filename: ath9k-htc-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 62277
+MD5Sum: 38f0fbc22fd2539db17c9f95d7bca16b
+SHA256sum: 9aaa02849b469d6b04dec1bd862a4d86f3a3da150db8180e4fc163adaf34f79c
+Description:  AR9271/AR7010 firmware
+
+Package: b43legacy-firmware
+Version: 3.130.20.0-1
+Depends: libc
+Source: package/firmware/b43legacy-firmware
+Section: firmware
+Architecture: mvebu64
+Installed-Size: 38471
+Filename: b43legacy-firmware_3.130.20.0-1_mvebu64.ipk
+Size: 38916
+MD5Sum: 5a38dae8f635fd290713860107f5fb05
+SHA256sum: 93e783188eaa92331065fee1b721f4453ecdaa51d657788cafcab68fdb9b633c
+Description:  Broadcom bcm43xx b43legacy firmware
 
 Package: base-files
 Version: 169-12009
@@ -56,6 +97,75 @@ Size: 22624
 MD5Sum: 86ac54d05941806869f8ec6ac0c97a34
 SHA256sum: 76f87c7e52a8c282b80dfe2f6ba5bbaed8674ed9fd4ee43e99d48c11cbc45b35
 Description:  Block device mounting and checking
+
+Package: brcmfmac-firmware-pcie
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 922291
+Filename: brcmfmac-firmware-pcie_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 921617
+MD5Sum: 0bbfaf966a5b5784932978342103bcfa
+SHA256sum: 2875937ecae488d3ab63fdaae1a07c3f3bb342d0189dc9ac9f6ccc03d9d5ae76
+Description:  Broadcom BCM43xx fullmac PCIe firmware
+
+Package: brcmfmac-firmware-sdio
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 321494
+Filename: brcmfmac-firmware-sdio_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 322321
+MD5Sum: 6d96c04199e2b4a354641ff2a70e17aa
+SHA256sum: 84113a12af7949f896a730a292f323c0ad5600b9b11e7912aba852c3452f15ca
+Description:  Broadcom BCM43xx fullmac SDIO firmware
+
+Package: brcmfmac-firmware-usb
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 502992
+Filename: brcmfmac-firmware-usb_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 503659
+MD5Sum: d1a0c20c72de478d33a1e03cb60de19c
+SHA256sum: 45d152d7ca2cb328701e572f641e67bca803a4dd6971163d9fb51716ded557ad
+Description:  Broadcom BCM43xx fullmac USB firmware
+
+Package: brcmfmac43430-firmware-sdio
+Version: 1
+Depends: libc
+Source: package/firmware/brcmfmac43430-firmware
+Section: firmware
+Architecture: mvebu64
+Installed-Size: 246739
+Filename: brcmfmac43430-firmware-sdio_1_mvebu64.ipk
+Size: 247492
+MD5Sum: 27f929f604e46d2a3c9bd09e6cfac434
+SHA256sum: 7f17b7d502cd7601e129218f0bf09720352a28c0ccd303762915599b01cd5ed7
+Description:  Broadcom BCM43430 fullmac SDIO firmware
+
+Package: brcmsmac-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 42193
+Filename: brcmsmac-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 42598
+MD5Sum: 43df098a66e9d2950e6febff0ea3e3da
+SHA256sum: 06097d0d17641378a5a2216043bb5d1a70ba9c3274765d5f127814dcc4178d6e
+Description:  Broadcom BCM43xx softmac PCIe firmware
 
 Package: busybox
 Version: 1.24.2-1
@@ -102,6 +212,20 @@ Size: 162398
 MD5Sum: ad78325bf6897d0cd101493e4ace5bb5
 SHA256sum: 9443a1ef5d0ce4d0a250e92811858a0f821ad0df3055e96ef4c7c4578f960c47
 Description:  System CA certificates
+
+Package: carl9170-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 9770
+Filename: carl9170-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 10518
+MD5Sum: a084be2547b293db7d596fd96555037a
+SHA256sum: 2d480e8410017ff60aab638ffb7ea5859b5df04b7dc3d972439b0d3aaea53519
+Description:  AR9170 firmware
 
 Package: curl
 Version: 7.50.0-1
@@ -295,6 +419,20 @@ SHA256sum: 3604fa9c0d7bd9679002186a7e7647b1f5086074fdfed208a6dc1d521c2daa55
 Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
  Authenticator.
 
+Package: ibt-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 99396
+Filename: ibt-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 99449
+MD5Sum: 17539ba758ce9180d31357315cb8079a
+SHA256sum: b29cb7489c7ad6f370913839dc41bf291ff778954b2297824bc815955e439d95
+Description:  Intel bluetooth firmware
+
 Package: ip6tables
 Version: 1.4.21-2
 Depends: libc, kmod-ip6tables, iptables
@@ -458,6 +596,48 @@ Size: 6624
 MD5Sum: 0fe5ada2a9b452eb21cf2d2bd56fa7d8
 SHA256sum: fca5775bd5078077af7fc96e11884fcbc0da99473d24a5f77587dbb0d41b1146
 Description:  Command line frontend for the wireless information library.
+
+Package: iwl3945-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 63582
+Filename: iwl3945-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 64209
+MD5Sum: b6ea9e4905eb21b16dd5b9ffd8e85168
+SHA256sum: f933c321269bd2adc430b110b683ace79836678b152401c4d746026813600541
+Description:  Intel IWL3945 firmware
+
+Package: iwl4965-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 78627
+Filename: iwl4965-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 79212
+MD5Sum: b26be1b1eb1aefe6e348e5e7d0f26089
+SHA256sum: 166c0860b705f5660025e29fc4e4aeb02a94d099e77131ad8590d9a0825d42c7
+Description:  Intel IWL4965 firmware
+
+Package: iwlwifi-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 6132360
+Filename: iwlwifi-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 6121142
+MD5Sum: b453a7075a3fb5e13580517813e2633b
+SHA256sum: 8c266d539808ec56db7e848712a711d239f580db83cdb1d3aa7412fd8d26e503
+Description:  Intel wireless firmware
 
 Package: jshn
 Version: 2016-11-29-77a629375d7387a33a59509d9d751a8798134cab
@@ -633,6 +813,48 @@ Size: 34529
 MD5Sum: 5b48e206be505166da30cee42a62aa43
 SHA256sum: 06760246dbc47dd081960921d6bcd5e4df9e715f640293edff00a02578766151
 Description:  ELF manipulation libraries (libelf)
+
+Package: libertas-sdio-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 348468
+Filename: libertas-sdio-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 349382
+MD5Sum: 827d5f66dd877f9c6fa866144c96fd49
+SHA256sum: ea87ce06a25d8f8137d56d78ef6f50274963400b66c5e66b28fcae8dfdb52481
+Description:  Marvell 8385/8686/8688 SDIO firmware
+
+Package: libertas-spi-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 92256
+Filename: libertas-spi-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 93095
+MD5Sum: 60b25bdd2abf3c6d7fb6b3ffcb3ac9f6
+SHA256sum: 910530453a63d5beec9c88bc8953775beed43c868fef3dc5ee4a89a7eae24800
+Description:  Marvell 8686 SPI firmware
+
+Package: libertas-usb-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 216586
+Filename: libertas-usb-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 217348
+MD5Sum: ff94278972a74a78ef6259d340b80fb8
+SHA256sum: d135c99cc92c667d823d8d68e912decd3cc6b84ec40a87e2a335750eb5552eb6
+Description:  Marvell 8388/8682 USB firmware
 
 Package: libgcc
 Version: 5.3.0-1
@@ -1276,6 +1498,20 @@ Description:  Lua is a powerful light-weight programming language designed for e
  language. Lua is free software.
  This package contains the Lua language interpreter.
 
+Package: mt7601u-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 26420
+Filename: mt7601u-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 27132
+MD5Sum: 28aa7a5372741ef313307993baee5ce0
+SHA256sum: 309dd1943a9298fcad9cac2e941eeafa6f0a86c21d5a7f4aeaa0d491a044292c
+Description:  MediaTek MT7601U firmware
+
 Package: mtd
 Version: 21
 Depends: libc, libubox
@@ -1290,6 +1526,34 @@ MD5Sum: c353253aa6f1811823aa3077ccc1a8f2
 SHA256sum: b641bc5e769a8146b8165249d98161afcca9a1efb1a7560d1eba988f0acc8303
 Description:  This package contains an utility useful to upgrade from other firmware or 
  older OpenWrt releases.
+
+Package: mwifiex-pcie-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 568572
+Filename: mwifiex-pcie-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 569151
+MD5Sum: c7d2f712bdc8e8ff53f1f32d38f18d75
+SHA256sum: 09642f1e588567489273bd93fb14295c7e794b1545c49c2e5fc0dc716bac5a37
+Description:  Marvell 8897 firmware
+
+Package: mwl8k-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 192380
+Filename: mwl8k-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 193230
+MD5Sum: bc43dee866a49949d3ccd1eca267ed91
+SHA256sum: e685a025f9e3afc822dee3409714526c1505230a50478683a9a5fefaf4fe4a2e
+Description:  Marvell 8366/8687 firmware
 
 Package: netifd
 Version: 2016-12-09-edc15caac6c6d3b2d8ea17f98ecbaba81ba573dc
@@ -1435,6 +1699,45 @@ Description:  Lightweight package management system
  
  opkg knows how to install both .ipk and .deb packages.
 
+Package: p54-pci-firmware
+Version: 1
+Depends: libc
+Source: package/firmware/prism54-firmware
+Section: firmware
+Architecture: mvebu64
+Installed-Size: 23509
+Filename: p54-pci-firmware_1_mvebu64.ipk
+Size: 24144
+MD5Sum: e4381dc32612ce3807628c7808051684
+SHA256sum: 8ece1ad928ef49712a7fc13c56180a001f6ec01805e44eb4d25e2342ab93184f
+Description:  p54-pci firmware
+
+Package: p54-spi-firmware
+Version: 1
+Depends: libc
+Source: package/firmware/prism54-firmware
+Section: firmware
+Architecture: mvebu64
+Installed-Size: 26776
+Filename: p54-spi-firmware_1_mvebu64.ipk
+Size: 27389
+MD5Sum: 697dc97980917334e9cdeb5d0bbb5a3c
+SHA256sum: c1de6f243d9750ee57442e4ac06dcc339e0b9b0c5685e9fba74ad2515e4557cb
+Description:  p54-spi firmware
+
+Package: p54-usb-firmware
+Version: 1
+Depends: libc
+Source: package/firmware/prism54-firmware
+Section: firmware
+Architecture: mvebu64
+Installed-Size: 23799
+Filename: p54-usb-firmware_1_mvebu64.ipk
+Size: 24435
+MD5Sum: f84b6a315439180ea84d7238d98f3b45
+SHA256sum: dda956faf76a10dae858f4f87a0cd6be43a291da815f9648f44289b3b612388a
+Description:  p54-usb firmware
+
 Package: perf
 Version: 4.4.52-2
 Depends: libc, libelf1, libdw, libpthread, librt, objdump
@@ -1478,6 +1781,19 @@ Size: 111418
 MD5Sum: bdd3c02bf57d712eecdef3629302eeca
 SHA256sum: 427b9427397ca23693f65be288581c9b2970ab29c64652c201389656662b7916
 Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
+
+Package: prism54-firmware
+Version: 1
+Depends: libc
+Source: package/firmware/prism54-firmware
+Section: firmware
+Architecture: mvebu64
+Installed-Size: 80225
+Filename: prism54-firmware_1_mvebu64.ipk
+Size: 81008
+MD5Sum: 237550e00267084f30add7a17800a437
+SHA256sum: 404ab58f2111790fa773241ac1501b4a6eebb1a63c14a2a89a95c9cc2eb6ee7c
+Description:  prism54 firmware
 
 Package: procd-nand
 Version: 2016-07-29-2c9f5d4af1559b840c42f1443ede9f9fe809c58b
@@ -1525,6 +1841,34 @@ SHA256sum: ec6996dfbb0c008d7c1b7e9f78070316afee1624e5eb73993c9276060eabb891
 Description:  Px5g is a tiny standalone X.509 certificate generator.
  It suitable to create key files and certificates in DER
  and PEM format for use with stunnel, uhttpd and others.
+
+Package: r8169-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 16634
+Filename: r8169-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 17280
+MD5Sum: 6f7330db87f632b1f12deaf2ee2ce0a9
+SHA256sum: eb60cba4370375f7a53a14f691ae75c5ea0a7c91196da49053f632da37fff5d7
+Description:  RealTek RTL8169 firmware
+
+Package: r8188eu-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 8295
+Filename: r8188eu-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 9059
+MD5Sum: b969da9e8f836e2742c5cc5258674c73
+SHA256sum: 7e94e11cb665cd515c5aceac8a656041699654c8b87a2050790a57af23dbfa9b
+Description:  RealTek RTL8188EU firmware
 
 Package: resolveip
 Version: 2
@@ -1605,6 +1949,132 @@ MD5Sum: 44b67158537ad9a6547cce45ecaa454a
 SHA256sum: 3840520e6ccc2448d6ccb629f4a1d3953ba25a6036c10ebe89645b596514020a
 Description:  This package provides the UBUS RPC backend server to expose various
  functionality to frontend programs via JSON-RPC.
+
+Package: rt2800-pci-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 4191
+Filename: rt2800-pci-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 4924
+MD5Sum: cecfa8d3fc69512f6a135871ab264e47
+SHA256sum: 5be1235b7e707c6cb0f675bf3099bfcecc22884dabfea9102576ac7588d51ccb
+Description:  Ralink RT28xx/3xxx PCI/SoC firmware
+
+Package: rt2800-usb-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 2810
+Filename: rt2800-usb-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 3539
+MD5Sum: ae2455a252b6a303f0c9550c45de574d
+SHA256sum: c262b241512d42c8a1b518d59eac53fb766b338fabfbbeefe2c5f5299967f91a
+Description:  Ralink RT28xx/3xxx USB firmware
+
+Package: rt61-pci-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 6505
+Filename: rt61-pci-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 7228
+MD5Sum: 6bb5db0179246a7633c3312281a59834
+SHA256sum: 24141baa9dfe8922c6663343e32e8e38288e43b886c7a43b791ba1be9ab64000
+Description:  Ralink RT2561 firmware
+
+Package: rt73-usb-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 1316
+Filename: rt73-usb-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 2049
+MD5Sum: 72562d05205a9f6e19367e99368b20c3
+SHA256sum: db5a8edd5e68bb05aca3e3a5aed43c99e49c634e8a5c21df9bd97fcd9e3f46fd
+Description:  Ralink RT2573 firmware
+
+Package: rtl8192ce-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 20759
+Filename: rtl8192ce-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 21477
+MD5Sum: b9ddabcbe2837706d8afedbece70a1f8
+SHA256sum: 4cce1ddaecf97ddbdfc0518ece4f8616d55c76c5e0ff8c5c6fc989bd9f2cf11c
+Description:  RealTek RTL8192CE firmware
+
+Package: rtl8192cu-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 16959
+Filename: rtl8192cu-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 17629
+MD5Sum: 0d362aea064e608c1a3e25c65c12c60e
+SHA256sum: 61cecb6fc4c7cc5aeae4986246c10fd9d64a3c27a7311803ff6b2ff63c03d45e
+Description:  RealTek RTL8192CU firmware
+
+Package: rtl8192de-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 13529
+Filename: rtl8192de-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 14261
+MD5Sum: e62d6e9b04da07a3fee7bda289b55688
+SHA256sum: 938d9a4687113af75695bfeda0d5aa47a3bca11e5b806d53908163b278037b2f
+Description:  RealTek RTL8192DE firmware
+
+Package: rtl8192se-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 36778
+Filename: rtl8192se-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 37492
+MD5Sum: 12c1b73b3c866707e4b86bed039f1c2b
+SHA256sum: d13a4c69d4fd9799e1bb47fa48e327a5dc446c516dca15a4f7550a675fa194dc
+Description:  RealTek RTL8192SE firmware
+
+Package: rtl8192su-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 63227
+Filename: rtl8192su-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 64009
+MD5Sum: 2e3bfe3b55ee1c352905684e5f10c8ad
+SHA256sum: b14e3e2e3c43e9ced477056dcdfa9d5309e33201f6dcbe52d7246f486484073f
+Description:  RealTek RTL8192SU firmware
 
 Package: swap-utils
 Version: 2.28-1
@@ -1846,6 +2316,81 @@ MD5Sum: 23b18761aa331b5e4c8c773e16fdfdeb
 SHA256sum: 3d12292bc98cfe56446f2c8e76dc7b06d369d2adb8617a72ffad300803303e7f
 Description:  debugging and profiling tools for Linux (cache profiling)
 
+Package: valgrind-callgrind
+Version: 3.11.0-1
+Depends: libc, valgrind
+Source: package/devel/valgrind
+License: GPL-2.0+
+Section: devel
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 626142
+Filename: valgrind-callgrind_3.11.0-1_mvebu64.ipk
+Size: 626509
+MD5Sum: edd0c0043ae2564c0ff85baab8ba0399
+SHA256sum: 1ffbb3025a6ba5cf1e1696e51a73029881b37771519f3682ad2468977094323e
+Description:  debugging and profiling tools for Linux (callgraph profiling)
+
+Package: valgrind-drd
+Version: 3.11.0-1
+Depends: libc, valgrind
+Source: package/devel/valgrind
+License: GPL-2.0+
+Section: devel
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 610659
+Filename: valgrind-drd_3.11.0-1_mvebu64.ipk
+Size: 610825
+MD5Sum: c1e5ae7d016c9770d86a24bb5b4d9fc3
+SHA256sum: 986b0f316b7cd0858870a3cb04455639586c7a2788b095a756aa19e4dc592154
+Description:  debugging and profiling tools for Linux (thread error detection)
+
+Package: valgrind-helgrind
+Version: 3.11.0-1
+Depends: libc, valgrind
+Source: package/devel/valgrind
+License: GPL-2.0+
+Section: devel
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 626139
+Filename: valgrind-helgrind_3.11.0-1_mvebu64.ipk
+Size: 626373
+MD5Sum: 84210c7467b5ee01957a5b31cb606b98
+SHA256sum: 559fce718404c11fc33988bbe5367f79fc4f2447f098e4f3e164940b39655761
+Description:  debugging and profiling tools for Linux (thread debugging)
+
+Package: valgrind-massif
+Version: 3.11.0-1
+Depends: libc, valgrind
+Source: package/devel/valgrind
+License: GPL-2.0+
+Section: devel
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 578466
+Filename: valgrind-massif_3.11.0-1_mvebu64.ipk
+Size: 578783
+MD5Sum: 6cfa49d9285a865001bfd479793ff209
+SHA256sum: 0335801cfd33260b106672b28d6caad8f68891bc79f2c91a1b709d7b2143a668
+Description:  debugging and profiling tools for Linux (heap profiling)
+
+Package: valgrind-vgdb
+Version: 3.11.0-1
+Depends: libc, valgrind
+Source: package/devel/valgrind
+License: GPL-2.0+
+Section: devel
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 16645
+Filename: valgrind-vgdb_3.11.0-1_mvebu64.ipk
+Size: 17321
+MD5Sum: ef182b79dec461e0a26625752cb5134c
+SHA256sum: fb4de88d3dd8403b17e6605a57c1d9025208e89a4fbe3b52fb670d736966277b
+Description:  debugging and profiling tools for Linux (GDB interface)
+
 Package: valgrind
 Version: 3.11.0-1
 Depends: libc, libpthread, librt
@@ -1881,6 +2426,34 @@ MD5Sum: 0c336e1a300d801dec5c32bcf3fcce12
 SHA256sum: bfcef474a7ea6764e62cf1651e6a37c9b0103ed8e338e9e8f6811c1097633e10
 Description:  This package contains a collection of tools for configuring wireless
  adapters implementing the "Linux Wireless Extensions".
+
+Package: wl12xx-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 1184051
+Filename: wl12xx-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 1183876
+MD5Sum: 8fb477763325300c0cc770fd9f28c881
+SHA256sum: 43ee99001413cca57b7408e23fdfead93042fe645ab93fb88d238a01c7149873
+Description:  TI WL12xx firmware
+
+Package: wl18xx-firmware
+Version: 2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1
+Depends: libc
+Source: package/firmware/linux-firmware
+Section: firmware
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 333841
+Filename: wl18xx-firmware_2016-01-25-52442afee9907bc32a058f22bb3295d040677c26-1_mvebu64.ipk
+Size: 334348
+MD5Sum: d01aed8b3843c5fb344726ba0f127b7f
+SHA256sum: fb885429e0fd27b56c987cd5164a10fab22c0d8fd4c6462fe88441af5d8ee6a0
+Description:  TI WL18xx firmware
 
 Package: zlib-dev
 Version: 1.2.11-2

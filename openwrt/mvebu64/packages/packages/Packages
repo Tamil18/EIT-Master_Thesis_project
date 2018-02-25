@@ -44,8 +44,8 @@ Architecture: mvebu64
 Installed-Size: 788899
 Filename: aria2_1.33.0-1_mvebu64.ipk
 Size: 786281
-MD5Sum: 04bf2fcba9b7400ba80e968347ac77f7
-SHA256sum: 657b0e9b8035eead2aafe6929cc84809da36514eaf12618b3d91e9d6b169b29e
+MD5Sum: 69717bc88838c3c8611dcf8751b40d52
+SHA256sum: c5d556457dd2a74b8d3c966741cb4cbedb9b780f7ea6bd01f4704f881ccdf86b
 Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
  utility
 
@@ -320,6 +320,358 @@ Size: 16194
 MD5Sum: f79be3093cf49ae150151430919f95fe
 SHA256sum: 3a7c5bb2ff31579088b2d082ea08c0507d3e27d842b4fbc4a47cb4d4c3d9284f
 Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: http://wiki.openwrt.org/doc/howto/ddns.client
+
+Package: dejavu-fonts-ttf-DejaVuMathTeXGyre
+Version: 2.37-1
+Depends: libc
+Source: feeds/packages/fonts/dejavu-fonts-ttf
+License: Bitstream-Vera-Fonts-Copyright Arev-Fonts-Copyright Public-Domain 
+LicenseFiles: LICENSE
+Section: fonts
+Maintainer: Mirko Vogt <mirko-dev@nanl.de>
+Architecture: mvebu64
+Installed-Size: 269342
+Filename: dejavu-fonts-ttf-DejaVuMathTeXGyre_2.37-1_mvebu64.ipk
+Size: 268770
+MD5Sum: 863281bddcca714a2b5d9681dde839d8
+SHA256sum: 3bbc62f21a4ae61fbdf438c0db602aa46eb03ab1474361ee37d0f4c5dfd11e45
+Description:  DejaVuMathTeXGyre
+
+Package: dejavu-fonts-ttf-DejaVuSans-BoldOblique
+Version: 2.37-1
+Depends: libc
+Source: feeds/packages/fonts/dejavu-fonts-ttf
+License: Bitstream-Vera-Fonts-Copyright Arev-Fonts-Copyright Public-Domain 
+LicenseFiles: LICENSE
+Section: fonts
+Maintainer: Mirko Vogt <mirko-dev@nanl.de>
+Architecture: mvebu64
+Installed-Size: 330380
+Filename: dejavu-fonts-ttf-DejaVuSans-BoldOblique_2.37-1_mvebu64.ipk
+Size: 321970
+MD5Sum: f6fd8de493eb51465e6781355cb4dd62
+SHA256sum: 77f4d4da1f0c9339c54fcc464f129dd5e77ca88c35587c8ed5db9a865aedc31d
+Description:  DejaVuSans-BoldOblique
+
+Package: dejavu-fonts-ttf-DejaVuSans-Bold
+Version: 2.37-1
+Depends: libc
+Source: feeds/packages/fonts/dejavu-fonts-ttf
+License: Bitstream-Vera-Fonts-Copyright Arev-Fonts-Copyright Public-Domain 
+LicenseFiles: LICENSE
+Section: fonts
+Maintainer: Mirko Vogt <mirko-dev@nanl.de>
+Architecture: mvebu64
+Installed-Size: 352029
+Filename: dejavu-fonts-ttf-DejaVuSans-Bold_2.37-1_mvebu64.ipk
+Size: 344536
+MD5Sum: 93f425ff3b6a146dc21f194f52202bf8
+SHA256sum: 6fddc2e582ed4108e3cc82989b9c375984db0e65f8334c9bbb41d35660e8d4ad
+Description:  DejaVuSans-Bold
+
+Package: dejavu-fonts-ttf-DejaVuSans-ExtraLight
+Version: 2.37-1
+Depends: libc
+Source: feeds/packages/fonts/dejavu-fonts-ttf
+License: Bitstream-Vera-Fonts-Copyright Arev-Fonts-Copyright Public-Domain 
+LicenseFiles: LICENSE
+Section: fonts
+Maintainer: Mirko Vogt <mirko-dev@nanl.de>
+Architecture: mvebu64
+Installed-Size: 175699
+Filename: dejavu-fonts-ttf-DejaVuSans-ExtraLight_2.37-1_mvebu64.ipk
+Size: 127006
+MD5Sum: e2b992cf143d0cdf65f0a221ed21abec
+SHA256sum: 83a773786d5fdfadf83968b75f057452e2318d24bdd6ad24811aefc718e8a0e2
+Description:  DejaVuSans-ExtraLight
+
+Package: dejavu-fonts-ttf-DejaVuSans-Oblique
+Version: 2.37-1
+Depends: libc
+Source: feeds/packages/fonts/dejavu-fonts-ttf
+License: Bitstream-Vera-Fonts-Copyright Arev-Fonts-Copyright Public-Domain 
+LicenseFiles: LICENSE
+Section: fonts
+Maintainer: Mirko Vogt <mirko-dev@nanl.de>
+Architecture: mvebu64
+Installed-Size: 327012
+Filename: dejavu-fonts-ttf-DejaVuSans-Oblique_2.37-1_mvebu64.ipk
+Size: 320762
+MD5Sum: e416915995f41d21dd2c84985240151e
+SHA256sum: c034cc30448d10e6ed8f70e656d0b6a460cf9f714aa13598a40c52d90602c701
+Description:  DejaVuSans-Oblique
+
+Package: dejavu-fonts-ttf-DejaVuSansCondensed-BoldOblique
+Version: 2.37-1
+Depends: libc
+Source: feeds/packages/fonts/dejavu-fonts-ttf
+License: Bitstream-Vera-Fonts-Copyright Arev-Fonts-Copyright Public-Domain 
+LicenseFiles: LICENSE
+Section: fonts
+Maintainer: Mirko Vogt <mirko-dev@nanl.de>
+Architecture: mvebu64
+Installed-Size: 317883
+Filename: dejavu-fonts-ttf-DejaVuSansCondensed-BoldOblique_2.37-1_mvebu64.ipk
+Size: 309644
+MD5Sum: d8ff7edd03abdf76468eb3f4166d98c4
+SHA256sum: d2cacb8c345042991435803e74857ebaa0b77ca996644b834b72df89f44e08b2
+Description:  DejaVuSansCondensed-BoldOblique
+
+Package: dejavu-fonts-ttf-DejaVuSansCondensed-Bold
+Version: 2.37-1
+Depends: libc
+Source: feeds/packages/fonts/dejavu-fonts-ttf
+License: Bitstream-Vera-Fonts-Copyright Arev-Fonts-Copyright Public-Domain 
+LicenseFiles: LICENSE
+Section: fonts
+Maintainer: Mirko Vogt <mirko-dev@nanl.de>
+Architecture: mvebu64
+Installed-Size: 329391
+Filename: dejavu-fonts-ttf-DejaVuSansCondensed-Bold_2.37-1_mvebu64.ipk
+Size: 321211
+MD5Sum: 8ece91c1986d8ed8b4fcc0a036bb2afd
+SHA256sum: c9e537ecb530ea02b96eeb33adf495b50a8b7050ff1b98fce4a064a5f8382e86
+Description:  DejaVuSansCondensed-Bold
+
+Package: dejavu-fonts-ttf-DejaVuSansCondensed-Oblique
+Version: 2.37-1
+Depends: libc
+Source: feeds/packages/fonts/dejavu-fonts-ttf
+License: Bitstream-Vera-Fonts-Copyright Arev-Fonts-Copyright Public-Domain 
+LicenseFiles: LICENSE
+Section: fonts
+Maintainer: Mirko Vogt <mirko-dev@nanl.de>
+Architecture: mvebu64
+Installed-Size: 311150
+Filename: dejavu-fonts-ttf-DejaVuSansCondensed-Oblique_2.37-1_mvebu64.ipk
+Size: 305249
+MD5Sum: 1fe73cd4e3d42a0a537ec7a0a04f81d3
+SHA256sum: 61a6839e20c1a3d2cd3cc200150421d31ce4399d9063cfd23453ade343bb0278
+Description:  DejaVuSansCondensed-Oblique
+
+Package: dejavu-fonts-ttf-DejaVuSansCondensed
+Version: 2.37-1
+Depends: libc
+Source: feeds/packages/fonts/dejavu-fonts-ttf
+License: Bitstream-Vera-Fonts-Copyright Arev-Fonts-Copyright Public-Domain 
+LicenseFiles: LICENSE
+Section: fonts
+Maintainer: Mirko Vogt <mirko-dev@nanl.de>
+Architecture: mvebu64
+Installed-Size: 334408
+Filename: dejavu-fonts-ttf-DejaVuSansCondensed_2.37-1_mvebu64.ipk
+Size: 326623
+MD5Sum: e7b625bcc9770f6d60c1af5d5e563a28
+SHA256sum: ae5d0db65602c1f9ab54beff6230e4e2cced0d39c0b256bf340c087a55e994eb
+Description:  DejaVuSansCondensed
+
+Package: dejavu-fonts-ttf-DejaVuSansMono-BoldOblique
+Version: 2.37-1
+Depends: libc
+Source: feeds/packages/fonts/dejavu-fonts-ttf
+License: Bitstream-Vera-Fonts-Copyright Arev-Fonts-Copyright Public-Domain 
+LicenseFiles: LICENSE
+Section: fonts
+Maintainer: Mirko Vogt <mirko-dev@nanl.de>
+Architecture: mvebu64
+Installed-Size: 152765
+Filename: dejavu-fonts-ttf-DejaVuSansMono-BoldOblique_2.37-1_mvebu64.ipk
+Size: 151755
+MD5Sum: e93390a898580d5f859bcaba0fb86c55
+SHA256sum: 5503bd8f897e1c3c69b970eb3a5278bc437d7666afe6e78bd9a3d40ed02204cf
+Description:  DejaVuSansMono-BoldOblique
+
+Package: dejavu-fonts-ttf-DejaVuSansMono-Bold
+Version: 2.37-1
+Depends: libc
+Source: feeds/packages/fonts/dejavu-fonts-ttf
+License: Bitstream-Vera-Fonts-Copyright Arev-Fonts-Copyright Public-Domain 
+LicenseFiles: LICENSE
+Section: fonts
+Maintainer: Mirko Vogt <mirko-dev@nanl.de>
+Architecture: mvebu64
+Installed-Size: 200865
+Filename: dejavu-fonts-ttf-DejaVuSansMono-Bold_2.37-1_mvebu64.ipk
+Size: 199396
+MD5Sum: 367a5726d05805059f276cfaa0f2a782
+SHA256sum: a54c9bfd0093be8ac85d8803b445a3b45362d9fb829c362a36761532acdddaa1
+Description:  DejaVuSansMono-Bold
+
+Package: dejavu-fonts-ttf-DejaVuSansMono-Oblique
+Version: 2.37-1
+Depends: libc
+Source: feeds/packages/fonts/dejavu-fonts-ttf
+License: Bitstream-Vera-Fonts-Copyright Arev-Fonts-Copyright Public-Domain 
+LicenseFiles: LICENSE
+Section: fonts
+Maintainer: Mirko Vogt <mirko-dev@nanl.de>
+Architecture: mvebu64
+Installed-Size: 151811
+Filename: dejavu-fonts-ttf-DejaVuSansMono-Oblique_2.37-1_mvebu64.ipk
+Size: 150383
+MD5Sum: 3c51fc840d2dc574c2e19f4bcdbad99e
+SHA256sum: f58aaa81582087b74eca9004d80a34e3b6c9d9d449b57397e67fcd471e428dbd
+Description:  DejaVuSansMono-Oblique
+
+Package: dejavu-fonts-ttf-DejaVuSansMono
+Version: 2.37-1
+Depends: libc
+Source: feeds/packages/fonts/dejavu-fonts-ttf
+License: Bitstream-Vera-Fonts-Copyright Arev-Fonts-Copyright Public-Domain 
+LicenseFiles: LICENSE
+Section: fonts
+Maintainer: Mirko Vogt <mirko-dev@nanl.de>
+Architecture: mvebu64
+Installed-Size: 203389
+Filename: dejavu-fonts-ttf-DejaVuSansMono_2.37-1_mvebu64.ipk
+Size: 201383
+MD5Sum: b4a0e5949e439d5fd8c8bb5b2a8581a1
+SHA256sum: 67a9e4781c4e7fbe6642f0daf8f6d7519d2ebcf31560001c94791e8384a2aef4
+Description:  DejaVuSansMono
+
+Package: dejavu-fonts-ttf-DejaVuSans
+Version: 2.37-1
+Depends: libc
+Source: feeds/packages/fonts/dejavu-fonts-ttf
+License: Bitstream-Vera-Fonts-Copyright Arev-Fonts-Copyright Public-Domain 
+LicenseFiles: LICENSE
+Section: fonts
+Maintainer: Mirko Vogt <mirko-dev@nanl.de>
+Architecture: mvebu64
+Installed-Size: 381287
+Filename: dejavu-fonts-ttf-DejaVuSans_2.37-1_mvebu64.ipk
+Size: 372808
+MD5Sum: c1741a5ac69443eed685dc4e9ad44b46
+SHA256sum: eee5fd68f399bbc6fb26cdcf54814c6fe9841a90f540a684bf3d30438bd0fb8c
+Description:  DejaVuSans
+
+Package: dejavu-fonts-ttf-DejaVuSerif-BoldItalic
+Version: 2.37-1
+Depends: libc
+Source: feeds/packages/fonts/dejavu-fonts-ttf
+License: Bitstream-Vera-Fonts-Copyright Arev-Fonts-Copyright Public-Domain 
+LicenseFiles: LICENSE
+Section: fonts
+Maintainer: Mirko Vogt <mirko-dev@nanl.de>
+Architecture: mvebu64
+Installed-Size: 198701
+Filename: dejavu-fonts-ttf-DejaVuSerif-BoldItalic_2.37-1_mvebu64.ipk
+Size: 195228
+MD5Sum: d0a069a3f99b8b409744f1cdded02096
+SHA256sum: 8606546db2ac57b1a5440412f30c025de68a24d985367316d045d183930aa253
+Description:  DejaVuSerif-BoldItalic
+
+Package: dejavu-fonts-ttf-DejaVuSerif-Bold
+Version: 2.37-1
+Depends: libc
+Source: feeds/packages/fonts/dejavu-fonts-ttf
+License: Bitstream-Vera-Fonts-Copyright Arev-Fonts-Copyright Public-Domain 
+LicenseFiles: LICENSE
+Section: fonts
+Maintainer: Mirko Vogt <mirko-dev@nanl.de>
+Architecture: mvebu64
+Installed-Size: 196560
+Filename: dejavu-fonts-ttf-DejaVuSerif-Bold_2.37-1_mvebu64.ipk
+Size: 192627
+MD5Sum: 7acb55a9196b8273e7ddf0c97ca2aac1
+SHA256sum: 35ddc12b33563b24accae6f6db0a5ac4a397517360702d6962efef8a88a68e44
+Description:  DejaVuSerif-Bold
+
+Package: dejavu-fonts-ttf-DejaVuSerif-Italic
+Version: 2.37-1
+Depends: libc
+Source: feeds/packages/fonts/dejavu-fonts-ttf
+License: Bitstream-Vera-Fonts-Copyright Arev-Fonts-Copyright Public-Domain 
+LicenseFiles: LICENSE
+Section: fonts
+Maintainer: Mirko Vogt <mirko-dev@nanl.de>
+Architecture: mvebu64
+Installed-Size: 197187
+Filename: dejavu-fonts-ttf-DejaVuSerif-Italic_2.37-1_mvebu64.ipk
+Size: 193348
+MD5Sum: 219a4731ac86ee08f3f042a4cb5e8eb7
+SHA256sum: 9096a62dd96167fbf86bb4f857c146b8dab475f5fc2beb9b641c7daba6968da5
+Description:  DejaVuSerif-Italic
+
+Package: dejavu-fonts-ttf-DejaVuSerifCondensed-BoldItalic
+Version: 2.37-1
+Depends: libc
+Source: feeds/packages/fonts/dejavu-fonts-ttf
+License: Bitstream-Vera-Fonts-Copyright Arev-Fonts-Copyright Public-Domain 
+LicenseFiles: LICENSE
+Section: fonts
+Maintainer: Mirko Vogt <mirko-dev@nanl.de>
+Architecture: mvebu64
+Installed-Size: 200491
+Filename: dejavu-fonts-ttf-DejaVuSerifCondensed-BoldItalic_2.37-1_mvebu64.ipk
+Size: 196860
+MD5Sum: c032d6fef765b05f73ea30bd026422f6
+SHA256sum: 3bb263acebe771517424783bac96e697a97f2095aa7eca4c986e873d7532733f
+Description:  DejaVuSerifCondensed-BoldItalic
+
+Package: dejavu-fonts-ttf-DejaVuSerifCondensed-Bold
+Version: 2.37-1
+Depends: libc
+Source: feeds/packages/fonts/dejavu-fonts-ttf
+License: Bitstream-Vera-Fonts-Copyright Arev-Fonts-Copyright Public-Domain 
+LicenseFiles: LICENSE
+Section: fonts
+Maintainer: Mirko Vogt <mirko-dev@nanl.de>
+Architecture: mvebu64
+Installed-Size: 181164
+Filename: dejavu-fonts-ttf-DejaVuSerifCondensed-Bold_2.37-1_mvebu64.ipk
+Size: 177422
+MD5Sum: 087fe3486f49b4f2cea50283d2f808c3
+SHA256sum: 860723f3dbda70a0316c1a567eb8d252134ce956ffc79aabeb7efd6c8e88f57c
+Description:  DejaVuSerifCondensed-Bold
+
+Package: dejavu-fonts-ttf-DejaVuSerifCondensed-Italic
+Version: 2.37-1
+Depends: libc
+Source: feeds/packages/fonts/dejavu-fonts-ttf
+License: Bitstream-Vera-Fonts-Copyright Arev-Fonts-Copyright Public-Domain 
+LicenseFiles: LICENSE
+Section: fonts
+Maintainer: Mirko Vogt <mirko-dev@nanl.de>
+Architecture: mvebu64
+Installed-Size: 199327
+Filename: dejavu-fonts-ttf-DejaVuSerifCondensed-Italic_2.37-1_mvebu64.ipk
+Size: 195899
+MD5Sum: ed0cff8d6639cba66cb34396f026ab8b
+SHA256sum: 2ae4ec2bddf4286d3a6bcfc39a32a3faf723dba53a46f75f3b2932b807b03362
+Description:  DejaVuSerifCondensed-Italic
+
+Package: dejavu-fonts-ttf-DejaVuSerifCondensed
+Version: 2.37-1
+Depends: libc
+Source: feeds/packages/fonts/dejavu-fonts-ttf
+License: Bitstream-Vera-Fonts-Copyright Arev-Fonts-Copyright Public-Domain 
+LicenseFiles: LICENSE
+Section: fonts
+Maintainer: Mirko Vogt <mirko-dev@nanl.de>
+Architecture: mvebu64
+Installed-Size: 193293
+Filename: dejavu-fonts-ttf-DejaVuSerifCondensed_2.37-1_mvebu64.ipk
+Size: 189065
+MD5Sum: 0ee4f8d0f6359221f4b2a6d0ae164cc5
+SHA256sum: bac6bd4a59352d49224d0746a10b8097c213200ee9f5a00582a2a1486e438eab
+Description:  DejaVuSerifCondensed
+
+Package: dejavu-fonts-ttf-DejaVuSerif
+Version: 2.37-1
+Depends: libc
+Source: feeds/packages/fonts/dejavu-fonts-ttf
+License: Bitstream-Vera-Fonts-Copyright Arev-Fonts-Copyright Public-Domain 
+LicenseFiles: LICENSE
+Section: fonts
+Maintainer: Mirko Vogt <mirko-dev@nanl.de>
+Architecture: mvebu64
+Installed-Size: 213769
+Filename: dejavu-fonts-ttf-DejaVuSerif_2.37-1_mvebu64.ipk
+Size: 209914
+MD5Sum: a247fc0b707d020dfc7bcc72a8612829
+SHA256sum: 12f6c6a3b078617c83a76380319b9a685d4cd0d8206498fa17efd099f355d81a
+Description:  DejaVuSerif
 
 Package: diffutils
 Version: 3.6-1
