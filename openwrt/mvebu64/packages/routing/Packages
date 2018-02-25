@@ -1,0 +1,259 @@
+Package: ahcpd
+Version: 0.53-2
+Depends: libc, ip, librt
+Source: feeds/routing/ahcpd
+License: MIT
+Section: net
+Maintainer: Gabriel Kerneis <gabriel@kerneis.info>
+Architecture: mvebu64
+Installed-Size: 21701
+Filename: ahcpd_0.53-2_mvebu64.ipk
+Size: 22503
+MD5Sum: 0ada5329896f6b178231a750f28950f5
+SHA256sum: 2711a95993f977e0310053483b6b08d56d8ab8754dbcae3aaafbcf50fc3a608f
+Description:  Ahcpd is a daemon for configuring an IPv6 network using the Ad-Hoc
+ Configuration Protocol (AHCP).  AHCP is designed for wireless mesh
+ networks, where IPv6 autoconfiguration and DHCPv6 do not work, but may
+ also be used on wired networks.
+
+Package: bird4-uci
+Version: 0.3-1
+Depends: libc, bird4, libuci, uci
+Source: feeds/routing/bird-openwrt/bird4-openwrt
+License: GPL-3.0+
+Section: net
+Maintainer: Eloi Carbo <eloicaso@openmailbox.org>
+Architecture: mvebu64
+Installed-Size: 6739
+Filename: bird4-uci_0.3-1_mvebu64.ipk
+Size: 7701
+MD5Sum: e8945a727c940c1284b0bee7155220ed
+SHA256sum: 6c1e8e2ed0e58762ca75018d267d8c386172b72cb53828a114f1fe9dd205f87f
+Description:  bird4 UCI integration module
+
+Package: bird4
+Version: 1.6.3-1
+Depends: libc, libpthread
+Source: feeds/routing/bird
+License: GPL-2.0
+Section: net
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: mvebu64
+Installed-Size: 193439
+Filename: bird4_1.6.3-1_mvebu64.ipk
+Size: 194501
+MD5Sum: cd084eaef685f1a19ae605d1e9e2efbb
+SHA256sum: 31baee8015f614844989f782ab064ea44aaaadce30bf6935276f42bdd78cd39c
+Description:  BIRD is an internet routing daemon which manages TCP/IP routing tables
+ with support of modern routing protocols, easy to use configuration
+ interface and powerful route filtering language. It is lightweight and
+ efficient and therefore appropriate for small embedded routers.
+ 
+ This is IPv4 version of BIRD, it supports OSPFv2, RIPv2 and BGP
+ protocols.
+ 
+ In BGP, BIRD supports communities, multiprotocol extensions, MD5
+ authentication, 32bit AS numbers and could act as a route server or a
+ route reflector. BIRD also supports multiple RIBs, multiple kernel
+ routing tables and redistribution between the protocols with a powerful
+ configuration syntax.
+ 
+
+Package: bird6-uci
+Version: 0.3-1
+Depends: libc, bird6, libuci, uci
+Source: feeds/routing/bird-openwrt/bird6-openwrt
+License: GPL-3.0+
+Section: net
+Maintainer: Eloi Carbo <eloicaso@openmailbox.org>
+Architecture: mvebu64
+Installed-Size: 5900
+Filename: bird6-uci_0.3-1_mvebu64.ipk
+Size: 6786
+MD5Sum: f9ee16555955ebb2107daf467b86ec47
+SHA256sum: 2d3f3ec1dc7ad4cd89c1495c31b494aa596185707db719fc10dc5a26a5b2eebf
+Description:  bird6 UCI integration module
+
+Package: bird6
+Version: 1.6.3-1
+Depends: libc, libpthread
+Source: feeds/routing/bird
+License: GPL-2.0
+Section: net
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: mvebu64
+Installed-Size: 215158
+Filename: bird6_1.6.3-1_mvebu64.ipk
+Size: 216191
+MD5Sum: 491711486d96304d435a636ea3d2b5a1
+SHA256sum: 8b59846aadaf462576d65176be2407c273bc5848e66cee0f6f217fccb18ae599
+Description:  BIRD is an internet routing daemon which manages TCP/IP routing tables
+ with support of modern routing protocols, easy to use configuration
+ interface and powerful route filtering language. It is lightweight and
+ efficient and therefore appropriate for small embedded routers.
+ 
+ This is IPv6 version of BIRD, it supports OSPFv3, RIPng and BGP
+ protocols.
+ 
+ In BGP, BIRD supports communities, multiprotocol extensions, MD5
+ authentication, 32bit AS numbers and could act as a route server or a
+ route reflector. BIRD also supports multiple RIBs, multiple kernel
+ routing tables and redistribution between the protocols with a powerful
+ configuration syntax.
+ 
+
+Package: bmx6
+Version: r2018020902-5
+Depends: libc, kmod-ip6-tunnel, kmod-iptunnel6, kmod-tun
+Source: feeds/routing/bmx6
+License: GPL-2.0
+Section: net
+Maintainer: Axel Neumann <neumann@cgws.de>
+Architecture: mvebu64
+Installed-Size: 125926
+Filename: bmx6_r2018020902-5_mvebu64.ipk
+Size: 126679
+MD5Sum: 75bcab92fdf5991ea4e9468040c98a02
+SHA256sum: 7501dc2047f46f2aa5742670a7a973a604ae3a8537535c7dc9e40fc4292ff704
+Description:  BMX6 layer 3 routing daemon supporting IPv4, IPv6, and IPv4 over IPv6
+
+Package: cjdns
+Version: 0.20-1
+Depends: libc, kmod-tun, libnl-tiny, libpthread, librt, libuci-lua, lua-bencode, dkjson, luasocket, lua-sha2
+Source: feeds/routing/cjdns
+License: GPL-3.0
+Section: net
+Maintainer: Lars Gierth <larsg@systemli.org>
+Architecture: mvebu64
+Installed-Size: 299270
+Filename: cjdns_0.20-1_mvebu64.ipk
+Size: 299605
+MD5Sum: f765105b1b0ecfe6fac33de77a4df782
+SHA256sum: aa6e4df0ad61856135b061cf41ba3a2f3d69b5e72b17f7cf60490c0f33c90b6e
+Description:  Cjdns implements an encrypted IPv6 network using public-key cryptography for address allocation and a distributed hash table for routing. This provides near-zero-configuration networking, and prevents many of the security and scalability issues that plague existing networks.
+
+Package: luci-app-bird4
+Version: 0.3-1
+Depends: libc, bird4-uci, luci-base
+Source: feeds/routing/bird-openwrt/bird4-openwrt
+License: GPL-3.0+
+Section: luci
+Maintainer: Eloi Carbo <eloicaso@openmailbox.org>
+Architecture: mvebu64
+Installed-Size: 7429
+Filename: luci-app-bird4_0.3-1_mvebu64.ipk
+Size: 8198
+MD5Sum: 9fea262eb4f0793d0d6ae206f31f5b35
+SHA256sum: 49bdaea1ed503f4acad10477c376158f3fd2cf6e3386e530f333b7ff7fdc5b94
+Description:  bird4 application for LuCI
+
+Package: luci-app-bird6
+Version: 0.3-1
+Depends: libc, bird6-uci, luci-base
+Source: feeds/routing/bird-openwrt/bird6-openwrt
+License: GPL-3.0+
+Section: luci
+Maintainer: Eloi Carbo <eloicaso@openmailbox.org>
+Architecture: mvebu64
+Installed-Size: 7475
+Filename: luci-app-bird6_0.3-1_mvebu64.ipk
+Size: 8239
+MD5Sum: 8a53c4d28fa7191ddc67ecca4aa79e18
+SHA256sum: 9291ab7b76b8b608a3df43ec714415279216b9528add63ae9619851424836043
+Description:  bird6 application for LuCI
+
+Package: luci-app-bmx6
+Version: 5
+Depends: libc, luci-lib-json, luci-base, luci-lib-httpclient, bmx6, luci-lib-jquery-1-4, luci-lib-dracula
+Source: feeds/routing/luci-app-bmx6
+License: GPL-2.0+
+Section: luci
+Maintainer: Pau Escrich <p4u@dabax.net>
+Architecture: mvebu64
+Installed-Size: 30276
+Filename: luci-app-bmx6_5_mvebu64.ipk
+Size: 31068
+MD5Sum: 41c272e82f2ede15b2503a26fe3d9a6d
+SHA256sum: f7b5000bfc6ffaf89024fd39fd085f146ea488af410f3ce6292ba24d8d87b487
+Description:  bmx6 web application (status and configuration) for LuCi web interface
+
+Package: luci-app-cjdns
+Version: 1.3-5
+Depends: libc, cjdns, luci-base
+Source: feeds/routing/luci-app-cjdns
+License: GPL-3.0
+Section: luci
+Maintainer: Lars Gierth <larsg@systemli.org>
+Architecture: mvebu64
+Installed-Size: 5646
+Filename: luci-app-cjdns_1.3-5_mvebu64.ipk
+Size: 6520
+MD5Sum: 527dfee36c7295407845b53e75091f0e
+SHA256sum: 1eaadf385d6cbe61d4fe46a59f72a612844473107503cd7abe162707f62905df
+Description:  This package allows you to configure and inspect cjdns networking using LuCI.
+ 
+ Cjdns implements an encrypted IPv6 network using public-key cryptography
+ for address allocation and a distributed hash table for routing.
+ This provides near-zero-configuration networking, and prevents many
+ of the security and scalability issues that plague existing networks.
+
+Package: luci-app-hnet
+Version: 2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e-1
+Depends: libc
+Source: feeds/routing/hnetd
+License: GPL-2.0
+Section: luci
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 56783
+Filename: luci-app-hnet_2016-06-28-606d7e904603ad8792ac1a7ba825618df97b5a4e-1_mvebu64.ipk
+Size: 57613
+MD5Sum: 90f8152b7c3683144c0e355b948cdead
+SHA256sum: 2f806b51dce5ec54ca456d8c6e10339588122aa1ad1d8282a1575f974ee31614
+Description:  HNCP Homenet configuration and visualization
+
+Package: luci-lib-dracula
+Version: 5
+Depends: libc
+Source: feeds/routing/luci-app-bmx6
+License: GPL-2.0+
+Section: luci
+Maintainer: Pau Escrich <p4u@dabax.net>
+Architecture: mvebu64
+Installed-Size: 23289
+Filename: luci-lib-dracula_5_mvebu64.ipk
+Size: 23977
+MD5Sum: 7423a59e74819638eae428426a5686ea
+SHA256sum: cf831f1d6772a47dbd488db462445729edefa51eb98b9b68ff8e7206d95f99d0
+Description:  dracula graph javascript library
+
+Package: luci-lib-jquery-1-4
+Version: 5
+Depends: libc
+Source: feeds/routing/luci-app-bmx6
+License: GPL-2.0+
+Section: luci
+Maintainer: Gui Iribarren <gui@altermundi.net>
+Architecture: mvebu64
+Installed-Size: 24824
+Filename: luci-lib-jquery-1-4_5_mvebu64.ipk
+Size: 25532
+MD5Sum: 4abb9c6541d7bc782e02e5365927ff7e
+SHA256sum: ca0efc48b8f3f04002aae78e6d0e261afa9fc2b9f6f2c476c3c8eeaffa83c2a6
+Description:  minified javascript jQuery 1.4 library
+
+Package: miniupnpd
+Version: 2.0.20170421-2
+Depends: libc, iptables, libip4tc, libip6tc, ip6tables, libuuid
+Source: feeds/routing/miniupnpd
+License: BSD-3-Clause
+Section: net
+Maintainer: Markus Stenberg <fingon@iki.fi>
+Architecture: mvebu64
+Installed-Size: 59200
+Filename: miniupnpd_2.0.20170421-2_mvebu64.ipk
+Size: 60080
+MD5Sum: 24d7f758dd882587553e0ff5a80c706a
+SHA256sum: a822d264202c42b4b1e9ac80c0e2aeda95cbb3ade6d26a614784a8e1cb9858a8
+Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+

@@ -1,0 +1,1931 @@
+Package: ar
+Version: 2.25-1
+Depends: libc, zlib, libbfd
+Source: package/devel/binutils
+License: GPL-3.0+
+Section: devel
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 22438
+Filename: ar_2.25-1_mvebu64.ipk
+Size: 23037
+MD5Sum: d2e29f508a78826f6c42a1af671afcb3
+SHA256sum: a940b8cb0c98617bcea4b58dcb8f3273ea24f3755531cf2736f1ff9c5078a538
+Description:  ar
+
+Package: base-files
+Version: 169-12009
+Depends: libc, netifd, procd, jsonfilter, usign, fstools
+Source: package/base-files
+License: GPL-2.0
+Section: base
+Architecture: mvebu64
+Installed-Size: 32554
+Filename: base-files_169-12009_mvebu64.ipk
+Size: 33499
+MD5Sum: 82cce503b9c89dbb03b400f6f748d863
+SHA256sum: 58abf8b69aad43e1e59ababb0603e2dc04dbf0707b48ac37830bf989d5384978
+Description:  This package contains a base filesystem and system scripts for OpenWrt.
+
+Package: binutils
+Version: 2.25-1
+Depends: libc, objdump, ar
+Source: package/devel/binutils
+License: GPL-3.0+
+Section: devel
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 883629
+Filename: binutils_2.25-1_mvebu64.ipk
+Size: 874893
+MD5Sum: 48faf56f2b439c0e195edf3471a0d085
+SHA256sum: 698e427822fd4bd446102dbf96a3c58f3c40982a97bb6326e3c42d2fb16719aa
+Description:  The Binutils package contains a linker, an assembler, and other tools for handling object files
+
+Package: block-mount
+Version: 2016-07-24-addd7dc21fe99f2701c1d4708071578052af401d
+Depends: libc, ubox, libubox, libuci
+Source: package/system/fstools
+License: GPL-2.0
+Section: base
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 22020
+Filename: block-mount_2016-07-24-addd7dc21fe99f2701c1d4708071578052af401d_mvebu64.ipk
+Size: 22624
+MD5Sum: 86ac54d05941806869f8ec6ac0c97a34
+SHA256sum: 76f87c7e52a8c282b80dfe2f6ba5bbaed8674ed9fd4ee43e99d48c11cbc45b35
+Description:  Block device mounting and checking
+
+Package: busybox
+Version: 1.24.2-1
+Depends: libc
+Source: package/utils/busybox
+License: GPL-2.0
+LicenseFiles: LICENSE archival/libarchive/bz/LICENSE
+Section: base
+Essential: yes
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 222602
+Filename: busybox_1.24.2-1_mvebu64.ipk
+Size: 223040
+MD5Sum: a8ed58bf8ff2fa8bad22e4153e3a2de4
+SHA256sum: 48574064d3a5b6613ca2f3f494fd2f585592471332d20690e9ddb5b6aa787a75
+Description:  The Swiss Army Knife of embedded Linux.
+ It slices, it dices, it makes Julian Fries.
+
+Package: ca-bundle
+Version: 20161130+nmu1
+Depends: libc
+Source: package/system/ca-certificates
+Section: base
+Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
+Architecture: all
+Installed-Size: 148844
+Filename: ca-bundle_20161130+nmu1_all.ipk
+Size: 149674
+MD5Sum: 9b668c5e18af6de392b835061f6bca1f
+SHA256sum: 7101688eca8e5d11a1742658f100540c89c6857251e237b8bbcbefedb0746bb9
+Description:  System CA certificates as a bundle
+
+Package: ca-certificates
+Version: 20161130+nmu1
+Depends: libc
+Source: package/system/ca-certificates
+Section: base
+Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
+Architecture: all
+Installed-Size: 161670
+Filename: ca-certificates_20161130+nmu1_all.ipk
+Size: 162398
+MD5Sum: ad78325bf6897d0cd101493e4ace5bb5
+SHA256sum: 9443a1ef5d0ce4d0a250e92811858a0f821ad0df3055e96ef4c7c4578f960c47
+Description:  System CA certificates
+
+Package: curl
+Version: 7.50.0-1
+Depends: libc, libcurl
+Source: package/network/utils/curl
+License: MIT
+LicenseFiles: COPYING
+Section: net
+Maintainer: Imre Kaloz <kaloz@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 37232
+Filename: curl_7.50.0-1_mvebu64.ipk
+Size: 37913
+MD5Sum: 8eeb57555cda090de78d2aed7894dc5c
+SHA256sum: 8ad3c3d610538757ea27b65459e1b22027d2393a89a2063dbc8df2a6c365d211
+Description:  A client-side URL transfer utility
+
+Package: dnsmasq-dhcpv6
+Version: 2.76-1
+Depends: libc
+Source: package/network/services/dnsmasq
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Require-User: dnsmasq=453:dnsmasq=453
+Architecture: mvebu64
+Installed-Size: 120862
+Filename: dnsmasq-dhcpv6_2.76-1_mvebu64.ipk
+Size: 121715
+MD5Sum: 238fb2013c286bebcf4b359be4686e83
+SHA256sum: 2e7d4cf49157a4062aba33441bff72372e1f94abc50d2b8aee013428b3b7afb4
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+ 
+ This is a variant with DHCPv6 support
+
+Package: dnsmasq-full
+Version: 2.76-1
+Depends: libc, libnettle, kmod-ipt-ipset, libnetfilter-conntrack
+Source: package/network/services/dnsmasq
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Require-User: dnsmasq=453:dnsmasq=453
+Architecture: mvebu64
+Installed-Size: 140461
+Filename: dnsmasq-full_2.76-1_mvebu64.ipk
+Size: 141291
+MD5Sum: 86effc55fb1d3c607797287bcac6ae4d
+SHA256sum: 86467eea5d6af48cc7e8eaa16254a2439c1859ec35ea698c78f69305dd8d6cd9
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+ 
+ This is a fully configurable variant with DHCPv6, DNSSEC, Authoritative DNS and
+ IPset, Conntrack support enabled by default.
+
+Package: dnsmasq
+Version: 2.76-1
+Depends: libc
+Source: package/network/services/dnsmasq
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Require-User: dnsmasq=453:dnsmasq=453
+Architecture: mvebu64
+Installed-Size: 100729
+Filename: dnsmasq_2.76-1_mvebu64.ipk
+Size: 101508
+MD5Sum: 1127395c9ffeb67fadc7a97b0f607326
+SHA256sum: 0b05be148bd72be29ae5277f91f9e4da610226d8f750dedab603f487d748a875
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+
+Package: dropbear
+Version: 2016.74-1
+Depends: libc
+Source: package/network/services/dropbear
+License: MIT
+LicenseFiles: LICENSE libtomcrypt/LICENSE libtommath/LICENSE
+Section: net
+Architecture: mvebu64
+Installed-Size: 97223
+Filename: dropbear_2016.74-1_mvebu64.ipk
+Size: 97739
+MD5Sum: 7ffa76a1caf9d11c11683858f20374c9
+SHA256sum: d472625d663bade41cd86fcb117ae8d2a9d4a3be323b3cba9f5a005056696b83
+Description:  A small SSH2 server/client designed for small memory environments.
+
+Package: ead
+Version: 1
+Depends: libc
+Source: package/network/services/ead
+License: GPL-2.0
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 49771
+Filename: ead_1_mvebu64.ipk
+Size: 50585
+MD5Sum: 9ff3dd69f2683bfec98785bbe19e975d
+SHA256sum: b2f3cb6fd1cb44e60655a20ed56a25b35965004e2b0f76a5149c3ddcf42424d8
+Description:  Provides remote access to your device even if IP and firewall
+ configuration settings are defunct
+
+Package: firewall
+Version: 2016-11-29-1
+Depends: libc, libubox, libubus, libuci, libip4tc, libip6tc, libxtables, kmod-ipt-core, kmod-ipt-conntrack, kmod-ipt-nat
+Source: package/network/config/firewall
+License: ISC
+Section: net
+Architecture: mvebu64
+Installed-Size: 41898
+Filename: firewall_2016-11-29-1_mvebu64.ipk
+Size: 42535
+MD5Sum: 4971abac80f336b7946ddf8e49b89ed6
+SHA256sum: ca7cda5e733c71970d4f5d4b9343555b9809aba5ff963f656fe48d79cbe7afb8
+Description:  This package provides a config-compatible C implementation of the UCI firewall.
+
+Package: fstools
+Version: 2016-07-24-addd7dc21fe99f2701c1d4708071578052af401d
+Depends: libc, ubox, ubi-utils
+Source: package/system/fstools
+License: GPL-2.0
+Section: base
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 16891
+Filename: fstools_2016-07-24-addd7dc21fe99f2701c1d4708071578052af401d_mvebu64.ipk
+Size: 17643
+MD5Sum: 7f9e3c5b9418e276603459fee28cf53f
+SHA256sum: 815aa9ee17bac9a3e17c355a7f4de23fcde0131f268f8512321d2c0e8db1ac6b
+Description:  OpenWrt filesystem tools
+
+Package: gdb
+Version: 7.11-1
+Depends: libc, zlib, libreadline, libncurses, zlib
+Source: package/devel/gdb
+License: GPL-3.0+
+Section: devel
+Architecture: mvebu64
+Installed-Size: 1721681
+Filename: gdb_7.11-1_mvebu64.ipk
+Size: 1718952
+MD5Sum: 8d3eb6df539f33cd6522a2036cc22487
+SHA256sum: dede183e7828a1dd696f5300d0b8322ab555825b7269a20c7c2dfbcd41b9c353
+Description:  GDB, the GNU Project debugger, allows you to see what is going on `inside'
+ another program while it executes -- or what another program was doing at the
+ moment it crashed.
+
+Package: gdbserver
+Version: 7.11-1
+Depends: libc, zlib
+Source: package/devel/gdb
+License: GPL-3.0+
+Section: devel
+Architecture: mvebu64
+Installed-Size: 125998
+Filename: gdbserver_7.11-1_mvebu64.ipk
+Size: 126160
+MD5Sum: 1ef2d7ceca1518eb685b601e3edd41c9
+SHA256sum: 95eca21ee859646320d4deadd9bd633f2cc6c62785974db1832e4a0c038ad0fd
+Description:  GDBSERVER is a program that allows you to run GDB on a different machine than the
+ one which is running the program being debugged.
+
+Package: hostapd-common
+Version: 2016-06-15-1
+Depends: libc
+Source: package/network/services/hostapd
+License: BSD-3-Clause
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 5331
+Filename: hostapd-common_2016-06-15-1_mvebu64.ipk
+Size: 6041
+MD5Sum: e7674a1c82061c31f194b1de831b95ed
+SHA256sum: 12229680a3d519becbd64e69e70682b4506f94bc47921abc6d8068eee9ae89cb
+Description:  hostapd/wpa_supplicant common support files
+
+Package: hostapd
+Version: 2016-06-15-1
+Depends: libc, hostapd-common, libubus
+Conflicts: wpad, wpad-mini, wpad-mesh
+Source: package/network/services/hostapd
+License: BSD-3-Clause
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 220428
+Filename: hostapd_2016-06-15-1_mvebu64.ipk
+Size: 221259
+MD5Sum: 6bb28373a732652471ba0c3470ec22fe
+SHA256sum: 3604fa9c0d7bd9679002186a7e7647b1f5086074fdfed208a6dc1d521c2daa55
+Description:  This package contains a full featured IEEE 802.1x/WPA/EAP/RADIUS
+ Authenticator.
+
+Package: ip6tables
+Version: 1.4.21-2
+Depends: libc, kmod-ip6tables, iptables
+Source: package/network/utils/iptables
+License: GPL-2.0
+Section: net
+Architecture: mvebu64
+Installed-Size: 211
+Filename: ip6tables_1.4.21-2_mvebu64.ipk
+Size: 895
+MD5Sum: caf6a86a502ba508c7cbc4250c2b9300
+SHA256sum: 8b6dfd93f23240b90518c5bc1fdb3f4dfaa0b1e977dce6f7b1face7861fd800a
+Description:  IPv6 firewall administration tool
+
+Package: ip
+Version: 4.4.0-2
+Depends: libc, libnl-tiny
+Conflicts: ip-full
+Source: package/network/utils/iproute2
+License: GPL-2.0
+Section: net
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: mvebu64
+Installed-Size: 88710
+Filename: ip_4.4.0-2_mvebu64.ipk
+Size: 89475
+MD5Sum: 2fafebfe2671ad7b9b19d5854c7b0848
+SHA256sum: f3ed9edd9c7d24c79318021c784b64ae8d53fbb1b378251ab26a0b4c2218452d
+Description:  Routing control utility (Minimal)
+
+Package: ipset
+Version: 6.24-1
+Depends: libc, kmod-ipt-ipset, libmnl
+Source: package/network/utils/ipset
+License: GPL-2.0
+Section: net
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 72455
+Filename: ipset_6.24-1_mvebu64.ipk
+Size: 72545
+MD5Sum: a033567db20e8a9a3115f854e87b9547
+SHA256sum: ce3d9e76ec5e00670f2db2771df8a1fedb6f7ea36ce37cdffc13c40c4e02c526
+Description:  IPset administration utility
+
+Package: iptables-mod-conntrack-extra
+Version: 1.4.21-2
+Depends: libc, iptables, kmod-ipt-conntrack-extra
+Source: package/network/utils/iptables
+License: GPL-2.0
+Section: net
+Architecture: mvebu64
+Installed-Size: 9065
+Filename: iptables-mod-conntrack-extra_1.4.21-2_mvebu64.ipk
+Size: 9815
+MD5Sum: fefa9fa1936666f83f28f41138231199
+SHA256sum: 4a10a88ad8d36e720e3d300c371be04cafaa75630d5886f01d0582b1f2457d58
+Description:  Extra iptables extensions for connection tracking.
+ 
+ Matches:
+ - connbytes
+ - connlimit
+ - connmark
+ - recent
+ - helper
+ 
+ Targets:
+ - CONNMARK
+ 
+
+Package: iptables-mod-ipopt
+Version: 1.4.21-2
+Depends: libc, iptables, kmod-ipt-ipopt
+Source: package/network/utils/iptables
+License: GPL-2.0
+Section: net
+Architecture: mvebu64
+Installed-Size: 12507
+Filename: iptables-mod-ipopt_1.4.21-2_mvebu64.ipk
+Size: 13131
+MD5Sum: 4f844d9a0d8a6f86fb591abcb2a821be
+SHA256sum: d3ec841bc9c8392b7a2a21c94ff5fe0ac3a6f1ede02d36689f40cc39aeee7d27
+Description:  iptables extensions for matching/changing IP packet options.
+ 
+ Matches:
+ - dscp
+ - ecn
+ - length
+ - statistic
+ - tcpmss
+ - unclean
+ - hl
+ 
+ Targets:
+ - DSCP
+ - CLASSIFY
+ - ECN
+ - HL
+ 
+
+Package: iptables
+Version: 1.4.21-2
+Depends: libc, kmod-ipt-core, libip4tc, libip6tc, libxtables
+Source: package/network/utils/iptables
+License: GPL-2.0
+Section: net
+Architecture: mvebu64
+Installed-Size: 23975
+Filename: iptables_1.4.21-2_mvebu64.ipk
+Size: 24654
+MD5Sum: 2a12fa54a92eb8afd00b1d76bf6f3fad
+SHA256sum: 13ffb8f37cf01a5dd9d988f61626c0de312a4274e420e41985fbb8013246a931
+Description:  IP firewall administration tool.
+ 
+ Matches:
+ - icmp
+ - tcp
+ - udp
+ - comment
+ - conntrack
+ - limit
+ - mac
+ - mark
+ - multiport
+ - set
+ - state
+ - time
+ 
+ Targets:
+ - ACCEPT
+ - CT
+ - DNAT
+ - DROP
+ - REJECT
+ - LOG
+ - MARK
+ - MASQUERADE
+ - REDIRECT
+ - SET
+ - SNAT
+ - TCPMSS
+ 
+ Tables:
+ - filter
+ - mangle
+ - nat
+ - raw
+ 
+
+Package: iwinfo
+Version: 2016-01-25-e4aca3910dff532ed878d0ceaf1ab6e8ad7719bf
+Depends: libc, libiwinfo
+Source: package/network/utils/iwinfo
+License: GPL-2.0
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 5850
+Filename: iwinfo_2016-01-25-e4aca3910dff532ed878d0ceaf1ab6e8ad7719bf_mvebu64.ipk
+Size: 6624
+MD5Sum: 0fe5ada2a9b452eb21cf2d2bd56fa7d8
+SHA256sum: fca5775bd5078077af7fc96e11884fcbc0da99473d24a5f77587dbb0d41b1146
+Description:  Command line frontend for the wireless information library.
+
+Package: jshn
+Version: 2016-11-29-77a629375d7387a33a59509d9d751a8798134cab
+Depends: libc, libjson-c, libubox, libblobmsg-json
+Source: package/libs/libubox
+License: ISC
+Section: utils
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 5669
+Filename: jshn_2016-11-29-77a629375d7387a33a59509d9d751a8798134cab_mvebu64.ipk
+Size: 6421
+MD5Sum: fcfc98a34d4cb4259ada54eae2d4be41
+SHA256sum: 906ba6425e653034f31df5cb3cd738465a0c34ca3721d2112601f7aa250e7f50
+Description:  Library for parsing and generating JSON from shell scripts
+
+Package: jsonfilter
+Version: 2016-07-02-dea067ad67d977c247c300c06676a06adf21e0c7
+Depends: libc, libubox, libjson-c
+Source: package/utils/jsonfilter
+License: ISC
+Section: base
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 8928
+Filename: jsonfilter_2016-07-02-dea067ad67d977c247c300c06676a06adf21e0c7_mvebu64.ipk
+Size: 9663
+MD5Sum: 62060cc4008d6ca08a9be009c0f63e97
+SHA256sum: 2c0726dab40839c19d32b7ac5ebaa791765c63b167da9c8f984d5c663eb5ffd9
+Description:  OpenWrt JSON filter utility
+
+Package: libatomic
+Version: 5.3.0-1
+Depends: libgcc
+Source: package/libs/toolchain
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 4805
+Filename: libatomic_5.3.0-1_mvebu64.ipk
+Size: 5511
+MD5Sum: b4f29f37d31ac6b83e94dbba68e956f7
+SHA256sum: 1659b2fd56f7be0c48ebdfa56ac7300956982d07e2abcaa7417e6715667527e7
+Description:  Atomic support library
+
+Package: libbfd
+Version: 2.25-1
+Depends: libc, zlib
+Source: package/devel/binutils
+License: GPL-3.0+
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 328065
+Filename: libbfd_2.25-1_mvebu64.ipk
+Size: 325954
+MD5Sum: 2aad8d5c61f06e1ae751549872d42c7e
+SHA256sum: 91fc43db22b242cb6847d98b11239760207f8af71791d8f405b82cc0fa8a3299
+Description:  libbfd
+
+Package: libblkid
+Version: 2.28-1
+Depends: libc, libuuid
+Source: package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+Architecture: mvebu64
+Installed-Size: 89698
+Filename: libblkid_2.28-1_mvebu64.ipk
+Size: 90432
+MD5Sum: c0421ce170597586e65f8c3b60f9ace7
+SHA256sum: a7bafe768a6a6f418b02fdce1dd3ecf2f560db549107bddabb4e9dfd4a72fb4f
+Description:  The libblkid library is used to identify block devices (disks) as to their
+ content (e.g. filesystem type, partitions) as well as extracting additional
+ information such as filesystem labels/volume names, partitions, unique
+ identifiers/serial numbers...
+
+Package: libblobmsg-json
+Version: 2016-11-29-77a629375d7387a33a59509d9d751a8798134cab
+Depends: libc, libjson-c, libubox
+Source: package/libs/libubox
+License: ISC
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 3476
+Filename: libblobmsg-json_2016-11-29-77a629375d7387a33a59509d9d751a8798134cab_mvebu64.ipk
+Size: 4202
+MD5Sum: 9154b5f0ac0712668cd136113282f95a
+SHA256sum: 33a367c274406222910b0854d55ea135a03b21c82c6e68792107af61ace2b936
+Description:  blobmsg <-> json conversion library
+
+Package: libbz2
+Version: 1.0.6-2
+Depends: libc
+Source: package/utils/bzip2
+License: BZIP2
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 25098
+Filename: libbz2_1.0.6-2_mvebu64.ipk
+Size: 25817
+MD5Sum: e4e37df5d62b9041796eafeed6336116
+SHA256sum: 5788a28c07a1debc8026d0b869c89ac72b57e2c0a47728adc8890d3f99912458
+Description:  bzip2 is a freely available, patent free, high-quality
+ data compressor. This packages provides libbz2 library.
+
+Package: libcurl
+Version: 7.50.0-1
+Depends: libc, libpolarssl
+Source: package/network/utils/curl
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Imre Kaloz <kaloz@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 97505
+Filename: libcurl_7.50.0-1_mvebu64.ipk
+Size: 98157
+MD5Sum: 796da29f8d1a768285d2552d357de1b7
+SHA256sum: 2e43f4bd23fe1825b11c49626aae827a7573ad6d8eca2c52b59fa999d7e81302
+Description:  A client-side URL transfer library
+
+Package: libcyassl
+Version: 3.9.6-1
+Depends: libc
+Source: package/libs/cyassl
+License: GPL-2.0+
+Section: libs
+Architecture: mvebu64
+Installed-Size: 151180
+Filename: libcyassl_3.9.6-1_mvebu64.ipk
+Size: 150868
+MD5Sum: 9ab22282fa2244802d2e5dd73bab329a
+SHA256sum: 448260e44fa1098ffa02d4e3fb8f0bca7c893ccc87c9a618c38c708a892b9b63
+Description:  CyaSSL is an SSL library optimized for small footprint, both on disk and for
+ memory use.
+
+Package: libdw
+Version: 0.165-1
+Depends: libc, libelf1, libbz2
+Source: package/libs/elfutils
+License: GPL-3.0+
+LicenseFiles: COPYING COPYING-GPLV2 COPYING-LGPLV3
+Section: libs
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mvebu64
+Installed-Size: 102279
+Filename: libdw_0.165-1_mvebu64.ipk
+Size: 102806
+MD5Sum: 242e2f882ad474cb2904f07018862e85
+SHA256sum: e95e7851d7a3e9a5236b2ea399bc813d5761c04a65d4d6f4bfbf9a794db21ffe
+Description:  ELF manipulation libraries (libdw)
+
+Package: libelf1
+Version: 0.165-1
+Depends: libc, zlib
+Source: package/libs/elfutils
+License: GPL-3.0+
+LicenseFiles: COPYING COPYING-GPLV2 COPYING-LGPLV3
+Section: libs
+Maintainer: Luiz Angelo Daros de Luca <luizluca@gmail.com>
+Architecture: mvebu64
+Installed-Size: 33716
+Filename: libelf1_0.165-1_mvebu64.ipk
+Size: 34529
+MD5Sum: 5b48e206be505166da30cee42a62aa43
+SHA256sum: 06760246dbc47dd081960921d6bcd5e4df9e715f640293edff00a02578766151
+Description:  ELF manipulation libraries (libelf)
+
+Package: libgcc
+Version: 5.3.0-1
+Source: package/libs/toolchain
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 30336
+Filename: libgcc_5.3.0-1_mvebu64.ipk
+Size: 31043
+MD5Sum: 28d35602e5e58ac3c12b5cf414878273
+SHA256sum: 15d37e5e9f707f3522210ad0d098c4642196552602831819628a0536a553d122
+Description:  GCC support library
+
+Package: libgmp
+Version: 6.1.1-1
+Depends: libc
+Source: package/libs/gmp
+License: GPL-2.0+
+Section: libs
+Architecture: mvebu64
+Installed-Size: 190997
+Filename: libgmp_6.1.1-1_mvebu64.ipk
+Size: 191294
+MD5Sum: ec9074c50a681187f5f1afc5322d76cb
+SHA256sum: 245a29c624fc30aa836f28028740d4935945d66bc8a01fa26535c63a0fdfbb27
+Description:  GMP is a free library for arbitrary precision arithmetic, operating on
+ signed integers, rational numbers, and floating point numbers.
+
+Package: libip4tc
+Version: 1.4.21-2
+Depends: libc, libxtables
+Source: package/network/utils/iptables
+License: GPL-2.0
+Section: libs
+Architecture: mvebu64
+Installed-Size: 17472
+Filename: libip4tc_1.4.21-2_mvebu64.ipk
+Size: 18148
+MD5Sum: 76143ede553826248a4fae88bea95156
+SHA256sum: a1c1883ed543ab018ce97d4da24ffb37f7f8ea0bfcf07c444be16bda6ebb973d
+Description:  IPv4 firewall - shared libiptc library
+
+Package: libip6tc
+Version: 1.4.21-2
+Depends: libc, libxtables
+Source: package/network/utils/iptables
+License: GPL-2.0
+Section: libs
+Architecture: mvebu64
+Installed-Size: 17043
+Filename: libip6tc_1.4.21-2_mvebu64.ipk
+Size: 17714
+MD5Sum: de546f5a4d2ad9483a66da931399e425
+SHA256sum: 25c454680750ed7e2808c2dde37b6dfe8ce602729a6eb40c2091789ce8d792ec
+Description:  IPv6 firewall - shared libiptc library
+
+Package: libiwinfo-lua
+Version: 2016-01-25-e4aca3910dff532ed878d0ceaf1ab6e8ad7719bf
+Depends: libc, libiwinfo, liblua
+Source: package/network/utils/iwinfo
+License: GPL-2.0
+Section: lang
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 5434
+Filename: libiwinfo-lua_2016-01-25-e4aca3910dff532ed878d0ceaf1ab6e8ad7719bf_mvebu64.ipk
+Size: 6230
+MD5Sum: 28f67cbaae9ca4869813db90483f769b
+SHA256sum: 8b1208a2c10e7498be393d93567b7f2b256c7248fa164587bcc01b6fca1ef9cb
+Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
+ backends.
+
+Package: libiwinfo
+Version: 2016-01-25-e4aca3910dff532ed878d0ceaf1ab6e8ad7719bf
+Depends: libc, libuci
+Source: package/network/utils/iwinfo
+License: GPL-2.0
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 11354
+Filename: libiwinfo_2016-01-25-e4aca3910dff532ed878d0ceaf1ab6e8ad7719bf_mvebu64.ipk
+Size: 12175
+MD5Sum: e4e6761dd110435fa248d4da7f6ecbe9
+SHA256sum: 66f0f7ba62f73100670ffc69db298a0923eefec602ef0f0b6bd1762336a60cfb
+Description:  Wireless information library with consistent interface for proprietary Broadcom,
+ madwifi, nl80211 and wext driver interfaces.
+
+Package: libjson-c
+Version: 0.12-1
+Depends: libc
+Source: package/libs/libjson-c
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 13840
+Filename: libjson-c_0.12-1_mvebu64.ipk
+Size: 14535
+MD5Sum: 3bc9fbde027cc92054d358b3fc0de3b2
+SHA256sum: f839d87472c94b0f9bf81cd691c202405ef6db1ab82d04c3882fade2e621c396
+Description:  This package contains a library for javascript object notation backends.
+
+Package: libjson-script
+Version: 2016-11-29-77a629375d7387a33a59509d9d751a8798134cab
+Depends: libc, libubox
+Source: package/libs/libubox
+License: ISC
+Section: utils
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 4528
+Filename: libjson-script_2016-11-29-77a629375d7387a33a59509d9d751a8798134cab_mvebu64.ipk
+Size: 5254
+MD5Sum: d9827c11a3270acd277c25ae71832e15
+SHA256sum: 816771bf2887f13ea28afe399d216e720ea51f5a997c31ae2b8f8edbb88be943
+Description:  Minimalistic JSON based scripting engine
+
+Package: libltdl
+Version: 2.4-1
+Depends: libc
+Source: package/libs/libtool
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: libs
+Architecture: mvebu64
+Installed-Size: 12775
+Filename: libltdl_2.4-1_mvebu64.ipk
+Size: 13424
+MD5Sum: e665da475408dd2c46927c92b28cac40
+SHA256sum: b4ce2d04768b52140755cf1e8f005cfd6883a1fe1475e4f2a350af958ec2ea55
+Description:  A generic dynamic object loading library
+
+Package: liblua
+Version: 5.1.5-1
+Depends: libc
+Source: package/utils/lua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 62566
+Filename: liblua_5.1.5-1_mvebu64.ipk
+Size: 63356
+MD5Sum: f96dae73b2e5215c90d79c188d9463e4
+SHA256sum: 43634b6bb5b77daa40c7c17e746b285cebdbb1bbf89a39b065feba27b90013b0
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: libmbedtls
+Version: 2.3.0-2
+Depends: libc
+Source: package/libs/mbedtls
+License: GPL-2.0+
+Section: libs
+Architecture: mvebu64
+Installed-Size: 140110
+Filename: libmbedtls_2.3.0-2_mvebu64.ipk
+Size: 140750
+MD5Sum: 73e6445263d189cca2422ef289adfadb
+SHA256sum: 7548fc4233da15c471f91286c47433d2b36e67026b45ac4019c15fead9648c85
+Description:  The aim of the mbedtls project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the mbedtls library.
+
+Package: libmnl
+Version: 1.0.3-2
+Depends: libc
+Source: package/libs/libmnl
+License: LGPL-2.1+
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 5355
+Filename: libmnl_1.0.3-2_mvebu64.ipk
+Size: 6535
+MD5Sum: 5999b3b2739af1e96d732d18b7c45264
+SHA256sum: fa47d150d83aa0131e270982f36eac2a9179dbb23f5c157e3d3cc02fc2863c42
+Description:  libmnl is a minimalistic user-space library oriented to Netlink developers.
+ There are a lot of common tasks in parsing, validating, constructing of
+ both the Netlink header and TLVs that are repetitive and easy to get wrong.
+ This library aims to provide simple helpers that allows you to re-use code
+ and to avoid re-inventing the wheel. The main features of this library are:
+ .
+ * Small: the shared library requires around 30KB for an x86-based computer.
+ .
+ * Simple: this library avoids complexity and elaborated abstractions that
+ tend to hide Netlink details.
+ .
+ * Easy to use: the library simplifies the work for Netlink-wise developers.
+ It provides functions to make socket handling, message building, validating,
+ parsing and sequence tracking, easier.
+ .
+ * Easy to re-use: you can use the library to build your own abstraction layer
+ on top of this library.
+ .
+ * Decoupling: the interdependency of the main bricks that compose the library
+ is reduced, i.e. the library provides many helpers, but the programmer is not
+ forced to use them.
+
+Package: libncursesw
+Version: 5.9-3
+Depends: libc, terminfo
+Provides: libncurses
+Source: package/libs/ncurses
+License: MIT
+LicenseFiles: README
+Section: libs
+Architecture: mvebu64
+Installed-Size: 131636
+Filename: libncursesw_5.9-3_mvebu64.ipk
+Size: 130302
+MD5Sum: 22db15ac761d1e4f0f1cfe64c743c49c
+SHA256sum: 0f7365349c33df57c18695e6d90fc3825aa7eb2190446af18e31c9ddb9c9bedd
+Description:  Terminal handling library (Unicode)
+
+Package: libnetfilter-conntrack
+Version: 1.0.6-1
+Depends: libc, libnfnetlink, kmod-nf-conntrack-netlink, libmnl
+Source: package/libs/libnetfilter-conntrack
+License: GPL-2.0+
+Section: libs
+Architecture: mvebu64
+Installed-Size: 33803
+Filename: libnetfilter-conntrack_1.0.6-1_mvebu64.ipk
+Size: 34563
+MD5Sum: 85c3df3e8b174bb8fd72ff9e91b7ca74
+SHA256sum: 4c6d361165e98c713acb598b25fc95929cdc03af7ac9956df318df2564f102dd
+Description:  libnetfilter_conntrack is a userspace library providing a programming
+ interface (API) to the in-kernel connection tracking state table. The
+ library libnetfilter_conntrack has been previously known as
+ libnfnetlink_conntrack and libctnetlink. This library is currently
+ used by conntrack-tools among many other applications.
+
+Package: libnettle
+Version: 3.3-1
+Depends: libc, libgmp
+Source: package/libs/nettle
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: libs
+Architecture: mvebu64
+Installed-Size: 235706
+Filename: libnettle_3.3-1_mvebu64.ipk
+Size: 235635
+MD5Sum: 5ccafb40fc506b1f87b53c11bd94a7e5
+SHA256sum: 010059b5029aeec634cef7343a9ed201a4792fb7c32b9f1f6613f25844b0c249
+Description:  GNU crypto library
+
+Package: libnfnetlink
+Version: 1.0.1-1
+Depends: libc
+Source: package/libs/libnfnetlink
+License: GPL-2.0+
+Section: libs
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 8930
+Filename: libnfnetlink_1.0.1-1_mvebu64.ipk
+Size: 9799
+MD5Sum: 9573f227952a7fd62f59b18ec14b4714
+SHA256sum: 49919ae21bdf250c5136501c1c511af5565bae43f68f47142ab7c5742199084c
+Description:  libnfnetlink is is the low-level library for netfilter related kernel/userspace communication.
+ It provides a generic messaging infrastructure for in-kernel netfilter subsystems
+ (such as nfnetlink_log, nfnetlink_queue, nfnetlink_conntrack) and their respective users
+ and/or management tools in userspace.
+
+Package: libnl-tiny
+Version: 0.1-5
+Depends: libc
+Source: package/libs/libnl-tiny
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 12176
+Filename: libnl-tiny_0.1-5_mvebu64.ipk
+Size: 12849
+MD5Sum: 3e8c128ae6424e28d0b10939bd586472
+SHA256sum: 4192d41bc94b46bea2e63fe799c01a8dc4be196fd6457d42af958a9a737c5027
+Description:  This package contains a stripped down version of libnl
+
+Package: libopcodes
+Version: 2.25-1
+Depends: libc, libbfd
+Source: package/devel/binutils
+License: GPL-3.0+
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 90211
+Filename: libopcodes_2.25-1_mvebu64.ipk
+Size: 88161
+MD5Sum: 9aa6ab166e9316a77d0e2518999ec7ce
+SHA256sum: f667558aa76f007295c8c8e4c59833538dbb58513d4897f1c6333688416335af
+Description:  libbfd
+
+Package: libopenssl
+Version: 1.0.2m-1
+Depends: libc, zlib
+Source: package/libs/openssl
+License: OpenSSL
+LicenseFiles: LICENSE
+Section: libs
+Architecture: mvebu64
+Installed-Size: 649209
+Filename: libopenssl_1.0.2m-1_mvebu64.ipk
+Size: 645279
+MD5Sum: f2dd2e6d18b6e5debdcfcfe0f011ff94
+SHA256sum: c0dfb0088776d1adcc2a8a7d7b6b2820ebddf34d8f31fc43653081dadb3d5ddd
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+ Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+ as a full-strength general purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
+
+Package: libpcap
+Version: 1.7.4-1
+Depends: libc
+Source: package/libs/libpcap
+License: BSD-3-Clause
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 84531
+Filename: libpcap_1.7.4-1_mvebu64.ipk
+Size: 85050
+MD5Sum: 1b0c378be6d384e1b13d98a67d32f1e2
+SHA256sum: 38602e1d8dad80174a45ae225535b8eabca05b7a2ed6222f9a88177543a178d8
+Description:  This package contains a system-independent library for user-level network packet
+ capture.
+
+Package: libpolarssl
+Version: 1.3.17-1
+Depends: libc
+Source: package/libs/polarssl
+License: GPL-2.0+
+Section: libs
+Architecture: mvebu64
+Installed-Size: 121976
+Filename: libpolarssl_1.3.17-1_mvebu64.ipk
+Size: 122609
+MD5Sum: c21f1809ed0c2849f0774474140eb67d
+SHA256sum: 265278aa2dc48fa5a3a43318658e36391f9a75ee20f31daa33f095b2b77c9c4a
+Description:  The aim of the PolarSSL project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the PolarSSL library.
+
+Package: libpthread
+Version: 1.1.16-1
+Depends: libgcc
+Source: package/libs/toolchain
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 125
+Filename: libpthread_1.1.16-1_mvebu64.ipk
+Size: 864
+MD5Sum: ddf21871aaa246eb0e921a09a2eb58fe
+SHA256sum: fb96051378ba3d44ed611fe6c2b2b6aab4d0574da2e0ae70601f0e957a14a6ae
+Description:  POSIX thread library
+
+Package: libreadline
+Version: 6.3-1
+Depends: libc
+Source: package/libs/libreadline
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: libs
+Architecture: mvebu64
+Installed-Size: 104259
+Filename: libreadline_6.3-1_mvebu64.ipk
+Size: 103210
+MD5Sum: 921042427209c0c0dee342cd16db6d93
+SHA256sum: ee1c414f40596e7d2ba3318e4de17742753cd489e7e4c6e8fa506358a5a22b5b
+Description:  The Readline library provides a set of functions for use by applications 
+ that allow users to edit command lines as they are typed in. Both Emacs 
+ and vi editing modes are available. The Readline library includes 
+ additional functions to maintain a list of previously-entered command 
+ lines, to recall and perhaps reedit those lines, and perform csh-like 
+ history expansion on previous commands.
+
+Package: librt
+Version: 1.1.16-1
+Depends: libpthread
+Source: package/libs/toolchain
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 125
+Filename: librt_1.1.16-1_mvebu64.ipk
+Size: 878
+MD5Sum: a03c60aa5d921dc413fbdb6a65cba90f
+SHA256sum: 5f4469bf9317a68bb22d8017d0c6bef01c7207f42c9cdf1094a00c157a7ba91e
+Description:  POSIX.1b RealTime extension library
+
+Package: libstdcpp
+Version: 5.3.0-1
+Source: package/libs/toolchain
+License: GPL-3.0-with-GCC-exception
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 339845
+Filename: libstdcpp_5.3.0-1_mvebu64.ipk
+Size: 333971
+MD5Sum: 7a22a6904dc4ab3ca8838c71a8334da4
+SHA256sum: 0e83d2edeec8e6232c52c6a6912345cc04ab410ffe3afdacefe62ecee6bf2274
+Description:  GNU Standard C++ Library v3
+
+Package: libubox-lua
+Version: 2016-11-29-77a629375d7387a33a59509d9d751a8798134cab
+Depends: libc, libubox, liblua
+Source: package/libs/libubox
+License: ISC
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 3900
+Filename: libubox-lua_2016-11-29-77a629375d7387a33a59509d9d751a8798134cab_mvebu64.ipk
+Size: 4639
+MD5Sum: c70db4a20be7580575f554bbb8f81339
+SHA256sum: 72324922ec827829d25c7fcd00b3735a5c31342f41b32b88d1a5ab4da30c23e8
+Description:  Lua binding for the OpenWrt Basic utility library
+
+Package: libubox
+Version: 2016-11-29-77a629375d7387a33a59509d9d751a8798134cab
+Depends: libc
+Source: package/libs/libubox
+License: ISC
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 18158
+Filename: libubox_2016-11-29-77a629375d7387a33a59509d9d751a8798134cab_mvebu64.ipk
+Size: 18906
+MD5Sum: 49c45371b0dbf7ddfb74dae23315134a
+SHA256sum: 1877b2e661160250cb6ce549297434685d9177c796943d1b86d60c84043e8aad
+Description:  Basic utility library
+
+Package: libubus-lua
+Version: 2016-07-02-053be7df871e05478284235732f8b0608089512f
+Depends: libc, libubus, liblua
+Source: package/system/ubus
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 6363
+Filename: libubus-lua_2016-07-02-053be7df871e05478284235732f8b0608089512f_mvebu64.ipk
+Size: 7133
+MD5Sum: d532cf4c6afbf3d5378b28752d574a80
+SHA256sum: 02efc1715819cb974a882326ca547f863b7f733d421934c9a054cfbb77412e02
+Description:  Lua binding for the OpenWrt RPC client
+
+Package: libubus
+Version: 2016-07-02-053be7df871e05478284235732f8b0608089512f
+Depends: libc, libubox
+Source: package/system/ubus
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 9164
+Filename: libubus_2016-07-02-053be7df871e05478284235732f8b0608089512f_mvebu64.ipk
+Size: 9905
+MD5Sum: 1cd3b9d473719bc27cf8e9093ee1b042
+SHA256sum: b24395723f9f78361e18ae832a0675d7ac29abf5298afc3b79c85f3087f9af41
+Description:  OpenWrt RPC client library
+
+Package: libuci-lua
+Version: 2016-07-04.1-1
+Depends: libc, libuci, liblua
+Source: package/system/uci
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 5935
+Filename: libuci-lua_2016-07-04.1-1_mvebu64.ipk
+Size: 6630
+MD5Sum: 0293edc9ed03d45eed1f9516e0e75d87
+SHA256sum: c65416361fba5c0616a5cecf8fc03cbd900d04cae23f83ca7a953afc92511768
+Description:  Lua plugin for UCI
+
+Package: libuci
+Version: 2016-07-04.1-1
+Depends: libc, libubox
+Source: package/system/uci
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 15131
+Filename: libuci_2016-07-04.1-1_mvebu64.ipk
+Size: 15823
+MD5Sum: cd696b13e64c7e366231526ebc3883df
+SHA256sum: c3bf16fe3b95567f3c7e8f4ef5d89dfb75858de921555fd14283757a341290cd
+Description:  C library for the Unified Configuration Interface (UCI)
+
+Package: libuclient
+Version: 2016-01-28-2e0918c7e0612449024caaaa8d44fb2d7a33f5f3
+Depends: libc, libubox
+Source: package/libs/uclient
+License: ISC
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 8703
+Filename: libuclient_2016-01-28-2e0918c7e0612449024caaaa8d44fb2d7a33f5f3_mvebu64.ipk
+Size: 9421
+MD5Sum: 81c80b127000fdeefd9cc938a1f2b41f
+SHA256sum: 297f2f80f2fc6730e18996f20542400d9f1aab26e9a0846e040792e12bf2877e
+Description:  HTTP/1.1 client library
+
+Package: libusb-1.0
+Version: 1.0.20-1
+Depends: libc, libpthread, librt
+Source: package/libs/libusb
+License: LGPL-2.1
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 25747
+Filename: libusb-1.0_1.0.20-1_mvebu64.ipk
+Size: 26391
+MD5Sum: 334329a9faf9d8462decf1281707d027
+SHA256sum: e9439d0de9a171fe424ea7f9bc16bfa97aaeb92aa0bf88956b4045d36108386f
+Description:  libusb is a C library that gives applications easy access to USB devices on
+ many different operating systems.
+
+Package: libustream-mbedtls
+Version: 2016-07-02-ec80adaa1b47f28d426fa19c692011ce60b992d6
+Depends: libc, libubox, libmbedtls
+Source: package/libs/ustream-ssl
+License: ISC
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 3587
+Filename: libustream-mbedtls_2016-07-02-ec80adaa1b47f28d426fa19c692011ce60b992d6_mvebu64.ipk
+Size: 4307
+MD5Sum: d822121e992b25df7b32876f82e31260
+SHA256sum: 5fc733fa6cb41c9b9484a5c91edce0a64452b574db15dda0b54a4ccb7a091a24
+Description:  ustream SSL Library (mbedtls)
+
+Package: libustream-openssl
+Version: 2016-07-02-ec80adaa1b47f28d426fa19c692011ce60b992d6
+Depends: libc, libubox, libopenssl
+Source: package/libs/ustream-ssl
+License: ISC
+Section: libs
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 3505
+Filename: libustream-openssl_2016-07-02-ec80adaa1b47f28d426fa19c692011ce60b992d6_mvebu64.ipk
+Size: 4223
+MD5Sum: 044a028b1e76e090cf3b20b7cc23f90d
+SHA256sum: 3f237806ee4d12528a46ebeeb936a882b500baa4978abaa652655e69d02ff6ff
+Description:  ustream SSL Library (openssl)
+
+Package: libuuid
+Version: 2.28-1
+Depends: libc, librt
+Source: package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: libs
+Architecture: mvebu64
+Installed-Size: 5362
+Filename: libuuid_2.28-1_mvebu64.ipk
+Size: 6250
+MD5Sum: 1537e13a4fed3f478125a5fdc7538689
+SHA256sum: 2478e57698c403ea1df7b67d7a1fd823c170269ab18b9e3c402e6f9a313f11e3
+Description:  The UUID library is used to generate unique identifiers for objects
+ that may be accessible beyond the local system. This library
+ generates UUIDs compatible with those created by the Open Software
+ Foundation (OSF) Distributed Computing Environment (DCE) utility.
+
+Package: libxtables
+Version: 1.4.21-2
+Depends: libc
+Source: package/network/utils/iptables
+License: GPL-2.0
+Section: libs
+Architecture: mvebu64
+Installed-Size: 36554
+Filename: libxtables_1.4.21-2_mvebu64.ipk
+Size: 37216
+MD5Sum: 23cde46dd56753115e0121b925c22029
+SHA256sum: dffec0249138c860550b66dacb4f42fe3ffaf1f8bb9ff7fb35f1f585c93586af
+Description:  IPv4/IPv6 firewall - shared xtables library
+
+Package: logd
+Version: 2016-07-19-aead2c0cbffdda9b46d74a998a4c6aeef423b21a
+Depends: libc, libubox, libubus, libblobmsg-json
+Source: package/system/ubox
+License: GPL-2.0
+Section: base
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 9548
+Filename: logd_2016-07-19-aead2c0cbffdda9b46d74a998a4c6aeef423b21a_mvebu64.ipk
+Size: 10271
+MD5Sum: fd7703c3ee9c5fcf8a2372ba6554e742
+SHA256sum: 48de8e91566cf4cc627faf482a7045ec38ecde65434bdef5e913f904f8a6f888
+Description:  OpenWrt system log implementation
+
+Package: lua
+Version: 5.1.5-1
+Depends: libc, liblua
+Source: package/utils/lua
+License: MIT
+LicenseFiles: COPYRIGHT
+Section: lang
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 4643
+Filename: lua_5.1.5-1_mvebu64.ipk
+Size: 5437
+MD5Sum: cb7dc0a78aa9ad81269300e844bed533
+SHA256sum: 3404a38ea2b824834adf09baf584ffbd4eccfdc618bea3a3904f1950994d7410
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language interpreter.
+
+Package: mtd
+Version: 21
+Depends: libc, libubox
+Source: package/system/mtd
+License: GPL-2.0+
+Section: utils
+Architecture: mvebu64
+Installed-Size: 12273
+Filename: mtd_21_mvebu64.ipk
+Size: 12989
+MD5Sum: c353253aa6f1811823aa3077ccc1a8f2
+SHA256sum: b641bc5e769a8146b8165249d98161afcca9a1efb1a7560d1eba988f0acc8303
+Description:  This package contains an utility useful to upgrade from other firmware or 
+ older OpenWrt releases.
+
+Package: netifd
+Version: 2016-12-09-edc15caac6c6d3b2d8ea17f98ecbaba81ba573dc
+Depends: libc, libuci, libnl-tiny, libubus, ubus, ubusd, jshn, libubox
+Source: package/network/config/netifd
+License: GPL-2.0
+Section: base
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 65916
+Filename: netifd_2016-12-09-edc15caac6c6d3b2d8ea17f98ecbaba81ba573dc_mvebu64.ipk
+Size: 66594
+MD5Sum: dbdb06978ae782eadc1a572c8006e490
+SHA256sum: 668bb04e1ab9dccc2217d6c77eb93ca4b4c4b3cd649e63d111b6935818b1b8da
+Description:  OpenWrt Network Interface Configuration Daemon
+
+Package: objdump
+Version: 2.25-1
+Depends: libc, libopcodes
+Source: package/devel/binutils
+License: GPL-3.0+
+Section: devel
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 117382
+Filename: objdump_2.25-1_mvebu64.ipk
+Size: 118018
+MD5Sum: 9078fb31edd85097b8372a1cb3651a23
+SHA256sum: e2ebd4406c0d1e562f8b2a1da9c87a222c298aa9167b9ce8ba96ca4ffdd6f54d
+Description:  objdump
+
+Package: odhcp6c
+Version: 2016-02-08-7533a6243dc3ac5a747cf6ccbc4d0539dafd3e07
+Depends: libc
+Source: package/network/ipv6/odhcp6c
+License: GPL-2.0
+Section: net
+Maintainer: Steven Barth <steven@midlink.org>
+Architecture: mvebu64
+Installed-Size: 22970
+Filename: odhcp6c_2016-02-08-7533a6243dc3ac5a747cf6ccbc4d0539dafd3e07_mvebu64.ipk
+Size: 23666
+MD5Sum: 5fe1d1e58107d5ea2b59337e896fa870
+SHA256sum: 63bfdfbef9f1f10d08a1bc9bf5b4467f33470b52a1faa3bf59df20c1c29503ad
+Description:  Embedded DHCPv6-client for OpenWrt
+
+Package: odhcpd
+Version: 2016-10-09-801cfeea100ca7b211c9841f0fcb757b17f47860
+Depends: libc, libubox, libuci, libubus
+Source: package/network/services/odhcpd
+License: GPL-2.0
+Section: net
+Maintainer: Steven Barth <steven@midlink.org>
+Architecture: mvebu64
+Installed-Size: 30475
+Filename: odhcpd_2016-10-09-801cfeea100ca7b211c9841f0fcb757b17f47860_mvebu64.ipk
+Size: 31376
+MD5Sum: a6f58ed6778e36bcb529964d922b67d1
+SHA256sum: a9b413887cf994db5a675e4419ac2a51a5765a4b586d584ebcf92844425295a8
+Description:  odhcpd is a daemon for serving and relaying IP management protocols to
+ configure clients and downstream routers. It tries to follow the RFC 6204
+ requirements for IPv6 home routers.
+ 
+ odhcpd provides server services for DHCP, RA, stateless and stateful DHCPv6,
+ prefix delegation and can be used to relay RA, DHCPv6 and NDP between routed
+ (non-bridged) interfaces in case no delegated prefixes are available.
+
+Package: om-watchdog
+Version: 1-1
+Depends: libc
+Source: package/kernel/om-watchdog
+Section: base
+Architecture: mvebu64
+Installed-Size: 762
+Filename: om-watchdog_1-1_mvebu64.ipk
+Size: 1457
+MD5Sum: eecf03543ae0aa3400d4d8e3435fda2a
+SHA256sum: 43aada6ef4b98d61dd26426cbc1e2675445d925ecd1462eb7ab6b924ceedaaed
+Description:  This package contains the hw watchdog script for the OM1P and OM2P device.
+
+Package: openssl-util
+Version: 1.0.2m-1
+Depends: libc, libopenssl
+Source: package/libs/openssl
+License: OpenSSL
+LicenseFiles: LICENSE
+Section: utils
+Architecture: mvebu64
+Installed-Size: 197597
+Filename: openssl-util_1.0.2m-1_mvebu64.ipk
+Size: 193136
+MD5Sum: a2cd361ef7f6319767ff12f22c3bfb87
+SHA256sum: 490b5e79a903607339fa752e5013b73cd9a32b396730ea155318487a4fb16718
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+ Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+ as a full-strength general purpose cryptography library.
+ This package contains the OpenSSL command-line utility.
+
+Package: opkg-smime
+Version: 9c97d5ecd795709c8584e972bfdf3aee3a5b846d-15
+Depends: libc, uclient-fetch, libopenssl
+Source: package/system/opkg
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: base
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mvebu64
+Installed-Size: 61099
+Filename: opkg-smime_9c97d5ecd795709c8584e972bfdf3aee3a5b846d-15_mvebu64.ipk
+Size: 62091
+MD5Sum: a3fa1e352afa842cd2735bc501484e81
+SHA256sum: c152c8b7073ee7a71b4d9c13b90bc93a83d5edcf3925d0d7047c19a00a367a9d
+Description:  Lightweight package management system
+ opkg is the opkg Package Management System, for handling
+ installation and removal of packages on a system. It can
+ recursively follow dependencies and download all packages
+ necessary to install a particular package.
+ 
+ opkg knows how to install both .ipk and .deb packages.
+ 
+ This package allows the Package index to be verified with S/MIME.
+
+Package: opkg
+Version: 9c97d5ecd795709c8584e972bfdf3aee3a5b846d-15
+Depends: libc, uclient-fetch
+Source: package/system/opkg
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: base
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mvebu64
+Installed-Size: 60872
+Filename: opkg_9c97d5ecd795709c8584e972bfdf3aee3a5b846d-15_mvebu64.ipk
+Size: 61815
+MD5Sum: e6f4eec388a4be0b4405c7b0805ad9af
+SHA256sum: 3de7e7f2bcb7a6a6c2808950ba835968af104fd65dc6fd1bf3803fdf50e4b6e1
+Description:  Lightweight package management system
+ opkg is the opkg Package Management System, for handling
+ installation and removal of packages on a system. It can
+ recursively follow dependencies and download all packages
+ necessary to install a particular package.
+ 
+ opkg knows how to install both .ipk and .deb packages.
+
+Package: perf
+Version: 4.4.52-2
+Depends: libc, libelf1, libdw, libpthread, librt, objdump
+Source: package/devel/perf
+Section: devel
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 584939
+Filename: perf_4.4.52-2_mvebu64.ipk
+Size: 584546
+MD5Sum: 264369ef4c06715bc9c4b25553d4738c
+SHA256sum: 9bf8a2227a940e3114279553bdb26f9eee6bffa67f814d490430c95ee4f3b8ba
+Description:  perf is the Linux performance monitoring tool
+
+Package: ppp-mod-pppoe
+Version: 2.4.7-9
+Depends: libc, kmod-pppoe
+Source: package/network/services/ppp
+License: BSD-4-Clause
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 9953
+Filename: ppp-mod-pppoe_2.4.7-9_mvebu64.ipk
+Size: 10708
+MD5Sum: 7a13db5dd417ca03b23a5041efd1dec0
+SHA256sum: 4c8f2601c4c71932db78e4c56d31e9309171e416d7a929ef05e37fb27ca9ef5d
+Description:  This package contains a PPPoE (PPP over Ethernet) plugin for ppp.
+
+Package: ppp
+Version: 2.4.7-9
+Depends: libc, kmod-ppp
+Source: package/network/services/ppp
+License: BSD-4-Clause
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 110660
+Filename: ppp_2.4.7-9_mvebu64.ipk
+Size: 111418
+MD5Sum: bdd3c02bf57d712eecdef3629302eeca
+SHA256sum: 427b9427397ca23693f65be288581c9b2970ab29c64652c201389656662b7916
+Description:  This package contains the PPP (Point-to-Point Protocol) daemon.
+
+Package: procd-nand
+Version: 2016-07-29-2c9f5d4af1559b840c42f1443ede9f9fe809c58b
+Depends: libc, ubi-utils
+Source: package/system/procd
+License: GPL-2.0
+Section: utils
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 34410
+Filename: procd-nand_2016-07-29-2c9f5d4af1559b840c42f1443ede9f9fe809c58b_mvebu64.ipk
+Size: 35260
+MD5Sum: 5ddd68e31b76e3cfa31889bada2b4758
+SHA256sum: 3e5b32c0a5621c2514c42dd0af5b16ab8e26049350aa17c8606d5ac9b6711a8d
+Description:  OpenWrt sysupgrade nand helper
+
+Package: procd
+Version: 2016-07-29-2c9f5d4af1559b840c42f1443ede9f9fe809c58b
+Depends: libc, ubusd, ubus, libjson-script, ubox, libubox, libubus, procd-nand
+Source: package/system/procd
+License: GPL-2.0
+Section: base
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 39411
+Filename: procd_2016-07-29-2c9f5d4af1559b840c42f1443ede9f9fe809c58b_mvebu64.ipk
+Size: 39761
+MD5Sum: c1d1a4f78d194b8483ff10f8dd907860
+SHA256sum: 48d2fc44ad3e34e8dc852e32dbaea1698c51865c0e585541cd3a14a6c59a9b60
+Description:  OpenWrt system process manager
+
+Package: px5g
+Version: 4
+Depends: libc, libpolarssl
+Source: package/utils/px5g
+License: LGPL-2.1
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 4004
+Filename: px5g_4_mvebu64.ipk
+Size: 4770
+MD5Sum: 29f8fc2edc9b07323ec743f8587d3944
+SHA256sum: ec6996dfbb0c008d7c1b7e9f78070316afee1624e5eb73993c9276060eabb891
+Description:  Px5g is a tiny standalone X.509 certificate generator.
+ It suitable to create key files and certificates in DER
+ and PEM format for use with stunnel, uhttpd and others.
+
+Package: resolveip
+Version: 2
+Depends: libc
+Source: package/network/utils/resolveip
+License: GPL-2.0
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 1800
+Filename: resolveip_2_mvebu64.ipk
+Size: 2667
+MD5Sum: 76a2f8efef636bc76f3753892658e754
+SHA256sum: c9e64697e5cfcb6531fd6a3e071350a272fdb0fdb28c07fa0473d03857aa1831
+Description:  This package contains the small resolveip utility which
+ can be used by scripts to turn host names into numeric
+ IP addresses. It supports IPv4 and IPv6 resolving and
+ has a configurable timeout to guarantee a certain maximum
+ runtime in case of slow or defunct DNS servers.
+
+Package: rpcd-mod-file
+Version: 2016-06-30-23417e94d25570e6d62542bac46edd51e8e0243a
+Depends: libc, libubus, libubox, rpcd
+Source: package/system/rpcd
+License: ISC
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 5419
+Filename: rpcd-mod-file_2016-06-30-23417e94d25570e6d62542bac46edd51e8e0243a_mvebu64.ipk
+Size: 6179
+MD5Sum: e4846d97e8f91c145ea958692e1066f4
+SHA256sum: f50d7bf5d9e24b8ceef2bca775bcd8daa3acc7329b8160a243c25b6fc6cd338a
+Description:  Provides ubus calls for file and directory operations.
+
+Package: rpcd-mod-iwinfo
+Version: 2016-06-30-23417e94d25570e6d62542bac46edd51e8e0243a
+Depends: libc, libubus, libubox, rpcd, libiwinfo
+Source: package/system/rpcd
+License: ISC
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 5485
+Filename: rpcd-mod-iwinfo_2016-06-30-23417e94d25570e6d62542bac46edd51e8e0243a_mvebu64.ipk
+Size: 6268
+MD5Sum: d496ddddb8f6b8f24c70357e024af942
+SHA256sum: c8d69040a90735a203476d755eb7965f9103ed41e9ed6b92df02472a3c9b1a2d
+Description:  Provides ubus calls for accessing iwinfo data.
+
+Package: rpcd-mod-rpcsys
+Version: 2016-06-30-23417e94d25570e6d62542bac46edd51e8e0243a
+Depends: libc, libubus, libubox, rpcd
+Source: package/system/rpcd
+License: ISC
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 2632
+Filename: rpcd-mod-rpcsys_2016-06-30-23417e94d25570e6d62542bac46edd51e8e0243a_mvebu64.ipk
+Size: 3405
+MD5Sum: 73627cde18a3c9a367a36b293a628825
+SHA256sum: b4b506b43a3af5cf879503b63c484ea47dcfe1c06664d55bf065a65ef44696b6
+Description:  Provides ubus calls for sysupgrade and password changing.
+
+Package: rpcd
+Version: 2016-06-30-23417e94d25570e6d62542bac46edd51e8e0243a
+Depends: libc, libubus, libubox, libuci, libblobmsg-json
+Source: package/system/rpcd
+License: ISC
+Section: utils
+Maintainer: Jo-Philipp Wich <jow@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 19057
+Filename: rpcd_2016-06-30-23417e94d25570e6d62542bac46edd51e8e0243a_mvebu64.ipk
+Size: 19799
+MD5Sum: 44b67158537ad9a6547cce45ecaa454a
+SHA256sum: 3840520e6ccc2448d6ccb629f4a1d3953ba25a6036c10ebe89645b596514020a
+Description:  This package provides the UBUS RPC backend server to expose various
+ functionality to frontend programs via JSON-RPC.
+
+Package: swap-utils
+Version: 2.28-1
+Depends: libc, librt, libblkid
+Source: package/utils/util-linux
+License: GPL-2.0
+LicenseFiles: COPYING getopt/COPYING libblkid/COPYING libmount/COPYING Documentation/licenses/COPYING.GPLv2 Documentation/licenses/COPYING.LGPLv2.1 libuuid/COPYING Documentation/licenses/COPYING.BSD-3
+Section: utils
+Architecture: mvebu64
+Installed-Size: 27273
+Filename: swap-utils_2.28-1_mvebu64.ipk
+Size: 27960
+MD5Sum: 926a068f5d71536e61c97bd01fb1ac41
+SHA256sum: f52b598365a281df7660f0c82a5f149c7eab4e148f2a40168b2971534546f456
+Description:  contains: mkswap, swaplabel
+
+Package: terminfo
+Version: 5.9-3
+Depends: libc
+Source: package/libs/ncurses
+License: MIT
+LicenseFiles: README
+Section: libs
+Architecture: mvebu64
+Installed-Size: 5793
+Filename: terminfo_5.9-3_mvebu64.ipk
+Size: 6441
+MD5Sum: 33f99f827781ef1706cf5dbe220e4416
+SHA256sum: 9fd3af64335554ab4842946be18bdeedc44aac516a35205de9b8b685d22ddb09
+Description:  Terminal Info Database (ncurses)
+
+Package: trace-cmd-extra
+Version: v2.4.2-1
+Depends: libc
+Source: package/devel/trace-cmd
+License: GPL-2.0
+Section: devel
+Architecture: mvebu64
+Installed-Size: 9361
+Filename: trace-cmd-extra_v2.4.2-1_mvebu64.ipk
+Size: 9999
+MD5Sum: 13aeabf882c331117d63619e12571da4
+SHA256sum: f60d2d4caa9c37628e08a4f6f989063baa4598b5dee748ea75b37e9df3b94856
+Description:  Extra plugins for trace-cmd
+
+Package: trace-cmd
+Version: v2.4.2-1
+Depends: libc
+Source: package/devel/trace-cmd
+License: GPL-2.0
+Section: devel
+Architecture: mvebu64
+Installed-Size: 96117
+Filename: trace-cmd_v2.4.2-1_mvebu64.ipk
+Size: 96759
+MD5Sum: f0010db1f587894e5192e7f65bf0cfa0
+SHA256sum: 965e6c676b2a9c7a5846132eed0a3ddb6b70143c84d0db3484770f8f34d2c441
+Description:  Linux trace command line utility
+
+Package: ubi-utils
+Version: 1.5.1-2
+Depends: libc
+Source: package/utils/ubi-utils
+License: GPLv2
+Section: utils
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 78283
+Filename: ubi-utils_1.5.1-2_mvebu64.ipk
+Size: 78168
+MD5Sum: 5db55b776e4a32f70726b57a36516722
+SHA256sum: bfd8d462b15d1b6926ca2eb9db6cc8798871a20dd31d16e69834d0e14ea3e867
+Description:  Utilities for manipulating memory technology devices.
+
+Package: uboot-envtools
+Version: 2015.10-1
+Depends: libc
+Source: package/boot/uboot-envtools
+License: GPL-2.0 GPL-2.0+
+LicenseFiles: Licenses/README
+Section: utils
+Architecture: mvebu64
+Installed-Size: 10705
+Filename: uboot-envtools_2015.10-1_mvebu64.ipk
+Size: 11449
+MD5Sum: bef8176930ee4e6b51f42571711dde4b
+SHA256sum: 533ea227d0526d1773c55b07a5bbb9d12f278246040867d68167995895bed839
+Description:  This package includes tools to read and modify U-Boot bootloader environment.
+
+Package: ubox
+Version: 2016-07-19-aead2c0cbffdda9b46d74a998a4c6aeef423b21a
+Depends: libc, libubox, ubusd, ubus, libubus, libuci
+Source: package/system/ubox
+License: GPL-2.0
+Section: base
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 15005
+Filename: ubox_2016-07-19-aead2c0cbffdda9b46d74a998a4c6aeef423b21a_mvebu64.ipk
+Size: 15691
+MD5Sum: 6634d78b02f9abeeb9676c3a2af16b90
+SHA256sum: f09775a6c370dc13da995052fe56843477dc4ddb321c8294540cdab8372824b8
+Description:  OpenWrt system helper toolbox
+
+Package: ubus
+Version: 2016-07-02-053be7df871e05478284235732f8b0608089512f
+Depends: libc, libubus, libblobmsg-json, ubusd
+Source: package/system/ubus
+License: LGPL-2.1
+Section: base
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 5173
+Filename: ubus_2016-07-02-053be7df871e05478284235732f8b0608089512f_mvebu64.ipk
+Size: 5897
+MD5Sum: 5ffb6c4a37640c60061c93e0952330d7
+SHA256sum: 3688effb3b58bdcc631807180ac6a497ccedb4c1d24bb52c3906da66b5aa2289
+Description:  OpenWrt RPC client utility
+
+Package: ubusd
+Version: 2016-07-02-053be7df871e05478284235732f8b0608089512f
+Depends: libc, libubox, libblobmsg-json
+Source: package/system/ubus
+License: LGPL-2.1
+Section: base
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 10613
+Filename: ubusd_2016-07-02-053be7df871e05478284235732f8b0608089512f_mvebu64.ipk
+Size: 11346
+MD5Sum: 6bdfb689da0cfe00b8424163da182124
+SHA256sum: 6530cf7f61e85f874b30ccf6d0bdc7413e2410ad8ecb0f984b00650fa67a52b1
+Description:  OpenWrt RPC daemon
+
+Package: uci
+Version: 2016-07-04.1-1
+Depends: libc, libuci
+Source: package/system/uci
+License: LGPL-2.1
+Section: base
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 7089
+Filename: uci_2016-07-04.1-1_mvebu64.ipk
+Size: 7835
+MD5Sum: 37419ac81d3e31ea890dbe0be6daf888
+SHA256sum: 9e22a20a929b6350f63cd3987b3dba7d0a39bc86055dd1f9ed36d22b4bf02fef
+Description:  Utility for the Unified Configuration Interface (UCI)
+
+Package: uclibcxx
+Version: 0.2.4-2
+Depends: libc
+Source: package/libs/uclibc++
+License: LGPL-2.1+
+Section: libs
+Architecture: mvebu64
+Installed-Size: 63912
+Filename: uclibcxx_0.2.4-2_mvebu64.ipk
+Size: 64014
+MD5Sum: d143e3eacc42b6ca69eef27424de52fb
+SHA256sum: 80fca92a7f40c432ef11bb5e1ee8939d0db178f11b9f6458bee3f3d3c9cba440
+Description:  C++ library for embedded systems
+
+Package: uclient-fetch
+Version: 2016-01-28-2e0918c7e0612449024caaaa8d44fb2d7a33f5f3
+Depends: libc, libuclient
+Source: package/libs/uclient
+License: ISC
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 6812
+Filename: uclient-fetch_2016-01-28-2e0918c7e0612449024caaaa8d44fb2d7a33f5f3_mvebu64.ipk
+Size: 7579
+MD5Sum: 9e3697e415807a07aee7d09fa1186d06
+SHA256sum: aa2693a3256b9d3eefbbec83c2fa05c4d6553525b551c170bbe5972d01d7263d
+Description:  Tiny wget replacement using libuclient
+
+Package: uhttpd-mod-ubus
+Version: 2016-10-05-fe01ef3f52adae9da38ef47926cd50974af5d6b7
+Depends: libc, uhttpd, libubus, libblobmsg-json
+Source: package/network/services/uhttpd
+License: ISC
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 5607
+Filename: uhttpd-mod-ubus_2016-10-05-fe01ef3f52adae9da38ef47926cd50974af5d6b7_mvebu64.ipk
+Size: 6400
+MD5Sum: 79238a55cb875bd7c76d681e3edba491
+SHA256sum: ab072738559d6d8697281bfe44c236e23fb9ace3b0dd7113b867709d6cb28405
+Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
+ session.* namespace and procedures.
+
+Package: uhttpd
+Version: 2016-10-05-fe01ef3f52adae9da38ef47926cd50974af5d6b7
+Depends: libc, libubox, libblobmsg-json, libjson-script
+Source: package/network/services/uhttpd
+License: ISC
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 24095
+Filename: uhttpd_2016-10-05-fe01ef3f52adae9da38ef47926cd50974af5d6b7_mvebu64.ipk
+Size: 24809
+MD5Sum: 45b6e223ec639a110fe35c4e99d2b6dc
+SHA256sum: c98e879bd0c5fc6148f2d446e9d817f80af19d9e823b9dc76aedf292dcfcd6f6
+Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
+ support. It is intended as a drop-in replacement for the Busybox
+ HTTP daemon.
+
+Package: usign
+Version: 2016-07-04-ef6419142a3b0fbcddcccf536e3c1880302c6f89
+Depends: libc, libubox
+Source: package/system/usign
+License: ISC
+Section: base
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 10103
+Filename: usign_2016-07-04-ef6419142a3b0fbcddcccf536e3c1880302c6f89_mvebu64.ipk
+Size: 10853
+MD5Sum: 48337f75924051ab229cd7a7ad41f6e4
+SHA256sum: 1ab30e4bcee8aa3a0723a3227e92a002dae59eb2dfd8a5c03f94be070ff15eb8
+Description:  OpenWrt signature verification utility
+
+Package: valgrind-cachegrind
+Version: 3.11.0-1
+Depends: libc, valgrind
+Source: package/devel/valgrind
+License: GPL-2.0+
+Section: devel
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 586373
+Filename: valgrind-cachegrind_3.11.0-1_mvebu64.ipk
+Size: 586849
+MD5Sum: 23b18761aa331b5e4c8c773e16fdfdeb
+SHA256sum: 3d12292bc98cfe56446f2c8e76dc7b06d369d2adb8617a72ffad300803303e7f
+Description:  debugging and profiling tools for Linux (cache profiling)
+
+Package: valgrind
+Version: 3.11.0-1
+Depends: libc, libpthread, librt
+Source: package/devel/valgrind
+License: GPL-2.0+
+Section: devel
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 1218931
+Filename: valgrind_3.11.0-1_mvebu64.ipk
+Size: 1218520
+MD5Sum: 11195b11fec14531fe79996ced292a81
+SHA256sum: ac4b852ee71b71e89f75788f40778c9ca2fce90269909f907c8e6e6ced3feff9
+Description:  Valgrind is an award-winning suite of tools for debugging and
+ profiling Linux programs. With the tools that come with Valgrind,
+ you can automatically detect many memory management and threading
+ bugs, avoiding hours of frustrating bug-hunting, making your
+ programs more stable. You can also perform detailed profiling,
+ to speed up and reduce memory use of your programs.
+
+Package: wireless-tools
+Version: 29-5
+Depends: libc
+Source: package/network/utils/wireless-tools
+License: GPL-2.0
+Section: net
+Maintainer: Felix Fietkau <nbd@nbd.name>
+Architecture: mvebu64
+Installed-Size: 22209
+Filename: wireless-tools_29-5_mvebu64.ipk
+Size: 22905
+MD5Sum: 0c336e1a300d801dec5c32bcf3fcce12
+SHA256sum: bfcef474a7ea6764e62cf1651e6a37c9b0103ed8e338e9e8f6811c1097633e10
+Description:  This package contains a collection of tools for configuring wireless
+ adapters implementing the "Linux Wireless Extensions".
+
+Package: zlib-dev
+Version: 1.2.11-2
+Depends: libc, zlib
+Source: package/libs/zlib
+License: Zlib
+LicenseFiles: README
+Section: devel
+Architecture: mvebu64
+Installed-Size: 75574
+Filename: zlib-dev_1.2.11-2_mvebu64.ipk
+Size: 76330
+MD5Sum: a14a65e02946d3156a0bac0b1ed78282
+SHA256sum: e92d201d28d852f6d3da3f49cd6c4fe8bd071646736a37071e7cb30fec9c68e4
+Description:  zlib is a lossless data-compression library.
+ This package includes the development support files.
+
+Package: zlib
+Version: 1.2.11-2
+Depends: libc
+Source: package/libs/zlib
+License: Zlib
+LicenseFiles: README
+Section: libs
+Architecture: mvebu64
+Installed-Size: 39084
+Filename: zlib_1.2.11-2_mvebu64.ipk
+Size: 39879
+MD5Sum: 0977338af10873f9bf7acf5c547367e9
+SHA256sum: 9dc644c92921a6bdfff659a3326ad95c1118b851e7e69ed03430c21369b12bbf
+Description:  zlib is a lossless data-compression library.
+ This package includes the shared library.
+
+Package: zram-swap
+Version: 1-2
+Depends: libc, kmod-zram, swap-utils, block-mount
+Source: package/system/zram-swap
+Section: utils
+Architecture: all
+Installed-Size: 1121
+Filename: zram-swap_1-2_all.ipk
+Size: 1872
+MD5Sum: cbdd46f8a7de436639e0c71acbd805b7
+SHA256sum: 2b648aa74b6f58dd78b889928237fdda271d88e3a6c9acc8df687d7aca262ddb
+Description:  A script to activate swaping on a compressed zram partition. This 
+ could be used to increase the available memory, by using compressed 
+ memory.
+

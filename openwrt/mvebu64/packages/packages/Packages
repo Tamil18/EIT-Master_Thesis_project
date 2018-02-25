@@ -1,0 +1,2495 @@
+Package: acme
+Version: 1.6-3
+Depends: libc, curl, ca-bundle, openssl-util, netcat
+Source: feeds/packages/net/acme
+License: GPLv3
+Section: net
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 35210
+Filename: acme_1.6-3_all.ipk
+Size: 36078
+MD5Sum: a2e7497c24478d80930bc7aa6eb66546
+SHA256sum: 16f385d2d750363dd138ec2d1e2c944b611bec64f76a5fe5cb340abdedc93b43
+Description:  A client for issuing Letsencrypt certificates.
+
+Package: adblock
+Version: 3.5.1-1
+Depends: libc, jshn, jsonfilter
+Source: feeds/packages/net/adblock
+License: GPL-3.0+
+Section: net
+Maintainer: Dirk Brenken <dev@brenken.org>
+Architecture: all
+Installed-Size: 10528
+Filename: adblock_3.5.1-1_all.ipk
+Size: 11477
+MD5Sum: eeaa900add2c5085ff15c592bb2d2a15
+SHA256sum: d3710a93064c7aa40455a0aefa648c057b8f71a7a9fd9bddfd3485f77f7acf7f
+Description:  Powerful adblock script to block ad/abuse domains via dnsmasq, unbound, named, kresd or dnscrypt-proxy.
+ The script supports many domain blacklist sites plus manual black- and whitelist overrides.
+ Please see https://github.com/openwrt/packages/blob/master/net/adblock/files/README.md for further information.
+ 
+
+Package: aria2
+Version: 1.33.0-1
+Depends: libc, zlib, libstdcpp, libopenssl
+Source: feeds/packages/net/aria2
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Require-User: aria2=6800:aria2=6800
+Maintainer: Imre Kaloz <kaloz@openwrt.org>, Hsing-Wang Liao <kuoruan@gmail.com>
+Architecture: mvebu64
+Installed-Size: 788899
+Filename: aria2_1.33.0-1_mvebu64.ipk
+Size: 786281
+MD5Sum: 04bf2fcba9b7400ba80e968347ac77f7
+SHA256sum: 657b0e9b8035eead2aafe6929cc84809da36514eaf12618b3d91e9d6b169b29e
+Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
+ utility
+
+Package: attendedsysupgrade-common
+Version: 0.1-2
+Depends: libc, rpcd, rpcd-mod-rpcsys
+Source: feeds/packages/utils/attendedsysupgrade-common
+License: GPL-2.0
+Section: utils
+Maintainer: Paul Spooren <paul@spooren.de>
+Architecture: mvebu64
+Installed-Size: 356
+Filename: attendedsysupgrade-common_0.1-2_mvebu64.ipk
+Size: 1406
+MD5Sum: 4a873b69c46b601f3fe5d8be3498df19
+SHA256sum: 7dc0eba71e80b3a046856baf062927bcb810f63d47bc2cd6144284de9f11effc
+Description:  Common needed files for attendedsysupgrade tool
+ 
+ Manages dependencies and brings settings used by clients.
+ 
+ UCI options:
+ 
+ attendedsysupgrade.server.url
+ URL of compatible upgrade server [1]
+ 
+ attendedsysupgrade.client.upgrade_packages
+ Client should request image also if no new release but new packages upgrade are available.
+ 
+ attendedsysupgrade.client.advanced_mode
+ Offer advanced options like editing packages before request and show additional information.
+ 
+ attendedsysupgrade.client.auto_search
+ Tells the client to automattically search for upgrades
+ This can be done when opening luci or login in to console - depends on client.
+ 
+ [1]: https://github.com/aparcar/gsoc17-attended-sysupgrade
+
+Package: autoconf
+Version: 2.69-2
+Depends: libc, m4, perl, perlbase-data, perlbase-file, perlbase-getopt, perlbase-dynaloader, perlbase-text
+Source: feeds/packages/devel/autoconf
+License: GPL-3.0+
+Section: devel
+Maintainer: Heinrich Schuchardt <xypron.glpk@gmx.de>
+Architecture: mvebu64
+Installed-Size: 516960
+Filename: autoconf_2.69-2_mvebu64.ipk
+Size: 517273
+MD5Sum: 16fe1836acbf2a232e469674541b93b2
+SHA256sum: a1b19bfbd407638b52dd7594008e780cb484c09bc245628d43ba146e63c844bd
+Description:  Autoconf is an extensible package of M4 macros that produce shell scripts to
+ automatically configure software source code packages.
+
+Package: automake
+Version: 1.15-4
+Depends: libc, autoconf, perlbase-thread, perlbase-attributes
+Source: feeds/packages/devel/automake
+License: GPL-3.0+
+Section: devel
+Maintainer: Heinrich Schuchardt <xypron.glpk@gmx.de>
+Architecture: mvebu64
+Installed-Size: 372452
+Filename: automake_1.15-4_mvebu64.ipk
+Size: 373335
+MD5Sum: bf06a5cbe5e0730047cbbf4fe56bceeb
+SHA256sum: 10815c9864a0a009f0a58e799cf1dcfc6da286f74632888eebad5a6261887b8b
+Description:  Automake is a tool for automatically generating Makefile.in files compliant
+ with the GNU Coding Standards.
+
+Package: bcp38
+Version: 5-3
+Depends: libc, ipset
+Source: feeds/packages/net/bcp38
+Section: net
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: mvebu64
+Installed-Size: 1972
+Filename: bcp38_5-3_mvebu64.ipk
+Size: 2901
+MD5Sum: 8896fbc196460643498c6af2aae1d369
+SHA256sum: fe7b720a51f07045e174e6003f63a312861213b8bcfd9f7c29a71fe4bf981b00
+Description:  bcp38 implements IETF BCP38 for home routers.
+ See https://tools.ietf.org/html/bcp38.
+ 
+ This package provides BCP38 for IPv4 only - IPv6 uses source 
+ specific default routes, so no firewall configuration is needed.
+
+Package: bridge
+Version: 1.5-5
+Depends: libc
+Source: feeds/packages/net/bridge-utils
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Architecture: mvebu64
+Installed-Size: 8960
+Filename: bridge_1.5-5_mvebu64.ipk
+Size: 9778
+MD5Sum: 509075c93bdd9921dee7c2d17399c8f9
+SHA256sum: f38a66d4969142f6c01d16be07d38b5d400cc6ccb586cfb9a68937ab9f86ff69
+Description:  Manage ethernet bridging: a way to connect networks together to
+ form a larger network.
+
+Package: cgi-io
+Version: 5
+Depends: libc, libubox, libubus
+Source: feeds/packages/net/cgi-io
+License: GPL-2.0+
+Section: net
+Maintainer: John Crispin <blogic@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 6299
+Filename: cgi-io_5_mvebu64.ipk
+Size: 7041
+MD5Sum: e0cd696d1c38ab3644ede50b58c33898
+SHA256sum: 66c5b62c4cd5643dfb3463620a66441f1b6705b04b6152861668287a75b9ae98
+Description:  This package contains an cgi utility that is useful for up/downloading files
+
+Package: clamav
+Version: 0.99.3-1
+Depends: libc, libpthread, uclibcxx, zlib, libcurl, libopenssl, libltdl, libpcre2, musl-fts
+Source: feeds/packages/net/clamav
+License: GPL-2.0
+Section: net
+Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr> Lucian Cristian <lucian.cristian@gmail.com>
+Architecture: mvebu64
+Installed-Size: 999411
+Filename: clamav_0.99.3-1_mvebu64.ipk
+Size: 995487
+MD5Sum: 5d2c3dcc289e3b4ccee68a459c958712
+SHA256sum: 107a8e2f7dc50bbf307b82dce8b76fbedab13086b4397581a9526066ed1311d6
+Description:  ClamAV is an open source antivirus engine for detecting trojans,
+ viruses, malware & other malicious threats.
+
+Package: collectd-mod-cpu
+Version: 5.8.0-3
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: mvebu64
+Installed-Size: 3675
+Filename: collectd-mod-cpu_5.8.0-3_mvebu64.ipk
+Size: 4376
+MD5Sum: c792cb6b87e83d7afc927694d46088b1
+SHA256sum: 5ebdf1fc5dbdfa122900c12e915acc269d9e4a01050f28b3d1160666810e8382
+Description:  CPU input plugin
+
+Package: collectd-mod-interface
+Version: 5.8.0-3
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: mvebu64
+Installed-Size: 3310
+Filename: collectd-mod-interface_5.8.0-3_mvebu64.ipk
+Size: 4020
+MD5Sum: fd400225c6f92d86011768c7b505e0be
+SHA256sum: 7897bc838eebad775d7732b3bbe82b05b2a57249ac34336185d6908c020e6f61
+Description:  network interfaces input plugin
+
+Package: collectd-mod-iwinfo
+Version: 5.8.0-3
+Depends: libc, collectd, libiwinfo
+Source: feeds/packages/utils/collectd
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: mvebu64
+Installed-Size: 3410
+Filename: collectd-mod-iwinfo_5.8.0-3_mvebu64.ipk
+Size: 4124
+MD5Sum: e532ca2248a8b01ac3d8a3cc27e1efe9
+SHA256sum: 37934dc6a50a5be2939c16283ca45b1d041eff7fac173be2861ccd5caf2db338
+Description:  libiwinfo wireless statistics plugin
+
+Package: collectd-mod-load
+Version: 5.8.0-3
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: mvebu64
+Installed-Size: 1761
+Filename: collectd-mod-load_5.8.0-3_mvebu64.ipk
+Size: 2505
+MD5Sum: af70c4f0f360bea48c964e73c183cdfe
+SHA256sum: 93cf750e5dcb4b5b3fad379bfef6faa847e6976741d1221097e74d6a50866cb9
+Description:  system load input plugin
+
+Package: collectd-mod-memory
+Version: 5.8.0-3
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: mvebu64
+Installed-Size: 2517
+Filename: collectd-mod-memory_5.8.0-3_mvebu64.ipk
+Size: 3237
+MD5Sum: 8119b7eebf75e193ea58f0aff2f39d1c
+SHA256sum: a0957ff6390888e3682aa41e2ce4c9998c692249ecb08d41bdf1e4168d326c5d
+Description:  physical memory usage input plugin
+
+Package: collectd-mod-network
+Version: 5.8.0-3
+Depends: libc, collectd
+Source: feeds/packages/utils/collectd
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: mvebu64
+Installed-Size: 13686
+Filename: collectd-mod-network_5.8.0-3_mvebu64.ipk
+Size: 14373
+MD5Sum: 847369d3b6c3184d4c4d5c1b140522c0
+SHA256sum: a3f449c726945d13fe784c6d04d845123367c401482c913626e5f1ab9cd5e1c9
+Description:  network input/output plugin
+
+Package: collectd-mod-rrdtool
+Version: 5.8.0-3
+Depends: libc, collectd, librrd1
+Source: feeds/packages/utils/collectd
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: mvebu64
+Installed-Size: 10182
+Filename: collectd-mod-rrdtool_5.8.0-3_mvebu64.ipk
+Size: 10915
+MD5Sum: ca8e91513bca4cedc296731002603677
+SHA256sum: cd945c3655f358e4fdca4ad474cbb2e7a53dffba37048976a0ea428604544c91
+Description:  RRDtool output plugin
+
+Package: collectd
+Version: 5.8.0-3
+Depends: libc, libpthread, zlib, libltdl, libip4tc
+Source: feeds/packages/utils/collectd
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>, Hannu Nyman <hannu.nyman@iki.fi>
+Architecture: mvebu64
+Installed-Size: 77552
+Filename: collectd_5.8.0-3_mvebu64.ipk
+Size: 78356
+MD5Sum: 037ea4aa9ef4688973804e3d0c8e2fa5
+SHA256sum: 9194078fa3240cb5eaa9d0a4b5ef99a09599aac0f4ccd0f0c92eb470dbd7e905
+Description:  collectd is a small daemon which collects system information periodically
+ and provides mechanismns to store the values in a variety of ways.
+
+Package: cshark
+Version: 2015-11-24-e575ab3d35d75a6f70488001fcba45690ebe9b3e-3
+Depends: libc, libjson-c, libpcap, libuci, libubox, libuclient, libustream-mbedtls
+Source: feeds/packages/net/cshark
+Section: net
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 8683
+Filename: cshark_2015-11-24-e575ab3d35d75a6f70488001fcba45690ebe9b3e-3_mvebu64.ipk
+Size: 9456
+MD5Sum: 31a9c4386f4522e69c242deafae3faed
+SHA256sum: a07a8ace49ed6c66280b3f3f826194d114342bb62c81cb2395071e4addc00bee
+Description:  CloudShark capture tool
+
+Package: ddns-scripts
+Version: 2.7.7-3
+Source: feeds/packages/net/ddns-scripts
+License: GPL-2.0
+Section: net
+Maintainer: Christian Schoenebeck <christian.schoenebeck@gmail.com>
+Architecture: all
+Installed-Size: 15104
+Filename: ddns-scripts_2.7.7-3_all.ipk
+Size: 16194
+MD5Sum: f79be3093cf49ae150151430919f95fe
+SHA256sum: 3a7c5bb2ff31579088b2d082ea08c0507d3e27d842b4fbc4a47cb4d4c3d9284f
+Description:  Dynamic DNS Client scripts (with IPv6 support) - Info: http://wiki.openwrt.org/doc/howto/ddns.client
+
+Package: diffutils
+Version: 3.6-1
+Depends: libc
+Source: feeds/packages/devel/diffutils
+License: GPL-3.0
+Section: devel
+Maintainer: Roger D <rogerdammit@gmail.com>
+Architecture: mvebu64
+Installed-Size: 120557
+Filename: diffutils_3.6-1_mvebu64.ipk
+Size: 120977
+MD5Sum: e45c26e4f08ca3fce7792f498c0cff78
+SHA256sum: 65037c125324607648cec0a1e61c0b7367efa53a85768d2e374b4c1e4d42e997
+Description:  The Diffutils package contains programs that show the differences between
+ files or directories.
+
+Package: dkjson
+Version: 2.5-3
+Depends: libc, lua
+Source: feeds/packages/lang/dkjson
+License: MIT
+Section: lang
+Maintainer: Lars Gierth <larsg@systemli.org>
+Architecture: mvebu64
+Installed-Size: 6686
+Filename: dkjson_2.5-3_mvebu64.ipk
+Size: 7456
+MD5Sum: 4de99bb3724f44d0e71a7b591a76a940
+SHA256sum: c3dc784ef5840525d58400d4ec0ee0a4c9d89489429c2d4663bb46d49051e5d6
+Description:  Lua JSON parser/serializer with UTF-8 support
+
+Package: dnscrypt-proxy-resolvers
+Version: 1.9.5+git-20171001-2d43be3-8
+Depends: libc
+Source: feeds/packages/net/dnscrypt-proxy
+License: ISC
+Section: net
+Maintainer: Damiano Renfer <damiano.renfer@gmail.com>
+Architecture: mvebu64
+Installed-Size: 7505
+Filename: dnscrypt-proxy-resolvers_1.9.5+git-20171001-2d43be3-8_mvebu64.ipk
+Size: 8281
+MD5Sum: c42efd17e0f37d5ea4739244fe0ccd0a
+SHA256sum: c7dfa2485c277a7b65e66d82bd0f178227eda45f40557f9c5e715dbf0d23edb7
+Description:  Package with current list of dnscrypt-proxy resolvers.
+
+Package: dnscrypt-proxy
+Version: 1.9.5-8
+Depends: libc, libsodium, dnscrypt-proxy-resolvers
+Source: feeds/packages/net/dnscrypt-proxy
+License: ISC
+Section: net
+Maintainer: Damiano Renfer <damiano.renfer@gmail.com>
+Architecture: mvebu64
+Installed-Size: 65031
+Filename: dnscrypt-proxy_1.9.5-8_mvebu64.ipk
+Size: 65914
+MD5Sum: 570701e424bef713c98f167c1b58d54b
+SHA256sum: d03c42e6915e2b483a221de8f6e45eeb1a192760766a9caa27d9f2bd74f63ea3
+Description:  dnscrypt-proxy provides local service which can be used directly as your
+ local resolver or as a DNS forwarder, encrypting and authenticating requests
+ using the DNSCrypt protocol and passing them to an upstream server.
+ The DNSCrypt protocol uses high-speed high-security elliptic-curve cryptography
+ and is very similar to DNSCurve, but focuses on securing communications between
+ a client and its first-level resolver.
+
+Package: dump1090
+Version: 2017-06-01-1
+Depends: libc, libpthread, librtlsdr, uhttpd
+Source: feeds/packages/utils/dump1090
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: utils
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: mvebu64
+Installed-Size: 709824
+Filename: dump1090_2017-06-01-1_mvebu64.ipk
+Size: 703698
+MD5Sum: 94fc5aeb4f456e389679cec6ed036019
+SHA256sum: e92ebd14973efe9cbd71b392c78493dd1673681b1b006bb94879b48260b7029d
+Description:  Dump1090 is a Mode S decoder specifically designed for RTLSDR devices.
+
+Package: dynapoint
+Version: 2
+Depends: libc, lua, libubus-lua, libuci-lua, libubox-lua, luci-lib-nixio
+Source: feeds/packages/net/dynapoint
+License: GPL-3.0+
+Section: net
+Maintainer: Tobias Ilte <tobias.ilte@campus.tu-berlin.de>
+Architecture: mvebu64
+Installed-Size: 2463
+Filename: dynapoint_2_mvebu64.ipk
+Size: 3292
+MD5Sum: 4511a8424909c5b7a210e101ded9401f
+SHA256sum: d8b4ce4d24d3bec26edd2b696d563f66ac06d96bcad56dce139b59a8b34f7520
+Description:  Dynapoint uses LUA scripts to allow dynamic access point creation
+ and deletion depending on changes of certain network conditions.
+
+Package: e2guardian
+Version: 3.2.0-1
+Depends: libc, libpthread, uclibcxx, zlib, libpcre
+Source: feeds/packages/net/e2guardian
+License: GPL-2.0
+Section: net
+Maintainer: Luka Perkov <luka@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 324866
+Filename: e2guardian_3.2.0-1_mvebu64.ipk
+Size: 325252
+MD5Sum: f162e8fd8b4ff5f7c22ccdee41826f86
+SHA256sum: da03a9f6cf998322cb9613f22255820e7cdb329114cade24e376f5b10edb0525
+Description:  E2Guardian
+
+Package: etherwake
+Version: 1.09-4
+Depends: libc
+Source: feeds/packages/net/etherwake
+Section: net
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: mvebu64
+Installed-Size: 5150
+Filename: etherwake_1.09-4_mvebu64.ipk
+Size: 6058
+MD5Sum: 13c9996ad595e5a9039f5d863e8974b4
+SHA256sum: dad21643f6c2993cef3614241fea6a590516ff5f785630d1b57445470358750f
+Description:  You can wake up WOL compliant Computers which have been powered down to
+ sleep mode or start WOL compliant Computers with a BIOS feature.
+ WOL is an abbreviation for Wake-on-LAN. It is a standard that allows you
+ to turn on a computer from another location over a network connection.
+ ether-wake also supports WOL passwords.
+
+Package: ethtool
+Version: 4.13-1
+Depends: libc
+Source: feeds/packages/net/ethtool
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Matthias Schiffer <mschiffer@universe-factory.net>
+Architecture: mvebu64
+Installed-Size: 29858
+Filename: ethtool_4.13-1_mvebu64.ipk
+Size: 30604
+MD5Sum: f54d8d98d0292e018fdb65a711825c2b
+SHA256sum: 205a9da5151fb50ec5c6fa7daf8752702406b417eca0be5317af98ff5a6a1cae
+Description:  ethtool is a small utility for examining and tuning your ethernet-based
+ network interface
+
+Package: fontconfig
+Version: 2.11.1-1
+Depends: libc, libpthread, libexpat, libfreetype
+Source: feeds/packages/utils/fontconfig
+Section: xorg-util
+Architecture: mvebu64
+Installed-Size: 120453
+Filename: fontconfig_2.11.1-1_mvebu64.ipk
+Size: 120466
+MD5Sum: 53461f309910ad73d31b1be124612f3f
+SHA256sum: 3d5234e74004f507e680ad42c9be74c85ab30a2f8492b39766682936aac074cb
+Description:  fontconfig
+
+Package: fwknopd
+Version: 2.6.9-4
+Depends: libc, iptables, libfko, libpcap
+Source: feeds/packages/net/fwknop
+License: GPLv2
+Section: net
+Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
+Architecture: mvebu64
+Installed-Size: 56979
+Filename: fwknopd_2.6.9-4_mvebu64.ipk
+Size: 57978
+MD5Sum: 34750e7a0daa4ecff7b255d7d6e7f84a
+SHA256sum: 1ed043a39b3a6d27a77072e9b73b883a1cd1a5941d5257feda8a691a2ea995a1
+Description:  Fwknop implements an authorization scheme known as Single Packet Authorization
+ (SPA) for Linux systems running iptables.  This mechanism requires only a
+ single encrypted and non-replayed packet to communicate various pieces of
+ information including desired access through an iptables policy. The main
+ application of this program is to use iptables in a default-drop stance to
+ protect services such as SSH with an additional layer of security in order to
+ make the exploitation of vulnerabilities (both 0-day and unpatched code) much
+ more difficult.
+ This package contains the fwknop daemon.
+
+Package: gcc
+Version: 5.4.0-2
+Depends: libc, binutils, libstdcpp
+Source: feeds/packages/devel/gcc
+Section: devel
+Maintainer: Noble Pepper <gccmaintain@noblepepper.com>
+Architecture: mvebu64
+Installed-Size: 23708494
+Filename: gcc_5.4.0-2_mvebu64.ipk
+Size: 23612476
+MD5Sum: 21589aa6d4e9f1c011af555fb5439154
+SHA256sum: c2199809daefc52b1c3f4e0e49b6517973b7791f2c46522d4309dbe7215e57c0
+Description:  build a native toolchain for compiling on target
+
+Package: glib2
+Version: 2.55.1-1
+Depends: libc, zlib, libpthread, libffi, libattr
+Source: feeds/packages/libs/glib2
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: mvebu64
+Installed-Size: 856924
+Filename: glib2_2.55.1-1_mvebu64.ipk
+Size: 851535
+MD5Sum: 33a6408ef85a8bca700e438ac7c97ae9
+SHA256sum: 1bb8f709d038f0bf974eda3688e1fb41d4d851c3d1e25989ea38e459529b77d6
+Description:  The GLib library of C routines
+
+Package: hd-idle
+Version: 1.05-1
+Depends: libc
+Source: feeds/packages/utils/hd-idle
+License: GPL-2.0
+Section: utils
+Maintainer: Lim Guo Wei <limguowei@gmail.com>
+Architecture: mvebu64
+Installed-Size: 4946
+Filename: hd-idle_1.05-1_mvebu64.ipk
+Size: 5712
+MD5Sum: 39d37f69975bcc74c694f03b40578f30
+SHA256sum: 840c3e591a61485bf73f2ccde4989987ed88f00d87b39f8a8b0462dc7e98dec8
+Description:  hd-idle is a utility program for spinning-down external disks after a period of idle time.
+
+Package: htop
+Version: 2.0.2-1
+Depends: libc, libncurses
+Source: feeds/packages/admin/htop
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mvebu64
+Installed-Size: 52430
+Filename: htop_2.0.2-1_mvebu64.ipk
+Size: 53260
+MD5Sum: d8a7a2af9d5f485feefdc7d614dcb865
+SHA256sum: 432ed6acac6e1867da16c440c5c1afff789a2a155027aa69811bab32485b3015
+Description:  Htop is an ncursed-based process viewer similar to top, but
+ it allows to scroll the list vertically and horizontally to
+ see all processes and their full command lines.
+
+Package: ipmitool
+Version: 1.8.18-1
+Depends: libc, libopenssl, libncurses, libreadline
+Source: feeds/packages/admin/ipmitool
+License: BSD-3-clause
+LicenseFiles: COPYING
+Section: admin
+Maintainer: Alexander Couzens <lynxis@fe80.eu>
+Architecture: mvebu64
+Installed-Size: 445357
+Filename: ipmitool_1.8.18-1_mvebu64.ipk
+Size: 443061
+MD5Sum: 3c127e2f889c2d5ed191348cc004db68
+SHA256sum: 522b36a899b3121fa21139f4dbb274083c7f93cec1ef49258e45455b0c2309d0
+Description:  Command-line interface to IPMI-enabled devices
+
+Package: kmod-siit
+Version: 4.4.52+1.2-2
+Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e)
+Source: feeds/packages/net/siit
+License: GPLv2+
+Section: kernel
+Maintainer: Vladimir Ulrich <admin@evl.su>
+Architecture: mvebu64
+Installed-Size: 4846
+Filename: kmod-siit_4.4.52+1.2-2_mvebu64.ipk
+Size: 5649
+MD5Sum: 070070842f60f4c05b5a03a281298717
+SHA256sum: ed3d8de918266488120233791f49e89f5afa8dde1e15e5fe07e3f692f12a2635
+Description:  Stateless IP ICMP Translation Algorithm
+
+Package: libattr
+Version: 20170915-1
+Depends: libc
+Source: feeds/packages/utils/attr
+License: LGPL-2.1 GPL-2.0
+LicenseFiles: doc/COPYING doc/COPYING.LGPL
+Section: libs
+Maintainer: Maxim Storchak <m.storchak@gmail.com>
+Architecture: mvebu64
+Installed-Size: 6160
+Filename: libattr_20170915-1_mvebu64.ipk
+Size: 6929
+MD5Sum: 512a0b1f0df11343e89be95a24f27e2e
+SHA256sum: 6375b9a27d4d6b5b03c15f6d97dd7ffbf71ba61397b38f816c8dac13875a054f
+Description:  Extended attributes support
+ This package provides libattr
+
+Package: libeventlog
+Version: 0.2.12-2
+Depends: libc
+Source: feeds/packages/libs/eventlog
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: mvebu64
+Installed-Size: 6021
+Filename: libeventlog_0.2.12-2_mvebu64.ipk
+Size: 6599
+MD5Sum: 891ab3f6d3bf8c0fd38cdeeace4ea76b
+SHA256sum: 0d3baa6d94ddd2e594fafab5999879c34bda1cc8478848cb41150f215cbd5ce6
+Description:  A new API to format and send structured log messages.
+
+Package: libexif
+Version: 0.6.21-1
+Depends: libc
+Source: feeds/packages/libs/libexif
+License: LGPL-2.1
+LicenseFiles: COPYING
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: mvebu64
+Installed-Size: 62527
+Filename: libexif_0.6.21-1_mvebu64.ipk
+Size: 62614
+MD5Sum: e5c105e61e6ae726bf5e416fc4226dad
+SHA256sum: 78ce4e42e06a85808e4b38d6518cec42a9781e9e204bcab8f91edb9b27bf4140
+Description:  libexif is a library for parsing, editing, and saving EXIF data. It is
+ intended to replace lots of redundant implementations in command-line
+ utilities and programs with GUIs.
+
+Package: libexpat
+Version: 2.2.5-1
+Depends: libc
+Source: feeds/packages/libs/expat
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Steven Barth <cyrus@openwrt.org>, Ted Hess <thess@kitschensync.net>
+Architecture: mvebu64
+Installed-Size: 51249
+Filename: libexpat_2.2.5-1_mvebu64.ipk
+Size: 51833
+MD5Sum: f157e1f39b29bf82d8fbdd96e4f6770f
+SHA256sum: 689583b95550f851a6bc302e9c8d498e4a5fa6530865c721b3b46573fbed6d1e
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffi
+Version: 3.2.1-3
+Depends: libc
+Source: feeds/packages/libs/libffi
+License: MIT
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Peter Wagner <tripolar@gmx.at>
+Architecture: mvebu64
+Installed-Size: 6840
+Filename: libffi_3.2.1-3_mvebu64.ipk
+Size: 7895
+MD5Sum: 05a88597d692a6c994973e0cbf594520
+SHA256sum: d80645dd5ef68bc6847ebe23ca458ba960f282436760f2c95cb3193f96ee6d25
+Description:  The libffi library provides a portable, high level programming interface to
+ various calling conventions. This allows a programmer to call any function
+ specified by a call interface description at run-time.
+ 
+ FFI stands for Foreign Function Interface. A foreign function interface is the
+ popular name for the interface that allows code written in one language to call
+ code written in another language. The libffi library really only provides the
+ lowest, machine dependent layer of a fully featured foreign function interface.
+ A layer must exist above libffi that handles type conversions for values passed
+ between the two languages.
+
+Package: libffmpeg-audio-dec
+Version: 3.2.9-1
+Depends: libc, libpthread, libpthread, zlib, libbz2
+Provides: libffmpeg
+Source: feeds/packages/multimedia/ffmpeg
+License: LGPL-2.1+ GPL-2+ LGPL-3
+LicenseFiles: COPYING.GPLv2 COPYING.GPLv3 COPYING.LGPLv2.1 COPYING.LGPLv3
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>, Ian Leonard <antonlacon@gmail.com>
+Architecture: mvebu64
+Installed-Size: 836455
+Filename: libffmpeg-audio-dec_3.2.9-1_mvebu64.ipk
+Size: 834820
+MD5Sum: d5c9e4a18974d678bc64ee937fea8551
+SHA256sum: 744c01bdde4a3c97900c3615ea80835639bf88f000d5910df439418dc17a1990
+Description:  FFmpeg is a a software package that can record, convert and stream digital
+ audio and video in numerous formats.
+ .
+ This package contains FFmpeg shared libraries for audio decoding
+
+Package: libfko
+Version: 2.6.9-4
+Depends: libc
+Source: feeds/packages/net/fwknop
+License: GPLv2
+Section: libs
+Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
+Architecture: mvebu64
+Installed-Size: 31912
+Filename: libfko_2.6.9-4_mvebu64.ipk
+Size: 32919
+MD5Sum: 09d5b836edf4e0f4e1f55a3b1c748c21
+SHA256sum: 520216d769eb50d3b8109c504f275400bce622f5265c9a383814d49e08cadee3
+Description:  Fwknop implements an authorization scheme known as Single Packet Authorization
+ (SPA) for Linux systems running iptables.  This mechanism requires only a
+ single encrypted and non-replayed packet to communicate various pieces of
+ information including desired access through an iptables policy. The main
+ application of this program is to use iptables in a default-drop stance to
+ protect services such as SSH with an additional layer of security in order to
+ make the exploitation of vulnerabilities (both 0-day and unpatched code) much
+ more difficult.
+ This package contains the libfko shared library.
+
+Package: libflac
+Version: 1.3.2-1
+Depends: libc
+Source: feeds/packages/libs/flac
+License: GFDL-1.2 GPL-2 LGPL-2.1 BSD-3-Clause
+LicenseFiles: README COPYING.FDL COPYING.GPL COPYING.LGPL COPYING.Xiph
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: mvebu64
+Installed-Size: 73926
+Filename: libflac_1.3.2-1_mvebu64.ipk
+Size: 74531
+MD5Sum: 418c729d16c181dae8170242f5a5bd9c
+SHA256sum: 54a7169b69eeeb80c6d642ac4f013186a5266334e9b0968dda86a5bb7cbf8a13
+Description:  Free Lossless Audio Codec library
+
+Package: libfreetype
+Version: 2.9-1
+Depends: libc, zlib, libbz2, libpng
+Source: feeds/packages/libs/freetype
+License: FTL GPL-2.0 MIT ZLIB
+LicenseFiles: docs/LICENSE.TXT docs/FTL.TXT docs/GPLv2.TXT src/bdf/README src/pcf/README src/gzip/zlib.h
+Section: libs
+Maintainer: Val Kulkov <val.kulkov@gmail.com>
+Architecture: mvebu64
+Installed-Size: 271428
+Filename: libfreetype_2.9-1_mvebu64.ipk
+Size: 272077
+MD5Sum: 487384fba3ae705eaa69b20601961175
+SHA256sum: cdb6d411764cb7a8bd977ebfb8bb94079e31e7a7ea3918fc34a6a7945f38f303
+Description:  The FreeType project is a team of volunteers who develop free,
+ portable and high-quality software solutions for digital typography.
+ They specifically target embedded systems and focus on bringing small,
+ efficient and ubiquitous products.
+
+Package: libgd
+Version: 2.2.5-1
+Depends: libc, libjpeg, libpng
+Source: feeds/packages/libs/libgd
+License: MIT
+Section: libs
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mvebu64
+Installed-Size: 87380
+Filename: libgd_2.2.5-1_mvebu64.ipk
+Size: 87449
+MD5Sum: 5882f39c116364f24e672f33e58b3362
+SHA256sum: b3eb3790c22f49b4312919a5aacc640fc5721207bb25c149191968ece240cbbb
+Description:  GD is an open source code library for the dynamic creation of images by
+ programmers. GD creates PNG, JPEG and GIF images, among other formats.
+
+Package: libid3tag
+Version: 0.15.1b-4
+Depends: libc, zlib
+Source: feeds/packages/libs/libid3tag
+License: GPL-2
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: mvebu64
+Installed-Size: 25707
+Filename: libid3tag_0.15.1b-4_mvebu64.ipk
+Size: 26317
+MD5Sum: 6d215d78f0d1c539060668927ddb47d1
+SHA256sum: 1b7be398664a9e7f820a606693452bb03c258c43fe421461ad4ad8f756614700
+Description:  libid3tag is a library for reading and (eventually) writing ID3 tags, both
+ ID3v1 and the various versions of ID3v2.
+
+Package: libjpeg
+Version: 9a-1
+Depends: libc
+Source: feeds/packages/libs/libjpeg
+License: IJG
+LicenseFiles: README
+Section: libs
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mvebu64
+Installed-Size: 94508
+Filename: libjpeg_9a-1_mvebu64.ipk
+Size: 95258
+MD5Sum: 84f16accf8c7e8095871ea1057dfa3eb
+SHA256sum: 525bd8516798fd813472bfa1e0d21b0683b0403a80f52bc56c296688e2182204
+Description:  The Independent JPEG Group's JPEG runtime library
+
+Package: libkmod
+Version: 20-1
+Depends: libc, zlib
+Source: feeds/packages/utils/kmod
+License: LGPL-2.1+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Jeff Waugh <jdub@bethesignal.org>
+Architecture: mvebu64
+Installed-Size: 28257
+Filename: libkmod_20-1_mvebu64.ipk
+Size: 28936
+MD5Sum: 2ccf36b796e8461244004e4bbee5fea2
+SHA256sum: 381434c78c330e1cae498cb9719bc5ed356c295f10049b1a4f8eb6b7af063683
+Description:  Linux kernel module handling (library)
+
+Package: libogg
+Version: 1.3.2-2
+Depends: libc
+Source: feeds/packages/libs/libogg
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: mvebu64
+Installed-Size: 8771
+Filename: libogg_1.3.2-2_mvebu64.ipk
+Size: 9650
+MD5Sum: d1935bf8fdb69bb396aa31e8475101b7
+SHA256sum: 225aab420370beafe3b9f7f72d4871590ecb1df0883a025fc5a5be48c0fb9fba
+Description:  Ogg project codecs use the Ogg bitstream format to arrange the raw,
+ compressed bitstream into a more robust, useful form.  For example,
+ the Ogg bitstream makes seeking, time stamping and error recovery
+ possible, as well as mixing several sepearate, concurrent media
+ streams into a single physical bitstream.
+
+Package: libpcre2
+Version: 10.30-1
+Depends: libc
+Source: feeds/packages/libs/pcre2
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+Maintainer: Shane Peelar <lookatyouhacker@gmail.com>
+Architecture: mvebu64
+Installed-Size: 93117
+Filename: libpcre2_10.30-1_mvebu64.ipk
+Size: 93883
+MD5Sum: 71c686f088d676b368fd4cb4fde3ddd9
+SHA256sum: 876a17717d24e2766a271106b8a8d06c53215ce1b9dbb71536174527ec0a5e02
+Description:  A Perl Compatible Regular Expression library
+
+Package: libpcre
+Version: 8.41-2
+Depends: libc
+Source: feeds/packages/libs/pcre
+License: BSD-3-Clause
+LicenseFiles: LICENCE
+Section: libs
+Maintainer: Thomas Heil <heil@terminal-consulting.de>
+Architecture: mvebu64
+Installed-Size: 76913
+Filename: libpcre_8.41-2_mvebu64.ipk
+Size: 77618
+MD5Sum: 2d9c6df7da29497a1e66932fbd4d5be0
+SHA256sum: 8dcd25c0f5669771fad0b2e19a69a1e81928c86e046ebbd9b54fdff108f0c171
+Description:  A Perl Compatible Regular Expression library
+
+Package: libpng
+Version: 1.6.34-1
+Depends: libc, zlib
+Source: feeds/packages/libs/libpng
+License: Libpng GPL-2.0+ BSD-3-Clause
+Section: libs
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mvebu64
+Installed-Size: 81540
+Filename: libpng_1.6.34-1_mvebu64.ipk
+Size: 82147
+MD5Sum: 16a5f3de939548429d82aa79468fec09
+SHA256sum: 02ddb56c905ab2fc7cc9343086e5bd3ad54031a5b81101297a2220717d07b3df
+Description:  A PNG format files handling library
+
+Package: libqrencode
+Version: 4.0.0-1
+Depends: libc
+Source: feeds/packages/libs/qrencode
+License: LGPL-2.1+
+Section: libs
+Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
+Architecture: mvebu64
+Installed-Size: 15749
+Filename: libqrencode_4.0.0-1_mvebu64.ipk
+Size: 16574
+MD5Sum: 50c3a8157ab55871b5bac0283bcbf900
+SHA256sum: cc9a60423436bd908e62613ba9130855ba12938c71a212ad09392ff0b1af5371
+Description:  Libqrencode is a C library for encoding data in a QR Code symbol,
+ a kind of 2D symbology that can be scanned by handy terminals such
+ as a mobile phone with CCD. The capacity of QR Code is up to 7000
+ digits or 4000 characters, and is highly robust.
+
+Package: librrd1
+Version: 1.0.50-2
+Depends: libc, zlib
+Source: feeds/packages/utils/rrdtool1
+Section: libs
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mvebu64
+Installed-Size: 128351
+Filename: librrd1_1.0.50-2_mvebu64.ipk
+Size: 128414
+MD5Sum: 9fc233513ebe773727c90fa694ef3d00
+SHA256sum: 512181871b515072041aeeeb806473b37d21006ff7cdb824277b578ce81e3af5
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains a shared library, used by other programs.
+
+Package: librtlsdr
+Version: 0.5.3-20150608--2
+Depends: libc, libusb-1.0
+Source: feeds/packages/utils/rtl-sdr
+License: GPLv2
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Vasilis Tsiligiannis <b_tsiligiannis@silverton.gr>
+Architecture: mvebu64
+Installed-Size: 19106
+Filename: librtlsdr_0.5.3-20150608--2_mvebu64.ipk
+Size: 19925
+MD5Sum: 0a5f011b033ef5e3f2db7ac6b28607df
+SHA256sum: c40a762d4f27896a57d64717ab015b32066fda2a2709dbefbc4c787841016826
+Description:  rtl-sdr allows DVB-T dongles based on the Realtek RTL2832U to be used as
+ an inexpensive SDR.
+ 
+ This package contains the librtlsdr shared library.
+
+Package: libsodium
+Version: 1.0.16-1
+Depends: libc
+Source: feeds/packages/libs/libsodium
+License: ISC
+Section: libs
+Maintainer: Damiano Renfer <damiano.renfer@gmail.com>
+Architecture: mvebu64
+Installed-Size: 85959
+Filename: libsodium_1.0.16-1_mvebu64.ipk
+Size: 87064
+MD5Sum: 1d2e8456fcb5715746120f4b25530a83
+SHA256sum: fb454f436f9cfc57e6ad1dfe037b05d42606fa2082fca1ae74a580c6c08074a6
+Description:  NaCl (pronounced "salt") is a new easy-to-use high-speed software library for network communication, encryption, decryption, signatures, etc.
+ NaCl's goal is to provide all of the core operations needed to build higher-level cryptographic tools.
+ Sodium is a portable, cross-compilable, installable, packageable fork of NaCl (based on the latest released upstream version nacl-20110221), with a compatible API.
+ The design choices, particularly in regard to the Curve25519 Diffie-Hellman function, emphasize security (whereas NIST curves emphasize "performance" at the cost of security), and "magic constants" in NaCl/Sodium have clear rationales.
+ The same cannot be said of NIST curves, where the specific origins of certain constants are not described by the standards.
+ And despite the emphasis on higher security, primitives are faster across-the-board than most implementations of the NIST standards.
+
+Package: libsqlite3
+Version: 3210000-3
+Depends: libc, libpthread
+Source: feeds/packages/libs/sqlite3
+License: PUBLICDOMAIN
+Section: libs
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mvebu64
+Installed-Size: 330766
+Filename: libsqlite3_3210000-3_mvebu64.ipk
+Size: 331289
+MD5Sum: 6f974927f1872a6c2c15fb6b14f7f9ef
+SHA256sum: 88821ace189ce01f77c3a7ad1eeb0446b1f43df69450c9e4b211aa4cae82abf1
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libtool-bin
+Version: 2.4.6-2
+Depends: libc
+Source: feeds/packages/devel/libtool-bin
+License: GPL-2.0+
+Section: devel
+Maintainer: Heinrich Schuchardt <xypron.glpk@gmx.de>
+Architecture: mvebu64
+Installed-Size: 242538
+Filename: libtool-bin_2.4.6-2_mvebu64.ipk
+Size: 243461
+MD5Sum: b2dff14eba6a9773f0d1b5c499311168
+SHA256sum: ee13853e2559b2a9892534632e8d35bdd2089035f64b825418277f7ac7c272a4
+Description:  GNU libtool is a generic library support script.
+ Libtool hides the complexity of using shared libraries behind a consistent,
+ portable interface. 
+ This package contains the libtoolize executable.
+
+Package: libunbound
+Version: 1.6.8-1
+Depends: libc, libopenssl, libpthread
+Source: feeds/packages/net/unbound
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Eric Luehrsen <ericluehrsen@hotmail.com>
+Architecture: mvebu64
+Installed-Size: 607532
+Filename: libunbound_1.6.8-1_mvebu64.ipk
+Size: 591141
+MD5Sum: 8b06bdea94a50931013f0ef670de6847
+SHA256sum: 0136b5c66b2277eb9a5add85d9c2e4fa3a8d26ff5aec8c8f33229647b5f99cd6
+Description:  This package contains the Unbound shared library.
+
+Package: libvorbis
+Version: 1.3.5-2
+Depends: libc, libogg
+Source: feeds/packages/libs/libvorbis
+License: BSD-3-Clause
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: mvebu64
+Installed-Size: 182506
+Filename: libvorbis_1.3.5-2_mvebu64.ipk
+Size: 182349
+MD5Sum: f2e6a9f0725ce78a2f4411005a9f3484
+SHA256sum: f3037c7e84fc541e217af570df469a907e21fc517314f0824b512b38d202961b
+Description:  Vorbis is a general purpose audio and music encoding format
+ contemporary to MPEG-4's AAC and TwinVQ, the next generation beyond
+ MPEG audio layer 3. Unlike the MPEG sponsored formats (and other
+ proprietary formats such as RealAudio G2 and Windows' flavor of the
+ month), the Vorbis CODEC specification belongs to the public domain.
+ All the technical details are published and documented, and any
+ software entity may make full use of the format without license
+ fee, royalty or patent concerns.
+
+Package: lpc21isp
+Version: 197-2
+Depends: libc
+Source: feeds/packages/devel/lpc21isp
+License: LGPL-3.0+
+LicenseFiles: README gpl.txt lgpl-3.0.txt
+Section: base
+Maintainer: Emil 'Skeen' Madsen <sovende@gmail.com>
+Architecture: mvebu64
+Installed-Size: 35574
+Filename: lpc21isp_197-2_mvebu64.ipk
+Size: 36391
+MD5Sum: 8ddff01e85cea9e0e6af8e86560e9eaa
+SHA256sum: 253187a34bd524d45c159887b43b566cf30d7c70b7f84196b4d0ef0cb557cc43
+Description:  Portable command line ISP (In-circuit Programmer) for NXP LPC family
+ and Analog Devices ADUC70xx.
+
+Package: lua-bencode
+Version: 2.1.0-1
+Depends: libc, lua
+Source: feeds/packages/lang/lua-bencode
+License: MIT
+Section: lang
+Maintainer: Lars Gierth <larsg@systemli.org>
+Architecture: mvebu64
+Installed-Size: 1455
+Filename: lua-bencode_2.1.0-1_mvebu64.ipk
+Size: 2246
+MD5Sum: 90b395af7a85f7cb31e17e9cbd8ca2ca
+SHA256sum: b064be9ecaaa7a423dde9af39cdf3f2b6cc8219038198b085a4388ac0d6e2a92
+Description:  This is a module for the lua programming language for decoding and encoding
+ bencoded data which can be used to read and write torrent files for bittorrent.
+
+Package: lua-sha2
+Version: 0.2.0-1
+Depends: libc, lua
+Source: feeds/packages/lang/lua-sha2
+License: MIT
+Section: lang
+Maintainer: Lars Gierth <larsg@systemli.org>
+Architecture: mvebu64
+Installed-Size: 6685
+Filename: lua-sha2_0.2.0-1_mvebu64.ipk
+Size: 7452
+MD5Sum: 93c2171cc46b7b12ca245959e8e9ed87
+SHA256sum: 63e72134392552c2abfaffb7670706bc659f49239baba9de9c8591eda40f84a5
+Description:  Lua Binding for the SHA-2 (SHA-256/384/512) BSD-licensed C implementation by Aaron Gifford.
+ Also contains a HMAC implementation in Lua.
+
+Package: luafilesystem
+Version: 1.6.2-1
+Depends: libc, liblua
+Source: feeds/packages/lang/luafilesystem
+Section: lang
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: mvebu64
+Installed-Size: 4963
+Filename: luafilesystem_1.6.2-1_mvebu64.ipk
+Size: 5712
+MD5Sum: 98536a886847035ae319a8129178dd35
+SHA256sum: 20e0e3da661a79c3b18b018c4ed7f861bdf6af70fa214b68a9a6b00751222498
+Description:  This package contains the LuaFileSystem library, a set of portable
+ functions for directory creation, listing and deletion and for file
+ locking.
+
+Package: luasocket
+Version: 3.0-rc1-20130909-3
+Depends: libc, lua
+Source: feeds/packages/lang/luasocket
+Section: lang
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: mvebu64
+Installed-Size: 45917
+Filename: luasocket_3.0-rc1-20130909-3_mvebu64.ipk
+Size: 46632
+MD5Sum: 2e6bb4588b5c1233c656ae4afa878eea
+SHA256sum: e95d04fd949b054d207bf3d8c04ede325f69fee85b1ad4c3229f5d17c5423c3e
+Description:  LuaSocket is the most comprehensive networking support
+ library for the Lua language. It provides easy access to
+ TCP, UDP, DNS, SMTP, FTP, HTTP, MIME and much more.
+
+Package: luci-app-acme
+Version: 1.6-3
+Depends: libc, lua, luci-base, acme, luci-app-uhttpd
+Source: feeds/packages/net/acme
+License: GPLv3
+Section: luci
+Maintainer: Toke Høiland-Jørgensen <toke@toke.dk>
+Architecture: all
+Installed-Size: 1799
+Filename: luci-app-acme_1.6-3_all.ipk
+Size: 2689
+MD5Sum: acda3e951285bc5cd3d2ad559550104f
+SHA256sum: 9e3e139115a0ea8788ad37fc4d1fd9485075b66ed04d0d2f3a74cd9f96387f1c
+Description:  Control the ACME Letsencrypt certificate interface
+
+Package: m4
+Version: 1.4.18-1
+Depends: libc
+Source: feeds/packages/devel/m4
+License: GPL-3.0+
+Section: devel
+Maintainer: Heinrich Schuchardt <xypron.glpk@gmx.de>
+Architecture: mvebu64
+Installed-Size: 87177
+Filename: m4_1.4.18-1_mvebu64.ipk
+Size: 87868
+MD5Sum: 6a696297520c9050528c70d3b548d57a
+SHA256sum: 742c3d1668cab46f21bb28466ae2263278625c2d076eebd67a4e1d8a37dca36d
+Description:  GNU M4 is an implementation of the traditional Unix macro processor.
+ It is used by GNU Autoconf and Automake.
+
+Package: make
+Version: 4.2.1-2
+Depends: libc
+Source: feeds/packages/devel/make
+License: GPL-3.0+
+Section: devel
+Maintainer: Heinrich Schuchardt <xypron.glpk@gmx.de>
+Architecture: mvebu64
+Installed-Size: 88133
+Filename: make_4.2.1-2_mvebu64.ipk
+Size: 88866
+MD5Sum: fb9cef1acef391718ef73a5a4f3ee9d0
+SHA256sum: 892fb7f27346072457b8150608ee5f9280da096984676aa53c0078d572180283
+Description:  The Make package contains a tool to create executables from source files.
+
+Package: minidlna
+Version: 1.2.1-2
+Depends: libc, libpthread, libexif, libjpeg, libsqlite3, libffmpeg, libid3tag, libflac, libvorbis, libuuid
+Source: feeds/packages/multimedia/minidlna
+License: GPL-2.0 BSD-3-Clause
+LicenseFiles: COPYING LICENCE.miniupnpd
+Section: multimedia
+Maintainer: Knyazkov Dmitry <medavedik@gmail.com>
+Architecture: mvebu64
+Installed-Size: 119796
+Filename: minidlna_1.2.1-2_mvebu64.ipk
+Size: 120558
+MD5Sum: 71703ac65e7e88c22b0d2788816b18ea
+SHA256sum: 839b41c7ff7c3f151f75ac246f305c1a243a566c9c62edd08c2398a1a8a7f350
+Description:  MiniDLNA (aka ReadyDLNA) is server software with the aim of
+ being fully compliant with DLNA/UPnP-AV clients.
+
+Package: mjpg-streamer
+Version: r182-10
+Depends: libc, libpthread, libjpeg
+Source: feeds/packages/multimedia/mjpg-streamer
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: multimedia
+Maintainer: Roger D <rogerdammit@gmail.com>, Ted Hess <thess@kitschensync.net>
+Architecture: mvebu64
+Installed-Size: 34708
+Filename: mjpg-streamer_r182-10_mvebu64.ipk
+Size: 35501
+MD5Sum: 28240d02b180c9570e5dc6575e22fd88
+SHA256sum: f43c24ed14f6cdd88ac4f88a15bd5babd628544513967e7d401bb64266fb2ca9
+Description:  Streaming application for Linux-UVC compatible webcams
+
+Package: mksh
+Version: 56b-1
+Depends: libc
+Source: feeds/packages/utils/mksh
+License: MirOS
+Section: shells
+Maintainer: Thorsten Glaser <tg@mirbsd.org>
+Architecture: mvebu64
+Installed-Size: 108320
+Filename: mksh_56b-1_mvebu64.ipk
+Size: 109630
+MD5Sum: 5d88b27f399ab37923e971ae17c891b6
+SHA256sum: 79e4a78914e1c63b0c2d319993beb96e0445bf700b41d1addef6022c764ccfc5
+Description:  mksh is the MirBSD enhanced version of the Public Domain Korn
+ shell (pdksh), a Bourne-compatible shell which is largely si-
+ milar to the original AT&T Korn shell; mksh is the only pdksh
+ derivate currently being actively developed.  It includes bug
+ fixes and feature improvements, in order to produce a modern,
+ robust shell good for interactive and especially script use.
+ mksh has UTF-8 support (in substring operations and the Emacs
+ editing mode) and - while R50 corresponds to OpenBSD 5.5-cur-
+ rent ksh (without GNU bash-like PS1 and fancy character clas-
+ ses) - adheres to SUSv4 and is much more robust. The code has
+ been cleaned up and simplified, bugs fixed, standards compli-
+ ance added, and several enhancements (for extended compatibi-
+ lity to other modern shells - as well as a couple of its own)
+ are available. It has sensible defaults as usual with BSD.
+
+Package: mmc-utils
+Version: 2017-03-20-37c86e60-1
+Depends: libc
+Source: feeds/packages/utils/mmc-utils
+License: GPL-2.0
+Section: utils
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: mvebu64
+Installed-Size: 30234
+Filename: mmc-utils_2017-03-20-37c86e60-1_mvebu64.ipk
+Size: 30897
+MD5Sum: 7803d3f1c8a47ba41a548c01b74423d8
+SHA256sum: 00260821e70a79c6f85091cfebcd3728df71f8043805f8117fad354f1066095d
+Description:  This package contains the userspace mmc utils, the userspace
+ counterpart to the Linux MMC/SD subsystem.
+
+Package: monit-nossl
+Version: 5.24.0-1
+Depends: libc, libpthread, zlib
+Source: feeds/packages/admin/monit
+License: AGPL-3.0
+LicenseFiles: COPYING
+Section: admin
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mvebu64
+Installed-Size: 236710
+Filename: monit-nossl_5.24.0-1_mvebu64.ipk
+Size: 236701
+MD5Sum: f596b3fcaff3ee9f9a67abab855872f7
+SHA256sum: 39214bc838d6cf3a71442c0bd20fcedd65a7989ad9a70156f73d5b34916a7824
+Description:  An utility for monitoring services on a Unix system
+ This package is built without SSL support.
+
+Package: monit
+Version: 5.24.0-1
+Depends: libc, libpthread, zlib, libopenssl
+Source: feeds/packages/admin/monit
+License: AGPL-3.0
+LicenseFiles: COPYING
+Section: admin
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mvebu64
+Installed-Size: 243674
+Filename: monit_5.24.0-1_mvebu64.ipk
+Size: 243298
+MD5Sum: bc4df820bcf5f18fb730c1b24f6e973c
+SHA256sum: 9ca85bd7a900ca811778e005fb606a132f40cfc1048781830dede86e3cb56c42
+Description:  An utility for monitoring services on a Unix system
+ This package is built with SSL support.
+
+Package: muninlite
+Version: 1.0.4-8
+Depends: libc, xinetd
+Source: feeds/packages/admin/muninlite
+License: GPL-2.0+
+LicenseFiles: LICENSE
+Section: admin
+Architecture: mvebu64
+Installed-Size: 6424
+Filename: muninlite_1.0.4-8_mvebu64.ipk
+Size: 7162
+MD5Sum: 68ee5124feed7f30ab3f772417654ab8
+SHA256sum: 8ceaceacca6e411de11d033258194da03c7ef05adde37f9fec9526ce3521d8e1
+Description:  Munin node implemented in shell
+
+Package: musl-fts
+Version: 1.2.7-1
+Depends: libc, libpthread
+Source: feeds/packages/libs/musl-fts
+License: LGPL-2.1
+LicenseFiles: COPYING AUTHORS
+Section: libs
+Maintainer: Lucian Cristian <lucian.cristian@gmail.com>
+Architecture: mvebu64
+Installed-Size: 4664
+Filename: musl-fts_1.2.7-1_mvebu64.ipk
+Size: 5436
+MD5Sum: 5963a885dd7a005c74d2686d49386370
+SHA256sum: 5a83044eb2632f3923cbf7b8a90a3b752665a5dde2f0268942a0d1c18b085227
+Description:  The musl-fts package implements the fts(3) functions fts_open, fts_read, fts_children, fts_set and fts_close, which are missing in musl libc.
+
+Package: mwan3
+Version: 2.6.10-1
+Depends: libc, ip, ipset, iptables, iptables-mod-conntrack-extra, iptables-mod-ipopt
+Source: feeds/packages/net/mwan3
+License: GPLv2
+Section: net
+Maintainer: Florian Eckert <fe@dev.tdt.de>
+Architecture: all
+Installed-Size: 10324
+Filename: mwan3_2.6.10-1_all.ipk
+Size: 11295
+MD5Sum: a873ffea7bcdd4d1e8b82d655fedbab8
+SHA256sum: 2537fea86971467794282099e3ae223570d85f0ef4f936f12a02902432678f67
+Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
+ and manageable. With loadbalancing/failover support for up to 250 wan
+ interfaces, connection tracking and an easy to manage traffic ruleset.
+
+Package: netcat
+Version: 0.7.1-1
+Depends: libc
+Source: feeds/packages/net/netcat
+License: GPL-2.0
+Section: net
+Maintainer: Adam Gensler <openwrt@a.gnslr.us>
+Architecture: mvebu64
+Installed-Size: 15161
+Filename: netcat_0.7.1-1_mvebu64.ipk
+Size: 16194
+MD5Sum: a8a0855e6c60947d333a2fe5071b8164
+SHA256sum: 572c744699f20efc916266154323d06c10c0fdf59f916aed6e612bd03fa6bf01
+Description:  Netcat is a featured networking utility which reads and writes data across network connections, using the TCP/IP protocol.
+ It is designed to be a reliable "back-end" tool that can be used directly or easily driven by other programs and scripts. At the same time, it is a feature-rich network debugging and exploration tool, since it can create almost any kind of connection you would need and has several interesting built-in capabilities.
+
+Package: netdata
+Version: 1.9.0-1
+Depends: libc, zlib, libuuid, libmnl
+Source: feeds/packages/admin/netdata
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: admin
+Architecture: mvebu64
+Installed-Size: 1564207
+Filename: netdata_1.9.0-1_mvebu64.ipk
+Size: 1564301
+MD5Sum: 6629f8efbc94ea4934659b0244781eab
+SHA256sum: fd95eae37d00e659fb5a7b810ed078c2ab46e964a1e3970758fdd913f17ce32c
+Description:  netdata is a highly optimized Linux daemon providing real-time performance
+ monitoring for Linux systems, applications and SNMP devices over the web.
+
+Package: ntpclient
+Version: 2010_365-1
+Depends: libc, librt
+Source: feeds/packages/net/ntpclient
+License: GPL-2.0
+Section: net
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: mvebu64
+Installed-Size: 10692
+Filename: ntpclient_2010_365-1_mvebu64.ipk
+Size: 11429
+MD5Sum: 936f99aa5fd1ab2170db75889d528bb2
+SHA256sum: 95805e54e00b7eb761117f7bcb5dda10156862ba5e1b182a39389acaeafe13cc
+Description:  NTP client for setting system time from NTP servers.
+
+Package: openwisp-config-cyassl
+Version: 0.4.5-2
+Depends: libc, curl, lua, libuci-lua, luafilesystem, ca-certificates, libcyassl
+Source: feeds/packages/admin/openwisp-config
+License: GPL-3.0
+Section: admin
+Maintainer: Federico Capoano <f.capoano@cineca.it>
+Architecture: mvebu64
+Installed-Size: 9925
+Filename: openwisp-config-cyassl_0.4.5-2_mvebu64.ipk
+Size: 10770
+MD5Sum: e0e03f7ed6389a53c4bb2a4940fd6bc7
+SHA256sum: bbcceef4546a9ce7ec7ed99bb8b83f2d3c71c557c4940e162d2f472818216718
+Description:  Remote configuration management agent (CyaSSL variant)
+
+Package: openwisp-config-mbedtls
+Version: 0.4.5-2
+Depends: libc, curl, lua, libuci-lua, luafilesystem, ca-certificates, libmbedtls
+Source: feeds/packages/admin/openwisp-config
+License: GPL-3.0
+Section: admin
+Maintainer: Federico Capoano <f.capoano@cineca.it>
+Architecture: mvebu64
+Installed-Size: 9925
+Filename: openwisp-config-mbedtls_0.4.5-2_mvebu64.ipk
+Size: 10767
+MD5Sum: 7b54ce5f3601c2a7258ff2787586b37f
+SHA256sum: a0fa876f5cee1c90a59f681ca927a3c83d7c8b4617e85b436045592d713c51db
+Description:  Remote configuration management agent (mbedTLS variant)
+
+Package: openwisp-config-nossl
+Version: 0.4.5-2
+Depends: libc, curl, lua, libuci-lua, luafilesystem
+Source: feeds/packages/admin/openwisp-config
+License: GPL-3.0
+Section: admin
+Maintainer: Federico Capoano <f.capoano@cineca.it>
+Architecture: mvebu64
+Installed-Size: 9926
+Filename: openwisp-config-nossl_0.4.5-2_mvebu64.ipk
+Size: 10753
+MD5Sum: 552d552bb5b9b2c358350c184871c78c
+SHA256sum: 3052599065e6f18c1d30c89b608da655070cc276cd3d21e91ae6c38a23b2fc3f
+Description:  Remote configuration management agent (No SSL variant)
+
+Package: openwisp-config-openssl
+Version: 0.4.5-2
+Depends: libc, curl, lua, libuci-lua, luafilesystem, ca-certificates, libopenssl
+Source: feeds/packages/admin/openwisp-config
+License: GPL-3.0
+Section: admin
+Maintainer: Federico Capoano <f.capoano@cineca.it>
+Architecture: mvebu64
+Installed-Size: 9925
+Filename: openwisp-config-openssl_0.4.5-2_mvebu64.ipk
+Size: 10766
+MD5Sum: 898bb466e333599f9e3ba9103845c4d3
+SHA256sum: 6b7818a8088863e607482d7af003e1f2783782df2f28c4fa30c0dc65d2d86351
+Description:  Remote configuration management agent (OpenSSL variant)
+
+Package: p910nd
+Version: 0.97-5
+Depends: libc
+Source: feeds/packages/net/p910nd
+License: GPLv2
+LicenseFiles: COPYING
+Section: net
+Maintainer: Philipp Kerling <pkerling@casix.org>
+Architecture: mvebu64
+Installed-Size: 5996
+Filename: p910nd_0.97-5_mvebu64.ipk
+Size: 6930
+MD5Sum: 5a703e3dce383fd9e98ac0814824aad4
+SHA256sum: 2eac7f9522182f9074cbcbb2edfa83e410c53dce010ffa6b47643a710e42852f
+Description:  p910nd is a small daemon that copies any data received on
+ the port it is listening on to the corresponding printer
+ port. It is primarily intended for diskless Linux hosts
+ running as printer drivers but there is no reason why it
+ could not be used on diskful hosts. Port 9100 is copied
+ to /dev/lp0, 9101 to /dev/lp1 and 9102 to /dev/lp2. The
+ default is port 9100 to /dev/lp0.
+
+Package: patch
+Version: 2.7.6-1
+Depends: libc
+Source: feeds/packages/devel/patch
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: devel
+Maintainer: Russell Senior <russell@personaltelco.net>
+Architecture: mvebu64
+Installed-Size: 72610
+Filename: patch_2.7.6-1_mvebu64.ipk
+Size: 73390
+MD5Sum: 4039245d6f1274424748e6ea96bc4374
+SHA256sum: 11fce4b5b4519e1c2ceafef0f3f21c2e12cc75737b541488bc3ffa1ff8894a4d
+Description:  The Patch package contains a program for modifying or creating files
+ by applying a "patch" file typically created by the diff program.
+
+Package: pciutils
+Version: 3.5.6-1
+Depends: libc, libkmod, zlib
+Source: feeds/packages/utils/pciutils
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: mvebu64
+Installed-Size: 313561
+Filename: pciutils_3.5.6-1_mvebu64.ipk
+Size: 314288
+MD5Sum: f5bc37f758d913ce9e471f23e9bf0b5b
+SHA256sum: 609c8611a7b8e063c3a6d46fb6c122d3e35238496c3345f6e04ddfa6545b1558
+Description:  contains collection of programs for inspecting and manipulating configuration
+ of PCI devices
+
+Package: perl
+Version: 5.26.1-3
+Depends: libc
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 808476
+Filename: perl_5.26.1-3_mvebu64.ipk
+Size: 800587
+MD5Sum: 7e867a22c78f0991e7fb40c4d512c81e
+SHA256sum: 156f13ad6518245c9be21accd65fc56aac008fc953213d9663ddf870d1f4f7cc
+Description:  Perl is a stable, cross platform programming language.
+ It is used for mission critical projects in the public and private sectors
+ and is widely used to program web applications of all needs.
+
+Package: perlbase-attributes
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-essential, perlbase-xsloader
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 5191
+Filename: perlbase-attributes_5.26.1-3_mvebu64.ipk
+Size: 5940
+MD5Sum: 796502fe77775ac711271c625f46cb61
+SHA256sum: 39f8ed29d0585e134b474dc1a7b58f998a707ba574d5a2039b0b1ab846e56837
+Description:  attributes perl module
+
+Package: perlbase-base
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-essential
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 3553
+Filename: perlbase-base_5.26.1-3_mvebu64.ipk
+Size: 4325
+MD5Sum: ba616c9ab67bcb45c14984acf35f6698
+SHA256sum: 476fb06dce4cc3ae25f281f7e34bf8bff7699f7d5f47129c6f84bf2130a9a5fc
+Description:  base perl module
+
+Package: perlbase-bytes
+Version: 5.26.1-3
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 625
+Filename: perlbase-bytes_5.26.1-3_mvebu64.ipk
+Size: 1409
+MD5Sum: 21bd2e18b4a343033ffb41b002439a6b
+SHA256sum: aa1f4f70971b05f23b3a0d977cf58aad6f23dc5e875111939c465ca400040655
+Description:  bytes perl module
+
+Package: perlbase-class
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-essential
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 2260
+Filename: perlbase-class_5.26.1-3_mvebu64.ipk
+Size: 3040
+MD5Sum: 5d618f241fb996c7ed875684b8a4f412
+SHA256sum: ad1ac131a63a0bfea5d1e088c6d0b001c0b4b53cbfd30f4950be83053f781d66
+Description:  Class perl module
+
+Package: perlbase-config
+Version: 5.26.1-3
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 18467
+Filename: perlbase-config_5.26.1-3_mvebu64.ipk
+Size: 19234
+MD5Sum: 50e39e428a2c5bc081590b8c6809581c
+SHA256sum: f2684abf409355bea39e9f68a0756783775491272b0a06a98813e19b6020fb9f
+Description:  Config perl module
+
+Package: perlbase-cwd
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-essential
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 11180
+Filename: perlbase-cwd_5.26.1-3_mvebu64.ipk
+Size: 11956
+MD5Sum: 2a80b2c52767b594d3186f19cca833be
+SHA256sum: 5916a1f947a5d5a4b8aea8367e927d52c34392d0293499bb4bbe92c888f062bf
+Description:  Cwd perl module
+
+Package: perlbase-data
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-bytes, perlbase-essential
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 22189
+Filename: perlbase-data_5.26.1-3_mvebu64.ipk
+Size: 22946
+MD5Sum: bb4d5f0ecb13601674716b16697c03f3
+SHA256sum: 4b8fe4b42bb2ce64d8d3140eba86fff72d9ccf23f2bc6282fd95f7263e917c1d
+Description:  Data perl module
+
+Package: perlbase-dynaloader
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-config
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 3694
+Filename: perlbase-dynaloader_5.26.1-3_mvebu64.ipk
+Size: 4481
+MD5Sum: 716ae537505011d22678dfd726e8f8f8
+SHA256sum: f5b292382fc6bf2a2d172ef4637a1bb81c0e2278dfecb5d14619f3e8aabfd36d
+Description:  DynaLoader perl module
+
+Package: perlbase-errno
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-config, perlbase-essential
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 2438
+Filename: perlbase-errno_5.26.1-3_mvebu64.ipk
+Size: 3250
+MD5Sum: 8f83e7813928246935236ed88896aaab
+SHA256sum: 6ca4fd54c4abee44ebdcba454fc196ef0ee63b64d7850ed6cd1c2b84a0812988
+Description:  Errno perl module
+
+Package: perlbase-essential
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-config
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 20534
+Filename: perlbase-essential_5.26.1-3_mvebu64.ipk
+Size: 21354
+MD5Sum: 5560ac6b6a528bd61b74af6807c6eba2
+SHA256sum: b201e52cbb381e2cfb850205041fbf0885d972feb3fab6809465326d8318f800
+Description:  essential perl module
+
+Package: perlbase-fcntl
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-essential, perlbase-xsloader
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 6253
+Filename: perlbase-fcntl_5.26.1-3_mvebu64.ipk
+Size: 7039
+MD5Sum: 204bc62cb5e2c39b1b71e8c3ab7730ba
+SHA256sum: 6c9cbb8052df2e7a74005592e830dcf1f9d897a0f75c17801b1429a984710c61
+Description:  Fcntl perl module
+
+Package: perlbase-file
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-class, perlbase-config, perlbase-cwd, perlbase-errno, perlbase-essential, perlbase-fcntl, perlbase-filehandle, perlbase-io, perlbase-locale, perlbase-params, perlbase-scalar, perlbase-symbol, perlbase-xsloader
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 71066
+Filename: perlbase-file_5.26.1-3_mvebu64.ipk
+Size: 72046
+MD5Sum: 7e651c257d9d5cba27a4c78b90d3a252
+SHA256sum: f3ac709378cb224be9fc390afaf0602ec9d821aa41836085fac9dcc0d0f5d6c1
+Description:  File perl module
+
+Package: perlbase-filehandle
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-essential, perlbase-io
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 1006
+Filename: perlbase-filehandle_5.26.1-3_mvebu64.ipk
+Size: 1804
+MD5Sum: 47ec62c9292292392a4d863db32473cd
+SHA256sum: fd1d80e699b4143fb5f857cfd96a3ca2a60945c48f5ad50acba784179e0e7cd2
+Description:  FileHandle perl module
+
+Package: perlbase-getopt
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-essential
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 13111
+Filename: perlbase-getopt_5.26.1-3_mvebu64.ipk
+Size: 13914
+MD5Sum: 9d5c0346df4dcfddc257e1135be97d5d
+SHA256sum: 48ad9dd43db646bb37a5a55dbe92ffe8032938b486b60eff5fe470a46fdbcc9f
+Description:  Getopt perl module
+
+Package: perlbase-i18n
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-essential, perlbase-posix, perlbase-xsloader
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 20278
+Filename: perlbase-i18n_5.26.1-3_mvebu64.ipk
+Size: 21082
+MD5Sum: cf3ab3c71cf643dff9b85f8e1abe3005
+SHA256sum: 4c8d2841c9d523015961512752abfa2639d2d99141672f48274454d2011542c2
+Description:  I18N perl module
+
+Package: perlbase-integer
+Version: 5.26.1-3
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 315
+Filename: perlbase-integer_5.26.1-3_mvebu64.ipk
+Size: 1090
+MD5Sum: f1968dcdb36b324e51647040a6117ea7
+SHA256sum: c3ad558a0c775204f41ad6323974c33e3e7da8f7c7cc6493ecb9b5e35d19ee82
+Description:  integer perl module
+
+Package: perlbase-io
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-base, perlbase-bytes, perlbase-config, perlbase-errno, perlbase-essential, perlbase-fcntl, perlbase-list, perlbase-posix, perlbase-scalar, perlbase-selectsaver, perlbase-socket, perlbase-symbol, perlbase-tie, perlbase-xsloader
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 67805
+Filename: perlbase-io_5.26.1-3_mvebu64.ipk
+Size: 68791
+MD5Sum: c921ce6e254b85ef357a403945e668df
+SHA256sum: b8db691250da4f09efc09934421817fba250998e1a9f8ac8113fede432523b04
+Description:  IO perl module
+
+Package: perlbase-list
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-essential, perlbase-xsloader
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 20365
+Filename: perlbase-list_5.26.1-3_mvebu64.ipk
+Size: 21088
+MD5Sum: 71fa3a8e170eb04a1d05d8d5856ba7d0
+SHA256sum: 730a971e30b2459a5fba7b4f8313787f6073af7fc4c2bf8532a1e6af7ce2a471
+Description:  List perl module
+
+Package: perlbase-locale
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-essential, perlbase-i18n, perlbase-integer, perlbase-utf8
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 333583
+Filename: perlbase-locale_5.26.1-3_mvebu64.ipk
+Size: 306708
+MD5Sum: 788a5a122fa75424b766c441ed8802be
+SHA256sum: 85b2019adec956b7a28dd822b76cecccbf23aebefcba36bc0d92c0dec85533ae
+Description:  Locale perl module
+
+Package: perlbase-params
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-essential, perlbase-locale
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 3281
+Filename: perlbase-params_5.26.1-3_mvebu64.ipk
+Size: 4062
+MD5Sum: 13a2c541fc97ff98e72ffc6c443a79c8
+SHA256sum: 5a52334fb237808dc6580e6c3662d54fb1f153f7e9cb4b752f0e131765658648
+Description:  Params perl module
+
+Package: perlbase-posix
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-essential, perlbase-fcntl, perlbase-tie, perlbase-xsloader
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 37790
+Filename: perlbase-posix_5.26.1-3_mvebu64.ipk
+Size: 38385
+MD5Sum: 0f76dd2b1a39cea5b4ee6e30105b04b2
+SHA256sum: 9dfc8a53bb7d3556b274b6e81b51ffadad8bfb48570c1d6314e4799c4b2c5058
+Description:  POSIX perl module
+
+Package: perlbase-re
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-essential
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 190984
+Filename: perlbase-re_5.26.1-3_mvebu64.ipk
+Size: 191626
+MD5Sum: 740ed3bebc2b6213ba670b1c7f76916a
+SHA256sum: aecbacccc9c00701ca4f6539117d89829efecf4e3096c3ca236ba518582e289a
+Description:  re perl module
+
+Package: perlbase-scalar
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-essential, perlbase-list
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 998
+Filename: perlbase-scalar_5.26.1-3_mvebu64.ipk
+Size: 1783
+MD5Sum: 1b7b153b0c806527b37731fc45e9fa90
+SHA256sum: 74cb16e184da064a3a428c8ef431dce0e315dc4d96e1c7e543ab222c0d22acc3
+Description:  Scalar perl module
+
+Package: perlbase-selectsaver
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-essential, perlbase-symbol
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 437
+Filename: perlbase-selectsaver_5.26.1-3_mvebu64.ipk
+Size: 1235
+MD5Sum: 5527b12bcc2f8ef8af53fc8228f25633
+SHA256sum: a53976496d661cf4ca006b2769a5c5f773455351e90f2f588eaa6a9b79681c0b
+Description:  SelectSaver perl module
+
+Package: perlbase-selfloader
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-essential, perlbase-io
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 2417
+Filename: perlbase-selfloader_5.26.1-3_mvebu64.ipk
+Size: 3198
+MD5Sum: 3b9a0dbd7f28409b70eb67a601bbd70c
+SHA256sum: 70778583b5f1b3b1ce311925fa9a74ca7b06795f66805bc2b41fdcfb17d7c0cf
+Description:  SelfLoader perl module
+
+Package: perlbase-socket
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-essential, perlbase-xsloader
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 16902
+Filename: perlbase-socket_5.26.1-3_mvebu64.ipk
+Size: 17565
+MD5Sum: e52984207191694bab3894699575a7da
+SHA256sum: c5e9d2e5943c6f19fa5de0876e94c1d1af77b018b113479fcfce2a7b037533aa
+Description:  Socket perl module
+
+Package: perlbase-symbol
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-essential
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 1115
+Filename: perlbase-symbol_5.26.1-3_mvebu64.ipk
+Size: 1914
+MD5Sum: 74a8d41967642dfb3a81f420ad104a60
+SHA256sum: fe9be2f3f3d57ffbb10b441f87459ab20bd533f3279a7d47a4980c24af58cc46
+Description:  Symbol perl module
+
+Package: perlbase-text
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-essential, perlbase-selfloader
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 10799
+Filename: perlbase-text_5.26.1-3_mvebu64.ipk
+Size: 11598
+MD5Sum: ebef4a4d14f964e459eddb46b3163421
+SHA256sum: 8933fd47dc069803fdf77c2a0e5d0bd7380fe05c4f991b65441075eadf326a12
+Description:  Text perl module
+
+Package: perlbase-thread
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-essential, perlbase-scalar, perlbase-threads
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 2568
+Filename: perlbase-thread_5.26.1-3_mvebu64.ipk
+Size: 3367
+MD5Sum: fb91084a8ec568c0b857695460d55bec
+SHA256sum: 429281936d1e8d0a4fd5b99f804079f550191b202c58633c140a85f66d38b390
+Description:  Thread perl module
+
+Package: perlbase-threads
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-config, perlbase-essential, perlbase-scalar, perlbase-xsloader
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 3953
+Filename: perlbase-threads_5.26.1-3_mvebu64.ipk
+Size: 4738
+MD5Sum: 48c0ec52f463f39240399d728c115d72
+SHA256sum: 5bbbd889aba5c132d80ef335e929ac6b12b4d87bed9a9f51300135cf6179286c
+Description:  threads perl module
+
+Package: perlbase-tie
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-essential, perlbase-fcntl, perlbase-xsloader
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 21807
+Filename: perlbase-tie_5.26.1-3_mvebu64.ipk
+Size: 22600
+MD5Sum: 5338a8d08beaf60eb5ca1ba55cd64901
+SHA256sum: 58d44374c4214ced132ca93626403da065b764924a295b16cab6c9e7948b0171
+Description:  Tie perl module
+
+Package: perlbase-unicore
+Version: 5.26.1-3
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 644109
+Filename: perlbase-unicore_5.26.1-3_mvebu64.ipk
+Size: 598420
+MD5Sum: c690dbc6d5f0b40ea0c1020dfc3eb3a3
+SHA256sum: 0c3331ad8e73f52ebc7ad3c792ff659b7a7d6b92f4ae2c00f68677e0c23b46be
+Description:  unicore perl module
+
+Package: perlbase-utf8
+Version: 5.26.1-3
+Depends: libc, perl, perlbase-essential, perlbase-re, perlbase-unicore
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 8888
+Filename: perlbase-utf8_5.26.1-3_mvebu64.ipk
+Size: 9707
+MD5Sum: b4d573ac8bad0dcbd16f55f81875ffbe
+SHA256sum: 8245986d3398af75276dad23b1d7958b3525472407f1fe99acad273b1e06476d
+Description:  utf8 perl module
+
+Package: perlbase-xsloader
+Version: 5.26.1-3
+Depends: libc, perl
+Source: feeds/packages/lang/perl
+License: GPL-1.0+ Artistic-1.0-Perl
+LicenseFiles: Copying Artistic README
+Section: lang
+Maintainer: Marcel Denia <naoir@gmx.net>, Philip Prindeville <philipp@redfish-solutions.com>
+Architecture: mvebu64
+Installed-Size: 1705
+Filename: perlbase-xsloader_5.26.1-3_mvebu64.ipk
+Size: 2500
+MD5Sum: b9eebb0be15ff2f56022583d76500a1e
+SHA256sum: 65d300283c8189936c8c215f33bfbc228a814db601f8a3996addaec42df5d41a
+Description:  XSLoader perl module
+
+Package: pkg-config
+Version: 0.29.1-1
+Depends: libc, glib2
+Source: feeds/packages/devel/pkg-config
+License: GPL-2+
+Section: devel
+Maintainer: Heinrich Schuchardt <xypron.glpk@gmx.de>
+Architecture: mvebu64
+Installed-Size: 19146
+Filename: pkg-config_0.29.1-1_mvebu64.ipk
+Size: 20009
+MD5Sum: 23928c739f2201a9d7e0e8a11961a9cb
+SHA256sum: fee2e81ed72bf77da6d8244c68d0bc53045a2d2da1d40a901a63dc9d031eff9f
+Description:  pkg-config is a helper tool used when compiling applications and libraries.
+ It helps you insert the correct compiler options on the command line so an
+ application can use gcc -o test test.cpkg-config --libs --cflags glib-2.0
+ for instance, rather than hard-coding values on where to find glib (or
+ other libraries).
+
+Package: qrencode
+Version: 4.0.0-1
+Depends: libc, libqrencode
+Source: feeds/packages/libs/qrencode
+License: LGPL-2.1+
+Section: utils
+Maintainer: Jonathan Bennett <JBennett@incomsystems.biz>
+Architecture: mvebu64
+Installed-Size: 9703
+Filename: qrencode_4.0.0-1_mvebu64.ipk
+Size: 10562
+MD5Sum: 2a69a2e1289d190ea334d333b6ac7e0a
+SHA256sum: 4898381702e5531bce33196861980f3fbc9241d9fc6b7ce3758dc79e53aa048f
+Description:  Qrencode is a C program for encoding data in a QR Code symbol,
+ a kind of 2D symbology that can be scanned by handy terminals such
+ as a mobile phone with CCD. The capacity of QR Code is up to 7000
+ digits or 4000 characters, and is highly robust.
+
+Package: rrdtool1
+Version: 1.0.50-2
+Depends: libc, librrd1
+Source: feeds/packages/utils/rrdtool1
+Section: utils
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mvebu64
+Installed-Size: 10398
+Filename: rrdtool1_1.0.50-2_mvebu64.ipk
+Size: 11493
+MD5Sum: 07ea95b093be817888494ede1b2440f7
+SHA256sum: c470704d1d42eba2fb2fe51a9bc402b0fd8a1d22bff127ca1f3d54a2cae7a9c8
+Description:  RRD is the Acronym for Round Robin Database. RRD is a system to store and
+ display time-series data (i.e. network bandwidth, machine-room temperature,
+ server load average). It stores the data in a very compact way that will
+ not expand over time, and it presents useful graphs by processing the data
+ to enforce a certain data density. It can be used either via simple wrapper
+ scripts (from shell or Perl) or via frontends that poll network devices and
+ put friendly user interface on it.
+ 
+ This is version 1.0.x with cgilib-0.4, gd1.3 and libpng-1.0.9 linked into
+ librrd.so. The library is much smaller compared to the 1.2.x version with
+ separate dynamic linked libraries.
+ This package contains command line tools used to manage RRDs.
+
+Package: simple-adblock
+Version: 1.5.8-1
+Depends: libc
+Source: feeds/packages/net/simple-adblock
+License: GPL-3.0+
+Section: net
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: all
+Installed-Size: 3876
+Filename: simple-adblock_1.5.8-1_all.ipk
+Size: 4821
+MD5Sum: 264b74b72502beb202ac8e90bb6b1e87
+SHA256sum: bc2f48ea3d15f776d78883c4790249dced5f909308033ff7731dd239c60d6029
+Description:  This service provides dnsmasq-based ad blocking.
+ Please see the README for further information.
+ 
+
+Package: squid
+Version: 3.5.27-1
+Depends: libc, libopenssl, libpthread, librt, libltdl, libstdcpp
+Source: feeds/packages/net/squid
+License: GPL-2.0
+Section: net
+Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr>
+Architecture: mvebu64
+Installed-Size: 1734520
+Filename: squid_3.5.27-1_mvebu64.ipk
+Size: 1731042
+MD5Sum: e0c08bfd2f8f337bb99d3c54bc94b0ec
+SHA256sum: 5cfc9dc6903c2053a871a3b92b90ec6069921ecbaaaea97227cea97ebb6d288f
+Description:  Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, and more.
+ It reduces bandwidth and improves response times by caching and reusing
+ frequently-requested web pages.
+
+Package: sudo
+Version: 1.8.21p2-1
+Depends: libc
+Source: feeds/packages/admin/sudo
+License: ISC
+LicenseFiles: doc/LICENSE
+Section: admin
+Maintainer: Gergely Kiss <mail.gery@gmail.com>
+Architecture: mvebu64
+Installed-Size: 274499
+Filename: sudo_1.8.21p2-1_mvebu64.ipk
+Size: 274939
+MD5Sum: 21b0fcaec2562644f9f2227f51ebfd2d
+SHA256sum: e49e4f5a296f46a52426c497b2ceadf1972dd30a0579ce802f8c708363590869
+Description:  Sudo (su "do") allows a system administrator to delegate authority to
+ give certain users (or groups of users) the ability to run some (or
+ all) commands as root or another user while providing an audit trail of
+ the commands and their arguments.
+
+Package: syslog-ng
+Version: 3.9.1-3
+Depends: libc, libpcre, glib2, libeventlog, libopenssl, libuuid, libcurl
+Source: feeds/packages/admin/syslog-ng
+Section: admin
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: mvebu64
+Installed-Size: 450292
+Filename: syslog-ng_3.9.1-3_mvebu64.ipk
+Size: 442089
+MD5Sum: 646cb55dfcc264708ce0456172ccdca3
+SHA256sum: d32f73e3281d0f2d60c1db41da4f708a574261eb2eb267f807880a68870bca15
+Description:  syslog-ng reads and logs messages to the system console, log
+ files, other machines and/or users as specified by its
+ configuration file.
+
+Package: tinyproxy
+Version: 1.8.3-2
+Depends: libc
+Source: feeds/packages/net/tinyproxy
+Section: net
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mvebu64
+Installed-Size: 29935
+Filename: tinyproxy_1.8.3-2_mvebu64.ipk
+Size: 30614
+MD5Sum: 641fb725a0be2c59d65e3ba2703cf79a
+SHA256sum: 0759e7a8026ea54e4453c1f9f3d71c4d989d6c9e09f7724dc25fa2cdbaddfa08
+Description:  Tinyproxy is a lightweight HTTP and HTTPS proxy
+
+Package: travelmate
+Version: 1.1.1-1
+Depends: libc, iwinfo, jshn, jsonfilter, uclient-fetch
+Source: feeds/packages/net/travelmate
+License: GPL-3.0+
+Section: net
+Maintainer: Dirk Brenken <dev@brenken.org>
+Architecture: all
+Installed-Size: 4625
+Filename: travelmate_1.1.1-1_all.ipk
+Size: 5453
+MD5Sum: 399b94e486acd62dbebfd4950369e2cc
+SHA256sum: bcc68e69f3143b20a416830c3c9920a1bbae8b598cdcfcd0b3c90b6ee52405db
+Description:  A wlan connection manager for travel router.
+ Please see https://github.com/openwrt/packages/blob/master/net/travelmate/files/README.md for further information.
+ 
+
+Package: udpxy
+Version: 2016-09-18-53e4672a7522311c40e9f6110ff256041c52c8b4-1
+Depends: libc
+Source: feeds/packages/net/udpxy
+License: GPL-3.0
+LicenseFiles: gpl.txt
+Section: net
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: mvebu64
+Installed-Size: 31727
+Filename: udpxy_2016-09-18-53e4672a7522311c40e9f6110ff256041c52c8b4-1_mvebu64.ipk
+Size: 32657
+MD5Sum: 1b4c6ac399fd6ea99e6ef747095072ba
+SHA256sum: 572152d1ad4713f0ec902c71e49218dd886727087305f76114737fbdbc0fa9d1
+Description:  udproxy makes it possible to convert UDP IPTV streams into HTTP
+ streams which can be viewed even over WLANs. HTTP streams do
+ not generate huge amounts of multicast traffic, so a sd stream
+ only takes about 300k. Interesting for peoply who have IPTV at
+ home and do not want to rent multiple decoders from their
+ provider but just use their own streaming client (for example
+ popcornhour/mediatomb/vlc).
+
+Package: unbound
+Version: 1.6.8-1
+Depends: libc, libopenssl, libunbound
+Source: feeds/packages/net/unbound
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: net
+Require-User: unbound=553:unbound=553
+Maintainer: Eric Luehrsen <ericluehrsen@hotmail.com>
+Architecture: mvebu64
+Installed-Size: 152480
+Filename: unbound_1.6.8-1_mvebu64.ipk
+Size: 151725
+MD5Sum: 55e4306c9f08f1d67bf6f0ebede58800
+SHA256sum: 8671887c5d2c91ec3d5f8c58bcfbc458368fb219a9b806dc4774ed7a0b098e23
+Description:  This package contains the Unbound daemon.
+
+Package: vnstat
+Version: 1.17-1
+Depends: libc
+Source: feeds/packages/net/vnstat
+Section: net
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mvebu64
+Installed-Size: 68121
+Filename: vnstat_1.17-1_mvebu64.ipk
+Size: 69075
+MD5Sum: fba9ca6debe13e95e5c8e1c9fdf156b7
+SHA256sum: 5faf930f2e0410f2369f162a21c5bcaafa698fd7d611791801fd25a7a43f86ba
+Description:  vnStat is a network traffic monitor for Linux that keeps a log of daily
+ network traffic for the selected interface(s). vnStat isn't a packet
+ sniffer. The traffic information is analyzed from the /proc -filesystem,
+ so vnStat can be used without root permissions.
+
+Package: vnstati
+Version: 1.17-1
+Depends: libc, vnstat, libgd
+Source: feeds/packages/net/vnstat
+Section: net
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mvebu64
+Installed-Size: 30929
+Filename: vnstati_1.17-1_mvebu64.ipk
+Size: 31713
+MD5Sum: 70d1ed565ec6d651ec2cceec1b154675
+SHA256sum: a0067adb6acf48a185b398b66643718e436599226927abb03ab8dfceb5f272d3
+Description:  The purpose of vnstati is to provide image output support for statistics
+ collected using vnstat(1). However, the image file format is limited to
+ png. All basic outputs of vnStat are supported excluding live traffic
+ features. The image can be outputted either to a file or to standard
+ output.
+
+Package: vpnbypass
+Version: 1.3.1-1
+Depends: libc, ipset, iptables
+Conflicts: vpn-policy-routing
+Source: feeds/packages/net/vpnbypass
+License: GPL-3.0+
+Section: net
+Maintainer: Stan Grishin <stangri@melmac.net>
+Architecture: all
+Installed-Size: 2101
+Filename: vpnbypass_1.3.1-1_all.ipk
+Size: 3318
+MD5Sum: 2b59e0cd6b9280b6944399a534e2edeb
+SHA256sum: a1c4cbdc6333b111dc4395f3187b9b22297dfbe5541cafbfe32061f1a1dc3c41
+Description:  This service can be used to enable simple VPN split tunnelling.
+ Supports accessing domains, IP ranges outside of your VPN tunnel.
+ Also supports dedicating local ports/IP ranges for direct
+ internet access (outside of your VPN tunnel).
+ Please see the README for further information.
+
+Package: watchcat
+Version: 1-7
+Depends: libc
+Source: feeds/packages/utils/watchcat
+License: GPL-2.0
+Section: utils
+Maintainer: Roger D <rogerdammit@gmail.com>
+Architecture: mvebu64
+Installed-Size: 2170
+Filename: watchcat_1-7_mvebu64.ipk
+Size: 2940
+MD5Sum: 285d6efdc1ca8af954f63ca13ae538e3
+SHA256sum: 156ac312c2f4f9d10b5cc29108f1fd32958bf324613cd1d094cb3d583d520d3a
+Description:  Allows to configure a periodically reboot, or after losing internet connectivity. Configured trough UCI /etc/config/system.
+
+Package: wifischedule
+Version: 1-2
+Depends: libc
+Source: feeds/packages/net/wifischedule
+License: PRPL
+Section: net
+Maintainer: Nils Koenig <openwrt@newk.it> 
+Architecture: all
+Installed-Size: 3098
+Filename: wifischedule_1-2_all.ipk
+Size: 3856
+MD5Sum: 79724155d3d7283d762eda8ca3dd79f3
+SHA256sum: 323dd0dc7eee31096f7f94be97879ea7022d9f41d4f86bd367234843445e58ce
+Description:  Turns WiFi on and off according to a schedule defined in UCI.
+
+Package: xinetd
+Version: 2.3.15-5
+Depends: libc
+Source: feeds/packages/net/xinetd
+License: xinetd
+LicenseFiles: COPYRIGHT
+Section: net
+Architecture: mvebu64
+Installed-Size: 58158
+Filename: xinetd_2.3.15-5_mvebu64.ipk
+Size: 59052
+MD5Sum: 8d40d4019eae4f94121524927050806f
+SHA256sum: ab208925580e59a5a21d8773d4b1f574311dad19adc3561cfe11502659ddee05
+Description:  xinetd has access control mechanisms, extensive logging capabilities,
+ the ability to make services available based on time, can place limits
+ on the number of servers that can be started, and has deployable
+ defence mechanisms to protect against port scanners, among other
+ things.
+
+Package: zabbix-agentd
+Version: 3.2.7-2
+Depends: libc
+Source: feeds/packages/admin/zabbix
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Require-User: zabbix=53:zabbix=53
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mvebu64
+Installed-Size: 126847
+Filename: zabbix-agentd_3.2.7-2_mvebu64.ipk
+Size: 127626
+MD5Sum: 2055efecdbd01151fb74a18d87e5d639
+SHA256sum: 7663fa0fe74b25ce65c9d582d5e55caec0f1cd7648d6d9fe6a8628ffa822d239
+Description:  Zabbix agentd
+
+Package: zabbix-extra-network
+Version: 3.2.7-2
+Depends: libc, zabbix-agentd, libuci-lua, lua
+Source: feeds/packages/admin/zabbix
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Require-User: zabbix=53:zabbix=53
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mvebu64
+Installed-Size: 521
+Filename: zabbix-extra-network_3.2.7-2_mvebu64.ipk
+Size: 1447
+MD5Sum: 916953a93c0f61f5f2d880a9dc55607d
+SHA256sum: e2558824966e89a7f18a3b3b147e70cd735c82a2299cd4bbf4a7a9039a5e357e
+Description:  An extra package for zabbix-agentd that adds a discovery rule for openwrt network interfaces.
+ The idea here is to discover only interfaces listed in /etc/config/network (discover br-lan and not eth0.1 and wlan0)
+ See http://wiki.openwrt.org/doc/howto/zabbix for ready to use zabbix templates.
+
+Package: zabbix-extra-wifi
+Version: 3.2.7-2
+Depends: libc, zabbix-agentd, libiwinfo-lua, libuci-lua, lua
+Source: feeds/packages/admin/zabbix
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Require-User: zabbix=53:zabbix=53
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mvebu64
+Installed-Size: 1137
+Filename: zabbix-extra-wifi_3.2.7-2_mvebu64.ipk
+Size: 2072
+MD5Sum: 02a9c9f7c01dec166b056d181850a2fa
+SHA256sum: 91f9c57677a55c01169d1d1ade2aa374cd0b289c93ebda8770062dafa36c5c03
+Description:  An extra package for zabbix-agentd that adds a discovery rule for wifi interfaces and many userparameters.
+ As it uses libiwinfo, it works with all wifi devices supported by openwrt.
+ See http://wiki.openwrt.org/doc/howto/zabbix for ready to use zabbix templates.
+
+Package: zabbix-get
+Version: 3.2.7-2
+Depends: libc
+Source: feeds/packages/admin/zabbix
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Require-User: zabbix=53:zabbix=53
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mvebu64
+Installed-Size: 41133
+Filename: zabbix-get_3.2.7-2_mvebu64.ipk
+Size: 41882
+MD5Sum: 0a8f8207a2407b68894a59031bb73de2
+SHA256sum: de29eaa658aeedde1c85b36d2a535e057ea144d5bba3e3aa5ce72a8c71f89f0f
+Description:  Zabbix get
+
+Package: zabbix-proxy
+Version: 3.2.7-2
+Depends: libc, libsqlite3
+Source: feeds/packages/admin/zabbix
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Require-User: zabbix=53:zabbix=53
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mvebu64
+Installed-Size: 326140
+Filename: zabbix-proxy_3.2.7-2_mvebu64.ipk
+Size: 325802
+MD5Sum: 51ebe3468219d11621126bb18607ce2c
+SHA256sum: 2dea698cda7fff7252c6d50d6964d6083e32849af772f9dc42b816fe496de02d
+Description:  Zabbix proxy
+
+Package: zabbix-sender
+Version: 3.2.7-2
+Depends: libc
+Source: feeds/packages/admin/zabbix
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Require-User: zabbix=53:zabbix=53
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mvebu64
+Installed-Size: 48690
+Filename: zabbix-sender_3.2.7-2_mvebu64.ipk
+Size: 49492
+MD5Sum: c3474aa6b097d6f76616b38070f256df
+SHA256sum: ee57b619fbae25e0351cc9b31aab0fce3515fb5a870497cb4c01ad9a72d6ae32
+Description:  Zabbix sender
+
+Package: zabbix-server
+Version: 3.2.7-2
+Depends: libc, libsqlite3
+Source: feeds/packages/admin/zabbix
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: admin
+Require-User: zabbix=53:zabbix=53
+Maintainer: Etienne CHAMPETIER <champetier.etienne@gmail.com>
+Architecture: mvebu64
+Installed-Size: 361428
+Filename: zabbix-server_3.2.7-2_mvebu64.ipk
+Size: 360812
+MD5Sum: 886f1569b2b08612b0d5029ad25ca1b5
+SHA256sum: 8379ebd18dd615ff50583a488d9c61adcadda8c45a9d9998bb326938ac575f6f
+Description:  Zabbix server
+
