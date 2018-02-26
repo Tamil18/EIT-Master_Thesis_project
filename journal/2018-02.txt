@@ -76,3 +76,8 @@
     found out there is no mvebu64 repository
 
     asked on forum if they are going to added it'}
+23: {text: 'compiling mvebu64 repo:base, admin'}
+26: {text: 'compile: development, firmware, fonts, kernel modules-freaking buggy,
+    LuCI  - worked over weekend - even more buggy and complicated
+
+    started network'}

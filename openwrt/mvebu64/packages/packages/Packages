@@ -40,11 +40,11 @@ LicenseFiles: LICENSE
 Section: mail
 Maintainer: Antti Seppälä <a.seppala@gmail.com>
 Architecture: mvebu64
-Installed-Size: 1628492
+Installed-Size: 1628491
 Filename: alpine-nossl_2.20-2_mvebu64.ipk
-Size: 1627479
-MD5Sum: 99e71f8d6942c0dacdef18998ff14f83
-SHA256sum: 791197e33d43d3cdb29fc1107c14b97a3ebb5cdcb79eacedadfe3df5211db29f
+Size: 1627457
+MD5Sum: 867691e30c6e7c29923bc7ff9105f9c7
+SHA256sum: 2f916f02810f294faf94c17fd06314e24b6486c7cd3c2feb1b7022b2b9422aa2
 Description:  Alpine (Alternatively Licensed Program for Internet News and Email) is a
  free software email client developed at the University of Washington.
  It is suitable for both the inexperienced email user as well as for
@@ -62,9 +62,9 @@ Maintainer: Antti Seppälä <a.seppala@gmail.com>
 Architecture: mvebu64
 Installed-Size: 1663529
 Filename: alpine_2.20-2_mvebu64.ipk
-Size: 1662792
-MD5Sum: 4e89bb6baee1d329040636a2c595b78d
-SHA256sum: f074cf7398a9e8f303b05f060c82b1afbf7090e3446e93cc31a4aeba0710cbd4
+Size: 1662789
+MD5Sum: b65212169321f19fc47dac1c2ead2b1d
+SHA256sum: a942c64a0302ce596114651185a653af9f7027c74ff49d572446b4674f11d38d
 Description:  Alpine (Alternatively Licensed Program for Internet News and Email) is a
  free software email client developed at the University of Washington.
  It is suitable for both the inexperienced email user as well as for
@@ -83,9 +83,9 @@ Maintainer: Imre Kaloz <kaloz@openwrt.org>, Hsing-Wang Liao <kuoruan@gmail.com>
 Architecture: mvebu64
 Installed-Size: 788899
 Filename: aria2_1.33.0-1_mvebu64.ipk
-Size: 786281
-MD5Sum: a7c3424a716464b94c6323c325714610
-SHA256sum: 979179b82348fac37dad9484992c27b0d3771c92f986cb48ada3a600f64ccb62
+Size: 786282
+MD5Sum: e24c1e6b6c69558f1ea4f1ccb944f8fa
+SHA256sum: 2caad47aa7bef765aca359ef54a291dddc28d231b5eafc18d0b80bbfa4434ee5
 Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
  utility
 
@@ -248,9 +248,9 @@ Maintainer: Marko Ratkaj <marko.ratkaj@sartura.hr> Lucian Cristian <lucian.crist
 Architecture: mvebu64
 Installed-Size: 999411
 Filename: clamav_0.99.3-1_mvebu64.ipk
-Size: 995487
-MD5Sum: 5d2c3dcc289e3b4ccee68a459c958712
-SHA256sum: 107a8e2f7dc50bbf307b82dce8b76fbedab13086b4397581a9526066ed1311d6
+Size: 995485
+MD5Sum: d500f6edcfc0795a28392c410ced143c
+SHA256sum: 9080bb3ee68029a83ae88d08b070c7ad2f52146dfef63cd75a62bae5d9241455
 Description:  ClamAV is an open source antivirus engine for detecting trojans,
  viruses, malware & other malicious threats.
 
@@ -817,9 +817,9 @@ Maintainer: Damiano Renfer <damiano.renfer@gmail.com>
 Architecture: mvebu64
 Installed-Size: 65037
 Filename: dnscrypt-proxy_1.9.5-8_mvebu64.ipk
-Size: 65902
-MD5Sum: a74e36f46e3c5d39f83a16c71344fcf7
-SHA256sum: ccf0a0a91fb62a7e1676e1c595a188aa0e783fa8fccb7fa66330dc79308eced2
+Size: 65904
+MD5Sum: 02e2d32c601ed207e8055edcbb01c053
+SHA256sum: 71703528834afb4a54c6d4d1b93dbd352bd0a6c1e706fdae892520ef2ba496de
 Description:  dnscrypt-proxy provides local service which can be used directly as your
  local resolver or as a DNS forwarder, encrypting and authenticating requests
  using the DNSCrypt protocol and passing them to an upstream server.
@@ -1146,40 +1146,73 @@ Description:  Command-line interface to IPMI-enabled devices
 
 Package: kmod-cryptodev
 Version: 4.4.52+1.9.git-2017-10-04-mvebu64-1
-Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-authenc, kmod-crypto-hash
+Depends: kernel (=4.4.52-1-2b186349e5c8cf3468921464a33d8b6f), kmod-crypto-authenc, kmod-crypto-hash
 Source: feeds/packages/utils/cryptodev-linux
 License: GPL-2.0
 LicenseFiles: COPYING
 Section: kernel
 Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
 Architecture: mvebu64
-Installed-Size: 18309
+Installed-Size: 18329
 Filename: kmod-cryptodev_4.4.52+1.9.git-2017-10-04-mvebu64-1_mvebu64.ipk
-Size: 19241
-MD5Sum: a2861b85a781fbfdb8d3d11bf6ca4bfd
-SHA256sum: fabfc1bc6a3a98f6d1cbcc66deaf84ad78d6e6a9a8cca75deba06cf5b0858126
+Size: 19254
+MD5Sum: 3935dd8fe65dccbf088c645f03c65af9
+SHA256sum: 78da63ecff5ea1bd34aeccbc03144f56071066f208f7b424c108c52ad58ec4b7
 Description:  This is a driver for that allows to use the Linux kernel supported
  hardware ciphers by user-space applications.
 
 Package: kmod-fs-exfat
 Version: 4.4.52+2017-06-20-de4c760b-1
-Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
+Depends: kernel (=4.4.52-1-2b186349e5c8cf3468921464a33d8b6f), kmod-nls-base
 Source: feeds/packages/kernel/exfat-nofuse
 License: GPL-2.0
 LicenseFiles: LICENSE
 Section: kernel
 Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
 Architecture: mvebu64
-Installed-Size: 46030
+Installed-Size: 46045
 Filename: kmod-fs-exfat_4.4.52+2017-06-20-de4c760b-1_mvebu64.ipk
-Size: 46827
-MD5Sum: 2db4bda42ecb8f063ceaea0a183cbdc7
-SHA256sum: d499c64fab5c8342821a0e0fbc07c70c22df2116c821b156b32d9e8ace205dc0
+Size: 46876
+MD5Sum: eb6097bd833f1c4da39d99fd91813c7d
+SHA256sum: cde2020d73cd690a676a1a53cf65c07cd78fa3784a6efc8f8917dcf683359aa9
 Description:  Kernel module for ExFAT Filesytems
+
+Package: kmod-jool
+Version: 4.4.52+2017.03.09-2
+Depends: kernel (=4.4.52-1-2b186349e5c8cf3468921464a33d8b6f), kmod-crypto-md5, kmod-nf-conntrack, kmod-nf-conntrack6
+Source: feeds/packages/net/jool
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 109523
+Filename: kmod-jool_4.4.52+2017.03.09-2_mvebu64.ipk
+Size: 109717
+MD5Sum: f354941a37a72159cf0839f2cf965a42
+SHA256sum: 73057c99615e3dc1cf9d008efe26b8520c84511dffd919fc1bf4992784556cd8
+Description:  Jool is an Open Source SIIT and NAT64 for Linux.
+ 
+ This package provides the kernel module for Jool.
+
+Package: kmod-mtd-rw
+Version: 4.4.52+git-20160214-1
+Depends: kernel (=4.4.52-1-2b186349e5c8cf3468921464a33d8b6f)
+Source: feeds/packages/kernel/mtd-rw
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: kernel
+Maintainer: Joseph C. Lehner <joseph.c.lehner@gmail.com>
+Architecture: mvebu64
+Installed-Size: 1513
+Filename: kmod-mtd-rw_4.4.52+git-20160214-1_mvebu64.ipk
+Size: 2332
+MD5Sum: e167ba3fe892657123eb876b2fae0de5
+SHA256sum: 5b2b8065ce57187f19cf5e1f3ac0ea646e9a083da362d841340568d07f74a61c
+Description:  A kernel module that temporarily makes all MTD partitions writeable.
 
 Package: kmod-siit
 Version: 4.4.52+1.2-2
-Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Depends: kernel (=4.4.52-1-2b186349e5c8cf3468921464a33d8b6f)
 Source: feeds/packages/net/siit
 License: GPLv2+
 Section: kernel
@@ -1187,10 +1220,42 @@ Maintainer: Vladimir Ulrich <admin@evl.su>
 Architecture: mvebu64
 Installed-Size: 4845
 Filename: kmod-siit_4.4.52+1.2-2_mvebu64.ipk
-Size: 5642
-MD5Sum: 4f9c3e0f3d7617b27fb0a2ffc2873ea8
-SHA256sum: 79986bfd429a33b17025d5c46cb7a2775767df8eb2d485afc2abd112a5bb5289
+Size: 5654
+MD5Sum: 43c44d897e32f936cc942bf931038443
+SHA256sum: 92688f07a2c6b757b2360cb589cca689db72303e9eab42e5649d1f3c3c642696
 Description:  Stateless IP ICMP Translation Algorithm
+
+Package: kmod-usb-serial-dmx_usb_module
+Version: 4.4.52+0.1.20130818-0.1
+Depends: kernel (=4.4.52-1-2b186349e5c8cf3468921464a33d8b6f), kmod-usb-serial
+Source: feeds/packages/libs/dmx_usb_module
+License: GPL-2.0
+Section: kernel
+Maintainer: Martijn Zilverschoon <martijn@friedzombie.com>
+Architecture: mvebu64
+Installed-Size: 4560
+Filename: kmod-usb-serial-dmx_usb_module_4.4.52+0.1.20130818-0.1_mvebu64.ipk
+Size: 5497
+MD5Sum: 44208d627172770102f13169358ed1df
+SHA256sum: e01e513d88f35c419fa164f0ce43b2c66facdf5b3486392effc8989861cab3e4
+Description:  Open DMX USB is an open USB to DMX dongle hardware design developed by Enttec.
+ The Open in Open DMX USB refers to the fact that everybody is free to use the
+ design and produce its own USB DMX Dongle without paying any licenses.
+
+Package: kmod-usb-serial-xr_usb_serial_common
+Version: 4.4.52+1a-1
+Depends: kernel (=4.4.52-1-2b186349e5c8cf3468921464a33d8b6f), kmod-usb-serial
+Source: feeds/packages/libs/xr_usb_serial_common
+License: GPLv2
+Section: kernel
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: mvebu64
+Installed-Size: 14506
+Filename: kmod-usb-serial-xr_usb_serial_common_4.4.52+1a-1_mvebu64.ipk
+Size: 15337
+MD5Sum: bfcdf408de8d7014ecb57492612b515d
+SHA256sum: 9430b9ac3c77d69efbffd4e885458e81b44c3c70289a0d01e18c8c4d9f443c2c
+Description:  Support for Exar USB to RS-485/RS-422
 
 Package: libattr
 Version: 20170915-1
@@ -1418,11 +1483,11 @@ LicenseFiles: COPYING
 Section: libs
 Maintainer: Marcel Denia <naoir@gmx.net>
 Architecture: mvebu64
-Installed-Size: 15578
+Installed-Size: 15580
 Filename: libgdbm_1.11-1_mvebu64.ipk
-Size: 16321
-MD5Sum: 43a031b42f6a08269569bd0c7902a5a5
-SHA256sum: 9443c4c32d5af6ee85bf49b9cad3d798965f577cd4dac504412eefa36f38b08c
+Size: 16316
+MD5Sum: e40576f3d3a278091596c2185e99b1fa
+SHA256sum: 2c884e876a13eab25f165016026b5b906d81cb85de163d5b79c5348d2957e7a1
 Description:  GNU database manager library
  GNU dbm is a set of database routines that use extendible hashing and
  works similar to the standard UNIX dbm routines.
@@ -1949,11 +2014,11 @@ LicenseFiles: gnu-COPYING-GPL
 Section: mail
 Maintainer: Denis Shulyaka <Shulyaka@gmail.com>
 Architecture: mvebu64
-Installed-Size: 9359557
+Installed-Size: 9359543
 Filename: mailman_2.1.23-1_mvebu64.ipk
-Size: 9360206
-MD5Sum: f92b5fef9061f9fae4fc0f2a2155d0d5
-SHA256sum: 0bc357f8bcefd991589429f8d1f5c46edba3c2946838732cd3917ceadb914842
+Size: 9360250
+MD5Sum: a35f591d49f2c7d80ede4f24521633a3
+SHA256sum: c8f6cc21774b0daad4ede4fa1de407f79e6e0d41e07b1507a08968f3bc731c88
 Description:  Mailman is free software for managing electronic mail discussion and e-newsletter lists.
 
 Package: mailsend-nossl
@@ -3566,11 +3631,11 @@ LicenseFiles: doc/LICENSE
 Section: admin
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
 Architecture: mvebu64
-Installed-Size: 274502
+Installed-Size: 274503
 Filename: sudo_1.8.21p2-1_mvebu64.ipk
 Size: 274950
-MD5Sum: 20c100d1d0dd4876ba15774b5122fcda
-SHA256sum: 7949e7cf75c70fbe5e9228b31d1dbcd65887235db00ddd409fe29cb1abff6091
+MD5Sum: 8fdf482c5cec11a263875bc2b664c0ff
+SHA256sum: d5ea210b77307f6216b1ebad5c4e9e0b93c76e5729c858ac5449c17365e42ebd
 Description:  Sudo (su "do") allows a system administrator to delegate authority to
  give certain users (or groups of users) the ability to run some (or
  all) commands as root or another user while providing an audit trail of

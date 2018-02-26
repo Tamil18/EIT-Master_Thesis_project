@@ -125,12 +125,44 @@ License: GPL-3.0
 Section: net
 Maintainer: Lars Gierth <larsg@systemli.org>
 Architecture: mvebu64
-Installed-Size: 299227
+Installed-Size: 299246
 Filename: cjdns_0.20-1_mvebu64.ipk
-Size: 299501
-MD5Sum: cf7392eb3ceb41eaa83be33e69b65fa1
-SHA256sum: 53ba6b71c700ca32bd0d630936757f7dc2ffcdbfd82879ee0df42d27a4cdf4ad
+Size: 299587
+MD5Sum: 49856e313b5e98c1de8e849e27586ae6
+SHA256sum: 92aa0e8c9bc3e7be9497fd8a1ff9f334f301ba034aa3d43fc2ac8b35a9e22d92
 Description:  Cjdns implements an encrypted IPv6 network using public-key cryptography for address allocation and a distributed hash table for routing. This provides near-zero-configuration networking, and prevents many of the security and scalability issues that plague existing networks.
+
+Package: kmod-batman-adv
+Version: 4.4.52+2017.4-0
+Depends: kernel (=4.4.52-1-2b186349e5c8cf3468921464a33d8b6f), kmod-lib-crc16, kmod-crypto-crc32c, kmod-lib-crc32c, kmod-cfg80211
+Source: feeds/routing/batman-adv
+License: GPL-2.0
+Section: kernel
+Maintainer: Simon Wunderlich <sw@simonwunderlich.de>
+Architecture: mvebu64
+Installed-Size: 117607
+Filename: kmod-batman-adv_4.4.52+2017.4-0_mvebu64.ipk
+Size: 117874
+MD5Sum: 517b0f8d73e18bf365a4fa140c89d6d6
+SHA256sum: 239dd9aefccb6eed8aebbff036e431b0353580f8844b511ba80868b887476eb2
+Description:  B.A.T.M.A.N. advanced is a kernel module which allows to
+ build layer 2 mesh networks. This package builds
+ version 2017.4 of the kernel module.
+
+Package: kmod-nat46
+Version: 4.4.52+11-1
+Depends: kernel (=4.4.52-1-2b186349e5c8cf3468921464a33d8b6f)
+Source: feeds/routing/nat46
+License: GPL-2.0
+Section: kernel
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 14402
+Filename: kmod-nat46_4.4.52+11-1_mvebu64.ipk
+Size: 15204
+MD5Sum: 73e9faa36523a1f6278befd1d776a904
+SHA256sum: d5019883a34b69a98b36a37223df2a0f9ad43136d494908437429113f5999fa3
+Description:  Stateless NAT46 translation kernel module
 
 Package: luci-app-bird4
 Version: 0.3-1

@@ -1,6 +1,7 @@
 b23763af8ad2e61d84a11430796e72ac *armada-8040-mcbin.dtb
-eeb23844a1cda9ffbb6c7837b786a3fa *openwrt-armada-a8k-MACHIATOBin-Image
-8cdf3de5cccd53bfe8c96d61b6d7a969 *openwrt-armada-a8k-MACHIATOBin-Image-initramfs
+d7443518c435effec6831bf0acdc69d3 *openwrt-armada-a8k-MACHIATOBin-Image
+e12b088d364f5c8fc7379838d2f3955a *openwrt-armada-a8k-MACHIATOBin-Image-initramfs
 4a4dd3598707603b3f76a2378a4504aa *openwrt-armada-a8k-MACHIATOBin-Image.gz
-e81c0d838a85d9d3c631ed04005abebe *openwrt-mvebu64-armada-a8k-machiatobin-rootfs.tar.gz
-150945103865f20616ec5c6f76294693 *openwrt-mvebu64-vmlinux.elf
+bc0f9aa2383cba8245d044e967b2b071 *openwrt-mvebu64-armada-a8k-machiatobin-rootfs.tar.gz
+4b8f97d2ff844b8c40646843c053eeae *openwrt-mvebu64-vmlinux.elf
+3d5b3ecdf6bea00408367be63cb055ee *sha256sums

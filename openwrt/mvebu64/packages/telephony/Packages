@@ -1,1 +1,65 @@
+Package: kmod-dahdi-dummy
+Version: 4.4.52+2.11.1-20180111-1
+Depends: kernel (=4.4.52-1-2b186349e5c8cf3468921464a33d8b6f), kmod-dahdi
+Source: feeds/telephony/libs/dahdi-linux
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: kernel
+Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
+Architecture: mvebu64
+Installed-Size: 2188
+Filename: kmod-dahdi-dummy_4.4.52+2.11.1-20180111-1_mvebu64.ipk
+Size: 3077
+MD5Sum: 8746ec977c2859428f247facaf817d5a
+SHA256sum: 4f763698099ee4f6e9cf9990a12418a83204cbb7e714dc1842fcdd61112c0897
+Description:  This package contains the dummy DAHDI driver providing only DAHDI timing
+ without any real telephony hardware.
+
+Package: kmod-dahdi-echocan-oslec
+Version: 4.4.52+2.11.1-20180111-1
+Depends: kernel (=4.4.52-1-2b186349e5c8cf3468921464a33d8b6f), kmod-dahdi, kmod-echo
+Source: feeds/telephony/libs/dahdi-linux
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: kernel
+Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
+Architecture: mvebu64
+Installed-Size: 1533
+Filename: kmod-dahdi-echocan-oslec_4.4.52+2.11.1-20180111-1_mvebu64.ipk
+Size: 2447
+MD5Sum: 446cc10c59c5bd070d888044e77232a2
+SHA256sum: bc86085313aab6e827b37cff908b14c3e12a97cad771fde80ed7d226382e7120
+Description:  This package contains DAHDI OSLEC echo canceller support.
+
+Package: kmod-dahdi-hfcs
+Version: 4.4.52+2.11.1-20180111-1
+Depends: kernel (=4.4.52-1-2b186349e5c8cf3468921464a33d8b6f), kmod-dahdi
+Source: feeds/telephony/libs/dahdi-linux
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: kernel
+Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
+Architecture: mvebu64
+Installed-Size: 10654
+Filename: kmod-dahdi-hfcs_4.4.52+2.11.1-20180111-1_mvebu64.ipk
+Size: 11523
+MD5Sum: bc8ee96120f57c9450c44d934af9f5f1
+SHA256sum: 9d6cd4bf1d8a1537d0ee59d647c40e042f4fa7f94804ca06b46a7e2543fbaf68
+Description:  This package contains DAHDI driver for HFC-S based PCI BRI adapters.
+
+Package: kmod-dahdi
+Version: 4.4.52+2.11.1-20180111-1
+Depends: kernel (=4.4.52-1-2b186349e5c8cf3468921464a33d8b6f), kmod-lib-crc-ccitt
+Source: feeds/telephony/libs/dahdi-linux
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: kernel
+Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
+Architecture: mvebu64
+Installed-Size: 56287
+Filename: kmod-dahdi_4.4.52+2.11.1-20180111-1_mvebu64.ipk
+Size: 56984
+MD5Sum: b8e8dff20beb9ba511cd6d6f4720c6f1
+SHA256sum: 6b4a5fa46a2794c6f75196a9749b1e6bbd3a3ded96e1a46af8c6540a2469de1f
+Description:  This package contains DAHDI basic infrastructure.
 
