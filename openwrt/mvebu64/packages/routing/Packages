@@ -125,11 +125,11 @@ License: GPL-3.0
 Section: net
 Maintainer: Lars Gierth <larsg@systemli.org>
 Architecture: mvebu64
-Installed-Size: 299268
+Installed-Size: 299227
 Filename: cjdns_0.20-1_mvebu64.ipk
-Size: 299600
-MD5Sum: eabce3a827b75ab599a3614ba6d2b97a
-SHA256sum: e6bca72f5b64178cce7a4fdb8f4dd75518a4238e953dd286c06c5fdea3a33ab8
+Size: 299501
+MD5Sum: cf7392eb3ceb41eaa83be33e69b65fa1
+SHA256sum: 53ba6b71c700ca32bd0d630936757f7dc2ffcdbfd82879ee0df42d27a4cdf4ad
 Description:  Cjdns implements an encrypted IPv6 network using public-key cryptography for address allocation and a distributed hash table for routing. This provides near-zero-configuration networking, and prevents many of the security and scalability issues that plague existing networks.
 
 Package: luci-app-bird4

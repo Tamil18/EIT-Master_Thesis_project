@@ -31,6 +31,46 @@ Description:  Powerful adblock script to block ad/abuse domains via dnsmasq, unb
  Please see https://github.com/openwrt/packages/blob/master/net/adblock/files/README.md for further information.
  
 
+Package: alpine-nossl
+Version: 2.20-2
+Depends: libc, libopenssl, libncurses, libpthread, libpam
+Source: feeds/packages/mail/alpine
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: mail
+Maintainer: Antti Seppälä <a.seppala@gmail.com>
+Architecture: mvebu64
+Installed-Size: 1628492
+Filename: alpine-nossl_2.20-2_mvebu64.ipk
+Size: 1627479
+MD5Sum: 99e71f8d6942c0dacdef18998ff14f83
+SHA256sum: 791197e33d43d3cdb29fc1107c14b97a3ebb5cdcb79eacedadfe3df5211db29f
+Description:  Alpine (Alternatively Licensed Program for Internet News and Email) is a
+ free software email client developed at the University of Washington.
+ It is suitable for both the inexperienced email user as well as for
+ the most demanding power user.
+ This package is built without OpenSSL support.
+
+Package: alpine
+Version: 2.20-2
+Depends: libc, libopenssl, libncurses, libpthread, libpam, libopenssl
+Source: feeds/packages/mail/alpine
+License: Apache-2.0
+LicenseFiles: LICENSE
+Section: mail
+Maintainer: Antti Seppälä <a.seppala@gmail.com>
+Architecture: mvebu64
+Installed-Size: 1663529
+Filename: alpine_2.20-2_mvebu64.ipk
+Size: 1662792
+MD5Sum: 4e89bb6baee1d329040636a2c595b78d
+SHA256sum: f074cf7398a9e8f303b05f060c82b1afbf7090e3446e93cc31a4aeba0710cbd4
+Description:  Alpine (Alternatively Licensed Program for Internet News and Email) is a
+ free software email client developed at the University of Washington.
+ It is suitable for both the inexperienced email user as well as for
+ the most demanding power user.
+ This package is built with OpenSSL support.
+
 Package: aria2
 Version: 1.33.0-1
 Depends: libc, zlib, libstdcpp, libopenssl
@@ -44,8 +84,8 @@ Architecture: mvebu64
 Installed-Size: 788899
 Filename: aria2_1.33.0-1_mvebu64.ipk
 Size: 786281
-MD5Sum: 69717bc88838c3c8611dcf8751b40d52
-SHA256sum: c5d556457dd2a74b8d3c966741cb4cbedb9b780f7ea6bd01f4704f881ccdf86b
+MD5Sum: a7c3424a716464b94c6323c325714610
+SHA256sum: 979179b82348fac37dad9484992c27b0d3771c92f986cb48ada3a600f64ccb62
 Description:  aria2 is a lightweight multi-protocol & multi-source command-line download
  utility
 
@@ -115,6 +155,24 @@ SHA256sum: 10815c9864a0a009f0a58e799cf1dcfc6da286f74632888eebad5a6261887b8b
 Description:  Automake is a tool for automatically generating Makefile.in files compliant
  with the GNU Coding Standards.
 
+Package: bash
+Version: 4.4.12-1
+Depends: libc, libncurses
+Source: feeds/packages/utils/bash
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: mvebu64
+Installed-Size: 362029
+Filename: bash_4.4.12-1_mvebu64.ipk
+Size: 362582
+MD5Sum: 0e9f9fe410f4c482396d580c10788617
+SHA256sum: ae9d7b06eccdc9df211974bcce8c2f271c7f659c8dca41ef41f651b8149488d9
+Description:  Bash is an sh-compatible command language interpreter that executes
+ commands read from the standard input or from a file. Bash also
+ incorporates useful features from the Korn and C shells (ksh and csh).
+
 Package: bcp38
 Version: 5-3
 Depends: libc, ipset
@@ -132,6 +190,22 @@ Description:  bcp38 implements IETF BCP38 for home routers.
  
  This package provides BCP38 for IPv4 only - IPv6 uses source 
  specific default routes, so no firewall configuration is needed.
+
+Package: bogofilter
+Version: 1.2.4-4
+Depends: libc, libdb47
+Source: feeds/packages/mail/bogofilter
+License: GPLv2
+LicenseFiles: COPYING
+Section: mail
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: mvebu64
+Installed-Size: 272780
+Filename: bogofilter_1.2.4-4_mvebu64.ipk
+Size: 272841
+MD5Sum: dfee5dbfc3a9046ab43f47d81c23916f
+SHA256sum: c3f10c111ac37a379fb5d1f464ae439868d00cbdd90ed5ee7835e08d0b6be403
+Description:  Bogofilter is a fast Bayesian spam filter
 
 Package: bridge
 Version: 1.5-5
@@ -179,6 +253,20 @@ MD5Sum: 5d2c3dcc289e3b4ccee68a459c958712
 SHA256sum: 107a8e2f7dc50bbf307b82dce8b76fbedab13086b4397581a9526066ed1311d6
 Description:  ClamAV is an open source antivirus engine for detecting trojans,
  viruses, malware & other malicious threats.
+
+Package: clamsmtp
+Version: 1.10-1
+Depends: libc, libpthread
+Source: feeds/packages/mail/clamsmtp
+License: GPLv2
+Section: mail
+Architecture: mvebu64
+Installed-Size: 18869
+Filename: clamsmtp_1.10-1_mvebu64.ipk
+Size: 19559
+MD5Sum: f69cbb1e8956bd2af11590bf86a33f15
+SHA256sum: ed2d9fe5474910538dd2818535a9c11c48a600204415fcd52f04b54950fa00d4
+Description:  ClamSMTP is an SMTP filter that allows you to check for viruses using the ClamAV anti-virus software.
 
 Package: collectd-mod-cpu
 Version: 5.8.0-3
@@ -727,17 +815,67 @@ License: ISC
 Section: net
 Maintainer: Damiano Renfer <damiano.renfer@gmail.com>
 Architecture: mvebu64
-Installed-Size: 65031
+Installed-Size: 65037
 Filename: dnscrypt-proxy_1.9.5-8_mvebu64.ipk
-Size: 65914
-MD5Sum: 570701e424bef713c98f167c1b58d54b
-SHA256sum: d03c42e6915e2b483a221de8f6e45eeb1a192760766a9caa27d9f2bd74f63ea3
+Size: 65902
+MD5Sum: a74e36f46e3c5d39f83a16c71344fcf7
+SHA256sum: ccf0a0a91fb62a7e1676e1c595a188aa0e783fa8fccb7fa66330dc79308eced2
 Description:  dnscrypt-proxy provides local service which can be used directly as your
  local resolver or as a DNS forwarder, encrypting and authenticating requests
  using the DNSCrypt protocol and passing them to an upstream server.
  The DNSCrypt protocol uses high-speed high-security elliptic-curve cryptography
  and is very similar to DNSCurve, but focuses on securing communications between
  a client and its first-level resolver.
+
+Package: dovecot-pigeonhole
+Version: 2.2.33.2-0.4.21-2
+Depends: dovecot (>= 2.2.33.2), libc, dovecot
+Source: feeds/packages/mail/pigeonhole
+License: LGPL-2.1
+LicenseFiles: COPYING COPYING.LGPL
+Section: mail
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: mvebu64
+Installed-Size: 310095
+Filename: dovecot-pigeonhole_2.2.33.2-0.4.21-2_mvebu64.ipk
+Size: 305371
+MD5Sum: 243a4993bb48ebdcbc4445fdec7c3c08
+SHA256sum: be023ea48c1d17278b577d0855a7e34952db7d70e5073d217d1e1e7358fe9e30
+Description:  Pigeonhole provides mail filtering facilities for Dovecot using the Sieve
+ (RFC 5228) language.
+
+Package: dovecot-utils
+Version: 2.2.33.2-2
+Depends: libc, dovecot
+Source: feeds/packages/mail/dovecot
+License: LGPL-2.1 MIT BSD-3-Clause Unique
+LicenseFiles: COPYING COPYING.LGPL COPYING.MIT
+Section: mail
+Maintainer: Lucian Cristian <lucian.cristian@gmail.com>
+Architecture: mvebu64
+Installed-Size: 184751
+Filename: dovecot-utils_2.2.33.2-2_mvebu64.ipk
+Size: 183574
+MD5Sum: 818098a7586f9a88d61df6a7cbb92098
+SHA256sum: a82a34d5de2643bdd8e75f5027d320934a09e1a4d6293b4c4c88682250652bbc
+Description:  doveadm and dsync utilities for Dovecot
+
+Package: dovecot
+Version: 2.2.33.2-2
+Depends: libc, libopenldap, libmysqlclient, libpq, libsqlite3, libopenssl, librt, zlib, libbz2, libcap, icu
+Source: feeds/packages/mail/dovecot
+License: LGPL-2.1 MIT BSD-3-Clause Unique
+LicenseFiles: COPYING COPYING.LGPL COPYING.MIT
+Section: mail
+Require-User: dovecot=59:dovecot=59
+Maintainer: Lucian Cristian <lucian.cristian@gmail.com>
+Architecture: mvebu64
+Installed-Size: 2460942
+Filename: dovecot_2.2.33.2-2_mvebu64.ipk
+Size: 2358860
+MD5Sum: 924172e5062c2e58a9c6c1c4a6697dcb
+SHA256sum: 8012adb4ad622d51dc649f1e808796821b155308c5c83efbdcd98902f88c6d24
+Description:  Dovecot is a program which provides POP3 and IMAP services.
 
 Package: dump1090
 Version: 2017-06-01-1
@@ -786,6 +924,29 @@ MD5Sum: f162e8fd8b4ff5f7c22ccdee41826f86
 SHA256sum: da03a9f6cf998322cb9613f22255820e7cdb329114cade24e376f5b10edb0525
 Description:  E2Guardian
 
+Package: emailrelay
+Version: 1.9-5
+Depends: libc, libopenssl, libstdcpp
+Source: feeds/packages/mail/emailrelay
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: mail
+Maintainer: Federico Di Marco <fededim@gmail.com>
+Architecture: mvebu64
+Installed-Size: 418059
+Filename: emailrelay_1.9-5_mvebu64.ipk
+Size: 418322
+MD5Sum: de1322cf017b3c70def2de5d17129a0b
+SHA256sum: 308aca7f458352254a2078a84614614d50d1dc5bc703c909720563d4d6c31f25
+Description:  Emailrelay is a simple SMTP proxy and store-and-forward message transfer agent (MTA).
+ 
+ When running as a proxy all e-mail messages can be passed through
+ a user-defined program, such as a spam filter, which can drop,
+ re-address or edit messages as they pass through. When running
+ as a store-and-forward MTA incoming messages are stored in a
+ local spool directory, and then forwarded to the next SMTP
+ server on request.
+
 Package: etherwake
 Version: 1.09-4
 Depends: libc
@@ -820,6 +981,25 @@ MD5Sum: f54d8d98d0292e018fdb65a711825c2b
 SHA256sum: 205a9da5151fb50ec5c6fa7daf8752702406b417eca0be5317af98ff5a6a1cae
 Description:  ethtool is a small utility for examining and tuning your ethernet-based
  network interface
+
+Package: fdm
+Version: 1.9-2
+Depends: libc, tdb, zlib, libopenssl, libpcre
+Source: feeds/packages/mail/fdm
+License: BSD-2-Clause
+Section: mail
+Require-User: _fdm=99:_fdm=99
+Maintainer: Dmitry V. Zimin <pfzim@mail.ru>
+Architecture: mvebu64
+Installed-Size: 89218
+Filename: fdm_1.9-2_mvebu64.ipk
+Size: 90223
+MD5Sum: 4fe7af7b04834e0e85bef7e28072bbd0
+SHA256sum: c05fc4dd31c656be36a195ff93f9741a9b6b340588e57f0eacffdefb6ed565be
+Description:  fdm is a simple, lightweight replacement for mail fetch, filter
+ and delivery programs such as fetchmail and procmail. It can
+ fetch using POP3 or IMAP (with SSL) or from stdin, and deliver
+ to a pipe, file, maildir, mbox or SMTP server, based on PCRE
 
 Package: fontconfig
 Version: 2.11.1-1
@@ -885,6 +1065,20 @@ MD5Sum: 33a6408ef85a8bca700e438ac7c97ae9
 SHA256sum: 1bb8f709d038f0bf974eda3688e1fb41d4d851c3d1e25989ea38e459529b77d6
 Description:  The GLib library of C routines
 
+Package: greyfix
+Version: 0.4.0-1
+Depends: libc, libdb47
+Source: feeds/packages/mail/greyfix
+License: GPLv2
+Section: mail
+Architecture: mvebu64
+Installed-Size: 10199
+Filename: greyfix_0.4.0-1_mvebu64.ipk
+Size: 10924
+MD5Sum: 704c4257228b4f143f1865873d17d9be
+SHA256sum: 9d76676068c55ee28bf030b9674577fa3b554a67f636334e1d0115b989d56e31
+Description:  Greyfix is the greylisting policy daemon for Postfix written by Kim Minh Kaplan.
+
 Package: hd-idle
 Version: 1.05-1
 Depends: libc
@@ -918,6 +1112,22 @@ Description:  Htop is an ncursed-based process viewer similar to top, but
  it allows to scroll the list vertically and horizontally to
  see all processes and their full command lines.
 
+Package: icu
+Version: 60.2-1
+Depends: libc, libstdcpp, libpthread
+Source: feeds/packages/libs/icu
+License: ICU-1.8.1+
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Hirokazu MORIKAWA <morikw2@gmail.com>
+Architecture: mvebu64
+Installed-Size: 1543898
+Filename: icu_60.2-1_mvebu64.ipk
+Size: 1531273
+MD5Sum: d913235fa144c8e391631d0690883af5
+SHA256sum: 387da2c68445e376d77b03b8cffcfb5218cde940674a255c446f311b2a7a1a57
+Description:  International Components for Unicode
+
 Package: ipmitool
 Version: 1.8.18-1
 Depends: libc, libopenssl, libncurses, libreadline
@@ -934,19 +1144,52 @@ MD5Sum: 3c127e2f889c2d5ed191348cc004db68
 SHA256sum: 522b36a899b3121fa21139f4dbb274083c7f93cec1ef49258e45455b0c2309d0
 Description:  Command-line interface to IPMI-enabled devices
 
+Package: kmod-cryptodev
+Version: 4.4.52+1.9.git-2017-10-04-mvebu64-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-authenc, kmod-crypto-hash
+Source: feeds/packages/utils/cryptodev-linux
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: kernel
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: mvebu64
+Installed-Size: 18309
+Filename: kmod-cryptodev_4.4.52+1.9.git-2017-10-04-mvebu64-1_mvebu64.ipk
+Size: 19241
+MD5Sum: a2861b85a781fbfdb8d3d11bf6ca4bfd
+SHA256sum: fabfc1bc6a3a98f6d1cbcc66deaf84ad78d6e6a9a8cca75deba06cf5b0858126
+Description:  This is a driver for that allows to use the Linux kernel supported
+ hardware ciphers by user-space applications.
+
+Package: kmod-fs-exfat
+Version: 4.4.52+2017-06-20-de4c760b-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
+Source: feeds/packages/kernel/exfat-nofuse
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: kernel
+Maintainer: Yousong Zhou <yszhou4tech@gmail.com>
+Architecture: mvebu64
+Installed-Size: 46030
+Filename: kmod-fs-exfat_4.4.52+2017-06-20-de4c760b-1_mvebu64.ipk
+Size: 46827
+MD5Sum: 2db4bda42ecb8f063ceaea0a183cbdc7
+SHA256sum: d499c64fab5c8342821a0e0fbc07c70c22df2116c821b156b32d9e8ace205dc0
+Description:  Kernel module for ExFAT Filesytems
+
 Package: kmod-siit
 Version: 4.4.52+1.2-2
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e)
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
 Source: feeds/packages/net/siit
 License: GPLv2+
 Section: kernel
 Maintainer: Vladimir Ulrich <admin@evl.su>
 Architecture: mvebu64
-Installed-Size: 4846
+Installed-Size: 4845
 Filename: kmod-siit_4.4.52+1.2-2_mvebu64.ipk
-Size: 5649
-MD5Sum: 070070842f60f4c05b5a03a281298717
-SHA256sum: ed3d8de918266488120233791f49e89f5afa8dde1e15e5fe07e3f692f12a2635
+Size: 5642
+MD5Sum: 4f9c3e0f3d7617b27fb0a2ffc2873ea8
+SHA256sum: 79986bfd429a33b17025d5c46cb7a2775767df8eb2d485afc2abd112a5bb5289
 Description:  Stateless IP ICMP Translation Algorithm
 
 Package: libattr
@@ -965,6 +1208,39 @@ MD5Sum: 512a0b1f0df11343e89be95a24f27e2e
 SHA256sum: 6375b9a27d4d6b5b03c15f6d97dd7ffbf71ba61397b38f816c8dac13875a054f
 Description:  Extended attributes support
  This package provides libattr
+
+Package: libcap
+Version: 2.25-1
+Depends: libc
+Source: feeds/packages/libs/libcap
+License: GPL-2.0
+LicenseFiles: License
+Section: libs
+Maintainer: Paul Wassi <p.wassi@gmx.at>
+Architecture: mvebu64
+Installed-Size: 6015
+Filename: libcap_2.25-1_mvebu64.ipk
+Size: 6724
+MD5Sum: 14e66bcc21ec025de6044aa6281c5c14
+SHA256sum: 5d03176ef02bd3153e45411e08fce57e49bd43f27b1cde8c8decd0e34ab433aa
+Description:  Linux capabilities library
+
+Package: libdb47
+Version: 4.7.25.4.NC-5
+Depends: libc, libxml2
+Provides: libdb47-full
+Source: feeds/packages/libs/db47
+License: Sleepycat
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: mvebu64
+Installed-Size: 482570
+Filename: libdb47_4.7.25.4.NC-5_mvebu64.ipk
+Size: 478520
+MD5Sum: 6dac304572b1e5577fdc10dd30d2e48e
+SHA256sum: 29862dd489f1699e17a47f93459fc25b7da60c9fd6552e80faafbf97a3f8e141
+Description:  Berkeley DB library (4.7).
 
 Package: libeventlog
 Version: 0.2.12-2
@@ -1133,6 +1409,24 @@ SHA256sum: b3eb3790c22f49b4312919a5aacc640fc5721207bb25c149191968ece240cbbb
 Description:  GD is an open source code library for the dynamic creation of images by
  programmers. GD creates PNG, JPEG and GIF images, among other formats.
 
+Package: libgdbm
+Version: 1.11-1
+Depends: libc
+Source: feeds/packages/libs/gdbm
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Marcel Denia <naoir@gmx.net>
+Architecture: mvebu64
+Installed-Size: 15578
+Filename: libgdbm_1.11-1_mvebu64.ipk
+Size: 16321
+MD5Sum: 43a031b42f6a08269569bd0c7902a5a5
+SHA256sum: 9443c4c32d5af6ee85bf49b9cad3d798965f577cd4dac504412eefa36f38b08c
+Description:  GNU database manager library
+ GNU dbm is a set of database routines that use extendible hashing and
+ works similar to the standard UNIX dbm routines.
+
 Package: libid3tag
 Version: 0.15.1b-4
 Depends: libc, zlib
@@ -1182,6 +1476,39 @@ MD5Sum: 2ccf36b796e8461244004e4bbee5fea2
 SHA256sum: 381434c78c330e1cae498cb9719bc5ed356c295f10049b1a4f8eb6b7af063683
 Description:  Linux kernel module handling (library)
 
+Package: libmilter-sendmail
+Version: 8.15.2-1
+Depends: libc, libpthread
+Source: feeds/packages/mail/sendmail
+License: Sendmail
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Val Kulkov <val.kulkov@gmail.com>
+Architecture: mvebu64
+Installed-Size: 18439
+Filename: libmilter-sendmail_8.15.2-1_mvebu64.ipk
+Size: 19217
+MD5Sum: 1be85d4cb34226043bf0567ac0488026
+SHA256sum: 47b606f8317964ce1ce97fb4a64f6cefbd973ccea8e311cb33529e93ad3075bb
+Description:  The sendmail Mail Filter API (Milter) is designed to allow third-party
+ programs access to mail messages as they are being processed in order to
+ filter meta-information and content.
+
+Package: libmysqlclient
+Version: 5.1.73-2
+Depends: libc, uclibcxx, zlib
+Source: feeds/packages/utils/mysql
+License: GPL-2.0
+Section: libs
+Maintainer: Jo-Philipp Wich <jo@mein.io>
+Architecture: mvebu64
+Installed-Size: 156737
+Filename: libmysqlclient_5.1.73-2_mvebu64.ipk
+Size: 151732
+MD5Sum: 20db735058a8336915ab0ed0f7369c97
+SHA256sum: ce9c0c2d4d0d5ffe40b9d2fa31b1fc495c4fde6d79d604daec08f9df0ca9ec8c
+Description:  MySQL client library
+
 Package: libogg
 Version: 1.3.2-2
 Depends: libc
@@ -1201,6 +1528,54 @@ Description:  Ogg project codecs use the Ogg bitstream format to arrange the raw
  the Ogg bitstream makes seeking, time stamping and error recovery
  possible, as well as mixing several sepearate, concurrent media
  streams into a single physical bitstream.
+
+Package: libopendkim
+Version: 2.10.3-1
+Depends: libc, libopenssl, libmilter-sendmail
+Source: feeds/packages/mail/opendkim
+License: BSD-3-Clause
+LicenseFiles: LICENSE LICENSE.Sendmail
+Section: mail
+Maintainer: Val Kulkov <val.kulkov@gmail.com>
+Architecture: mvebu64
+Installed-Size: 41743
+Filename: libopendkim_2.10.3-1_mvebu64.ipk
+Size: 42557
+MD5Sum: a628a2f5a10a006b663c241e427c7126
+SHA256sum: f07384ff39dfe8c062b90172079765e0be8c90fea35df933b2a5cfba7a08fa32
+Description:  Library for signing and verifying DomainKeys Identified Mail (DKIM) signatures.
+
+Package: libopenldap
+Version: 2.4.45-2
+Depends: libc, libopenssl, libsasl2, libpthread
+Source: feeds/packages/libs/openldap
+License: OLDAP-2.8
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: mvebu64
+Installed-Size: 186725
+Filename: libopenldap_2.4.45-2_mvebu64.ipk
+Size: 185634
+MD5Sum: 232d63f159e475f840cbbda1cec8f8da
+SHA256sum: c5944ec68702025b4a9fe8859443aab5867c44ad7b8ae9da4039b00ecae15f7f
+Description:  OpenLDAP Software is an open source implementation of the
+ Lightweight Directory Access Protocol (LDAP).
+ This package contains the shared LDAP client libraries, needed by other programs.
+
+Package: libpam
+Version: 1.2.0-2
+Depends: libc
+Source: feeds/packages/libs/libpam
+Section: libs
+Maintainer: Nikos Mavrogiannopoulos <n.mavrogiannopoulos@gmail.com>
+Architecture: mvebu64
+Installed-Size: 168568
+Filename: libpam_1.2.0-2_mvebu64.ipk
+Size: 168267
+MD5Sum: cf3a01ed386e2a4cb246d41bb8a3eb04
+SHA256sum: ada74aa95aef74bbcc3fe1214c9dab12637786f3e7b04b42495fdca0d3ca9f45
+Description:  The Linux-PAM Pluggable Authentication Modules.
 
 Package: libpcre2
 Version: 10.30-1
@@ -1248,6 +1623,21 @@ Size: 82147
 MD5Sum: 16a5f3de939548429d82aa79468fec09
 SHA256sum: 02ddb56c905ab2fc7cc9343086e5bd3ad54031a5b81101297a2220717d07b3df
 Description:  A PNG format files handling library
+
+Package: libpq
+Version: 9.6.6-1
+Depends: libc, zlib, libreadline, libpthread, libncursesw
+Source: feeds/packages/libs/postgresql
+License: PostgreSQL
+Section: libs
+Maintainer: Daniel Golle <daniel@makrotopia.org>
+Architecture: mvebu64
+Installed-Size: 56126
+Filename: libpq_9.6.6-1_mvebu64.ipk
+Size: 56634
+MD5Sum: c51e348a6d44643898f9e019db81897c
+SHA256sum: 36529147a139d056f8652c07333affecf5a1121fe0175b7a8834eb299f5c644e
+Description:  PostgreSQL client library.
 
 Package: libqrencode
 Version: 4.0.0-1
@@ -1310,6 +1700,22 @@ Description:  rtl-sdr allows DVB-T dongles based on the Realtek RTL2832U to be u
  an inexpensive SDR.
  
  This package contains the librtlsdr shared library.
+
+Package: libsasl2
+Version: 2.1.26-3
+Depends: libc, libopenssl
+Source: feeds/packages/libs/cyrus-sasl
+License: BSD-4c BSD
+LicenseFiles: COPYING cmulocal/COPYING saslauthd/COPYING
+Section: libs
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: mvebu64
+Installed-Size: 79730
+Filename: libsasl2_2.1.26-3_mvebu64.ipk
+Size: 80362
+MD5Sum: d511edeacc6b272ea0a8ea89486020ab
+SHA256sum: e556e621533ebef65d31ce69467f770138e37ad5a827ce6a67b74bca4c8afc1e
+Description:  A general purpose authentication library
 
 Package: libsodium
 Version: 1.0.16-1
@@ -1405,6 +1811,22 @@ Description:  Vorbis is a general purpose audio and music encoding format
  All the technical details are published and documented, and any
  software entity may make full use of the format without license
  fee, royalty or patent concerns.
+
+Package: libxml2
+Version: 2.9.7-1
+Depends: libc, libpthread, zlib
+Source: feeds/packages/libs/libxml2
+License: MIT
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Michael Heimpold <mhei@heimpold.de>
+Architecture: mvebu64
+Installed-Size: 438268
+Filename: libxml2_2.9.7-1_mvebu64.ipk
+Size: 437383
+MD5Sum: 6e8ac9695d1e1acbd714e9692bc0a44e
+SHA256sum: 0ad0950b57220ff2f1c804cba789e04129f253489e7e447357797b8d72f87f84
+Description:  A library for manipulating XML and HTML resources.
 
 Package: lpc21isp
 Version: 197-2
@@ -1517,6 +1939,56 @@ MD5Sum: 6a696297520c9050528c70d3b548d57a
 SHA256sum: 742c3d1668cab46f21bb28466ae2263278625c2d076eebd67a4e1d8a37dca36d
 Description:  GNU M4 is an implementation of the traditional Unix macro processor.
  It is used by GNU Autoconf and Automake.
+
+Package: mailman
+Version: 2.1.23-1
+Depends: libc, postfix, python, uhttpd, python-dns
+Source: feeds/packages/mail/mailman
+License: GPL-2.0+
+LicenseFiles: gnu-COPYING-GPL
+Section: mail
+Maintainer: Denis Shulyaka <Shulyaka@gmail.com>
+Architecture: mvebu64
+Installed-Size: 9359557
+Filename: mailman_2.1.23-1_mvebu64.ipk
+Size: 9360206
+MD5Sum: f92b5fef9061f9fae4fc0f2a2155d0d5
+SHA256sum: 0bc357f8bcefd991589429f8d1f5c46edba3c2946838732cd3917ceadb914842
+Description:  Mailman is free software for managing electronic mail discussion and e-newsletter lists.
+
+Package: mailsend-nossl
+Version: 1.17b15-2
+Depends: libc
+Source: feeds/packages/mail/mailsend
+License: BSD-3-Clause
+LicenseFiles: COPYRIGHT
+Section: mail
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: mvebu64
+Installed-Size: 34293
+Filename: mailsend-nossl_1.17b15-2_mvebu64.ipk
+Size: 35068
+MD5Sum: 0001da6a88e7c818a1584e910bfd8f25
+SHA256sum: d6485b74186847c6251d85092c7feb9d60523c0f1d543f2bcd06caf79cbc322d
+Description:  Mailsend is a simple command line program to send mail via SMTP protocol.
+
+Package: mailsend
+Version: 1.17b15-2
+Depends: libc, libopenssl
+Source: feeds/packages/mail/mailsend
+License: BSD-3-Clause
+LicenseFiles: COPYRIGHT
+Section: mail
+Maintainer: Ted Hess <thess@kitschensync.net>
+Architecture: mvebu64
+Installed-Size: 36460
+Filename: mailsend_1.17b15-2_mvebu64.ipk
+Size: 37201
+MD5Sum: c21322a4c65ea8727022e5bab6ab049f
+SHA256sum: 866ab201d6469435044eade7c27b37a8c84281dc8f5be1c896e22aedd94cc63f
+Description:  Mailsend is a simple command line program to send mail via SMTP protocol.
+ .
+ SSL supported is provided by OpenSSL.
 
 Package: make
 Version: 4.2.1-2
@@ -1644,6 +2116,151 @@ SHA256sum: 9ca85bd7a900ca811778e005fb606a132f40cfc1048781830dede86e3cb56c42
 Description:  An utility for monitoring services on a Unix system
  This package is built with SSL support.
 
+Package: msmtp-mta
+Version: 1.6.6-1
+Depends: libc
+Source: feeds/packages/mail/msmtp
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: mail
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 207
+Filename: msmtp-mta_1.6.6-1_mvebu64.ipk
+Size: 1143
+MD5Sum: 339ae9aab02b1ed67859b2ab71dcdd5b
+SHA256sum: 642fec688cf3672d7417648c5a4b4db8be2487afab36f5ddc7a78c5ab5a86c2f
+Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
+ an SMTP server (for example at a free mail provider) which does the
+ delivery. To use this program with your mail user agent (MUA), create
+ a configuration file with your mail account(s) and tell your MUA to
+ call msmtp instead of /usr/sbin/sendmail.
+ This package add a link from sendmail to msmtp
+ and is built with SSL support.
+
+Package: msmtp-nossl
+Version: 1.6.6-1
+Depends: libc
+Source: feeds/packages/mail/msmtp
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: mail
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 36473
+Filename: msmtp-nossl_1.6.6-1_mvebu64.ipk
+Size: 37374
+MD5Sum: 971e78e6b0e0963f504d4480b6cf03a3
+SHA256sum: 9d79b2cb06983ba42de3318697e612106ff435b8d6c5cffee64b5318b8bed776
+Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
+ an SMTP server (for example at a free mail provider) which does the
+ delivery. To use this program with your mail user agent (MUA), create
+ a configuration file with your mail account(s) and tell your MUA to
+ call msmtp instead of /usr/sbin/sendmail.
+ This package is built without SSL support.
+
+Package: msmtp-queue
+Version: 1.6.6-1
+Depends: libc, bash
+Source: feeds/packages/mail/msmtp
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: mail
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 8692
+Filename: msmtp-queue_1.6.6-1_mvebu64.ipk
+Size: 9632
+MD5Sum: 2ee1ac1c1816076ec7b742447b84d3fc
+SHA256sum: 3070dc6ea34a62e37522fa9aa11a263a023d1f2256aed5df28dc58bca532228d
+Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
+ an SMTP server (for example at a free mail provider) which does the
+ delivery. To use this program with your mail user agent (MUA), create
+ a configuration file with your mail account(s) and tell your MUA to
+ call msmtp instead of /usr/sbin/sendmail.
+ This package contains the msmtp queue scripts.
+
+Package: msmtp
+Version: 1.6.6-1
+Depends: libc, libopenssl, ca-bundle
+Source: feeds/packages/mail/msmtp
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: mail
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 41954
+Filename: msmtp_1.6.6-1_mvebu64.ipk
+Size: 42892
+MD5Sum: dfc0b1442cf1e7977a60b5907a058080
+SHA256sum: b80083edb40ae3c77f5fcad2e79fcc5fdad462c5a13f85ffbcca5e96f72ee1f5
+Description:  msmtp is an SMTP client. In the default mode, it transmits a mail to
+ an SMTP server (for example at a free mail provider) which does the
+ delivery. To use this program with your mail user agent (MUA), create
+ a configuration file with your mail account(s) and tell your MUA to
+ call msmtp instead of /usr/sbin/sendmail.
+ This package is built with SSL support.
+
+Package: msmtpq-ng-mta-smtpd
+Version: 1.0.8-1
+Depends: libc, msmtpq-ng-mta, xinetd
+Source: feeds/packages/mail/msmtp-scripts
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: mail
+Maintainer: Daniel Dickinson <lede@daniel.thecshore.com>
+Architecture: mvebu64
+Installed-Size: 376
+Filename: msmtpq-ng-mta-smtpd_1.0.8-1_mvebu64.ipk
+Size: 1149
+MD5Sum: e9de323436a1cc6965c522682bc08607
+SHA256sum: 919a03327a3a1468af190667f16de91231f28c4503a61d82169bbb5aa33a085f
+Description:  Simple sendmail SMTP queueing and forwarding (basic SMTP server)
+
+Package: msmtpq-ng-mta
+Version: 1.0.8-1
+Depends: libc, msmtpq-ng
+Source: feeds/packages/mail/msmtp-scripts
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: mail
+Require-User: msmtp=482:msmtp=482
+Maintainer: Daniel Dickinson <lede@daniel.thecshore.com>
+Architecture: mvebu64
+Installed-Size: 1560
+Filename: msmtpq-ng-mta_1.0.8-1_mvebu64.ipk
+Size: 2619
+MD5Sum: ce1f845ac1a5b2a3c125b6bf40ebfe74
+SHA256sum: 800df650df9aed1f0c85634e04f8675096b6823e582bdd580e29b1086390a99e
+Description:  msmtp-scripts are scripts wrappers around the msmtp SMTP client that
+ add queueing, logging to syslog or file, a subset of sendmail/postfix
+ mailq/postsuper/postqueue commands implemented in a compatible fashion.
+ This package provides sendmail, mailq, postfix,
+ and postsuper symlinks to wrappers that configure
+ msmtpq-ng for use as the system mail transport
+ agent via the sendmail command.
+
+Package: msmtpq-ng
+Version: 1.0.8-1
+Depends: libc
+Source: feeds/packages/mail/msmtp-scripts
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: mail
+Maintainer: Daniel Dickinson <lede@daniel.thecshore.com>
+Architecture: mvebu64
+Installed-Size: 10548
+Filename: msmtpq-ng_1.0.8-1_mvebu64.ipk
+Size: 11484
+MD5Sum: ca61dad52844104d5f10500391af627d
+SHA256sum: 6afc4477cba9eedf1574a63b6cae37aa44397c66a345ea99faa12436e33dd7c7
+Description:  msmtp-scripts are scripts wrappers around the msmtp SMTP client that
+ add queueing, logging to syslog or file, a subset of sendmail/postfix
+ mailq/postsuper/postqueue commands implemented in a compatible fashion.
+ This package contains the msmtpq-ng and msmtpq-ng-queue
+ wrappers around msmtp, which provide the bulk of the
+ functionality.
+
 Package: muninlite
 Version: 1.0.4-8
 Depends: libc, xinetd
@@ -1675,6 +2292,23 @@ MD5Sum: 5963a885dd7a005c74d2686d49386370
 SHA256sum: 5a83044eb2632f3923cbf7b8a90a3b752665a5dde2f0268942a0d1c18b085227
 Description:  The musl-fts package implements the fts(3) functions fts_open, fts_read, fts_children, fts_set and fts_close, which are missing in musl libc.
 
+Package: mutt
+Version: 1.9.3-1
+Depends: libc, libopenssl, libncursesw, terminfo, zlib
+Source: feeds/packages/mail/mutt
+License: GPL-2.0+
+LicenseFiles: GPL
+Section: mail
+Maintainer: Phil Eichinger <phil@zankapfel.net>
+Architecture: mvebu64
+Installed-Size: 323072
+Filename: mutt_1.9.3-1_mvebu64.ipk
+Size: 323339
+MD5Sum: d0d36c98ed1ae0b4fc7a477bb10751b1
+SHA256sum: bb2659f9f577397c974446e949314da4ad7cd435216a58c826c0f703b5f0883b
+Description:  Mutt is a small but very powerful text-based mail client for Unix
+ operating systems.
+
 Package: mwan3
 Version: 2.6.10-1
 Depends: libc, ip, ipset, iptables, iptables-mod-conntrack-extra, iptables-mod-ipopt
@@ -1691,6 +2325,24 @@ SHA256sum: 2537fea86971467794282099e3ae223570d85f0ef4f936f12a02902432678f67
 Description:  Hotplug script which makes configuration of multiple WAN interfaces simple
  and manageable. With loadbalancing/failover support for up to 250 wan
  interfaces, connection tracking and an easy to manage traffic ruleset.
+
+Package: nail
+Version: 12.5-2
+Depends: libc, libopenssl
+Source: feeds/packages/mail/nail
+License: BSD-2-Clause
+Section: mail
+Maintainer: Dmitry V. Zimin <pfzim@mail.ru>
+Architecture: mvebu64
+Installed-Size: 143488
+Filename: nail_12.5-2_mvebu64.ipk
+Size: 144138
+MD5Sum: dfbdb95aa80e9b6a2e2babef81fb79b1
+SHA256sum: 0593a88c19cb88e2490b9fac450915988639912e72d70d910b00793820732cb7
+Description:  Heirloom mailx (formerly known as "nail") is intended provide
+ the functionality of the POSIX mailx command with additional
+ support for MIME messages, IMAP (including caching), POP3,
+ SMTP, S/MIME, message threading/sorting, scoring, and filtering
 
 Package: netcat
 Version: 0.7.1-1
@@ -1738,6 +2390,39 @@ Size: 11429
 MD5Sum: 936f99aa5fd1ab2170db75889d528bb2
 SHA256sum: 95805e54e00b7eb761117f7bcb5dda10156862ba5e1b182a39389acaeafe13cc
 Description:  NTP client for setting system time from NTP servers.
+
+Package: opendkim-tools
+Version: 2.10.3-1
+Depends: libc, libopendkim
+Source: feeds/packages/mail/opendkim
+License: BSD-3-Clause
+LicenseFiles: LICENSE LICENSE.Sendmail
+Section: mail
+Maintainer: Val Kulkov <val.kulkov@gmail.com>
+Architecture: mvebu64
+Installed-Size: 41392
+Filename: opendkim-tools_2.10.3-1_mvebu64.ipk
+Size: 42056
+MD5Sum: 60953dc0c4bd2a936eaac484458e513a
+SHA256sum: 5f4ac60a63cf98ce187a4ed4e92c38b40a58d8e58d29696c18208cbef195254d
+Description:  opendkim-genzone, opendkim-testkey and opendkim-testmsg tools.
+
+Package: opendkim
+Version: 2.10.3-1
+Depends: libc, libopendkim
+Source: feeds/packages/mail/opendkim
+License: BSD-3-Clause
+LicenseFiles: LICENSE LICENSE.Sendmail
+Section: mail
+Require-User: opendkim:opendkim
+Maintainer: Val Kulkov <val.kulkov@gmail.com>
+Architecture: mvebu64
+Installed-Size: 58254
+Filename: opendkim_2.10.3-1_mvebu64.ipk
+Size: 58965
+MD5Sum: 21affacd6b43ee753dc53c17bc7ded3f
+SHA256sum: 63e66ce25430c4299da780ed389ee0a8b1567fa9231c4440b9bb32c7234d2485
+Description:  The OpenDKIM daemon application and the opendkim-genkey Perl script for generating public/private key pairs.
 
 Package: openwisp-config-cyassl
 Version: 0.4.5-2
@@ -2436,6 +3121,347 @@ Description:  pkg-config is a helper tool used when compiling applications and l
  for instance, rather than hard-coding values on where to find glib (or
  other libraries).
 
+Package: postfix
+Version: 3.2.4-1
+Depends: libc, libopenssl, libsasl2, libopenldap, libsqlite3, libpcre
+Source: feeds/packages/mail/postfix
+License: IPL-1.0
+LicenseFiles: LICENSE
+Section: mail
+Require-User: postfix=25:postfix=25 postdrop=26:postdrop=26
+Maintainer: Denis Shulyaka <Shulyaka@gmail.com>
+Architecture: mvebu64
+Installed-Size: 4149934
+Filename: postfix_3.2.4-1_mvebu64.ipk
+Size: 4142585
+MD5Sum: ecf46b46f146a0d705d9f8e0a4479e52
+SHA256sum: 58be51940ec1eb5f169a92e5ee162ddc72e721ba9bb1865d86f48655b2004076
+Description:  Postfix is Wietse Venema's mailer that started life as an alternative to the widely-used Sendmail program. Postfix attempts to be fast, easy to administer, and secure, while at the same time being sendmail compatible enough to not upset existing users. Thus, the outside has a sendmail-ish flavor, but the inside is completely different.
+
+Package: python-base
+Version: 2.7.14-10
+Depends: libc, libpthread, zlib
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: mvebu64
+Installed-Size: 674423
+Filename: python-base_2.7.14-10_mvebu64.ipk
+Size: 668760
+MD5Sum: 9f7b624ba64c50e353a7053ee0534112
+SHA256sum: b15180e5d8bd5af5397f282845272b3e4ce63649bf4ddddb6be13a97abc873f8
+Description:  This package contains only the interpreter and the bare minimum
+ for the interpreter to start.
+
+Package: python-codecs
+Version: 2.7.14-10
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: mvebu64
+Installed-Size: 696572
+Filename: python-codecs_2.7.14-10_mvebu64.ipk
+Size: 681377
+MD5Sum: 7379546d87aba8905df396c88b2e1ca3
+SHA256sum: 8446a67efedfbd76605bc668cdb3902c697521ff048396192c8a5bb8a2c8c5b0
+Description:  Python 2.7 codecs + unicode support
+
+Package: python-compiler
+Version: 2.7.14-10
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: mvebu64
+Installed-Size: 59788
+Filename: python-compiler_2.7.14-10_mvebu64.ipk
+Size: 60711
+MD5Sum: 834b1916fea0b32c2d5d533011253c9b
+SHA256sum: 3d3e1f2460bfa1c08878fada9194d3bc0773ffd0202702836ab4f185ae01e8f9
+Description:  Python 2.7 compiler module
+
+Package: python-ctypes
+Version: 2.7.14-10
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: mvebu64
+Installed-Size: 57916
+Filename: python-ctypes_2.7.14-10_mvebu64.ipk
+Size: 58666
+MD5Sum: eaaa99e5d638182268a901fc3b24252e
+SHA256sum: e63382fce0d2c221ae6f0621f046e6f89f00d6124a6d71d48830a6a19dd02fb7
+Description:  Python 2.7 ctypes module
+
+Package: python-db
+Version: 2.7.14-10
+Depends: libc, python-light, libdb47
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: mvebu64
+Installed-Size: 65682
+Filename: python-db_2.7.14-10_mvebu64.ipk
+Size: 66282
+MD5Sum: b0d9ccea421ccf1b4c74c8c3d1695ccc
+SHA256sum: b88ff9fd3c6eeb559ce4f6c6e188e6adcb2b627154e7281cd12f09a9f57cfdfd
+Description:  Python 2.7 db module
+
+Package: python-decimal
+Version: 2.7.14-10
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: mvebu64
+Installed-Size: 48955
+Filename: python-decimal_2.7.14-10_mvebu64.ipk
+Size: 49819
+MD5Sum: 8f8946048c0a40f755a286ee1d47be9f
+SHA256sum: 70a156ced59d4d010eb639356abb0e309ded80be2f64de7c88bfd4e1d4f5b651
+Description:  Python 2.7 decimal module
+
+Package: python-distutils
+Version: 2.7.14-10
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: mvebu64
+Installed-Size: 174568
+Filename: python-distutils_2.7.14-10_mvebu64.ipk
+Size: 175493
+MD5Sum: a7f39569273161bdab52e0d8a1963624
+SHA256sum: 947ddc5563c0626015deb290d582e1fcfb6ea9ff84b1485080e0d8d3ffb6a2cf
+Description:  Python 2.7 distutils
+
+Package: python-dns
+Version: 1.15.0-2
+Depends: libc, python
+Source: feeds/packages/lang/python/python-dns
+License: ISC
+LicenseFiles: LICENSE
+Section: language-python
+Maintainer: Denis Shulyaka <Shulyaka@gmail.com>
+Architecture: mvebu64
+Installed-Size: 140187
+Filename: python-dns_1.15.0-2_mvebu64.ipk
+Size: 141140
+MD5Sum: e6bf0a31149878c798b699e6fa5aeb5f
+SHA256sum: 23200c9a95e60dbc5d41553fe5b60d713bdad52f4fb8f8f1f4166de3fe48e603
+Description:  dnspython is a DNS toolkit for Python. It supports almost all record types. It can be used for queries, zone transfers, and dynamic updates. It supports TSIG authenticated messages and EDNS0.
+
+Package: python-email
+Version: 2.7.14-10
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: mvebu64
+Installed-Size: 50230
+Filename: python-email_2.7.14-10_mvebu64.ipk
+Size: 51143
+MD5Sum: b4afcde5af20eb85b8e03b90c0306f53
+SHA256sum: d730834b53aa62da89687d4283d5a78e53c4f2e193c14dbd6aa724f2a05ad61d
+Description:  Python 2.7 email module
+
+Package: python-gdbm
+Version: 2.7.14-10
+Depends: libc, python-light, libgdbm
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: mvebu64
+Installed-Size: 5333
+Filename: python-gdbm_2.7.14-10_mvebu64.ipk
+Size: 6123
+MD5Sum: e134556e0b6f2ade283b402b1f21bbc8
+SHA256sum: da3749962584406ef4ab6b7a4d1c61889cea7b076e53cf4971b1997ce66fde22
+Description:  Python 2.7 gdbm module
+
+Package: python-light
+Version: 2.7.14-10
+Depends: libc, python-base, libffi, libbz2
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: mvebu64
+Installed-Size: 1411396
+Filename: python-light_2.7.14-10_mvebu64.ipk
+Size: 1410064
+MD5Sum: c9765ef5c9963563b33ad7f77cc48a58
+SHA256sum: c43c9d65cab86f812adbe111aab9403d204ac4b4333b663a2ea429315f3ae7d7
+Description:  This package is essentially the python-base package plus
+ a few of the rarely used (and big) libraries stripped out
+ into separate packages.
+
+Package: python-logging
+Version: 2.7.14-10
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: mvebu64
+Installed-Size: 42697
+Filename: python-logging_2.7.14-10_mvebu64.ipk
+Size: 43581
+MD5Sum: d115ff00f4dc4f6f39832c02d217a5dd
+SHA256sum: 8191f446fca4a90544838b5b2e99b516cb407ed7052b876be7f43cf439c6bb59
+Description:  Python 2.7 logging module
+
+Package: python-multiprocessing
+Version: 2.7.14-10
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: mvebu64
+Installed-Size: 64391
+Filename: python-multiprocessing_2.7.14-10_mvebu64.ipk
+Size: 65246
+MD5Sum: 10d62c25b7f3e91931fa2216681237ba
+SHA256sum: ac8305ce940656497dcbee501cb7a9416b0c802268fbe2678d5b749d0ac23bc1
+Description:  Python 2.7 multiprocessing
+
+Package: python-ncurses
+Version: 2.7.14-10
+Depends: libc, python-light, libncurses
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: mvebu64
+Installed-Size: 30150
+Filename: python-ncurses_2.7.14-10_mvebu64.ipk
+Size: 30718
+MD5Sum: 8d937ed23d6955f1dfa25e2539bb5d3a
+SHA256sum: ef8fe6d68d0bec3e13190052c36d612ababecbc4305e93053135364075dc34b1
+Description:  Python 2.7 ncurses module
+
+Package: python-openssl
+Version: 2.7.14-10
+Depends: libc, python-light, libopenssl
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: mvebu64
+Installed-Size: 34364
+Filename: python-openssl_2.7.14-10_mvebu64.ipk
+Size: 34847
+MD5Sum: 96f2e899e25364f7a53b963541dad588
+SHA256sum: 758888b50e27ad07364dea134cccc4e1a5c97d2f4240333252b1a219c712007c
+Description:  Python 2.7 SSL module
+
+Package: python-pydoc
+Version: 2.7.14-10
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: mvebu64
+Installed-Size: 182882
+Filename: python-pydoc_2.7.14-10_mvebu64.ipk
+Size: 183614
+MD5Sum: 9425ca131f59c9ebfd9403d6dff4a2d7
+SHA256sum: e2a90a18399b77aa8dbeebdea12ab01169d00428549262eff6cf006f4c7096ac
+Description:  Python 2.7 pydoc module
+
+Package: python-sqlite3
+Version: 2.7.14-10
+Depends: libc, python-light, libsqlite3
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: mvebu64
+Installed-Size: 25423
+Filename: python-sqlite3_2.7.14-10_mvebu64.ipk
+Size: 26063
+MD5Sum: fec1acdf2bdc54b5e6220adebdb7269a
+SHA256sum: d1410d65072a31124f27ae08b62bdc4ac06e7eb8ab1c4eaeee1637020f19d1e8
+Description:  Python 2.7 sqlite3 module
+
+Package: python-unittest
+Version: 2.7.14-10
+Depends: libc, python-light
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: mvebu64
+Installed-Size: 33396
+Filename: python-unittest_2.7.14-10_mvebu64.ipk
+Size: 34270
+MD5Sum: 05b6986e0b03326165e045644bcc8f91
+SHA256sum: 84b632f784d62cec3d5c965d20db250eb7916d9afc5c43e6773b7e51689d72ae
+Description:  Python 2.7 unittest module
+
+Package: python-xml
+Version: 2.7.14-10
+Depends: libc, python-light, libexpat
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: mvebu64
+Installed-Size: 173231
+Filename: python-xml_2.7.14-10_mvebu64.ipk
+Size: 173913
+MD5Sum: 1c6b2393afbf3a16adc89ce547ac7068
+SHA256sum: bd58193d145e196d5daf0a74917625fc683ccc4e3a1f5ba305620dcffcad74b4
+Description:  Python 2.7 xml libs
+
+Package: python
+Version: 2.7.14-10
+Depends: libc, python-light, python-ctypes, python-pydoc, python-multiprocessing, python-codecs, python-sqlite3, python-logging, python-gdbm, python-email, python-distutils, python-xml, python-compiler, python-db, python-openssl, python-decimal, python-unittest, python-ncurses
+Source: feeds/packages/lang/python/python
+License: PSF
+LicenseFiles: LICENSE Modules/_ctypes/libffi_msvc/LICENSE Modules/_ctypes/darwin/LICENSE Modules/_ctypes/libffi/LICENSE Modules/_ctypes/libffi_osx/LICENSE Tools/pybench/LICENSE
+Section: lang
+Maintainer: Alexandru Ardelean <ardeleanalex@gmail.com>
+Architecture: mvebu64
+Installed-Size: 104
+Filename: python_2.7.14-10_mvebu64.ipk
+Size: 1018
+MD5Sum: 9426d8a071c6965bd809a2a779b0c770
+SHA256sum: 5f0271b6b7bbf0c40be7193f2decd379ee5ef7b2bc6b41967779c5c4de3fa5c7
+Description:  This package contains the (almost) full Python install.
+ It's python-light + all other packages.
+
 Package: qrencode
 Version: 4.0.0-1
 Depends: libc, libqrencode
@@ -2513,6 +3539,24 @@ Description:  Squid is a caching proxy for the Web supporting HTTP, HTTPS, FTP, 
  It reduces bandwidth and improves response times by caching and reusing
  frequently-requested web pages.
 
+Package: ssmtp
+Version: 2.64-5
+Depends: libc, libopenssl
+Source: feeds/packages/mail/ssmtp
+License: GPL-2.0+
+Section: mail
+Maintainer: Dirk Brenken <dev@brenken.org>
+Architecture: mvebu64
+Installed-Size: 11850
+Filename: ssmtp_2.64-5_mvebu64.ipk
+Size: 12665
+MD5Sum: 201a096a05316f52cd5ff8d157251db1
+SHA256sum: 025465824a73f7c58e96b86dc5864ddfe72b8db3bbcd5b7822f567c594f6cf8b
+Description:  A secure, effective and simple way of getting mail off a system to your mail hub.
+ Mail is simply forwarded to the configured mailhost, no daemons running in the background.
+ Extremely easy configuration.
+ 
+
 Package: sudo
 Version: 1.8.21p2-1
 Depends: libc
@@ -2522,11 +3566,11 @@ LicenseFiles: doc/LICENSE
 Section: admin
 Maintainer: Gergely Kiss <mail.gery@gmail.com>
 Architecture: mvebu64
-Installed-Size: 274499
+Installed-Size: 274502
 Filename: sudo_1.8.21p2-1_mvebu64.ipk
-Size: 274939
-MD5Sum: 21b0fcaec2562644f9f2227f51ebfd2d
-SHA256sum: e49e4f5a296f46a52426c497b2ceadf1972dd30a0579ce802f8c708363590869
+Size: 274950
+MD5Sum: 20c100d1d0dd4876ba15774b5122fcda
+SHA256sum: 7949e7cf75c70fbe5e9228b31d1dbcd65887235db00ddd409fe29cb1abff6091
 Description:  Sudo (su "do") allows a system administrator to delegate authority to
  give certain users (or groups of users) the ability to run some (or
  all) commands as root or another user while providing an audit trail of
@@ -2547,6 +3591,24 @@ SHA256sum: d32f73e3281d0f2d60c1db41da4f708a574261eb2eb267f807880a68870bca15
 Description:  syslog-ng reads and logs messages to the system console, log
  files, other machines and/or users as specified by its
  configuration file.
+
+Package: tdb
+Version: 1.3.15-1
+Depends: libc
+Source: feeds/packages/libs/tdb
+License: GPL-2.0
+Section: libs
+Maintainer: Dmitry V. Zimin <pfzim@mail.ru>
+Architecture: mvebu64
+Installed-Size: 105531
+Filename: tdb_1.3.15-1_mvebu64.ipk
+Size: 105899
+MD5Sum: 6ae7fbaac890e7b87f22d4c96b025ce4
+SHA256sum: 598e5bb2c1457858268164e85a7d39edd740b5c14447630c0d722f124658125a
+Description:  TDB is a Trivial Database. In concept, it is very much like GDBM,
+ and BSD's DB except that it allows multiple simultaneous writers
+ and uses locking internally to keep writers from trampling on
+ each other. TDB is also extremely small.
 
 Package: tinyproxy
 Version: 1.8.3-2

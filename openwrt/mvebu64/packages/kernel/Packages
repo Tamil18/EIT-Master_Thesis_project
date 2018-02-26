@@ -1,46 +1,2528 @@
-Package: kmod-ip6-tunnel
+Package: kmod-9pnet
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e), kmod-iptunnel6
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-virtio-pci
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: mvebu64
-Installed-Size: 12063
+Installed-Size: 196
+Filename: kmod-9pnet_4.4.52-1_mvebu64.ipk
+Size: 1012
+MD5Sum: 5e986990660fc913720b7b8de4b5e097
+SHA256sum: 1d07ae2daa9a29e3a4bb6dcabd276dc357b7e1c782420b2c49b8affa20cf2426
+Description:  Kernel support support for
+ Plan 9 resource sharing via the 9P2000 protocol.
+
+Package: kmod-aoe
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 22957
+Filename: kmod-aoe_4.4.52-1_mvebu64.ipk
+Size: 23738
+MD5Sum: d62a3c5d5c86fc9a088e9a1f44456eb7
+SHA256sum: b2800720d7c95252d7fcc124c7b0cab44ee946a12d0a0e5911239d1919ad2d54
+Description:  Kernel support for ATA over Ethernet
+
+Package: kmod-arptables
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 11070
+Filename: kmod-arptables_4.4.52-1_mvebu64.ipk
+Size: 11900
+MD5Sum: cd6dfaef74c837e9c1ab7750f617e21d
+SHA256sum: 0c0b86f529f5d0d2c413a95b0d695f81d0cc453ae2e874d28489ea5141a2353c
+Description:  Kernel modules for ARP firewalling
+
+Package: kmod-ata-ahci
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ata-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 235
+Filename: kmod-ata-ahci_4.4.52-1_mvebu64.ipk
+Size: 1035
+MD5Sum: 6d5139b88db08ab08fafce445add65fd
+SHA256sum: 6c1ee1e73ecdec958e649d80a36c6f4e65bc88c8986935cad613f8a17006b0c5
+Description:  Support for AHCI Serial ATA controllers
+
+Package: kmod-ata-artop
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ata-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 3090
+Filename: kmod-ata-artop_4.4.52-1_mvebu64.ipk
+Size: 3905
+MD5Sum: 2885dfdb64f00a34566c3446a12d1250
+SHA256sum: f14b0b2190bc6c4373e06e6a0f358546a8c163ec2a48e1cd7536fd4113027915
+Description:  PATA support for ARTOP 6210/6260 host controllers
+
+Package: kmod-ata-core
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-scsi-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 104
+Filename: kmod-ata-core_4.4.52-1_mvebu64.ipk
+Size: 833
+MD5Sum: e8f2fb186be269d56935e5d2d284d5f6
+SHA256sum: 831bc10831ec587fc3c71afc89acf32937d942e83198525d7fc60f7ab926bd63
+Description:  Serial and Parallel ATA support
+
+Package: kmod-ata-marvell-sata
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ata-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 17835
+Filename: kmod-ata-marvell-sata_4.4.52-1_mvebu64.ipk
+Size: 18615
+MD5Sum: f04fcb4457ba7e638cbbcd138cf6d260
+SHA256sum: f7117f3503f91a71be64aa7ee297eff0ebbe34e8e45e4c5f274e62177b2d5f4b
+Description:  SATA support for marvell chipsets
+
+Package: kmod-ata-nvidia-sata
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ata-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 12541
+Filename: kmod-ata-nvidia-sata_4.4.52-1_mvebu64.ipk
+Size: 13306
+MD5Sum: 5769efb4ac1616b058d8a8bce4ce9ac4
+SHA256sum: 42fb7e724173494ae05854722869e53e66c2878bf061881502db243877f4bcb6
+Description:  Nvidia Serial ATA support
+
+Package: kmod-ata-pdc202xx-old
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ata-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2981
+Filename: kmod-ata-pdc202xx-old_4.4.52-1_mvebu64.ipk
+Size: 3827
+MD5Sum: 576198c314cea7bf316b5ba036500f0b
+SHA256sum: dea930fd8b90e1ee2ba0e1e6e6c17296f864faa6e6f8d44c22e68a7ee02d8881
+Description:  This option enables support for the Promise 20246, 20262, 20263,
+ 20265 and 20267 adapters
+
+Package: kmod-ata-piix
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ata-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 7803
+Filename: kmod-ata-piix_4.4.52-1_mvebu64.ipk
+Size: 8639
+MD5Sum: 137d05744392cc9eefcc110e66d563c3
+SHA256sum: 369091574360b0fd652272e891954cdfa670f03202829097e2dab569c2dc8c2c
+Description:  SATA support for Intel ICH5/6/7/8 series host controllers and
+ PATA support for Intel ESB/ICH/PIIX3/PIIX4 series host controllers
+
+Package: kmod-ata-sil24
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ata-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 7598
+Filename: kmod-ata-sil24_4.4.52-1_mvebu64.ipk
+Size: 8445
+MD5Sum: c1b5f286771147e2b0130215d7b229dd
+SHA256sum: 0516fd6c54e70d4e14be97e0ec2b8c9ec4467dcf2651c32a99e72870d796b1cb
+Description:  Support for Silicon Image 3124/3132 Serial ATA controllers
+
+Package: kmod-ata-sil
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ata-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 5508
+Filename: kmod-ata-sil_4.4.52-1_mvebu64.ipk
+Size: 6319
+MD5Sum: 541a26af22e9547cfc547cb5cb48410f
+SHA256sum: 1901e429aed5f1f18943a36312d2c506aa87d4970f68367f891601d4c0214c1f
+Description:  Support for Silicon Image Serial ATA controllers
+
+Package: kmod-ata-via-sata
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ata-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 4490
+Filename: kmod-ata-via-sata_4.4.52-1_mvebu64.ipk
+Size: 5265
+MD5Sum: b86ddf2a8e0e5dfcfab1d95fbc05370f
+SHA256sum: 73b377b57dc908985f5537932396dcee868a107d0025519af403a3b504849949
+Description:  This option enables support for VIA Serial ATA
+
+Package: kmod-block2mtd
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 3491
+Filename: kmod-block2mtd_4.4.52-1_mvebu64.ipk
+Size: 4209
+MD5Sum: 83cd4b677b24cac12bc6b5215d00dcf1
+SHA256sum: 56f2bfd61f920350fa9d413344d52e37a5a473ee52d1668eeffae036c15dfa48
+Description:  Block device MTD emulation
+
+Package: kmod-bridge
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-stp
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 187
+Filename: kmod-bridge_4.4.52-1_mvebu64.ipk
+Size: 976
+MD5Sum: 751d896eff62c1416c53ebd334d72dc6
+SHA256sum: 39f4935333e5ec0b2c3e8149beead6020492a57ee72ab4c12e0754068bc4d01d
+Description:  Kernel module for Ethernet bridging.
+
+Package: kmod-can-bcm
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-can
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 8403
+Filename: kmod-can-bcm_4.4.52-1_mvebu64.ipk
+Size: 9303
+MD5Sum: 27cd02f74a630f1ba9fc24e9b0d1c7ad
+SHA256sum: 05caec422a60a075ea4452fb866725156b47345c79b57b006a4312a8f04e6093
+Description:  The Broadcast Manager offers content filtering, timeout monitoring,
+ sending of RTR frames, and cyclic CAN messages without permanent user
+ interaction.
+
+Package: kmod-can-c-can-pci
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-can-c-can, kmod-can
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2510
+Filename: kmod-can-c-can-pci_4.4.52-1_mvebu64.ipk
+Size: 3336
+MD5Sum: a30ff7bf0313c395d6536d63a6681e30
+SHA256sum: 36cde12ce92fb8fa916945c7b5ea6263e3a1db19b2cd1e2f095b10cf1c36a53b
+Description:  This driver adds support for the C_CAN/D_CAN chips connected
+ to the PCI bus.
+
+Package: kmod-can-c-can-platform
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-can-c-can, kmod-can
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 3699
+Filename: kmod-can-c-can-platform_4.4.52-1_mvebu64.ipk
+Size: 4698
+MD5Sum: 107a7f1107e87d66ecd234d871ec1f1e
+SHA256sum: df8c5e24c0a5098bc5b21923a64a673e2934493a731f60f94222479120653c7e
+Description:  This driver adds support for the C_CAN/D_CAN chips connected
+ to the "platform bus" (Linux abstraction for directly to the
+ processor attached devices) which can be found on various
+ boards from ST Microelectronics (http://www.st.com) like the
+ SPEAr1310 and SPEAr320 evaluation boards & TI (www.ti.com)
+ boards like am335x, dm814x, dm813x and dm811x.
+
+Package: kmod-can-c-can
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-can
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 5942
+Filename: kmod-can-c-can_4.4.52-1_mvebu64.ipk
+Size: 6756
+MD5Sum: c9b2403f4a5715cd68c6117a3c39bfbd
+SHA256sum: f6ef20375e0ee8fc19566483037fc44d2a3388713ee292ab874356981f4a4ecf
+Description:  This driver adds generic support for the C_CAN/D_CAN chips.
+
+Package: kmod-can-gw
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-can
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 5639
+Filename: kmod-can-gw_4.4.52-1_mvebu64.ipk
+Size: 6450
+MD5Sum: 0716469a92be06aeb07f6c1aea628caa
+SHA256sum: 77e79ea848914cb761e0668bad537e40f7818e290e9800872e16efb1d2e64d65
+Description:  The CAN Gateway/Router is used to route (and modify) CAN frames.
+
+Package: kmod-can-raw
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-can
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 5348
+Filename: kmod-can-raw_4.4.52-1_mvebu64.ipk
+Size: 6123
+MD5Sum: 6a522fa0d5d2b1c3e2eee7c1b8010ffb
+SHA256sum: 28fb53285d96750a1bffdd50f7601283004b0eb3ef38a9cce5b9a5315abdaf6b
+Description:  The raw CAN protocol option offers access to the CAN bus via
+ the BSD  socket API.
+
+Package: kmod-can-slcan
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-can
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 4465
+Filename: kmod-can-slcan_4.4.52-1_mvebu64.ipk
+Size: 5339
+MD5Sum: d2064a566e589a407cd030ee34523851
+SHA256sum: d43bbe0d2d5218a713192033b6fef75582590e3bd381a043c460abaaa05bc361
+Description:  CAN driver for several 'low cost' CAN interfaces that are attached
+ via serial lines or via USB-to-serial adapters using the LAWICEL
+ ASCII protocol.
+
+Package: kmod-can-usb-8dev
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-can, kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 5699
+Filename: kmod-can-usb-8dev_4.4.52-1_mvebu64.ipk
+Size: 6545
+MD5Sum: 13555f869c04a0ec2dd56b0c797b82a9
+SHA256sum: 57ad0eec78bef20d719a5d38743b5bd9b05075a7fe61baa12fdc527da51261ad
+Description:  This driver supports the USB2CAN interface
+ from 8 devices (http://www.8devices.com).
+
+Package: kmod-can-usb-ems
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-can, kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 5681
+Filename: kmod-can-usb-ems_4.4.52-1_mvebu64.ipk
+Size: 6541
+MD5Sum: 0b3a1c5f0ff92c19467e0a57ebb9936d
+SHA256sum: 96d69240a24ecdf102fb9a07925e340bc8013339b85943f71b8153aa5b463599
+Description:  This driver is for the one channel CPC-USB/ARM7 CAN/USB interface
+ from EMS Dr. Thomas Wuensche (http://www.ems-wuensche.de).
+
+Package: kmod-can-usb-esd
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-can, kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 6045
+Filename: kmod-can-usb-esd_4.4.52-1_mvebu64.ipk
+Size: 6883
+MD5Sum: cc161c26827e08457e7a77d500c433b3
+SHA256sum: f5f1b7bb67d59bc220aa805c101f512e4fe6d25aae599a0efa990cbe43d593af
+Description:  This driver supports the CAN-USB/2 interface
+ from esd electronic system design gmbh (http://www.esd.eu).
+
+Package: kmod-can-usb-kvaser
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-can, kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 8568
+Filename: kmod-can-usb-kvaser_4.4.52-1_mvebu64.ipk
+Size: 9443
+MD5Sum: 75f7656ea9454b68f6a210b51889a8f8
+SHA256sum: 20623888a0e8377435b59cedfb7a1ec5ca942d828adfa6b5467984f4de71c717
+Description:  This driver adds support for Kvaser CAN/USB devices like Kvaser
+ Leaf Light.
+
+Package: kmod-can-usb-peak
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-can, kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 15667
+Filename: kmod-can-usb-peak_4.4.52-1_mvebu64.ipk
+Size: 16480
+MD5Sum: 407c63f12944631c54d66b60ea715496
+SHA256sum: 8310dcd0c5ec3987f3c5cc2d3d169115153006f426d9741ce85bd58defe55379
+Description:  This driver supports the PCAN-USB and PCAN-USB Pro adapters
+ from PEAK-System Technik (http://www.peak-system.com).
+
+Package: kmod-can-vcan
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-can
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1838
+Filename: kmod-can-vcan_4.4.52-1_mvebu64.ipk
+Size: 2650
+MD5Sum: 76fd25fb0a31543224d9954eb497f91b
+SHA256sum: cfc22ab51ce4120d2e3885a82c06a386aa5a33b3a35eee7542b2e0352ea9a20b
+Description:  Similar to the network loopback devices, vcan offers a
+ virtual local CAN interface.
+
+Package: kmod-can
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 15247
+Filename: kmod-can_4.4.52-1_mvebu64.ipk
+Size: 16002
+MD5Sum: 708b43f22105ba8071da26081e681865
+SHA256sum: 05a34e3a6d383fc8ee4257d506579a5b2c78d9ee21d8910c6cb841ac18b16a9a
+Description:  Kernel module for CAN bus support.
+
+Package: kmod-crypto-aead
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-null
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 234
+Filename: kmod-crypto-aead_4.4.52-1_mvebu64.ipk
+Size: 1025
+MD5Sum: 02082d765e9032f1e5a98a0d1a3d13c1
+SHA256sum: 0e874b28f95c7321f3b3a576543d71eec99b8262742b60e9a9d3312a23dac58d
+Description:  CryptoAPI AEAD support
+
+Package: kmod-crypto-authenc
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-manager, kmod-crypto-null
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 3232
+Filename: kmod-crypto-authenc_4.4.52-1_mvebu64.ipk
+Size: 4035
+MD5Sum: 9ea039334ff1d45aa1ac460ac79212ef
+SHA256sum: a33294e323f955e7d869ced477c248e35f4f77b99cdf9824717029a5eb1517f4
+Description:  Combined mode wrapper for IPsec
+
+Package: kmod-crypto-cbc
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-manager
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1973
+Filename: kmod-crypto-cbc_4.4.52-1_mvebu64.ipk
+Size: 2769
+MD5Sum: 472cd51e990583977119a5e823074c0b
+SHA256sum: 5e7451c64219c8ced28d30bf27317986a5deb22c14a1683470f0c774cd497d17
+Description:  Cipher Block Chaining CryptoAPI module
+
+Package: kmod-crypto-ccm
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-ctr, kmod-crypto-aead
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 5470
+Filename: kmod-crypto-ccm_4.4.52-1_mvebu64.ipk
+Size: 6286
+MD5Sum: 8dea65458fb7ed8302636ed1e3ab92b4
+SHA256sum: 717ce6ac30881ea88fbca82bb5600b9a4575e637de540aac76783f7cc7c2bde1
+Description:  Support for Counter with CBC MAC (CCM)
+
+Package: kmod-crypto-cmac
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-hash
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2171
+Filename: kmod-crypto-cmac_4.4.52-1_mvebu64.ipk
+Size: 2981
+MD5Sum: c3099f5e73571724ed112be3824d9ad7
+SHA256sum: ff1c96b053a8e7bd8df50ae074a214ffdf2f769992e8b9422c42302d52b81f57
+Description:  Support for Cipher-based Message Authentication Code (CMAC)
+
+Package: kmod-crypto-crc32c
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-hash
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 244
+Filename: kmod-crypto-crc32c_4.4.52-1_mvebu64.ipk
+Size: 1028
+MD5Sum: c42d04865ffcef64022b30adeaeaa77c
+SHA256sum: 635b37ffdb0bb9d46a631e112f51d28433521d8cea5f3029f6a7d909b560c5ee
+Description:  CRC32c CRC module
+
+Package: kmod-crypto-ctr
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-manager, kmod-crypto-seqiv, kmod-crypto-iv
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2780
+Filename: kmod-crypto-ctr_4.4.52-1_mvebu64.ipk
+Size: 3585
+MD5Sum: fd86e942cad0b8fb2ca5c7aa548a47cf
+SHA256sum: 99a5c6bfdaf3c25ac3fa404f3ce91a5623eac82db35a7dd8a3df29c4cdf96e6e
+Description:  Counter Mode CryptoAPI module
+
+Package: kmod-crypto-deflate
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-lib-zlib
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 194
+Filename: kmod-crypto-deflate_4.4.52-1_mvebu64.ipk
+Size: 994
+MD5Sum: 8967e7a9496012af46483644849bc2fb
+SHA256sum: ce75d6f1dc9424b6a91d68159f665631813818b85a74bfe99762dd1d1f7d7c65
+Description:  Deflate compression CryptoAPI module
+
+Package: kmod-crypto-des
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 8036
+Filename: kmod-crypto-des_4.4.52-1_mvebu64.ipk
+Size: 8660
+MD5Sum: 0dea7f85617e044d25d0aa3973f72247
+SHA256sum: e8ce475b7ddbd4f690c4509f43898f8fa94e36dffbffc6ff40991d0b2ebf5ed6
+Description:  DES/3DES cipher CryptoAPI module
+
+Package: kmod-crypto-ecb
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-manager
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1652
+Filename: kmod-crypto-ecb_4.4.52-1_mvebu64.ipk
+Size: 2456
+MD5Sum: aead38668264121b8e07e1e2612da9ef
+SHA256sum: d41272c2bd3517c2bf37c9d67d2959fc7d69efd4d32208c78e571c8e65442744
+Description:  Electronic CodeBook CryptoAPI module
+
+Package: kmod-crypto-echainiv
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-aead
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1593
+Filename: kmod-crypto-echainiv_4.4.52-1_mvebu64.ipk
+Size: 2421
+MD5Sum: 58f500785aacdf9cb7ba2c355b6c8ede
+SHA256sum: 4eaf8a4048269acd540e5376a706025a906552de6fb4927a4141327e59203189
+Description:  Encrypted Chain IV Generator
+
+Package: kmod-crypto-fcrypt
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 4034
+Filename: kmod-crypto-fcrypt_4.4.52-1_mvebu64.ipk
+Size: 4817
+MD5Sum: af3ad010b4b82362efb832bf5b65394d
+SHA256sum: d6ab70c2a0b28314bc037bd7bb21c1e94c01cf42c22028d504de03ac3ef3f590
+Description:  FCRYPT cipher CryptoAPI module
+
+Package: kmod-crypto-gcm
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-ctr, kmod-crypto-ghash, kmod-crypto-null
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 6168
+Filename: kmod-crypto-gcm_4.4.52-1_mvebu64.ipk
+Size: 6995
+MD5Sum: 1e4c96f56293ceec98b59b1fd30567cf
+SHA256sum: 4e07e3491224bb98e3e8f55da6bc72b6718012c42fa3972b26b68a75d69c57ce
+Description:  GCM/GMAC CryptoAPI module
+
+Package: kmod-crypto-gf128
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 3738
+Filename: kmod-crypto-gf128_4.4.52-1_mvebu64.ipk
+Size: 4536
+MD5Sum: 13ed03ab8a66de04af56060fc173bc0d
+SHA256sum: 421d6cb0642726bf8a96aa92d5fd92664fbb791e8fec78757ff23b7ba116c840
+Description:  GF(2^128) multiplication functions CryptoAPI module
+
+Package: kmod-crypto-ghash
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-gf128, kmod-crypto-hash
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1463
+Filename: kmod-crypto-ghash_4.4.52-1_mvebu64.ipk
+Size: 2291
+MD5Sum: 3a965f2508ea40c03a8477268e1b07e1
+SHA256sum: 4fd3e2f9eddc22c552405c606111acb6fdd714f17a04fa8d9a63d85bf85f7462
+Description:  GHASH digest CryptoAPI module
+
+Package: kmod-crypto-hash
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 240
+Filename: kmod-crypto-hash_4.4.52-1_mvebu64.ipk
+Size: 1021
+MD5Sum: c2017f67cf48286d1d9fc7e76bafb2c8
+SHA256sum: 5c9bf93d1ed7b0c24943573d1125516a9e47803542bac7dd3286cbc5731fcd9d
+Description:  CryptoAPI hash support
+
+Package: kmod-crypto-hmac
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-hash, kmod-crypto-manager
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 192
+Filename: kmod-crypto-hmac_4.4.52-1_mvebu64.ipk
+Size: 992
+MD5Sum: e78faab4654651526a188d432422f78e
+SHA256sum: 908eed9b250aba855225f8716e78cc446df5c05347f916b5db2e85e014602150
+Description:  HMAC digest CryptoAPI module
+
+Package: kmod-crypto-hw-ccp
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-authenc, kmod-crypto-hash, kmod-crypto-manager, kmod-random-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 23003
+Filename: kmod-crypto-hw-ccp_4.4.52-1_mvebu64.ipk
+Size: 23806
+MD5Sum: 5a8424db7c392620a8a80d76f9b8633e
+SHA256sum: 48c05a2973319227103cb6b51f99bbfa073bb10f1006cc3ddd3c1181c8e42214
+Description:  AMD Cryptographic Coprocessor
+
+Package: kmod-crypto-hw-geode
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-manager
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 104
+Filename: kmod-crypto-hw-geode_4.4.52-1_mvebu64.ipk
+Size: 844
+MD5Sum: 905ce8dd49fa56aa01ce67689e2d6f2f
+SHA256sum: 4b560efd7b94493fa6a834e253355335dce2c981a5d647b0090e188ed2ccc693
+Description:  AMD Geode hardware crypto module
+
+Package: kmod-crypto-hw-hifn-795x
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-random-core, kmod-crypto-manager, kmod-crypto-des
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 104
+Filename: kmod-crypto-hw-hifn-795x_4.4.52-1_mvebu64.ipk
+Size: 858
+MD5Sum: 79c7177076dab45fc95bcef1aebcd0b9
+SHA256sum: bcf6778d9855bd3a2c1f50c1fe95c6bad734454361895361e134788a91f445de
+Description:  HIFN 795x crypto accelerator
+
+Package: kmod-crypto-hw-padlock
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-manager
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 104
+Filename: kmod-crypto-hw-padlock_4.4.52-1_mvebu64.ipk
+Size: 857
+MD5Sum: 3c4c1b62e0c504f64a85d8ce7f3b3c3e
+SHA256sum: 1b504d6c3e0f0f05cd727505d8aea547934b2e258f64acc0fb9a347380ad284d
+Description:  VIA PadLock ACE with AES/SHA hw crypto module
+
+Package: kmod-crypto-hw-talitos
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-manager, kmod-crypto-hash, kmod-random-core, kmod-crypto-authenc
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 104
+Filename: kmod-crypto-hw-talitos_4.4.52-1_mvebu64.ipk
+Size: 880
+MD5Sum: e31f758a87552aa7ec3a76e7c87c8804
+SHA256sum: d95c6275cbac04b9a2143f81669c6ffb82e9eb9e304dd6051fd24ef00bd1cf04
+Description:  Freescale integrated security engine (SEC) driver
+
+Package: kmod-crypto-iv
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-manager, kmod-crypto-rng, kmod-crypto-wq
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 200
+Filename: kmod-crypto-iv_4.4.52-1_mvebu64.ipk
+Size: 1002
+MD5Sum: 0d64e48c4763daaf14e74d206d19cf50
+SHA256sum: 4bf26e1be87136d36d51fa369ffce8b86aff942708d0e3ddb5a6384e2e3b26b9
+Description:  CryptoAPI initialization vectors
+
+Package: kmod-crypto-manager
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-aead, kmod-crypto-hash, kmod-crypto-pcompress
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 241
+Filename: kmod-crypto-manager_4.4.52-1_mvebu64.ipk
+Size: 1048
+MD5Sum: 10c69735f0023e6c82b4bb3948c70dd0
+SHA256sum: c52fae0f5e934c905c3b65ae225633258e6fd9ad20af9449a24ca7f8e0665bb6
+Description:  CryptoAPI algorithm manager
+
+Package: kmod-crypto-md4
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-hash
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2426
+Filename: kmod-crypto-md4_4.4.52-1_mvebu64.ipk
+Size: 3214
+MD5Sum: c06e739c7364004ef0e4300f22de9406
+SHA256sum: 82127a30855fa6534d441cb8ea8c27f04dc2699892cb6d38f4c83c21a11729f6
+Description:  MD4 digest CryptoAPI module
+
+Package: kmod-crypto-md5
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-hash
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1468
+Filename: kmod-crypto-md5_4.4.52-1_mvebu64.ipk
+Size: 2288
+MD5Sum: 9d0d4e092e0ec4d1172a4be945cc6e9a
+SHA256sum: 5f2791ac19c2a29d0823988358d66f59711ac23934dfb014ff3e8fa63b18c717
+Description:  MD5 digest CryptoAPI module
+
+Package: kmod-crypto-michael-mic
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-hash
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1496
+Filename: kmod-crypto-michael-mic_4.4.52-1_mvebu64.ipk
+Size: 2330
+MD5Sum: f4ab79838e71fb999368eda502bf21ea
+SHA256sum: bddc8d4ace9c591318d3ad167b9f0317e95faaa7244fa884ed10f9a559c74338
+Description:  Michael MIC keyed digest CryptoAPI module
+
+Package: kmod-crypto-misc
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-manager
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 102359
+Filename: kmod-crypto-misc_4.4.52-1_mvebu64.ipk
+Size: 98241
+MD5Sum: 1ad1d046818a235c06f201bc38f09fdc
+SHA256sum: 00e1ae0db292b9f83f98cbb24e585abc0ccd1016fdeb74e7fdc484697d77dffb
+Description:  Other CryptoAPI modules
+
+Package: kmod-crypto-null
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-hash
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 196
+Filename: kmod-crypto-null_4.4.52-1_mvebu64.ipk
+Size: 979
+MD5Sum: f5299510475c4cb6f52d01a529841915
+SHA256sum: fd041b368911d68de83cef6210442f3f784dd4cf36b380c92f7a7da76759710f
+Description:  Null CryptoAPI module
+
+Package: kmod-crypto-pcbc
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-manager
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1969
+Filename: kmod-crypto-pcbc_4.4.52-1_mvebu64.ipk
+Size: 2767
+MD5Sum: 794ddf833bca48c57f574b199d773f65
+SHA256sum: 7ac5949b72fb02c716900881ce4ddd3d2a7a8e40f04f9e8a37a502dd2dde2147
+Description:  Propagating Cipher Block Chaining CryptoAPI module
+
+Package: kmod-crypto-pcompress
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 198
+Filename: kmod-crypto-pcompress_4.4.52-1_mvebu64.ipk
+Size: 1000
+MD5Sum: 83b5e1da6f5cb0e475b4556bbd4150c4
+SHA256sum: acd9036d7372d40bb13e2a50281c14b43afa9f9a7cc288f9a0890144fba80a5d
+Description:  CryptoAPI Partial (de)compression operations
+
+Package: kmod-crypto-rng
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-hash, kmod-crypto-hmac, kmod-crypto-sha256
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 210
+Filename: kmod-crypto-rng_4.4.52-1_mvebu64.ipk
+Size: 1023
+MD5Sum: 1c7c348ada5d95553dffb58277cc5435
+SHA256sum: 921e118b987d20b9eedf700e802387448a7ff11a5169b3915c7fdbbc5b43351c
+Description:  CryptoAPI random number generation
+
+Package: kmod-crypto-seqiv
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-aead, kmod-crypto-rng
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 193
+Filename: kmod-crypto-seqiv_4.4.52-1_mvebu64.ipk
+Size: 1001
+MD5Sum: 158e12d96001f8825de93d3e5291b2db
+SHA256sum: 83a67cfef6b54ea1676a70610534bb1ef8ccf1798e346dd4c5e268391f35f9dd
+Description:  CryptoAPI Sequence Number IV Generator
+
+Package: kmod-crypto-sha1
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-hash
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1791
+Filename: kmod-crypto-sha1_4.4.52-1_mvebu64.ipk
+Size: 2581
+MD5Sum: b4caf30429c45e9a936febf64ce2a2fa
+SHA256sum: 5a664513d90475ce5b77fcff5f58af3b05338a6dc447233dd7c54c7838476759
+Description:  SHA1 digest CryptoAPI module
+
+Package: kmod-crypto-sha256
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-hash
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 202
+Filename: kmod-crypto-sha256_4.4.52-1_mvebu64.ipk
+Size: 1000
+MD5Sum: 66b40aae8f537e5a5951c7134305935c
+SHA256sum: 1eb869034e7adc68e80a447baca6731bee462c61307abce26c49a2b124a57d9b
+Description:  SHA224 SHA256 digest CryptoAPI module
+
+Package: kmod-crypto-sha512
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-hash
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 3988
+Filename: kmod-crypto-sha512_4.4.52-1_mvebu64.ipk
+Size: 4789
+MD5Sum: d226289d90c78cb454fa6c84e88460a1
+SHA256sum: 5fe42cf822ffb075b5266a4efd5833fe1be13923ce8a5788487391c16d52d7c6
+Description:  SHA512 digest CryptoAPI module
+
+Package: kmod-crypto-test
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-manager
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 12920
+Filename: kmod-crypto-test_4.4.52-1_mvebu64.ipk
+Size: 13626
+MD5Sum: c138c31ebb686ba59b7e8a5b1e0aaa7b
+SHA256sum: 62527b141ce3b3fe515dadc85a3ae25746c846fd8dd99e8648ee293339908926
+Description:  Test CryptoAPI module
+
+Package: kmod-crypto-user
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-hash, kmod-crypto-manager
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 11912
+Filename: kmod-crypto-user_4.4.52-1_mvebu64.ipk
+Size: 12690
+MD5Sum: 7557f92bf936f7ecaf6d3efb9d784076
+SHA256sum: 1fe68065d900d34bfb3537aee6db9d83cf48261bdfa552a0da57b3c140047103
+Description:  CryptoAPI userspace interface
+
+Package: kmod-crypto-wq
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 194
+Filename: kmod-crypto-wq_4.4.52-1_mvebu64.ipk
+Size: 981
+MD5Sum: 6cc1570bb8d53bcc20c5444ba2a116ce
+SHA256sum: 83de43911c0123b419fe68c26252dbd047f3e7a912ac423a695f049ea2769ca3
+Description:  CryptoAPI work queue handling
+
+Package: kmod-crypto-xts
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-gf128, kmod-crypto-manager
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2510
+Filename: kmod-crypto-xts_4.4.52-1_mvebu64.ipk
+Size: 3311
+MD5Sum: 3d6beedbe2a25ce5baf3282a3f9182db
+SHA256sum: d3307302b9493fef1f370e1cb9a6d54e685d45a3f99d471d63201e6bcbef476c
+Description:  XTS cipher CryptoAPI module
+
+Package: kmod-dm
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-manager
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 75590
+Filename: kmod-dm_4.4.52-1_mvebu64.ipk
+Size: 76235
+MD5Sum: ec86e76847e32419ff6f3977d1b221b8
+SHA256sum: 00d4cd561f033a80333d0e9787d05943216fd8e0d5fe16f4347c94e0640abf99
+Description:  Kernel module necessary for LVM2 support
+
+Package: kmod-dnsresolver
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 194
+Filename: kmod-dnsresolver_4.4.52-1_mvebu64.ipk
+Size: 970
+MD5Sum: 32b5c0a0edbc61a1af5250ebe9e6b21a
+SHA256sum: df29428dc077b5e2e4ceb688209bca854c58d2930041bdbc51e0aefef608974f
+Description:  In-kernel DNS Resolver
+
+Package: kmod-dsa-mv88e6060
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-dsa
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1885
+Filename: kmod-dsa-mv88e6060_4.4.52-1_mvebu64.ipk
+Size: 2703
+MD5Sum: 40a953734194c92137f4b93cf765b933
+SHA256sum: 368e45e6d0ccbd6d60747c1ef1102117bae62aafb022569ff04a8ff6f61c6f7b
+Description:  This enables support for the Marvell 88E6060 ethernet switch chips.
+
+Package: kmod-dsa
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-libphy, kmod-of-mdio
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 188
+Filename: kmod-dsa_4.4.52-1_mvebu64.ipk
+Size: 983
+MD5Sum: 9b054ae221a32c89c6e9303ef3015ca5
+SHA256sum: e4891d18478107d2512907672652ce867c66eb2d69d49c9d866652eaa3091dae
+Description:  Kernel module for DSA support.
+
+Package: kmod-ebtables-ipv4
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ebtables
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 3917
+Filename: kmod-ebtables-ipv4_4.4.52-1_mvebu64.ipk
+Size: 4796
+MD5Sum: 5d1d721ea72c00dfbf4206df82525227
+SHA256sum: 65d5e8c6fab006e72a2eb16f9b3595757ade1b5ac085128ad57620362179a420
+Description:  This option adds the IPv4 support to ebtables, which allows basic
+ IPv4 header field filtering, ARP filtering as well as SNAT, DNAT targets.
+
+Package: kmod-ebtables-ipv6
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ebtables
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1778
+Filename: kmod-ebtables-ipv6_4.4.52-1_mvebu64.ipk
+Size: 2650
+MD5Sum: 003eebe0f47a06c6d4e891ccdcb3961d
+SHA256sum: c35426ade22babaa043cb59a1e33664b18f39512a2214a22324fba406f7214d5
+Description:  This option adds the IPv6 support to ebtables, which allows basic
+ IPv6 header field filtering and target support.
+
+Package: kmod-ebtables-watchers
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ebtables
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2866
+Filename: kmod-ebtables-watchers_4.4.52-1_mvebu64.ipk
+Size: 3704
+MD5Sum: b63927f2ef78ecceb1ddf0ee42df2176
+SHA256sum: bc2998b9f9825c5cc5257516a093bfbdab076317cc1eb2086d0617f43940063a
+Description:  This option adds the log watchers, that you can use in any rule
+ in any ebtables table.
+
+Package: kmod-ebtables
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-bridge
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 23571
+Filename: kmod-ebtables_4.4.52-1_mvebu64.ipk
+Size: 24436
+MD5Sum: 6b6433ea9681d77c5a137b6d30207b63
+SHA256sum: a06275cb159cd96fa303d4d38276d7c25b0b5e45c66bf1c4050883511a8770b1
+Description:  ebtables is a general, extensible frame/packet identification
+ framework. It provides you to do Ethernet
+ filtering/NAT/brouting on the Ethernet bridge.
+
+Package: kmod-firewire-net
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-firewire
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 7774
+Filename: kmod-firewire-net_4.4.52-1_mvebu64.ipk
+Size: 8604
+MD5Sum: fc75970f792777d5b38e6b5de2b2ba7e
+SHA256sum: 259ad98e50a98b30286243624eb9e54fa9bebe1e5966cafd77e0fa82b8388cda
+Description:  Kernel support for IPv4 over FireWire
+
+Package: kmod-firewire-ohci
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-firewire
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 20540
+Filename: kmod-firewire-ohci_4.4.52-1_mvebu64.ipk
+Size: 21326
+MD5Sum: be0683449944a9ce9b8ea2ab690ef833
+SHA256sum: 6524ef61a0e92a293896eba0d5839e5ed3210514fcac5655350fc90639c03d64
+Description:  Kernel support for FireWire OHCI-1394 controllers
+
+Package: kmod-firewire-sbp2
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-firewire, kmod-scsi-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 8341
+Filename: kmod-firewire-sbp2_4.4.52-1_mvebu64.ipk
+Size: 9169
+MD5Sum: 04f96019990a508e7d9a4935c6b98e05
+SHA256sum: 4e7ceb35bab448a3e63043866c319df7fffe38adf2a57ddc667ddb73ec1897c7
+Description:  Kernel support for SBP-2 devices over FireWire
+
+Package: kmod-firewire
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-lib-crc-itu-t
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 28627
+Filename: kmod-firewire_4.4.52-1_mvebu64.ipk
+Size: 29330
+MD5Sum: 87cd8114814d268febe522af88fedefe
+SHA256sum: 88c0ae38ffd5dbf3b6350bc0828179bf3f3c2237fb0a43e46914a050305eca27
+Description:  Kernel support for FireWire (new stack)
+
+Package: kmod-fs-9p
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-9pnet
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 186
+Filename: kmod-fs-9p_4.4.52-1_mvebu64.ipk
+Size: 982
+MD5Sum: 159a56fdbd7057a6239301365fcaaee7
+SHA256sum: f37bd37f5c519b88f6600876299f31b825feba3e0feaeb597c4b2bd046f917f3
+Description:  Kernel module for Plan 9 Resource Sharing Support support
+
+Package: kmod-fs-afs
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-rxrpc, kmod-dnsresolver, kmod-fs-fscache
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 48020
+Filename: kmod-fs-afs_4.4.52-1_mvebu64.ipk
+Size: 48527
+MD5Sum: 33f7040fccb6cb70cff07be4a0562d23
+SHA256sum: 2dee98f6e44285d8b31ab76216fc97b2743c5329ed4527c01f97552dd4c0385b
+Description:  Kernel module for Andrew FileSystem client support
+
+Package: kmod-fs-autofs4
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 189
+Filename: kmod-fs-autofs4_4.4.52-1_mvebu64.ipk
+Size: 976
+MD5Sum: 37e70cab468392432467189a16059a25
+SHA256sum: 650781426e9d2ea5774b8a301ea0930ebba0988a56dbfcce8c889ff658dc99b6
+Description:  Kernel module for AutoFS4 support
+
+Package: kmod-fs-btrfs
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-lib-crc32c, kmod-lib-lzo, kmod-lib-zlib, kmod-lib-raid6, kmod-lib-xor
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 229
+Filename: kmod-fs-btrfs_4.4.52-1_mvebu64.ipk
+Size: 1046
+MD5Sum: f1370e9271c028dfe45e2868deda8dae
+SHA256sum: f6bdcd1b26b052de383e359d050a1958e80d1cfb380265b2cf56642aa0cd8a9a
+Description:  Kernel module for BTRFS support
+
+Package: kmod-fs-cifs
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base, kmod-crypto-hmac, kmod-crypto-md5, kmod-crypto-md4, kmod-crypto-des, kmod-crypto-ecb, kmod-crypto-sha256
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 114049
+Filename: kmod-fs-cifs_4.4.52-1_mvebu64.ipk
+Size: 113787
+MD5Sum: 9beba5e71ecfa9a9bae837aeb37f0217
+SHA256sum: ca4f68c3df34b02a85348ed5c4b038d0e12801f87c70bbe0c4194ae251e7bdae
+Description:  Kernel module for CIFS support
+
+Package: kmod-fs-configfs
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 192
+Filename: kmod-fs-configfs_4.4.52-1_mvebu64.ipk
+Size: 973
+MD5Sum: 897af8448ca428d58c9354de324bb873
+SHA256sum: 66ec6831d67a052b2e1c04bd0c4cd96d4054e31bab0ee1356b224a7b7d136f12
+Description:  Kernel module for configfs support
+
+Package: kmod-fs-cramfs
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-lib-zlib
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 4512
+Filename: kmod-fs-cramfs_4.4.52-1_mvebu64.ipk
+Size: 5311
+MD5Sum: 1be0d822e51d2066d5af69cef8d08557
+SHA256sum: 48004a7b451b181c787eee13c4cc7025aa5b428c34efbcf46eac67a43d37b04f
+Description:  Kernel module for cramfs support
+
+Package: kmod-fs-exportfs
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 235
+Filename: kmod-fs-exportfs_4.4.52-1_mvebu64.ipk
+Size: 1028
+MD5Sum: c57c56db34fd68ba22dbf5e429e2e944
+SHA256sum: 7a53b0afe18e2453e57bb6ac985f6e6ba8d08ed470800b39e50b8691cade51c0
+Description:  Kernel module for exportfs. Needed for some other modules.
+
+Package: kmod-fs-ext4
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-lib-crc16, kmod-crypto-hash
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 243
+Filename: kmod-fs-ext4_4.4.52-1_mvebu64.ipk
+Size: 1055
+MD5Sum: c3fd9cf69f6e43d9bbaa9a7e051617c0
+SHA256sum: a99fd9d7381101f0fbee6053a3133a20f69737c557cb672d4988106cc8ac96e6
+Description:  Kernel module for EXT4 filesystem support
+
+Package: kmod-fs-f2fs
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 98619
+Filename: kmod-fs-f2fs_4.4.52-1_mvebu64.ipk
+Size: 98800
+MD5Sum: c2df3a1a1c671351e970624ac304889c
+SHA256sum: a016bdd3f5a704a06fa54d8366d35e76ed6f0a1380986bf425c274228017e6b4
+Description:  Kernel module for F2FS filesystem support
+
+Package: kmod-fs-fscache
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 25653
+Filename: kmod-fs-fscache_4.4.52-1_mvebu64.ipk
+Size: 26308
+MD5Sum: d480b9e1470d967a0f242d310fc8f63a
+SHA256sum: eb35efb7dcf6b864bf032e51815e34325dbb6e390e0c63990cad9d23a3e6dee4
+Description:  General filesystem local cache manager
+
+Package: kmod-fs-hfs
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 26806
+Filename: kmod-fs-hfs_4.4.52-1_mvebu64.ipk
+Size: 27583
+MD5Sum: d01121bbaf26c6db2272f17442bd5552
+SHA256sum: d42cf7b81bacb3d4c5be0d5f3a530edc4b92907bbf3546b2d6f501302dc20890
+Description:  Kernel module for HFS filesystem support
+
+Package: kmod-fs-hfsplus
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base, kmod-nls-utf8
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 54316
+Filename: kmod-fs-hfsplus_4.4.52-1_mvebu64.ipk
+Size: 54861
+MD5Sum: 646e684bac14ef96b03901a240aaa78c
+SHA256sum: 143c2992aa9380c49af149739ee825e03afc98ba19339e52e430da4b63fb0c54
+Description:  Kernel module for HFS+ filesystem support
+
+Package: kmod-fs-isofs
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-lib-zlib, kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 14095
+Filename: kmod-fs-isofs_4.4.52-1_mvebu64.ipk
+Size: 14874
+MD5Sum: deb6db26b5d317491196fbdcdd9b5cb2
+SHA256sum: d6b3109f61cf770069775bdc2d4beaca7383fa1472085289e01fbadd534c9d42
+Description:  Kernel module for ISO9660 filesystem support
+
+Package: kmod-fs-jfs
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 89093
+Filename: kmod-fs-jfs_4.4.52-1_mvebu64.ipk
+Size: 89655
+MD5Sum: d21cfc64c0ba8781bb577911c5f52fd5
+SHA256sum: 91ed30fd82d713235eaa515ac8dd8b24dc68cac77afa61551fc27a216bbc0137
+Description:  Kernel module for JFS support
+
+Package: kmod-fs-minix
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 14543
+Filename: kmod-fs-minix_4.4.52-1_mvebu64.ipk
+Size: 15278
+MD5Sum: e9e2ebb8cf8a6f5a9633d67280bb2dee
+SHA256sum: 3db895ba4cd3803e6394fa765b95c94fab30bbbf5116be1e28bb40db1ec4db08
+Description:  Kernel module for Minix filesystem support
+
+Package: kmod-fs-msdos
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-fs-vfat, kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 4935
+Filename: kmod-fs-msdos_4.4.52-1_mvebu64.ipk
+Size: 5755
+MD5Sum: e80196864893c17f9b73f0cb8c05e63f
+SHA256sum: bb8d66b08828d9f74b50e21e3aa1245b67fcd301e56a346eb1fcdf76cabf1e59
+Description:  Kernel module for MSDOS filesystem support
+
+Package: kmod-fs-nfs-common
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 203
+Filename: kmod-fs-nfs-common_4.4.52-1_mvebu64.ipk
+Size: 988
+MD5Sum: fe7ea6125f67548330beefd12a3ba7f1
+SHA256sum: 81e811389db56976b3ebd0bc3d6879c737e9365d404a221c3cfcfe33183e7548
+Description:  Common NFS filesystem modules
+
+Package: kmod-fs-nfs
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-fs-nfs-common, kmod-dnsresolver
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 189
+Filename: kmod-fs-nfs_4.4.52-1_mvebu64.ipk
+Size: 990
+MD5Sum: 281a97acbeaeeb77e32a38cddc4cedd2
+SHA256sum: 289a25c87365a87413a41f70fefdd8b8a5915de00bff1a5c0637a23b20460d48
+Description:  Kernel module for NFS support
+
+Package: kmod-fs-nfsd
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-fs-nfs-common, kmod-fs-exportfs
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 186
+Filename: kmod-fs-nfsd_4.4.52-1_mvebu64.ipk
+Size: 986
+MD5Sum: 73a29b5283d9f52cb257d15f3fa590c1
+SHA256sum: e84cd8dda8489f2b7fd8d73a4dd9c94311d1a3b6971e550d33c83c24daaf0bcf
+Description:  Kernel module for NFS kernel server support
+
+Package: kmod-fs-ntfs
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 47653
+Filename: kmod-fs-ntfs_4.4.52-1_mvebu64.ipk
+Size: 48285
+MD5Sum: c136828c069cfd388183722d573f9f40
+SHA256sum: 7477b77fcef6ca8f5f74815c96c051243bf8e797742cc94ab9ba0eb1e5b1ad23
+Description:  Kernel module for NTFS filesystem support
+
+Package: kmod-fs-reiserfs
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 116725
+Filename: kmod-fs-reiserfs_4.4.52-1_mvebu64.ipk
+Size: 116834
+MD5Sum: 87d8a4b59c0f5638abfc24f67061250e
+SHA256sum: c6e747cf29433283670269fc94ef095868c1f3978d15e40a8740f8e908f3002e
+Description:  Kernel module for ReiserFS support
+
+Package: kmod-fs-squashfs
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 15177
+Filename: kmod-fs-squashfs_4.4.52-1_mvebu64.ipk
+Size: 15965
+MD5Sum: ec931dfe1f7a5bc1aac4ffe3a6051813
+SHA256sum: 6a4ce6fdd7430cb1abbfbca11fc0b47c33c995f9ba652b82f193df68ab77c685
+Description:  Kernel module for SquashFS 4.0 support
+
+Package: kmod-fs-udf
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-lib-crc-itu-t, kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 46725
+Filename: kmod-fs-udf_4.4.52-1_mvebu64.ipk
+Size: 47349
+MD5Sum: b04d2d0e6dbf1f3de28fac4bc046e5ce
+SHA256sum: 2869bcc0a9e32246c27e645d53088aabc05300d2b25e9e8bb9d147309d368e32
+Description:  Kernel module for UDF filesystem support
+
+Package: kmod-fs-vfat
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 189
+Filename: kmod-fs-vfat_4.4.52-1_mvebu64.ipk
+Size: 987
+MD5Sum: d523e4685b355c25fdbd4d8b2f031fd6
+SHA256sum: 25bc1ca71552c414961e0d3c142d457f1e65224d9345626b906702e13d2a29f8
+Description:  Kernel module for VFAT filesystem support
+
+Package: kmod-fs-xfs
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-fs-exportfs, kmod-lib-crc32c
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 267213
+Filename: kmod-fs-xfs_4.4.52-1_mvebu64.ipk
+Size: 266397
+MD5Sum: 010877aa1a8eb888bca26c51f5fb31cf
+SHA256sum: 0efe79618a5718e5ac09feaa1f04f1beceebd32667df34b183b802ea1c5279a0
+Description:  Kernel module for XFS support
+
+Package: kmod-fuse
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 185
+Filename: kmod-fuse_4.4.52-1_mvebu64.ipk
+Size: 972
+MD5Sum: 7ed5dbce41fd3e972641ad1f71cfe782
+SHA256sum: 944190197385cd774c5403af39c63a76670003eb1db765b3f7a4a01b0c27e85e
+Description:  Kernel module for userspace filesystem support
+
+Package: kmod-hid-generic
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-hid
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 190
+Filename: kmod-hid-generic_4.4.52-1_mvebu64.ipk
+Size: 975
+MD5Sum: 379932a40fc47e528bebd0a08de2a5d1
+SHA256sum: d2aa873bd9d062e283567e57fa868a63f313c85419267dc6693bbfd178602f48
+Description:  Generic HID device support
+
+Package: kmod-hid
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-input-core, kmod-input-evdev
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 183
+Filename: kmod-hid_4.4.52-1_mvebu64.ipk
+Size: 979
+MD5Sum: 35d59afb3a964fbc7fd2a297487961d9
+SHA256sum: b602da3b264b9be809dafb0808bb317221fb5424226857020b625febb40665aa
+Description:  Kernel modules for HID devices
+
+Package: kmod-hwmon-adt7410
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-hwmon-core, kmod-i2c-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 3899
+Filename: kmod-hwmon-adt7410_4.4.52-1_mvebu64.ipk
+Size: 4739
+MD5Sum: 2f39951c9e51dfa8892fdd0602f40ad1
+SHA256sum: 5680eb163ea1b5c21fc66ebdc668d0abfdc7b63debf92e98fcde9a76447d962b
+Description:  Kernel module for ADT7410/7420 I2C thermal monitor chip
+
+Package: kmod-hwmon-adt7475
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-hwmon-core, kmod-i2c-core, kmod-hwmon-vid
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 9036
+Filename: kmod-hwmon-adt7475_4.4.52-1_mvebu64.ipk
+Size: 9838
+MD5Sum: f2fc7d7595c0ab1e6586a14032b0b38a
+SHA256sum: a5296daff99a545e91a13d586d5c4e84320dda7647dfd8eeab3bfb7019996e9a
+Description:  Kernel module for ADT7473/7475/7476/7490 thermal monitor chip
+
+Package: kmod-hwmon-core
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2288
+Filename: kmod-hwmon-core_4.4.52-1_mvebu64.ipk
+Size: 3011
+MD5Sum: 2f1f16762d97719445cb696aa1e263bb
+SHA256sum: a127871eb2733d9e7485b10768cb6177e6daa3520564f408c32dc60abff23cef
+Description:  Kernel modules for hardware monitoring
+
+Package: kmod-hwmon-gpiofan
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-hwmon-core, kmod-i2c-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 4098
+Filename: kmod-hwmon-gpiofan_4.4.52-1_mvebu64.ipk
+Size: 4916
+MD5Sum: 9b4d46aa2c5a01ec9be8f374a6709ca0
+SHA256sum: 03e4c608ba35c3f4584871dd4e5ad33ed916a93f4a1b66e564dafa19de024efb
+Description:  Kernel module for GPIO controlled FANs
+
+Package: kmod-hwmon-gsc
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-hwmon-core, kmod-i2c-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 104
+Filename: kmod-hwmon-gsc_4.4.52-1_mvebu64.ipk
+Size: 856
+MD5Sum: 3cb6ef7872c013eb7c25cd9e70220d08
+SHA256sum: 739f541b8164eecc818e682e62f7947cf143f1e685a43af3e463e9463934e069
+Description:  Kernel module for the Gateworks System Controller chips.
+
+Package: kmod-hwmon-ina2xx
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-hwmon-core, kmod-i2c-core, kmod-regmap
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 3170
+Filename: kmod-hwmon-ina2xx_4.4.52-1_mvebu64.ipk
+Size: 3980
+MD5Sum: f34f7d5d84363a93aaf8298af61a9be6
+SHA256sum: 477cde3d294516c453e0b9c02351c894ec07b9a488c6f734784b36f718255d72
+Description:  Kernel module for ina2xx dc current monitor chips
+
+Package: kmod-hwmon-it87
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-hwmon-core, kmod-i2c-core, kmod-hwmon-vid
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 14387
+Filename: kmod-hwmon-it87_4.4.52-1_mvebu64.ipk
+Size: 15155
+MD5Sum: 8c637e5407cd1da262c17545b0b4bdc6
+SHA256sum: e7e0f0014d2eb66ffa9c7b48db20537d40e2539a1048ac566d554e1874d926eb
+Description:  Kernel module for it87 thermal and voltage monitor chip
+
+Package: kmod-hwmon-lm63
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-hwmon-core, kmod-i2c-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 6351
+Filename: kmod-hwmon-lm63_4.4.52-1_mvebu64.ipk
+Size: 7161
+MD5Sum: f9cfba1675bb8003019a63c22c4f09e9
+SHA256sum: 22c0c08e09ba5f8f44c549782c44e523670901fe44cfdf7d2edb0c85f0e7ab3a
+Description:  Kernel module for lm63 and lm64 thermal monitor chip
+
+Package: kmod-hwmon-lm75
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-hwmon-core, kmod-i2c-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 3268
+Filename: kmod-hwmon-lm75_4.4.52-1_mvebu64.ipk
+Size: 4072
+MD5Sum: d0413b6cd112349578307373bc73a81f
+SHA256sum: d0a1fe2809783101bd243b7cf5c13437a30e739a6763e052d91a44428068f1c5
+Description:  Kernel module for lm75 thermal monitor chip
+
+Package: kmod-hwmon-lm77
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-hwmon-core, kmod-i2c-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2828
+Filename: kmod-hwmon-lm77_4.4.52-1_mvebu64.ipk
+Size: 3631
+MD5Sum: 28b65620d1a703ab641a7ba5de7753d8
+SHA256sum: 75e6ec370d97348355941aab852e1171f096e1d02c583b33248cd1e6020074df
+Description:  Kernel module for LM77 thermal monitor chip
+
+Package: kmod-hwmon-lm85
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-hwmon-core, kmod-i2c-core, kmod-hwmon-vid
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 8414
+Filename: kmod-hwmon-lm85_4.4.52-1_mvebu64.ipk
+Size: 9240
+MD5Sum: 30e7fe80fcf91fe9a4e700d73c488e24
+SHA256sum: 446057c6e663d63f808b79cb7c39383de7eeed95d2c99f873a7e7b665f5bf6ed
+Description:  Kernel module for LM85 thermal monitor chip
+
+Package: kmod-hwmon-lm90
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-hwmon-core, kmod-i2c-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 7706
+Filename: kmod-hwmon-lm90_4.4.52-1_mvebu64.ipk
+Size: 8551
+MD5Sum: eacd2dd6e5c0cb2bb4521046fd04f4ef
+SHA256sum: aea1e87026470cb5fa4343da4eda0a1c7421dc442252bcdc1ad56b3d88b2b7cc
+Description:  Kernel module for LM90 thermal monitor chip
+
+Package: kmod-hwmon-lm92
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-hwmon-core, kmod-i2c-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 3114
+Filename: kmod-hwmon-lm92_4.4.52-1_mvebu64.ipk
+Size: 3914
+MD5Sum: 4122a7fb195712865855884de4b77a22
+SHA256sum: c51686b4f29bc6b138c10ce444038f500dad6ee1335aae18303f86a22f9e9d8d
+Description:  Kernel module for LM92 thermal monitor chip
+
+Package: kmod-hwmon-lm95241
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-hwmon-core, kmod-i2c-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2865
+Filename: kmod-hwmon-lm95241_4.4.52-1_mvebu64.ipk
+Size: 3672
+MD5Sum: 0dea1abf54434b00b60348ee0b7daa1a
+SHA256sum: f57612298c9217979780da400d3dd863a278f074a378467681e249d534a6e926
+Description:  Kernel module for LM95241 thermal monitor chip
+
+Package: kmod-hwmon-pwmfan
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-hwmon-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 104
+Filename: kmod-hwmon-pwmfan_4.4.52-1_mvebu64.ipk
+Size: 840
+MD5Sum: 3c9811e88b3f2479b8512cfce29df9b4
+SHA256sum: 2d06cd9c7e64f4d366fca7c47ce5f224d4acd4ed045e6b813bc6abcb6b52df07
+Description:  Kernel module for PWM controlled FANs
+
+Package: kmod-hwmon-sht21
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-hwmon-core, kmod-i2c-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1799
+Filename: kmod-hwmon-sht21_4.4.52-1_mvebu64.ipk
+Size: 2618
+MD5Sum: 6527b2ffda2f515d2eff14e54241ad52
+SHA256sum: 2a2ffea7de2696579eaa623ca20f2bb1d450744e95035c8ddd6dbce800f36360
+Description:  Kernel module for Sensirion SHT21 and SHT25 temperature and humidity sensors chip
+
+Package: kmod-hwmon-tmp421
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-hwmon-core, kmod-i2c-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2693
+Filename: kmod-hwmon-tmp421_4.4.52-1_mvebu64.ipk
+Size: 3526
+MD5Sum: 0cae45d03796f17b1ab32aa11e80ee45
+SHA256sum: 402d13a1e3edf036bc468b7e24e3598aa6c5c3a586734ba923e1342f974315fb
+Description:  Kernel module for the Texas Instruments TMP421 and compatible chips.
+
+Package: kmod-hwmon-vid
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-hwmon-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1565
+Filename: kmod-hwmon-vid_4.4.52-1_mvebu64.ipk
+Size: 2408
+MD5Sum: bf5a778b9664225016e67ef89c6b33c7
+SHA256sum: d06999c34750ffd6dfbfa854fabcfa0ebdbd1df6be0b4e828d1c277dcd8f782b
+Description:  VID/VRM/VRD voltage conversion module for hardware monitoring
+
+Package: kmod-i2c-algo-bit
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-i2c-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 192
+Filename: kmod-i2c-algo-bit_4.4.52-1_mvebu64.ipk
+Size: 991
+MD5Sum: c5931c9a1fbeb029b40dcc4d7c8ba8db
+SHA256sum: 14799ba903a786b4abcf3edd75231cb5e65f6acfe4de4ca4a93e71da71acfb23
+Description:  Kernel modules for I2C bit-banging interfaces
+
+Package: kmod-i2c-algo-pca
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-i2c-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 104
+Filename: kmod-i2c-algo-pca_4.4.52-1_mvebu64.ipk
+Size: 845
+MD5Sum: 46c7653392e1195922f21c95144941ac
+SHA256sum: c9e1def7d13a5305858ba748b9611eb8de211c3626b4aecff3630e8276dd31a3
+Description:  Kernel modules for I2C PCA 9564 interfaces
+
+Package: kmod-i2c-algo-pcf
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-i2c-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 104
+Filename: kmod-i2c-algo-pcf_4.4.52-1_mvebu64.ipk
+Size: 846
+MD5Sum: d88edaa2719f1293abbdd169077c4ded
+SHA256sum: 751a1f63ddba3afd1bf13dba713e43df7a8893379384ab5774d1ce7e1b503515
+Description:  Kernel modules for I2C PCF 8584 interfaces
+
+Package: kmod-i2c-core
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 194
+Filename: kmod-i2c-core_4.4.52-1_mvebu64.ipk
+Size: 976
+MD5Sum: 55504a7a4535f596cba60bd4b8ff8885
+SHA256sum: bc01495a4eccc8cc8bcbe33123abd621bb93b44d8a1206fa3abff669c64d9448
+Description:  Kernel modules for I2C support
+
+Package: kmod-i2c-gpio-custom
+Version: 4.4.52-2
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-i2c-core, kmod-i2c-gpio
+Source: package/kernel/i2c-gpio-custom
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 1761
+Filename: kmod-i2c-gpio-custom_4.4.52-2_mvebu64.ipk
+Size: 2514
+MD5Sum: eac59a4b8b035901b6d584ee6644c898
+SHA256sum: 562098b4aad44fcd90d96f97b1911d044d987f7bca108b55d70b6fbb2c21b650
+Description:  Kernel module for register a custom i2c-gpio platform device.
+
+Package: kmod-i2c-gpio
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-i2c-algo-bit
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2539
+Filename: kmod-i2c-gpio_4.4.52-1_mvebu64.ipk
+Size: 3396
+MD5Sum: ae0376a83911f454b361b374707637cb
+SHA256sum: 0f0a0d038ade8b94ba2c2c8f9a369fcea3f01e7aacc8ae359553157c8e4ac22e
+Description:  Kernel modules for a very simple bitbanging I2C driver utilizing the
+ arch-neutral GPIO API to control the SCL and SDA lines.
+
+Package: kmod-i2c-mux-gpio
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-i2c-mux
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2853
+Filename: kmod-i2c-mux-gpio_4.4.52-1_mvebu64.ipk
+Size: 3661
+MD5Sum: 9d599048a68a6f31c5296e0867bacc1d
+SHA256sum: 2ae343b74fb2795e102c58f958a8162bff76c171a64af110710ee8ec98359de7
+Description:  Kernel modules for GENERIC_GPIO I2C bus mux/switching devices
+
+Package: kmod-i2c-mux-pca9541
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-i2c-mux
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2361
+Filename: kmod-i2c-mux-pca9541_4.4.52-1_mvebu64.ipk
+Size: 3167
+MD5Sum: 79a05ffe9e221f11124faeda3b3e2eb5
+SHA256sum: b5c4b2072f3b05bad7d1bca6e368d5933455685c1eac0a26cc86188e6cdb925d
+Description:  Kernel modules for PCA9541 I2C bus mux/switching devices
+
+Package: kmod-i2c-mux-pca954x
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-i2c-mux
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2416
+Filename: kmod-i2c-mux-pca954x_4.4.52-1_mvebu64.ipk
+Size: 3226
+MD5Sum: 07e75b69a01450b2817cd2db58940b83
+SHA256sum: fa64865bb897e2e7bc6fe6f9137520585065438829f265c2dcc494ce11c6d103
+Description:  Kernel modules for PCA954x I2C bus mux/switching devices
+
+Package: kmod-i2c-mux
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-i2c-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2443
+Filename: kmod-i2c-mux_4.4.52-1_mvebu64.ipk
+Size: 3242
+MD5Sum: b2b12d616dc436937ae949367e355e93
+SHA256sum: 562446b3039c81e547e49b071aacbe5ed6f53f2fcf756669a4fc37824ed6a04c
+Description:  Kernel modules for I2C bus multiplexing support
+
+Package: kmod-i2c-tiny-usb
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-i2c-core, kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2442
+Filename: kmod-i2c-tiny-usb_4.4.52-1_mvebu64.ipk
+Size: 3300
+MD5Sum: 7fe0e5e390409ca97990f42b508b367f
+SHA256sum: c5d8b1a79993d4430f4516289da682e653e78d4a8aed3cff0051a171f699a31e
+Description:  Kernel module for the I2C Tiny USB adaptor developed
+ by Till Harbaum (http://www.harbaum.org/till/i2c_tiny_usb)
+
+Package: kmod-ide-aec62xx
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ide-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 104
+Filename: kmod-ide-aec62xx_4.4.52-1_mvebu64.ipk
+Size: 856
+MD5Sum: f05bf83455a5593ffe644898cca2f090
+SHA256sum: 8d0360329d21fa910e82e8bbc0b801c2bc975432da4868d79ea46cb470d5fcbe
+Description:  Support for Acard AEC62xx (Artop ATP8xx) IDE controllers
+
+Package: kmod-ide-core
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 104
+Filename: kmod-ide-core_4.4.52-1_mvebu64.ipk
+Size: 876
+MD5Sum: 4bb0ac4b62af6bd16f0f169e665383b8
+SHA256sum: 27f49e471bbfe32109e43b97c70e7f8eb7d0884345b71ab1be90e95d358a6f27
+Description:  Kernel support for IDE, useful for usb mass storage devices (e.g. on WL-HDD)
+ Includes:
+ - ide-core
+ - ide-gd_mod
+
+Package: kmod-ide-generic-old
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ide-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 104
+Filename: kmod-ide-generic-old_4.4.52-1_mvebu64.ipk
+Size: 851
+MD5Sum: efbf688bb182d1ec1c435643d3c1ffe9
+SHA256sum: a3dc2b8928c8bed235b5fd2b22774f0dfd0a1776f55d16f45140b90516a6f3d5
+Description:  Kernel support for generic (legacy) IDE chipsets
+
+Package: kmod-ide-generic
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ide-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 104
+Filename: kmod-ide-generic_4.4.52-1_mvebu64.ipk
+Size: 839
+MD5Sum: d5579f03962f0ed332ebce1c3591d167
+SHA256sum: d2bece58178e68d1b6d055ba352239126224cd58499ad9c9da276208c66f7f26
+Description:  Kernel support for generic PCI IDE chipsets
+
+Package: kmod-ide-it821x
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ide-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 104
+Filename: kmod-ide-it821x_4.4.52-1_mvebu64.ipk
+Size: 840
+MD5Sum: 259ce90f4b2c2e3d1b862034a5834c20
+SHA256sum: d4b0466df3098ec41a84f6d074eb4f3da57a9c96505e360339f5fc650a554997
+Description:  Kernel module for the ITE IDE821x IDE controllers
+
+Package: kmod-ide-pdc202xx
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ide-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 104
+Filename: kmod-ide-pdc202xx_4.4.52-1_mvebu64.ipk
+Size: 876
+MD5Sum: ddefc6eae81aee43cda56268dc129c39
+SHA256sum: 31d1d2c9b43d938426dc57213c01676dbcf9a315ce0ec38edfa7b0a5d05d479d
+Description:  Support for the Promise Ultra 33/66/100 (PDC202{46|62|65|67|68}) IDE
+ controllers.
+
+Package: kmod-input-core
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 104
+Filename: kmod-input-core_4.4.52-1_mvebu64.ipk
+Size: 830
+MD5Sum: 110259e78245b4734c2e8c6052c8dbe4
+SHA256sum: 91f9dcaf496e4da0b98a21ec5a03253ef0f81638c1f85678c2f5d13327710691
+Description:  Kernel modules for support of input device
+
+Package: kmod-input-evdev
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-input-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 190
+Filename: kmod-input-evdev_4.4.52-1_mvebu64.ipk
+Size: 989
+MD5Sum: aea938ef4b573b583be412dfdd5ed8b7
+SHA256sum: 1cd1545887ad197ddf67d113e97d560631b251bf40ab64c896ca16fc56ba428b
+Description:  Kernel modules for support of input device events
+
+Package: kmod-input-gpio-encoder
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-input-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 3163
+Filename: kmod-input-gpio-encoder_4.4.52-1_mvebu64.ipk
+Size: 3957
+MD5Sum: b7e678ded28311275506d15212a405c2
+SHA256sum: 03e692c8539aaa8b56e9a64c6f74b43584bd002cdda3b7409fac1aa843d266f2
+Description:  GPIO rotay encoder
+
+Package: kmod-input-gpio-keys-polled
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-input-polldev
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 3581
+Filename: kmod-input-gpio-keys-polled_4.4.52-1_mvebu64.ipk
+Size: 4495
+MD5Sum: 65df5c50697ef39f7f6502e8021ed5c0
+SHA256sum: b3fa5d0682eed7f2d8f1d32a12adef675a43a78af622d69d8c885299727be80b
+Description:  Kernel module for support polled GPIO keys input device
+ 
+ See also gpio-button-hotplug which is an alternative, lower overhead
+ implementation that generates uevents instead of kernel input events.
+
+Package: kmod-input-gpio-keys
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-input-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 240
+Filename: kmod-input-gpio-keys_4.4.52-1_mvebu64.ipk
+Size: 1177
+MD5Sum: b08059c1f74b8af06a900a3041d298d5
+SHA256sum: 608552ce178de12b2f46366fa03dded0ae44c6ca7ed61a6caad4824adb29b1a1
+Description:  This driver implements support for buttons connected
+ to GPIO pins of various CPUs (and some other chips).
+ 
+ See also gpio-button-hotplug which is an alternative, lower overhead
+ implementation that generates uevents instead of kernel input events.
+
+Package: kmod-input-joydev
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-input-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 6867
+Filename: kmod-input-joydev_4.4.52-1_mvebu64.ipk
+Size: 7692
+MD5Sum: 5f4e1043f7422f837019a4148128444c
+SHA256sum: a3a97d5c04a4ebfe501f5f227bf0f1d8e62dd436b6b2f54e87d9dd139c713e1c
+Description:  Kernel module for joystick support
+
+Package: kmod-input-matrixkmap
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-input-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2055
+Filename: kmod-input-matrixkmap_4.4.52-1_mvebu64.ipk
+Size: 2847
+MD5Sum: e41892187975e784c2d3f52685f75099
+SHA256sum: c193aae490dedce776084ea47a8d763ccd14929c319f61232ddf683b969430f5
+Description:  Input matrix devices support
+
+Package: kmod-input-polldev
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-input-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2500
+Filename: kmod-input-polldev_4.4.52-1_mvebu64.ipk
+Size: 3237
+MD5Sum: c918c09ac9cc880e507919bd62bd0048
+SHA256sum: 33c496f8ef52c385c85b7fd2adbb953b6175b6330eb16f85db4a357563295495
+Description:  Kernel module for support of polled input devices
+
+Package: kmod-input-uinput
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-input-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 5644
+Filename: kmod-input-uinput_4.4.52-1_mvebu64.ipk
+Size: 6446
+MD5Sum: 8fd97300279bfbbbcbf5113841152353
+SHA256sum: eaf20e13232b028f6723c0466e99ab3aa822968d4bc6642cfcccacd21fef7969
+Description:  user input modules needed for bluez
+
+Package: kmod-ip6-tunnel
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-iptunnel6
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 12061
 Filename: kmod-ip6-tunnel_4.4.52-1_mvebu64.ipk
-Size: 12871
-MD5Sum: 73cc10d546cdae8cd582a027237df0b0
-SHA256sum: c1edcef3fa830446e1e4817c29ac861e670936f27de7193e98979adfddaefc77
+Size: 12879
+MD5Sum: 8f20b714e72c60377a04e0126113f75c
+SHA256sum: 0fc728e2b2e3901d21cc78ca61a4f315b66932edaa29a647bad935d59e1b4817
 Description:  Kernel modules for IPv6-in-IPv6 and IPv4-in-IPv6 tunnelling
+
+Package: kmod-ip6tables-extra
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ip6tables
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 5148
+Filename: kmod-ip6tables-extra_4.4.52-1_mvebu64.ipk
+Size: 5941
+MD5Sum: 34b57d8ac9099c83a18cd2ee24ec02b2
+SHA256sum: 99ceb985510b6e94d3b24f44ae5a80a5fac0736c43c953145c2d39d1af450d62
+Description:  Netfilter IPv6 extra header matching modules
 
 Package: kmod-ip6tables
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e), kmod-nf-ipt6, kmod-ipt-core, kmod-ipt-conntrack
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nf-ipt6, kmod-ipt-core, kmod-ipt-conntrack
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: mvebu64
-Installed-Size: 7926
+Installed-Size: 8031
 Filename: kmod-ip6tables_4.4.52-1_mvebu64.ipk
-Size: 8751
-MD5Sum: c062139d54c5a4fe0127ebca0855aa25
-SHA256sum: fa06db87839201e1d51c397c9126d61aa2dc1a8847f3f4cfcb9367d8d6795b7e
+Size: 8853
+MD5Sum: 83d6c0f7541be6d630d726ff85cba429
+SHA256sum: f92599e88049d009ad1837615044fc890a9c58f76953a390be9bec576b7b0728
 Description:  Netfilter IPv6 firewalling support
+
+Package: kmod-ipt-account
+Version: 4.4.52+2.12-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-ipt-compat-xtables
+Source: package/network/utils/xtables-addons
+License: GPL-2.0
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 6401
+Filename: kmod-ipt-account_4.4.52+2.12-1_mvebu64.ipk
+Size: 7211
+MD5Sum: a8a0f9afb7656c3b29ebd0dd640ff91a
+SHA256sum: 38dd7ce1b35c082fe47c4bd7f69acd52e5acdb261f8c2cbe9bb533e86b580298
+Description:  ACCOUNT netfilter module
+
+Package: kmod-ipt-chaos
+Version: 4.4.52+2.12-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-ipt-compat-xtables, kmod-ipt-delude, kmod-ipt-tarpit
+Source: package/network/utils/xtables-addons
+License: GPL-2.0
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 2198
+Filename: kmod-ipt-chaos_4.4.52+2.12-1_mvebu64.ipk
+Size: 2993
+MD5Sum: 531318f92f0230b567a77f40f08c9eb4
+SHA256sum: b0f80771a11c90bcd841691b64e43b1053d4756788e522aed9ff51c3d6b7baf4
+Description:  CHAOS netfilter module
+
+Package: kmod-ipt-checksum
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1126
+Filename: kmod-ipt-checksum_4.4.52-1_mvebu64.ipk
+Size: 1950
+MD5Sum: 9945027a88626534e12ba67bf27e1bc8
+SHA256sum: 1df23e6e1364623d1aed28d2d191ec2f18c2f6834bc1599db3d95c211c74eaa5
+Description:  Kernel modules for CHECKSUM fillin target
+
+Package: kmod-ipt-cluster
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1717
+Filename: kmod-ipt-cluster_4.4.52-1_mvebu64.ipk
+Size: 2802
+MD5Sum: fd31beb20baa4dc2940b01094d6c92e6
+SHA256sum: b45a87d45e7d31fdce2fe1cb86dd793f01625d3164513467452dca16e70e6042
+Description:  Netfilter (IPv4/IPv6) module for matching cluster
+ This option allows you to build work-load-sharing clusters of
+ network servers/stateful firewalls without having a dedicated
+ load-balancing router/server/switch. Basically, this match returns
+ true when the packet must be handled by this cluster node. Thus,
+ all nodes see all packets and this match decides which node handles
+ what packets. The work-load sharing algorithm is based on source
+ address hashing.
+ 
+ This module is usable for ipv4 and ipv6.
+ 
+ To use it also enable iptables-mod-cluster
+ 
+ see `iptables -m cluster --help` for more information.
+
+Package: kmod-ipt-clusterip
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-nf-conntrack
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 5112
+Filename: kmod-ipt-clusterip_4.4.52-1_mvebu64.ipk
+Size: 6081
+MD5Sum: 09158abd6ada4686adefae88022ca832
+SHA256sum: 90c1e046f50b4bcd934b07bd8989e58376a80359d906783507049e053d5c2a78
+Description:  Netfilter (IPv4-only) module for CLUSTERIP
+ The CLUSTERIP target allows you to build load-balancing clusters of
+ network servers without having a dedicated load-balancing
+ router/server/switch.
+ 
+ To use it also enable iptables-mod-clusterip
+ 
+ see `iptables -j CLUSTERIP --help` for more information.
+
+Package: kmod-ipt-compat-xtables
+Version: 4.4.52+2.12-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-ip6tables
+Source: package/network/utils/xtables-addons
+License: GPL-2.0
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 849
+Filename: kmod-ipt-compat-xtables_4.4.52+2.12-1_mvebu64.ipk
+Size: 1676
+MD5Sum: e14392c791cf4aecba7f20161ca8cc19
+SHA256sum: 101eb5a2cf6353e9be704c2b918d38d9bdf5298d006ad332a837e710c4b8abea
+Description:  API compatibilty layer netfilter module
+
+Package: kmod-ipt-condition
+Version: 4.4.52+2.12-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core
+Source: package/network/utils/xtables-addons
+License: GPL-2.0
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 2741
+Filename: kmod-ipt-condition_4.4.52+2.12-1_mvebu64.ipk
+Size: 3528
+MD5Sum: 260f554f00607a9c8d2c1fd3076b5256
+SHA256sum: 269b8a9522857109d476267ec566f1989d7774dc9f90daf4d5f2f4255585e637
+Description:  Condition netfilter module
 
 Package: kmod-ipt-conntrack-extra
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e), kmod-ipt-core, kmod-ipt-conntrack
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-ipt-conntrack
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: mvebu64
-Installed-Size: 11422
+Installed-Size: 11423
 Filename: kmod-ipt-conntrack-extra_4.4.52-1_mvebu64.ipk
-Size: 12305
-MD5Sum: 4d6228e0ca20fa786b244c71d9b18165
-SHA256sum: 21c941de98d88fc25f965b2c902d93a40061d5b389b3431fc68b9a868a57d35d
+Size: 12306
+MD5Sum: 298a2193cbf40f324ebd7dfe5bf08d6a
+SHA256sum: 66e3ac04be0ea4503bbe6bb0e65153901172e5cf9bf64b7674f6d587214a53fc
 Description:  Netfilter (IPv4) extra kernel modules for connection tracking
  Includes:
  - connbytes
@@ -51,17 +2533,17 @@ Description:  Netfilter (IPv4) extra kernel modules for connection tracking
 
 Package: kmod-ipt-conntrack
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e), kmod-ipt-core, kmod-nf-conntrack
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-nf-conntrack
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: mvebu64
-Installed-Size: 5301
+Installed-Size: 5302
 Filename: kmod-ipt-conntrack_4.4.52-1_mvebu64.ipk
-Size: 6161
-MD5Sum: 804bbe4a21457be1ebd5cb7fe0af98c9
-SHA256sum: 9e899c978de07bb2475ddf3d45da7e32e9280d35b5ea1d813f865e55ff21996d
+Size: 6156
+MD5Sum: 887fd121a54a9b84b37c593d80b4ab84
+SHA256sum: f1ef7b82c90dc776ca27fd6b0c1afcd627dad10ff5b00ee8a94ff42c98b1c81f
 Description:  Netfilter (IPv4) kernel modules for connection tracking
  Includes:
  - conntrack
@@ -72,17 +2554,17 @@ Description:  Netfilter (IPv4) kernel modules for connection tracking
 
 Package: kmod-ipt-core
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e), kmod-nf-ipt
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nf-ipt
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: mvebu64
-Installed-Size: 15956
+Installed-Size: 16191
 Filename: kmod-ipt-core_4.4.52-1_mvebu64.ipk
-Size: 16811
-MD5Sum: 2149fe82dcad5f90d4637c4db104738b
-SHA256sum: 9dcf9d7edc5f101d7c43f02083cc4214611a02b31c20b24662f7156cf5bb78b0
+Size: 17051
+MD5Sum: ce543d2e0578e2d7be35db4235e367a5
+SHA256sum: 00e3c60bd26a68414b84b59b0b1056b5eb1f3440c8ae8566ed32622dff0a904a
 Description:  Netfilter core kernel modules
  Includes:
  - comment
@@ -93,9 +2575,177 @@ Description:  Netfilter core kernel modules
  - REJECT
  - TCPMSS
 
+Package: kmod-ipt-debug
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 922
+Filename: kmod-ipt-debug_4.4.52-1_mvebu64.ipk
+Size: 1766
+MD5Sum: 7d63f037dfce80b70404bba40b4efa48
+SHA256sum: f48dfd95be08a6b2e67a93bf55b7515a903c1649029199c5ecc7d2595aaaa150
+Description:  Netfilter modules for debugging/development of the firewall
+ Includes:
+ - TRACE
+
+Package: kmod-ipt-delude
+Version: 4.4.52+2.12-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-ipt-compat-xtables
+Source: package/network/utils/xtables-addons
+License: GPL-2.0
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 2051
+Filename: kmod-ipt-delude_4.4.52+2.12-1_mvebu64.ipk
+Size: 2841
+MD5Sum: 70f2be36193c533f2879122db3dde5df
+SHA256sum: 28300d6cdd9d6a401ffb55d5fa9fa0aeeb769d2d7827fc49c12b20ec30be56cb
+Description:  DELUDE netfilter module
+
+Package: kmod-ipt-dhcpmac
+Version: 4.4.52+2.12-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-ipt-compat-xtables
+Source: package/network/utils/xtables-addons
+License: GPL-2.0
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 1863
+Filename: kmod-ipt-dhcpmac_4.4.52+2.12-1_mvebu64.ipk
+Size: 2646
+MD5Sum: 3a942c5ccc88df50dcd0296d93c95fb5
+SHA256sum: 12524860a2a9ffff557f4bf2fe0899399db2db4e1f86e0ce8cbd51c37f5a3172
+Description:  DHCPMAC netfilter module
+
+Package: kmod-ipt-dnetmap
+Version: 4.4.52+2.12-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-ipt-compat-xtables, kmod-ipt-nat
+Source: package/network/utils/xtables-addons
+License: GPL-2.0
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 7487
+Filename: kmod-ipt-dnetmap_4.4.52+2.12-1_mvebu64.ipk
+Size: 8323
+MD5Sum: dd089f81f5f3e4721003e93305a08736
+SHA256sum: 2c6dbaf3bc281b059c3043bf502bf0b4c22ae5086801cdc80d760f536180cc8e
+Description:  DNETMAP netfilter module
+
+Package: kmod-ipt-extra
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 4520
+Filename: kmod-ipt-extra_4.4.52-1_mvebu64.ipk
+Size: 5408
+MD5Sum: 40f098473b26292bc171399334c7ba6e
+SHA256sum: 0b166a16a316a09816378384d2fc19cf2d0e0e6825b071876eb2797e558194ad
+Description:  Other Netfilter (IPv4) kernel modules
+ Includes:
+ - addrtype
+ - owner
+ - physdev (if bridge support was enabled in kernel)
+ - pkttype
+ - quota
+
+Package: kmod-ipt-filter
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-lib-textsearch, kmod-ipt-conntrack
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1183
+Filename: kmod-ipt-filter_4.4.52-1_mvebu64.ipk
+Size: 2046
+MD5Sum: 357438eaa45fcf72249e744eac302997
+SHA256sum: 7feb4e08617c24cb6b2be11205cab8ec1d512299746d08808b80b31bb96b4ca7
+Description:  Netfilter (IPv4) kernel modules for packet content inspection
+ Includes:
+ - string
+
+Package: kmod-ipt-fuzzy
+Version: 4.4.52+2.12-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core
+Source: package/network/utils/xtables-addons
+License: GPL-2.0
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 1450
+Filename: kmod-ipt-fuzzy_4.4.52+2.12-1_mvebu64.ipk
+Size: 2266
+MD5Sum: 83d2936a829b16830b259e6d741bc9dc
+SHA256sum: 4b675a04609d2916dede57fa724e07394493a3a55a5e7b6a89307ac1e8d1fefc
+Description:  fuzzy netfilter module
+
+Package: kmod-ipt-geoip
+Version: 4.4.52+2.12-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core
+Source: package/network/utils/xtables-addons
+License: GPL-2.0
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 2949
+Filename: kmod-ipt-geoip_4.4.52+2.12-1_mvebu64.ipk
+Size: 3735
+MD5Sum: c74a044eda656ce7a5c0d92356144ed3
+SHA256sum: c2431aa317d2954e893f1028604df93b7914d43835f2511e3e1738078478a2ee
+Description:  geoip netfilter module
+
+Package: kmod-ipt-hashlimit
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 5993
+Filename: kmod-ipt-hashlimit_4.4.52-1_mvebu64.ipk
+Size: 6794
+MD5Sum: c01b9da3e6bde4a255a21e526c3b7137
+SHA256sum: 5dc9e9b6db649e4155e1fa1c8f3f3ca1773d4cbb9c9a73c156e1bcfa328acb73
+Description:  Kernel modules support for the hashlimit bucket match module
+
+Package: kmod-ipt-iface
+Version: 4.4.52+2.12-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core
+Source: package/network/utils/xtables-addons
+License: GPL-2.0
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 1292
+Filename: kmod-ipt-iface_4.4.52+2.12-1_mvebu64.ipk
+Size: 2103
+MD5Sum: 3ee705af851e4cc762ac8ffdb056977a
+SHA256sum: 3d0079167e3803ecd0dfc4e7c0b91b4e15674f3895d3a75f328a5f3361e5b26c
+Description:  iface netfilter module
+
+Package: kmod-ipt-ipmark
+Version: 4.4.52+2.12-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-ipt-compat-xtables
+Source: package/network/utils/xtables-addons
+License: GPL-2.0
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 1198
+Filename: kmod-ipt-ipmark_4.4.52+2.12-1_mvebu64.ipk
+Size: 2027
+MD5Sum: 5e3813a476326a369565cb5dd2d4766e
+SHA256sum: 8d237818018f5b98b155f60c1baae7b93ceaa91b3f38e7e8bbdc2c5a088d7ac1
+Description:  IPMARK netfilter module
+
 Package: kmod-ipt-ipopt
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e), kmod-ipt-core
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
@@ -103,9 +2753,9 @@ Status: unknown hold not-installed
 Architecture: mvebu64
 Installed-Size: 6917
 Filename: kmod-ipt-ipopt_4.4.52-1_mvebu64.ipk
-Size: 7873
-MD5Sum: 151f4992f4a7e40dc4c03499d9109542
-SHA256sum: 699b9206c1d44eb88718f07975164589249a39d16d51cbe9fcc49abeb58dfe7b
+Size: 7874
+MD5Sum: 1a7c4a3514c3799709f081ab877fdb0c
+SHA256sum: d752e974c772c891876171d8378795eb8321b4fc202753cce8a60a540aeeb456
 Description:  Netfilter (IPv4) modules for matching/changing IP packet options
  Includes:
  - CLASSIFY
@@ -120,41 +2770,360 @@ Description:  Netfilter (IPv4) modules for matching/changing IP packet options
  - ttl/TTL
  - unclean
 
-Package: kmod-ipt-ipset
+Package: kmod-ipt-ipp2p
+Version: 4.4.52+2.12-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-ipt-compat-xtables
+Source: package/network/utils/xtables-addons
+License: GPL-2.0
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 4922
+Filename: kmod-ipt-ipp2p_4.4.52+2.12-1_mvebu64.ipk
+Size: 5726
+MD5Sum: dbaf1cc6a838a498c3697d0bea71bb72
+SHA256sum: e7f4098e179604de18e6c8e14f09f879f936cade7bb508bbd97415db12ad1518
+Description:  IPP2P netfilter module
+
+Package: kmod-ipt-iprange
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e), kmod-ipt-core, kmod-nfnetlink
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: mvebu64
-Installed-Size: 129170
+Installed-Size: 1312
+Filename: kmod-ipt-iprange_4.4.52-1_mvebu64.ipk
+Size: 2148
+MD5Sum: 1713127a0f5adabc38c51162a72b3b96
+SHA256sum: e608ddc256db58bba09c9f1eca09dbf9b2517270bd5e08f1df9add2406ec7ee7
+Description:  Netfilter (IPv4) module for matching ip ranges
+ Includes:
+ - iprange
+
+Package: kmod-ipt-ipsec
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2717
+Filename: kmod-ipt-ipsec_4.4.52-1_mvebu64.ipk
+Size: 3567
+MD5Sum: cb312a3ef6c4888c73b7c54a44c47c5a
+SHA256sum: 12b3f21e03ad9c7110c543570140a91381484284d1a0ca9a1134d404253b8a75
+Description:  Netfilter (IPv4) modules for matching IPSec packets
+ Includes:
+ - ah
+ - esp
+ - policy
+
+Package: kmod-ipt-ipset
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-nfnetlink
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 129275
 Filename: kmod-ipt-ipset_4.4.52-1_mvebu64.ipk
-Size: 129516
-MD5Sum: b3d16d0fee23fe097a4e7d2267fcfb68
-SHA256sum: 0ab3926c92c9029261b0017d993b169e504ee8f22b88d1e4545434579bdd51e0
+Size: 129641
+MD5Sum: 3b53f1dbb8f6dc94292669e0036e140e
+SHA256sum: d04209839d9324f128d2b57734f022a4e95e968323bc1b220bb97456f4551123
 Description:  IPset netfilter modules
+
+Package: kmod-ipt-ipv4options
+Version: 4.4.52+2.12-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core
+Source: package/network/utils/xtables-addons
+License: GPL-2.0
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 1055
+Filename: kmod-ipt-ipv4options_4.4.52+2.12-1_mvebu64.ipk
+Size: 1866
+MD5Sum: 1f9422450d585a769f1c157452edf09f
+SHA256sum: 36e5843b832b864eab46d737e0eaa24c7240ff25990558aa45e5cdadc80c187e
+Description:  ipv4options netfilter module
+
+Package: kmod-ipt-led
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1941
+Filename: kmod-ipt-led_4.4.52-1_mvebu64.ipk
+Size: 2743
+MD5Sum: 4f700b2118f186a58613e610fd079e01
+SHA256sum: 62bd9317433543a5b1a27a9e30e098500a0be0575d3617da803854ce0994b445
+Description:  Netfilter target to trigger a LED when a network packet is matched.
+
+Package: kmod-ipt-length2
+Version: 4.4.52+2.12-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-ipt-compat-xtables
+Source: package/network/utils/xtables-addons
+License: GPL-2.0
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 2185
+Filename: kmod-ipt-length2_4.4.52+2.12-1_mvebu64.ipk
+Size: 2969
+MD5Sum: 5add543336b6d7feb8b42855e991bc96
+SHA256sum: 160be4843023bd5f21aa6aabba1d10c9d04da176f555d0fcf3d916ee3ec12cb2
+Description:  length2 netfilter module
+
+Package: kmod-ipt-logmark
+Version: 4.4.52+2.12-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-ipt-compat-xtables
+Source: package/network/utils/xtables-addons
+License: GPL-2.0
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 1937
+Filename: kmod-ipt-logmark_4.4.52+2.12-1_mvebu64.ipk
+Size: 2727
+MD5Sum: 622f8dfa18af4bd7a84b5cdb3ffd2794
+SHA256sum: 644b0b5fd6daa15e776885b7e7811ec6bcc5d9f20019685c85f38a7672f826eb
+Description:  LOGMARK netfilter module
+
+Package: kmod-ipt-lscan
+Version: 4.4.52+2.12-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core
+Source: package/network/utils/xtables-addons
+License: GPL-2.0
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 2397
+Filename: kmod-ipt-lscan_4.4.52+2.12-1_mvebu64.ipk
+Size: 3189
+MD5Sum: cd24030e9d42da848fad66e33c174384
+SHA256sum: 2351f6c436af0b53c6d27cdd4007425cbb9fc64ce6e968de2062809a594f2509
+Description:  lscan netfilter module
+
+Package: kmod-ipt-lua
+Version: 4.4.52+2.12-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-ipt-conntrack-extra
+Source: package/network/utils/xtables-addons
+License: GPL-2.0
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 69499
+Filename: kmod-ipt-lua_4.4.52+2.12-1_mvebu64.ipk
+Size: 70151
+MD5Sum: a91015b011d63369c9de59f122894ec7
+SHA256sum: 41b597ac247416dbf4fe4dea0c0b4a6b2e9f70f52589ee88cd49345ee0464123
+Description:  Lua PacketScript netfilter module
+
+Package: kmod-ipt-nat-extra
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-ipt-nat
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1545
+Filename: kmod-ipt-nat-extra_4.4.52-1_mvebu64.ipk
+Size: 2411
+MD5Sum: 0e188b3eaca8e837aa0ef9a8cb6bb343
+SHA256sum: a7789298ef9efe13a7a31dafe5f1792dc01929667fb798625c7d9aa9e11f8dd9
+Description:  Netfilter (IPv4) kernel modules for extra NAT targets
+ Includes:
+ - NETMAP
+ - REDIRECT
+
+Package: kmod-ipt-nat6
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-nf-nat6, kmod-ipt-core, kmod-ipt-conntrack, kmod-ipt-core, kmod-ipt-nat, kmod-ipt-core, kmod-ip6tables
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 3986
+Filename: kmod-ipt-nat6_4.4.52-1_mvebu64.ipk
+Size: 4807
+MD5Sum: cda274dab0afac51d901c8357a1edc04
+SHA256sum: 94bb48e702c99120c580dce7d22827d1c6673d65c96f2eb2b87c9e77e53579d1
+Description:  Netfilter (IPv6) kernel modules for NAT targets
 
 Package: kmod-ipt-nat
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e), kmod-ipt-core, kmod-nf-nat
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-nf-nat
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: mvebu64
-Installed-Size: 4211
+Installed-Size: 4212
 Filename: kmod-ipt-nat_4.4.52-1_mvebu64.ipk
-Size: 5052
-MD5Sum: 5585f0fd12d80a6a8fdfca081c351a41
-SHA256sum: 7f9ad0a26573c362d7c0c87426f7fe5d3e6c82b3428f774376148476666bf237
+Size: 5053
+MD5Sum: 9ae4d6572731ad531de4e8ca793008f8
+SHA256sum: 1a8e5ba5351c6208a34b3fb270160f56451ff124f86a91192f39b4ca1490735c
 Description:  Netfilter (IPv4) kernel modules for basic NAT targets
  Includes:
  - MASQUERADE
 
+Package: kmod-ipt-nathelper-rtsp
+Version: 4.4.52+2.12-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-ipt-conntrack-extra, kmod-ipt-nat
+Source: package/network/utils/xtables-addons
+License: GPL-2.0
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 7615
+Filename: kmod-ipt-nathelper-rtsp_4.4.52+2.12-1_mvebu64.ipk
+Size: 8473
+MD5Sum: 622841b7b91aa79c384fdff8c0433ae4
+SHA256sum: 46fc611ae31e95bfa392521c65e693a7c0a8b7b638c8c74b57fe0e887ca906fb
+Description:  RTSP Conntrack and NAT netfilter module
+
+Package: kmod-ipt-nflog
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-nfnetlink-log
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1076
+Filename: kmod-ipt-nflog_4.4.52-1_mvebu64.ipk
+Size: 1920
+MD5Sum: 399f49e5ca64a5a478e3809b72afb2ad
+SHA256sum: f2fcb451a26543416c8fac4f9999270b3907548d441ed167013b1c80f0758b80
+Description:  Netfilter module for user-space packet logging
+ Includes:
+ - NFLOG
+
+Package: kmod-ipt-nfqueue
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-nfnetlink-queue
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2075
+Filename: kmod-ipt-nfqueue_4.4.52-1_mvebu64.ipk
+Size: 2888
+MD5Sum: 77b694eda83b47d64a6744c8651dbe5a
+SHA256sum: 4121ce7248f638813059f5f554e142b30791f47510f115554f4693046283d475
+Description:  Netfilter module for user-space packet queuing
+ Includes:
+ - NFQUEUE
+
+Package: kmod-ipt-psd
+Version: 4.4.52+2.12-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core
+Source: package/network/utils/xtables-addons
+License: GPL-2.0
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 3046
+Filename: kmod-ipt-psd_4.4.52+2.12-1_mvebu64.ipk
+Size: 3833
+MD5Sum: b9365feeddb0ec46ebf69aa59a1a2a85
+SHA256sum: 0cbc19d05fb3bf216e0983b14018c2397a72b7a201dcd36d3b8a9b09d249e77d
+Description:  psd netfilter module
+
+Package: kmod-ipt-quota2
+Version: 4.4.52+2.12-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core
+Source: package/network/utils/xtables-addons
+License: GPL-2.0
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 3269
+Filename: kmod-ipt-quota2_4.4.52+2.12-1_mvebu64.ipk
+Size: 4055
+MD5Sum: 4159b4fe172174ba37aa4775d56d3c7e
+SHA256sum: e1a8ff7f2c67406e889c896e0baff49b1cbf757faa32ab43bef64e1ee9012cad
+Description:  quota2 netfilter module
+
+Package: kmod-ipt-sysrq
+Version: 4.4.52+2.12-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-ipt-compat-xtables, kmod-crypto-hash
+Source: package/network/utils/xtables-addons
+License: GPL-2.0
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 3649
+Filename: kmod-ipt-sysrq_4.4.52+2.12-1_mvebu64.ipk
+Size: 4455
+MD5Sum: 44977e7b791b922a9e88d4517408f4cf
+SHA256sum: 92af8e6d2b6bbc666edb27df7012b4e64accfc414aab5126e99da0e50f52ca26
+Description:  SYSRQ netfilter module
+
+Package: kmod-ipt-tarpit
+Version: 4.4.52+2.12-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core, kmod-ipt-compat-xtables
+Source: package/network/utils/xtables-addons
+License: GPL-2.0
+Section: kernel
+Architecture: mvebu64
+Installed-Size: 3742
+Filename: kmod-ipt-tarpit_4.4.52+2.12-1_mvebu64.ipk
+Size: 4542
+MD5Sum: 851421914ab56d2dc90bef99ef515d2b
+SHA256sum: e6d5097de0b2fa34142ac4ecc72a90396b8608bcd71cce0e2da23a3cb1587380
+Description:  TARPIT netfilter module
+
+Package: kmod-ipt-tproxy
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-conntrack, kmod-ip6tables, kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 5706
+Filename: kmod-ipt-tproxy_4.4.52-1_mvebu64.ipk
+Size: 6539
+MD5Sum: 2b71a7d8d3f2941cefe49c2257b17987
+SHA256sum: 2ec1aa755247d5eb4fa7cefb9de1ba2909d4e0e72d87224ff37c1236429430fc
+Description:  Kernel modules for Transparent Proxying
+
+Package: kmod-ipt-u32
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1547
+Filename: kmod-ipt-u32_4.4.52-1_mvebu64.ipk
+Size: 2356
+MD5Sum: 5b515fbd4ccb6d3e819556921a94a77c
+SHA256sum: d1122e34621087bfb113c78dc4f28ea8194fdfc9ac3e5962a7b01204bedb28a0
+Description:  Kernel modules for U32
+
+Package: kmod-ipt-ulog
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 104
+Filename: kmod-ipt-ulog_4.4.52-1_mvebu64.ipk
+Size: 863
+MD5Sum: c385f006e626d334caeea016175ca5b7
+SHA256sum: c85e71d40d18bc41e25d80fefc24e0f6c43c08cefb829b53380a46c1dc784fed
+Description:  Netfilter (IPv4) module for user-space packet logging
+ Includes:
+ - ULOG
+
 Package: kmod-iptunnel6
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e)
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
@@ -162,14 +3131,216 @@ Status: unknown hold not-installed
 Architecture: mvebu64
 Installed-Size: 1892
 Filename: kmod-iptunnel6_4.4.52-1_mvebu64.ipk
-Size: 2666
-MD5Sum: c3bfdf687991b791cecb967d6098ebef
-SHA256sum: 9a28f80fb4ed298126d21c7b62a46c829b15b1d59423f97c606335ac7275c84a
+Size: 2669
+MD5Sum: fc70db33d7d30569da907ff8aae9bf3b
+SHA256sum: ad7904828ffd2360492ea23e506314801481c974dcd3b95f9c6d36801f452d54
 Description:  Kernel modules for IPv6 tunneling
+
+Package: kmod-leds-gpio
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2930
+Filename: kmod-leds-gpio_4.4.52-1_mvebu64.ipk
+Size: 3721
+MD5Sum: bdd3fe1a4b52de58b82dd1b1deb04a28
+SHA256sum: 58375a667e262183e1aaeced59229a78e91be755cd3b16a78916ca067ca2da4e
+Description:  Kernel module for LEDs on GPIO lines
+
+Package: kmod-leds-pca963x
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-i2c-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 3437
+Filename: kmod-leds-pca963x_4.4.52-1_mvebu64.ipk
+Size: 4260
+MD5Sum: 3e83f49182614be598bb53f91cad6c7a
+SHA256sum: e5c10e1c3bc4805ea7243093d808594fb8d8fb64c329b0a9c5df7fa5619cdfad
+Description:  Driver for the NXP PCA963x I2C LED controllers.
+
+Package: kmod-ledtrig-default-on
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 955
+Filename: kmod-ledtrig-default-on_4.4.52-1_mvebu64.ipk
+Size: 1792
+MD5Sum: e89cb3de4d3cda55a5151145595b7779
+SHA256sum: 19cbdaddca5e6834ab90b1ee120f399e7d4b4d5fb6d868987b9659ef1b365f83
+Description:  Kernel module that allows LEDs to be initialised in the ON state
+
+Package: kmod-ledtrig-gpio
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2295
+Filename: kmod-ledtrig-gpio_4.4.52-1_mvebu64.ipk
+Size: 3095
+MD5Sum: 4f80b8dc9acb16656d9a27ef7981ca3c
+SHA256sum: a565a0eb876ac949a1557e5c915c194a19d20d6eea9edeb7edf74b3e21c55313
+Description:  Kernel module that allows LEDs to be controlled by gpio events
+
+Package: kmod-ledtrig-heartbeat
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 196
+Filename: kmod-ledtrig-heartbeat_4.4.52-1_mvebu64.ipk
+Size: 981
+MD5Sum: 812791ba77b79143963bace3dfa75522
+SHA256sum: d6dc3b997007415b003c535fb0ee97ef5b7c68678a16a51bfac2f5f280ed9285
+Description:  LED Heartbeat Trigger
+
+Package: kmod-ledtrig-morse
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 104
+Filename: kmod-ledtrig-morse_4.4.52-1_mvebu64.ipk
+Size: 842
+MD5Sum: 27589f3fe9100c595374a77ca90c95ab
+SHA256sum: 9c9fa9b78ae36ff4f5535c8ba0b627e074c58a31f01f1615335fd68b3c02887a
+Description:  Kernel module to show morse coded messages on LEDs
+
+Package: kmod-ledtrig-netdev
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 104
+Filename: kmod-ledtrig-netdev_4.4.52-1_mvebu64.ipk
+Size: 848
+MD5Sum: 6e9f7bec797500e69bc2af539d78262e
+SHA256sum: 1c7e4d0b011ff4d11ea5b8c5b0b3226512a076c0dd6adb1e7511c66d52c10111
+Description:  Kernel module to drive LEDs based on network activity
+
+Package: kmod-ledtrig-netfilter
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ipt-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1952
+Filename: kmod-ledtrig-netfilter_4.4.52-1_mvebu64.ipk
+Size: 2931
+MD5Sum: 189bb27300e887dd20db27425ab41d03
+SHA256sum: 8bf5d82184e7b9e6fd4fc2550a6cf8804bf337a8c1ed8513ed4191b61de314d2
+Description:  Kernel module to flash LED when a particular packets passing through your machine.
+ 
+ For example to create an LED trigger for incoming SSH traffic:
+ iptables -A INPUT -p tcp --dport 22 -j LED --led-trigger-id ssh --led-delay 1000
+ Then attach the new trigger to an LED on your system:
+ echo netfilter-ssh > /sys/class/leds/<ledname>/trigger
+
+Package: kmod-ledtrig-oneshot
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1726
+Filename: kmod-ledtrig-oneshot_4.4.52-1_mvebu64.ipk
+Size: 2541
+MD5Sum: 9c9264604f1ac5cc236ed09168fb49ab
+SHA256sum: 5abd84df7d4d10d43ac0d14a93dc4102c7dd7a953351fbd1657fb7097c312771
+Description:  Kernel module that allows LEDs to be triggered by sporadic events in
+ one-shot pulses
+
+Package: kmod-ledtrig-timer
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1426
+Filename: kmod-ledtrig-timer_4.4.52-1_mvebu64.ipk
+Size: 2239
+MD5Sum: 685d8ce96f6594829b6128307a4db1fc
+SHA256sum: c88f5481f459224913316c3eef6c786322b72d3b14c2fe5273d1a581a4e2e0fb
+Description:  Kernel module that allows LEDs to be controlled by a programmable timer
+ via sysfs
+
+Package: kmod-ledtrig-transient
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2021
+Filename: kmod-ledtrig-transient_4.4.52-1_mvebu64.ipk
+Size: 2823
+MD5Sum: 3ae04f54fda8fb15a2924ae75ac9dfac
+SHA256sum: 09967c045cd4284a513d0b63ba72940701f363c09389ceea2778ea7d018586d7
+Description:  Kernel module that allows LEDs one time activation of a transient state.
+
+Package: kmod-ledtrig-usbdev
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-usb-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 104
+Filename: kmod-ledtrig-usbdev_4.4.52-1_mvebu64.ipk
+Size: 863
+MD5Sum: 9194928d5e9500657e39c3b440aeb906
+SHA256sum: fd48d881cf495fea5831f964f37f31f3ba39b6d106b64bf143381fd3c9062a7b
+Description:  Kernel module to drive LEDs based on USB device presence/activity
+
+Package: kmod-lib-cordic
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1092
+Filename: kmod-lib-cordic_4.4.52-1_mvebu64.ipk
+Size: 1898
+MD5Sum: 8fc84180cd8d0ffef3d1504c5dd8c1f5
+SHA256sum: ae6025b2a27b7541dfdbf7b83f4edb16c99cfb3233770776a35f44755f29f0e3
+Description:  Kernel module for Cordic function support
 
 Package: kmod-lib-crc-ccitt
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e)
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
@@ -177,14 +3348,89 @@ Status: unknown hold not-installed
 Architecture: mvebu64
 Installed-Size: 190
 Filename: kmod-lib-crc-ccitt_4.4.52-1_mvebu64.ipk
-Size: 979
-MD5Sum: a5c805702e992e68cb38aa0f5e535bdc
-SHA256sum: 600fed823ac5d010515ad841de0059c9166121515d804aa233e2155d26a6c0e7
+Size: 980
+MD5Sum: b1a8b89a96786f1eb417333c25978589
+SHA256sum: 62747a17e2920cbef7b8ff9a854b678bdf64bd3d34e675710460bcb510576ad5
 Description:  Kernel module for CRC-CCITT support
+
+Package: kmod-lib-crc-itu-t
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1395
+Filename: kmod-lib-crc-itu-t_4.4.52-1_mvebu64.ipk
+Size: 2216
+MD5Sum: ef5bc6a489fc698f95cec14c6507ab52
+SHA256sum: 7c5efdf08252fca7e6ab43fcb777bf25b75e78df4df6145abb04bf0b4b0ca5bd
+Description:  Kernel module for CRC ITU-T V.41 support
+
+Package: kmod-lib-crc16
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 231
+Filename: kmod-lib-crc16_4.4.52-1_mvebu64.ipk
+Size: 1015
+MD5Sum: e50b412f6cd53231f199bbcff0fda4b8
+SHA256sum: f22052c29283b8aaf5413789721c4882c1443429084ca84eca644f69d7098a5a
+Description:  Kernel module for CRC16 support
+
+Package: kmod-lib-crc32c
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-crc32c
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 189
+Filename: kmod-lib-crc32c_4.4.52-1_mvebu64.ipk
+Size: 984
+MD5Sum: 61a9d7735dd579cc6582b88fe497d1a1
+SHA256sum: 47feac0335c7fa1a15e7ca518e91aabf9a33feb65ad37018c24c28701b5cbde2
+Description:  Kernel module for CRC32 support
+
+Package: kmod-lib-crc7
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1117
+Filename: kmod-lib-crc7_4.4.52-1_mvebu64.ipk
+Size: 1927
+MD5Sum: c3eb46166b43127755b76328430bef58
+SHA256sum: cf7fcf3b9bb6336a6e0cefcceed61db872722d7b38b3a100b93869a3d702496d
+Description:  Kernel module for CRC7 support
+
+Package: kmod-lib-crc8
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1020
+Filename: kmod-lib-crc8_4.4.52-1_mvebu64.ipk
+Size: 1821
+MD5Sum: ccdd3ee7fa169f5bb4795296dc109824
+SHA256sum: 8e4cce178cee3510ff600787b950c36514355a492f44a30373caaa18d655fc7e
+Description:  Kernel module for CRC8 support
 
 Package: kmod-lib-lz4
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e)
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
@@ -192,14 +3438,14 @@ Status: unknown hold not-installed
 Architecture: mvebu64
 Installed-Size: 2209
 Filename: kmod-lib-lz4_4.4.52-1_mvebu64.ipk
-Size: 3036
-MD5Sum: 98cb55f67d126b00a6a297140de92a2e
-SHA256sum: 84c66134a36d8c92b5b31cda3806ae32c451a371805954cf22ebb1d4e43b8936
+Size: 3039
+MD5Sum: a5c2c2a264edc34a044d1fe95a54e2f5
+SHA256sum: 7b8869f050b6b9f76dcaed076399e527c7f85f2837400839ba2f131d5b03e1fb
 Description:  Kernel module for LZ4 compression/decompression support
 
 Package: kmod-lib-lzo
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e)
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
@@ -207,14 +3453,235 @@ Status: unknown hold not-installed
 Architecture: mvebu64
 Installed-Size: 200
 Filename: kmod-lib-lzo_4.4.52-1_mvebu64.ipk
-Size: 1001
-MD5Sum: 110d5daaa4bde8ff092a0b36918a96f8
-SHA256sum: 1f1f6c3954ee8146b6499601e3f8a2b63a4b291db27e4bffe85555973dc84063
+Size: 1002
+MD5Sum: 1feb9a5ece367e24e40c881dba0e4e5e
+SHA256sum: 2a0196dffa63bb77a75d44d4d1d0c19c55e836fa4a72762848c15ac3b8075ab2
 Description:  Kernel module for LZO compression/decompression support
+
+Package: kmod-lib-raid6
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 191
+Filename: kmod-lib-raid6_4.4.52-1_mvebu64.ipk
+Size: 978
+MD5Sum: e6072bfeb7b57195430a32bc6c1b1038
+SHA256sum: dba6c1c21df549a1ebf7a7ed8629afc9cace6aeec10d43e452e931e178646f4f
+Description:  Kernel module for RAID6 algorithms
+
+Package: kmod-lib-textsearch
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 3788
+Filename: kmod-lib-textsearch_4.4.52-1_mvebu64.ipk
+Size: 4555
+MD5Sum: 25fd73a6e460992ff37ea9cedaf7ac03
+SHA256sum: ce9250ab03411ec8b1e448b9eb7b083266b8b0729ddfb9156efd145995c3bc18
+Description:  Textsearch support
+
+Package: kmod-lib-xor
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 185
+Filename: kmod-lib-xor_4.4.52-1_mvebu64.ipk
+Size: 972
+MD5Sum: 1df4d70599854a29d881b185fef4fbd8
+SHA256sum: 0ab1bda3d23b8266956ded28a0d40e93767770b9f9f399366acbc3a25a5ea95c
+Description:  Kernel module for XOR blocks algorithms
+
+Package: kmod-lib-zlib
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 201
+Filename: kmod-lib-zlib_4.4.52-1_mvebu64.ipk
+Size: 980
+MD5Sum: 4a62d6fd5f639adc2479c8f1f66b12cb
+SHA256sum: 58c3aaa1caa2b58ca016d9942f4b8d437c52246497310d7a64aa119d0464a91c
+Description:  Zlib support
+
+Package: kmod-libphy
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 230
+Filename: kmod-libphy_4.4.52-1_mvebu64.ipk
+Size: 1002
+MD5Sum: fa1d6998b315378d08513692b70314ff
+SHA256sum: 4cb887d3cc814c506228558e49fc4dce624d8f27c37e30811ea78e845f9e4886
+Description:  PHY library
+
+Package: kmod-llc
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 193
+Filename: kmod-llc_4.4.52-1_mvebu64.ipk
+Size: 988
+MD5Sum: 4b8145f70a141a20d39661f4a31cb7a4
+SHA256sum: 36f22c5598083ade7c09897169c0a7edfe9f70c0b66a224fc5fd4eb3cb004345
+Description:  Kernel module for ANSI/IEEE 802.2 LLC support.
+
+Package: kmod-loop
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 183
+Filename: kmod-loop_4.4.52-1_mvebu64.ipk
+Size: 969
+MD5Sum: 0c9fb48bdd8b5ce4f4b0ceecb0f0fb12
+SHA256sum: 2c8f1c329fd19248cc8a152a8c40f153ba1a2318027b682df9a83acc1d3cc36e
+Description:  Kernel module for loopback device support
+
+Package: kmod-md-linear
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-md-mod
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 189
+Filename: kmod-md-linear_4.4.52-1_mvebu64.ipk
+Size: 993
+MD5Sum: 4ebc62c42a6b2264692cd45c40befe39
+SHA256sum: cf007e173b23c558080a996a4852c946743ab418b1153a8e1f9c9978152dd3e1
+Description:  RAID "Linear" or "Append" driver module (linear.ko)
+
+Package: kmod-md-mod
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 185
+Filename: kmod-md-mod_4.4.52-1_mvebu64.ipk
+Size: 1007
+MD5Sum: b309ed55ef9c8f51c05a2aedf13a6960
+SHA256sum: 8887383fe7598867bacde7520b02cc60793265d4176deb9874b9bbf8c75f59b5
+Description:  Kernel RAID md module (md-mod.ko).
+ You will need to select at least one RAID level module below.
+
+Package: kmod-md-multipath
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-md-mod
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 4736
+Filename: kmod-md-multipath_4.4.52-1_mvebu64.ipk
+Size: 5538
+MD5Sum: f95ac627a65c644839faac0539384cc5
+SHA256sum: ab7277acfd6d33623433f6e2dc0f397f2a615efbc6704206a44a26fd32b84184
+Description:  Multipath driver module (multipath.ko)
+
+Package: kmod-md-raid0
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-md-mod
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 188
+Filename: kmod-md-raid0_4.4.52-1_mvebu64.ipk
+Size: 991
+MD5Sum: 117efac89bb4edd44a32c479d33fd918
+SHA256sum: 42edf675473d406d8f62783303db60c3023a7b39efb79ce6965eacb07022e5d4
+Description:  RAID Level 0 (Striping) driver module (raid0.ko)
+
+Package: kmod-md-raid10
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-md-mod
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 187
+Filename: kmod-md-raid10_4.4.52-1_mvebu64.ipk
+Size: 997
+MD5Sum: 93d2b4f146a1ec42351ffd59c2147caf
+SHA256sum: ccaa42cacea882737a3e778f57ff460d554dd25225d9eac3b4f5fd0cb90a0146
+Description:  RAID Level 10 (Mirroring+Striping) driver module (raid10.ko)
+
+Package: kmod-md-raid1
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-md-mod
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 187
+Filename: kmod-md-raid1_4.4.52-1_mvebu64.ipk
+Size: 982
+MD5Sum: d9abb78100d28a0d8ece9a5f0678d0ae
+SHA256sum: 465e5acd2291432a9f78b5dd2e3f90ffdfd7cba5c3cddb9aa8fdc26dec93d69e
+Description:  RAID Level 1 (Mirroring) driver (raid1.ko)
+
+Package: kmod-md-raid456
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-md-mod, kmod-lib-raid6, kmod-lib-xor, kmod-lib-crc32c
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 226
+Filename: kmod-md-raid456_4.4.52-1_mvebu64.ipk
+Size: 1121
+MD5Sum: 91fe367b32bddc6f23ebca5b450bfbba
+SHA256sum: b6173aaa63ea29acb75629a799790c44a82e80997e438540589e340884e59a85
+Description:  RAID Level 4,5,6 kernel module (raid456.ko)
+ 
+ Includes the following modules required by
+ raid456.ko:
+ xor.ko
+ async_tx.ko
+ async_xor.ko
+ async_memcpy.ko
+ async_pq.ko
+ async_raid5_recov.ko
+ raid6_pq.ko
 
 Package: kmod-mmc
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e)
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
@@ -222,14 +3689,29 @@ Status: unknown hold not-installed
 Architecture: mvebu64
 Installed-Size: 235
 Filename: kmod-mmc_4.4.52-1_mvebu64.ipk
-Size: 1019
-MD5Sum: cbd8b273825a14def523991c4353b8ff
-SHA256sum: 8841c6cbddc60bbde58d344496df1810891c43d99095969463cee4b328161b15
+Size: 1023
+MD5Sum: 11570ea942b5b363144d772a528e48a9
+SHA256sum: dc72b0f42e9d61dc5aeebe435aad59bb47b0068e3225b9a50cfe16268adb3bd9
 Description:  Kernel support for MMC/SD cards
+
+Package: kmod-nbd
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 8455
+Filename: kmod-nbd_4.4.52-1_mvebu64.ipk
+Size: 9267
+MD5Sum: de543ebfc5ce3d89c820739029a6519c
+SHA256sum: 69f5a21a044aaa012a7f07f9c594771d138e86aeb7b454126595d405eef26101
+Description:  Kernel module for network block device support
 
 Package: kmod-nf-conntrack-netlink
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e), kmod-nfnetlink, kmod-ipt-conntrack
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nfnetlink, kmod-ipt-conntrack
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
@@ -237,90 +3719,227 @@ Status: unknown hold not-installed
 Architecture: mvebu64
 Installed-Size: 14711
 Filename: kmod-nf-conntrack-netlink_4.4.52-1_mvebu64.ipk
-Size: 15514
-MD5Sum: 6c9a0c0da1b70c836d9edfc69bae3c9e
-SHA256sum: 6c4f1426df7ea7c884dc3f2781b15ce1487300f111e9627d611966a6ae50dbe7
+Size: 15511
+MD5Sum: fdf6b94dd061431e2802d2c14bf2bbe0
+SHA256sum: b9c3924632845a47eb280033c03737456dde67944bd14ea25acc858223cc3f5c
 Description:  Kernel modules support for a netlink-based connection tracking
  userspace interface
 
 Package: kmod-nf-conntrack6
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e), kmod-nf-conntrack
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nf-conntrack
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: mvebu64
-Installed-Size: 9881
+Installed-Size: 9917
 Filename: kmod-nf-conntrack6_4.4.52-1_mvebu64.ipk
-Size: 10683
-MD5Sum: a7ee9088bbec9ba02b8a192d20cf76de
-SHA256sum: 0ec113910672291a0c5a712a521c33b415c8f1e79b7d8b05efae66ce0dd89d21
+Size: 10718
+MD5Sum: 0c3b47f0d8ed5447ceab058712a577e1
+SHA256sum: 40aa3b238bb748db54f096d9e8eb933d2683b7278ca13cb77a1595a1bae1f4b0
 Description:  Netfilter IPv6 connection tracking
 
 Package: kmod-nf-conntrack
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e)
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: mvebu64
-Installed-Size: 41822
+Installed-Size: 41945
 Filename: kmod-nf-conntrack_4.4.52-1_mvebu64.ipk
-Size: 42593
-MD5Sum: f065f877c610f94d51015cb2b949e329
-SHA256sum: 7c85b0053cd19ab495be14ec339a891a48042f5a8a64f07fdd0543e14fe6163f
+Size: 42726
+MD5Sum: 0123b67eec71c4a00ee238a51d7d2cd7
+SHA256sum: 4edc764fab68a4dc745f208fac55e06be426b28e4de89e39774be1e6beb9a594
 Description:  Netfilter connection tracking
 
 Package: kmod-nf-ipt
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e)
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: mvebu64
-Installed-Size: 10688
+Installed-Size: 11245
 Filename: kmod-nf-ipt_4.4.52-1_mvebu64.ipk
-Size: 11431
-MD5Sum: 798875bdcaacf7e76844b6e541686e8b
-SHA256sum: cc2e2138f53397b6d38a8f1865462bb42a4e4d3bfea51666a3fc01e26b0e16f0
+Size: 12031
+MD5Sum: cd39468e931f6be77951226e4458240d
+SHA256sum: bf14a9df68dd8f3ea5408df43b42375f463f9025d2d61ef99c6715fe0d7dc7c2
 Description:  Iptables core
+
+Package: kmod-nf-nat6
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nf-conntrack6, kmod-nf-ipt6, kmod-nf-nat
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 3970
+Filename: kmod-nf-nat6_4.4.52-1_mvebu64.ipk
+Size: 4780
+MD5Sum: 3f30ab988df49129e39214cd4f823c71
+SHA256sum: fa2d1f5dc03bf2619d2d2437c0fe9f072c356c670a10389807c54c3437914210
+Description:  Netfilter IPV6-NAT
 
 Package: kmod-nf-nat
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e), kmod-nf-conntrack, kmod-nf-ipt
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nf-conntrack, kmod-nf-ipt
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: mvebu64
-Installed-Size: 12683
+Installed-Size: 12682
 Filename: kmod-nf-nat_4.4.52-1_mvebu64.ipk
-Size: 13471
-MD5Sum: 3e6d25d4330e7d454fb2cfbae4f621e1
-SHA256sum: 722e075f0dd8c18b220573e2e1719b56aa44a1c97f4f77bd4cfe0930a9bde664
+Size: 13476
+MD5Sum: a003927a4e670cd8896fe94f260583f1
+SHA256sum: 5a8efe7df51e0ad678ded0ee123be3be68a9365fad179721c9cfb8064f78168e
 Description:  Netfilter NAT
+
+Package: kmod-nf-nathelper-extra
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nf-nat, kmod-lib-textsearch
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 56375
+Filename: kmod-nf-nathelper-extra_4.4.52-1_mvebu64.ipk
+Size: 57260
+MD5Sum: a6ac0bfbc1d57663aa17975ffe143404
+SHA256sum: 7ec6d56740562a247f045ae95cfb2c3b4f8db0b926288e3e1ff58b97b300c88e
+Description:  Extra Netfilter (IPv4) Conntrack and NAT helpers
+ Includes:
+ - amanda
+ - h323
+ - mms
+ - pptp
+ - proto_gre
+ - sip
+ - snmp_basic
+ - broadcast
+
+Package: kmod-nf-nathelper
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nf-nat
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 5672
+Filename: kmod-nf-nathelper_4.4.52-1_mvebu64.ipk
+Size: 6507
+MD5Sum: de381bcbe50fca6ef3abd3b27329091d
+SHA256sum: d9cc0916d026b1463388af7b7871bddf05f9da4950a0cb144388f70b7c8be181
+Description:  Default Netfilter (IPv4) Conntrack and NAT helpers
+ Includes:
+ - ftp
+ - irc
+ - tftp
+
+Package: kmod-nfnetlink-log
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nfnetlink
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 6408
+Filename: kmod-nfnetlink-log_4.4.52-1_mvebu64.ipk
+Size: 7253
+MD5Sum: 3334aa4f0ea85700551e749d8a9d13cc
+SHA256sum: c507e0509f4ff710ce8fdd5c96192d9e8e2046b6717f8624e24b002011633671
+Description:  Kernel modules support for logging packets via NFNETLINK
+ Includes:
+ - NFLOG
+
+Package: kmod-nfnetlink-queue
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nfnetlink
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 7403
+Filename: kmod-nfnetlink-queue_4.4.52-1_mvebu64.ipk
+Size: 8255
+MD5Sum: 6591796cf8fdf0f4665e61542e24225e
+SHA256sum: 2ee2d57d160b67ebb9bb3c1a4896172e73dbf34078f152cd8bb534d59ef3e6be
+Description:  Kernel modules support for queueing packets via NFNETLINK
+ Includes:
+ - NFQUEUE
 
 Package: kmod-nfnetlink
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e)
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: mvebu64
-Installed-Size: 4046
+Installed-Size: 4045
 Filename: kmod-nfnetlink_4.4.52-1_mvebu64.ipk
-Size: 4852
-MD5Sum: 2a032f91e1d041033f8018b0572974af
-SHA256sum: 8509724088bd408739fb534c5e699b7fb458f9169783df251b7e2ce1ba6d94ac
+Size: 4857
+MD5Sum: febf0753a3731efd47449d1d2c05f6c9
+SHA256sum: 2a0fb0a8f6b010609a524245ca8f5066d5f3d1f9e31efe53920f8552d8c1b063
 Description:  Kernel modules support for a netlink-based userspace interface
+
+Package: kmod-nft-core
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nfnetlink, kmod-nf-conntrack6
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 51190
+Filename: kmod-nft-core_4.4.52-1_mvebu64.ipk
+Size: 52050
+MD5Sum: 7ff3fd72041907113cf2c03d98d9733d
+SHA256sum: 0cc3b84aa9d1bfe3a99aea176fb6f4f512e95ed184431a968ff33394f8bc6e36
+Description:  Kernel module support for nftables
+
+Package: kmod-nft-nat6
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nft-core, kmod-nf-nat6
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1946
+Filename: kmod-nft-nat6_4.4.52-1_mvebu64.ipk
+Size: 2753
+MD5Sum: 23ce75b77f8fd9be8085da67b68dff7d
+SHA256sum: 4bdb0bf481973eb51157c130944de8c3f12d37df39fd626f6cfa0a89953b5d11
+Description:  Netfilter nf_tables IPv6-NAT support
+
+Package: kmod-nft-nat
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nft-core, kmod-nf-nat
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 5997
+Filename: kmod-nft-nat_4.4.52-1_mvebu64.ipk
+Size: 6798
+MD5Sum: b58acd149e90764b91afeb210427dcf0
+SHA256sum: a5e015f6b9c2bee831a592ae0524a53bd26f23dc55f296bab0a2b797c1ffeded
+Description:  Netfilter nf_tables NAT support
 
 Package: kmod-nls-base
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e)
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
@@ -328,44 +3947,329 @@ Status: unknown hold not-installed
 Architecture: mvebu64
 Installed-Size: 104
 Filename: kmod-nls-base_4.4.52-1_mvebu64.ipk
-Size: 839
-MD5Sum: c1033d7712435beae8a3884bcbc492dd
-SHA256sum: 11b978fbb35a6cfd6720b4baf5d16fe2422a303a06ede2d6733d1f903e58ef68
+Size: 835
+MD5Sum: 8750f409bf53905d4a49708396612058
+SHA256sum: 7e873ca9d823c1f77cbf938354e86cdd1977141adf52d4f2c268ec90386455ad
 Description:  Kernel module for NLS (Native Language Support)
 
-Package: kmod-ppp
+Package: kmod-nls-cp1250
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e), kmod-lib-crc-ccitt, kmod-slhc
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: mvebu64
-Installed-Size: 21305
+Installed-Size: 2074
+Filename: kmod-nls-cp1250_4.4.52-1_mvebu64.ipk
+Size: 2886
+MD5Sum: 5e7dcf43200b4fae40e64fd2b23b0bd6
+SHA256sum: 519fd15e43734ba1899f7d12b165dc9d5f78ba6e3a2ce97e641d8f5cd021dd9d
+Description:  Kernel module for NLS Codepage 1250 (Eastern Europe)
+
+Package: kmod-nls-cp1251
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1989
+Filename: kmod-nls-cp1251_4.4.52-1_mvebu64.ipk
+Size: 2806
+MD5Sum: 98f2aa4645fbdbf3a3030ee61e233e10
+SHA256sum: 7f998dda8ede57ef117e7839d7428e8aa339a82af4bb09c5dbd0aa53004937a2
+Description:  Kernel module for NLS Codepage 1251 (Russian)
+
+Package: kmod-nls-cp437
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 191
+Filename: kmod-nls-cp437_4.4.52-1_mvebu64.ipk
+Size: 1001
+MD5Sum: 1939bd8b336fd142f43b78ab2e0ef27c
+SHA256sum: 37d4893925cbf0b9b7186c4bfe227ac6d5d60d9c7b0391365c140fe6915fdf55
+Description:  Kernel module for NLS Codepage 437 (United States, Canada)
+
+Package: kmod-nls-cp775
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2165
+Filename: kmod-nls-cp775_4.4.52-1_mvebu64.ipk
+Size: 2965
+MD5Sum: 7f73bde95400690a8da28aa44e6942b1
+SHA256sum: 2d588804a7456858de3ff271b98a4e39b7a4db144fa711b3e1d2843920d83097
+Description:  Kernel module for NLS Codepage 775 (Baltic Rim)
+
+Package: kmod-nls-cp850
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2094
+Filename: kmod-nls-cp850_4.4.52-1_mvebu64.ipk
+Size: 2910
+MD5Sum: 2b1d1b5af4cfd4fa50f2fceac1bc6d5f
+SHA256sum: 432253d46c9b769ed4ff161deaf7a5c9fa5bc181ddb50c856af6d775d1e2bacd
+Description:  Kernel module for NLS Codepage 850 (Europe)
+
+Package: kmod-nls-cp852
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2173
+Filename: kmod-nls-cp852_4.4.52-1_mvebu64.ipk
+Size: 2983
+MD5Sum: 2b1f2d3a37a73d31243786e917f431ff
+SHA256sum: 33ec5699028e385d54913dcd05cbcb92b2e834b18947d740015cd8fe1c373e9f
+Description:  Kernel module for NLS Codepage 852 (Europe)
+
+Package: kmod-nls-cp862
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2107
+Filename: kmod-nls-cp862_4.4.52-1_mvebu64.ipk
+Size: 2912
+MD5Sum: 7eb76ed2585af23033a93ccddc305cd1
+SHA256sum: f2d9f63f298c135ca9e444421627bd48d52eb4921fa1aaad441cccd37e802d7d
+Description:  Kernel module for NLS Codepage 862 (Hebrew)
+
+Package: kmod-nls-cp864
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2084
+Filename: kmod-nls-cp864_4.4.52-1_mvebu64.ipk
+Size: 2899
+MD5Sum: f0cf7f2ea785e401aa68e1b51da2caca
+SHA256sum: 2ef0167655827e31df5f27031b6b42c5cd01debe0feb3cd0b6cc67342c1e0303
+Description:  Kernel module for NLS Codepage 864 (Arabic)
+
+Package: kmod-nls-cp866
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2003
+Filename: kmod-nls-cp866_4.4.52-1_mvebu64.ipk
+Size: 2820
+MD5Sum: a26a4b5d813ee7d03e8803fe78241162
+SHA256sum: ffee63503a38e289c28eeeecca781f97d24070982ddd3f3393003bfca7d9a322
+Description:  Kernel module for NLS Codepage 866 (Cyrillic)
+
+Package: kmod-nls-cp932
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 36612
+Filename: kmod-nls-cp932_4.4.52-1_mvebu64.ipk
+Size: 37507
+MD5Sum: 9cd01ab5cca3776217d4303edfde7780
+SHA256sum: c0abf71ebb6993b10dc14d778668402cd4e2fb880e71ea26c33c23a094a5879c
+Description:  Kernel module for NLS Codepage 932 (Japanese)
+
+Package: kmod-nls-iso8859-13
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2021
+Filename: kmod-nls-iso8859-13_4.4.52-1_mvebu64.ipk
+Size: 2840
+MD5Sum: f79ea537adac652f403247cea8b50f26
+SHA256sum: 527af2ca727062aa345321ff14bfaa1e97e3427163b8d0e377584b4e0dbcfeb6
+Description:  Kernel module for NLS ISO 8859-13 (Latin 7; Baltic)
+
+Package: kmod-nls-iso8859-15
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1886
+Filename: kmod-nls-iso8859-15_4.4.52-1_mvebu64.ipk
+Size: 2700
+MD5Sum: 96dd6859810af5ab2b2d092e64451e82
+SHA256sum: be50f4dcbbc49c004e52e8646dc17d8d46a7b14f031123dca08c79965bb4bfb5
+Description:  Kernel module for NLS ISO 8859-15 (Latin 9)
+
+Package: kmod-nls-iso8859-1
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 198
+Filename: kmod-nls-iso8859-1_4.4.52-1_mvebu64.ipk
+Size: 1001
+MD5Sum: 063e0c9c8d0337d6578cc186464dbf2f
+SHA256sum: b0ee06848ca9b2258707880dc390829c55648f619bf63f8a0786a37ae4bbb62a
+Description:  Kernel module for NLS ISO 8859-1 (Latin 1)
+
+Package: kmod-nls-iso8859-2
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2028
+Filename: kmod-nls-iso8859-2_4.4.52-1_mvebu64.ipk
+Size: 2837
+MD5Sum: b4314a56f2df6245f643d030c210eb4f
+SHA256sum: 2c7535103f3537a16bc2a9b54d4045884f2b26d2dc13243abc11bda27c355faa
+Description:  Kernel module for NLS ISO 8859-2 (Latin 2)
+
+Package: kmod-nls-iso8859-6
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1721
+Filename: kmod-nls-iso8859-6_4.4.52-1_mvebu64.ipk
+Size: 2532
+MD5Sum: f20ecb49bc027367ecf1b18bf5367c3b
+SHA256sum: 1e8b504aded6c6b2d7a5a2f1404c0db163cbba86107f23a5bd1e195c5fa68547
+Description:  Kernel module for NLS ISO 8859-6 (Arabic)
+
+Package: kmod-nls-iso8859-8
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1879
+Filename: kmod-nls-iso8859-8_4.4.52-1_mvebu64.ipk
+Size: 2709
+MD5Sum: 0d13f36088b2c197da9904b8122f2196
+SHA256sum: d9cfdc33b5674817394707359efe2a9d13caecea9a19bd0bdceb19f225afe4d7
+Description:  Kernel module for Hebrew charsets (ISO-8859-8, CP1255)
+
+Package: kmod-nls-koi8r
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 2022
+Filename: kmod-nls-koi8r_4.4.52-1_mvebu64.ipk
+Size: 2832
+MD5Sum: 00820491e79e28955ab4fae8e9d4b116
+SHA256sum: 427dc6450a083b9b842f5a7ba85d5b26716030172d10eb4c76a1651294546912
+Description:  Kernel module for NLS KOI8-R (Russian)
+
+Package: kmod-nls-utf8
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1065
+Filename: kmod-nls-utf8_4.4.52-1_mvebu64.ipk
+Size: 1877
+MD5Sum: c422a17ca031fe13ca11893749e24baf
+SHA256sum: 44fd75a45b11eacce9cc6893ea0d5bd6b2a0fc6c2e531bc36e4ec7eb7f734f43
+Description:  Kernel module for NLS UTF-8
+
+Package: kmod-of-mdio
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-libphy
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 191
+Filename: kmod-of-mdio_4.4.52-1_mvebu64.ipk
+Size: 990
+MD5Sum: d484c019df087d896a9eee09c95f5283
+SHA256sum: dd6879ea57542a9c78b5a37f42ba0b1133cf9e6c45676d896528147e9234079c
+Description:  Kernel driver for OpenFirmware MDIO support
+
+Package: kmod-ppp
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-lib-crc-ccitt, kmod-slhc
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 21302
 Filename: kmod-ppp_4.4.52-1_mvebu64.ipk
-Size: 22093
-MD5Sum: 3611c0dce6a8dcbdf3241b57e51d6e15
-SHA256sum: b9d5b6f3d6d065315a95bfb9ee098a9c7cf94dae716242efa7e777b1ad2904af
+Size: 22108
+MD5Sum: d7c7f8c011e20009b693580012ff2c71
+SHA256sum: aeda9ceb8b7eec37820e8c913205b7593b848be7383c272af90a65f32d7d5e0e
 Description:  Kernel modules for PPP support
 
 Package: kmod-pppoe
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e), kmod-ppp, kmod-pppox
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ppp, kmod-pppox
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
 Status: unknown hold not-installed
 Architecture: mvebu64
-Installed-Size: 7157
+Installed-Size: 7154
 Filename: kmod-pppoe_4.4.52-1_mvebu64.ipk
-Size: 7993
-MD5Sum: 2b60c84b21c66dd3e7c8feebcafc66b5
-SHA256sum: 2b2bcb294bdefb6392a7edf41775425038b310cd01ab6c636df7653baeac12d0
+Size: 7992
+MD5Sum: 20d191a4c7032905ba8a9c4f5aed4ee9
+SHA256sum: ef949a7b47cefac995e9af63668d37bcbd5fc6fa34784298227785625c188d76
 Description:  Kernel module for PPPoE (PPP over Ethernet) support
 
 Package: kmod-pppox
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e), kmod-ppp
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-ppp
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
@@ -373,14 +4277,74 @@ Status: unknown hold not-installed
 Architecture: mvebu64
 Installed-Size: 1861
 Filename: kmod-pppox_4.4.52-1_mvebu64.ipk
-Size: 2629
-MD5Sum: 8fd0b4b815a7d8ee737d24cbc92efc05
-SHA256sum: d87d3ade83c0416b6aafe210007f21bfe1dcd12f7c8d5c32bd33d4bfd5e8e099
+Size: 2632
+MD5Sum: 6092a79924fe3b6b66d4e96da52661e4
+SHA256sum: bb4b748c871dfec49e1f36c1a4db28ada6505450c055b309cb0c0183a700668f
 Description:  Kernel helper module for PPPoE and PPTP support
+
+Package: kmod-random-core
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 104
+Filename: kmod-random-core_4.4.52-1_mvebu64.ipk
+Size: 849
+MD5Sum: 0654c5e669467822343b4ab97de4a62a
+SHA256sum: 159fee75701255d6488694e6496b3943fc47533d8a493f3f61b99a564fa77ded
+Description:  Kernel module for the HW random number generator core infrastructure
+
+Package: kmod-regmap
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-lib-lzo, kmod-i2c-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 1298
+Filename: kmod-regmap_4.4.52-1_mvebu64.ipk
+Size: 2129
+MD5Sum: 754dea18be00880f167e958205e636e1
+SHA256sum: a0bb870448dee9576bdfeee787344f132b2c5b701c0d4818def81feaa5220d82
+Description:  Generic register map support
+
+Package: kmod-rxrpc
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-crypto-manager, kmod-crypto-pcbc, kmod-crypto-fcrypt
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 55499
+Filename: kmod-rxrpc_4.4.52-1_mvebu64.ipk
+Size: 55831
+MD5Sum: 4f3782dd7cdd60c7b5848d8dd54cfa5e
+SHA256sum: 2a6aef906658f8b440d8690f0b7201665d89e8d6e2169440d302d33c5c039c2a
+Description:  Kernel support for AF_RXRPC; required for AFS client
+
+Package: kmod-scsi-cdrom
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-scsi-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 24061
+Filename: kmod-scsi-cdrom_4.4.52-1_mvebu64.ipk
+Size: 24859
+MD5Sum: e9f3722937864a891f744f35c45c787a
+SHA256sum: 38136313f1dea67e8040cf7fee02d4a8c980a8ea6ae2494937c611dc173f17bb
+Description:  Kernel support for CD / DVD drives
 
 Package: kmod-scsi-core
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e)
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
@@ -389,13 +4353,43 @@ Architecture: mvebu64
 Installed-Size: 239
 Filename: kmod-scsi-core_4.4.52-1_mvebu64.ipk
 Size: 1020
-MD5Sum: 047a394fe08f60ef223ac101fdd3c85e
-SHA256sum: 135fe841a2d7b1084adfe57a4cbb75144b6b6c758e5950c33de556514f40305d
+MD5Sum: 9a4b60be04c652cabce826651ce18292
+SHA256sum: d06c754907150228ed814f2757ca392359d885b0c57bbebb9dce6a2886a3d386
 Description:  SCSI device support
+
+Package: kmod-scsi-generic
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-scsi-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 14057
+Filename: kmod-scsi-generic_4.4.52-1_mvebu64.ipk
+Size: 14814
+MD5Sum: 1141aebedc52c5d38ef5aa18ad387969
+SHA256sum: 7b4ac3d351e2f2cdb197a33240e6429452c6580a3ccece8116909a51e2174037
+Description:  Kernel support for SCSI generic
+
+Package: kmod-scsi-tape
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-scsi-core
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 26875
+Filename: kmod-scsi-tape_4.4.52-1_mvebu64.ipk
+Size: 27640
+MD5Sum: d7894f9ccb8282249119c9b247da54af
+SHA256sum: ec0071fc5e789acf57a293fcaca0f31ff596fba6f5887899f5082aa8a1491e7b
+Description:  Kernel support for scsi tape drives
 
 Package: kmod-slhc
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e), kmod-lib-crc-ccitt
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-lib-crc-ccitt
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
@@ -403,14 +4397,29 @@ Status: unknown hold not-installed
 Architecture: mvebu64
 Installed-Size: 3620
 Filename: kmod-slhc_4.4.52-1_mvebu64.ipk
-Size: 4343
-MD5Sum: 9ca49ba2ee8b91007d9533a4b5078c7a
-SHA256sum: 13909c5bc8496be7535459d50528207a79c7f1aca29bc1c27cf9f5bdae3e4b7a
+Size: 4344
+MD5Sum: d86c3328ce5f597a4ea0a24314e87dda
+SHA256sum: d5c880226ae5197990b41bf279c19a4604cd31e26ac9ee432f35c2d2922af597
 Description:  Serial Line Header Compression
+
+Package: kmod-stp
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-llc
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 182
+Filename: kmod-stp_4.4.52-1_mvebu64.ipk
+Size: 983
+MD5Sum: 2ed83c98d2b2891818af830069cd5113
+SHA256sum: 20f14c5a5944340bad4a39f154655749fffba88b19a939079399f0a5156c0ca2
+Description:  Kernel module for Ethernet Spanning Tree Protocol support.
 
 Package: kmod-tun
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e)
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
@@ -418,14 +4427,14 @@ Status: unknown hold not-installed
 Architecture: mvebu64
 Installed-Size: 183
 Filename: kmod-tun_4.4.52-1_mvebu64.ipk
-Size: 972
-MD5Sum: c4e71886952dca628acf3c837d3d8d05
-SHA256sum: 6070e29ca406f33516d6f560cc9227030874d3c8dd421417ba81bd003baeb09e
+Size: 975
+MD5Sum: c2d105d71ae08b3523352443329ae244
+SHA256sum: 1badb6aab2b564eeb67d2aaf1131b46e75a9008be0e84bfba3c85f7aef243460
 Description:  Kernel support for the TUN/TAP tunneling device
 
 Package: kmod-usb-core
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e), kmod-nls-base
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-nls-base
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
@@ -433,14 +4442,14 @@ Status: unknown hold not-installed
 Architecture: mvebu64
 Installed-Size: 239
 Filename: kmod-usb-core_4.4.52-1_mvebu64.ipk
-Size: 1025
-MD5Sum: 920d3c0f23dd1a52be6512623a555fc4
-SHA256sum: a87caf9e0307bf3dac6ba962eda9e56ba0c01d2a7bc57db2bef85e472d640e7c
+Size: 1026
+MD5Sum: 2b82e963561ab9fd852674fb771fc4de
+SHA256sum: 6131adea75f8415e99e310f4b8aa65d29e5980792e0d61a5b794dd6275cb5314
 Description:  Kernel support for USB
 
 Package: kmod-usb-storage
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e), kmod-scsi-core, kmod-usb-core
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-scsi-core, kmod-usb-core
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
@@ -448,14 +4457,14 @@ Status: unknown hold not-installed
 Architecture: mvebu64
 Installed-Size: 232
 Filename: kmod-usb-storage_4.4.52-1_mvebu64.ipk
-Size: 1036
-MD5Sum: 30587cdf115f1fb8d0ecd0a5dbe47be3
-SHA256sum: 445699ecb5784624853e0f5047b75909f2ba33056fa16ab2df92ac51ca797942
+Size: 1042
+MD5Sum: c27ac71dda7bba8683ae8a26ae967481
+SHA256sum: 6722d158628809b79f3f5b3401293d4bcb754a48f0bb2078d92c655529c41915
 Description:  Kernel support for USB Mass Storage devices
 
 Package: kmod-usb2
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e), kmod-usb-core
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-usb-core
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
@@ -463,14 +4472,29 @@ Status: unknown hold not-installed
 Architecture: mvebu64
 Installed-Size: 258
 Filename: kmod-usb2_4.4.52-1_mvebu64.ipk
-Size: 1061
-MD5Sum: ba401f9413b2c774d94d49df9ee441b5
-SHA256sum: a244800e07b47bebac1d376b6a1dadbece9685dc9e0fac12240300e034414f56
+Size: 1059
+MD5Sum: c43c20c33b06229cb029d683dc0b7836
+SHA256sum: 8e58c27c49facc4b5a086558a0466ce02734ac1d604af47a744ebbd1391fc3c4
 Description:  Kernel support for USB2 (EHCI) controllers
+
+Package: kmod-virtio-pci
+Version: 4.4.52-1
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310)
+Source: package/kernel/linux
+License: GPLv2
+Section: kernel
+Status: unknown hold not-installed
+Architecture: mvebu64
+Installed-Size: 200
+Filename: kmod-virtio-pci_4.4.52-1_mvebu64.ipk
+Size: 994
+MD5Sum: 654d4ff4915d627f02c2ea394f00fe11
+SHA256sum: 9430ab5d2d82b62bc485345d808c9771ed5dd432fc5e3a586ad2c81e93f0a50b
+Description:  This driver adds virtio PCI support.
 
 Package: kmod-zram
 Version: 4.4.52-1
-Depends: kernel (=4.4.52-1-7e7c721124c7119bbd3a07e86f01767e), kmod-lib-lzo, kmod-lib-lz4
+Depends: kernel (=4.4.52-1-9a53b2de8db445a2b839ed95505fa310), kmod-lib-lzo, kmod-lib-lz4
 Source: package/kernel/linux
 License: GPLv2
 Section: kernel
@@ -478,8 +4502,8 @@ Status: unknown hold not-installed
 Architecture: mvebu64
 Installed-Size: 19114
 Filename: kmod-zram_4.4.52-1_mvebu64.ipk
-Size: 19894
-MD5Sum: a08bdd290fdf8d7c4c97eeff618bb933
-SHA256sum: 3a38bf38e1fc18dca908ccda7ee6303f466925bc96b96705e10e0840d4b21ddb
+Size: 19893
+MD5Sum: f7a38fce7ee9a45e2391978888c95280
+SHA256sum: 312210225b3a51ba66b5d709e8cc5c0cb8fd65a1f807be7fc6e62417d5508b5a
 Description:  Compressed RAM block device support
 
