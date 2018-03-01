@@ -16,6 +16,58 @@ Description:  Ahcpd is a daemon for configuring an IPv6 network using the Ad-Hoc
  networks, where IPv6 autoconfiguration and DHCPv6 do not work, but may
  also be used on wired networks.
 
+Package: babel-pinger
+Version: 0.1-1
+Depends: libc, librt
+Source: feeds/routing/babel-pinger
+Section: net
+Maintainer: Gabriel Kerneis <gabriel@kerneis.info>
+Architecture: mvebu64
+Installed-Size: 3996
+Filename: babel-pinger_0.1-1_mvebu64.ipk
+Size: 4751
+MD5Sum: 5baddd69e10a42c2cba0bc1cbb2ba56a
+SHA256sum: 96f775939a22c1bb34c41077ec53abc2532f539ad9e2d6ab1ebcd5b9e7a0a9f8
+Description:  Babel-pinger is a hack to export a default route into Babel for people
+ using DHCP to configure their routers rather than speaking to their
+ upstream provider with a proper routing protocol.
+
+Package: babeld
+Version: 1.8.0-3
+Depends: libc
+Source: feeds/routing/babeld
+License: MIT
+Section: net
+Maintainer: Gabriel Kerneis <gabriel@kerneis.info>, Baptiste Jonglez <openwrt-pkg@bitsofnetworks.org>
+Architecture: mvebu64
+Installed-Size: 55097
+Filename: babeld_1.8.0-3_mvebu64.ipk
+Size: 56143
+MD5Sum: 298e7d6636b0c64371e32d5eb6b135ed
+SHA256sum: a3daff1434bafd1ed79986e059142dde4e3be0a025c6e1cf4af8ecc8daa681b6
+Description:  Babel is a loop-avoiding distance-vector routing protocol roughly based
+ on DSDV and AODV, but with provisions for link cost estimation and
+ redistribution of routes from other routing protocols.
+ While it is optimised for wireless mesh networks, Babel will also work
+ efficiently on wired networks. It will generate between 1.2 and 2.4 times
+ the amount of routing traffic that RIPng would generate, while
+ never counting to infinity.
+
+Package: batmand
+Version: 1440-0
+Depends: libc, libpthread, kmod-tun
+Source: feeds/routing/batmand
+License: GPL-2.0
+Section: net
+Maintainer: Corinna "Elektra" Aichele <onelektra@gmx.net>
+Architecture: mvebu64
+Installed-Size: 38255
+Filename: batmand_1440-0_mvebu64.ipk
+Size: 39070
+MD5Sum: 548168fdb0927e8fb0138f673e854929
+SHA256sum: b73e2ec5d40e79eef2131dff7c4a1e1bb202f61da64052934044aaa57e0d659b
+Description:  B.A.T.M.A.N. layer 3 routing daemon
+
 Package: bird4-uci
 Version: 0.3-1
 Depends: libc, bird4, libuci, uci
@@ -102,6 +154,168 @@ Description:  BIRD is an internet routing daemon which manages TCP/IP routing ta
  configuration syntax.
  
 
+Package: birdc4
+Version: 1.6.3-1
+Depends: libc, libreadline, libncurses, bird4
+Source: feeds/routing/bird
+License: GPL-2.0
+Section: net
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: mvebu64
+Installed-Size: 9021
+Filename: birdc4_1.6.3-1_mvebu64.ipk
+Size: 10090
+MD5Sum: 41fccc92f82a677acf3035cdbeb14fec
+SHA256sum: f229734337eaed2ede19245d809399725dd67484e0874712dfd21b8f46c58333
+Description:  BIRD is an internet routing daemon which manages TCP/IP routing tables
+ with support of modern routing protocols, easy to use configuration
+ interface and powerful route filtering language. It is lightweight and
+ efficient and therefore appropriate for small embedded routers.
+ 
+ This is a BIRD command-line client. It is used to send commands to BIRD,
+ commands can perform simple actions such as enabling/disabling of
+ protocols, telling BIRD to show various information, telling it to show
+ a routing table filtered by a filter, or asking BIRD to reconfigure.
+ 
+ Unless you can't afford dependency on ncurses and readline, you
+ should install BIRD command-line client together with BIRD.
+ 
+
+Package: birdc6
+Version: 1.6.3-1
+Depends: libc, libreadline, libncurses, bird6
+Source: feeds/routing/bird
+License: GPL-2.0
+Section: net
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: mvebu64
+Installed-Size: 9094
+Filename: birdc6_1.6.3-1_mvebu64.ipk
+Size: 10154
+MD5Sum: 61a2f8d97259872c7fe2f268224ac6b3
+SHA256sum: a9793fd641408837f4915a98f4c19bf1f0128f60282093ee980012b21d90e797
+Description:  BIRD is an internet routing daemon which manages TCP/IP routing tables
+ with support of modern routing protocols, easy to use configuration
+ interface and powerful route filtering language. It is lightweight and
+ efficient and therefore appropriate for small embedded routers.
+ 
+ This is a BIRD command-line client. It is used to send commands to BIRD,
+ commands can perform simple actions such as enabling/disabling of
+ protocols, telling BIRD to show various information, telling it to show
+ a routing table filtered by a filter, or asking BIRD to reconfigure.
+ 
+ Unless you can't afford dependency on ncurses and readline, you
+ should install BIRD command-line client together with BIRD.
+ 
+
+Package: birdcl4
+Version: 1.6.3-1
+Depends: libc, bird4
+Source: feeds/routing/bird
+License: GPL-2.0
+Section: net
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: mvebu64
+Installed-Size: 8325
+Filename: birdcl4_1.6.3-1_mvebu64.ipk
+Size: 9310
+MD5Sum: 5265018fd6dc56f5b20fae7db05166d8
+SHA256sum: 76d8ae8665cdfd330ada68168d377d8b5b5fab0bfd8660195475e28c79f46a7b
+Description:  BIRD is an internet routing daemon which manages TCP/IP routing tables
+ with support of modern routing protocols, easy to use configuration
+ interface and powerful route filtering language. It is lightweight and
+ efficient and therefore appropriate for small embedded routers.
+ 
+ This is a BIRD lightweight command-line client. It is used to send commands to BIRD,
+ commands can perform simple actions such as enabling/disabling of
+ protocols, telling BIRD to show various information, telling it to show
+ a routing table filtered by a filter, or asking BIRD to reconfigure.
+ 
+
+Package: birdcl6
+Version: 1.6.3-1
+Depends: libc, bird6
+Source: feeds/routing/bird
+License: GPL-2.0
+Section: net
+Maintainer: Álvaro Fernández Rojas <noltari@gmail.com>
+Architecture: mvebu64
+Installed-Size: 8393
+Filename: birdcl6_1.6.3-1_mvebu64.ipk
+Size: 9403
+MD5Sum: 8a64bff9b26955fa79af352961bcf2e4
+SHA256sum: c66955cacf919456cc4c024d285eda041a5acc83c95494fd6c05d8ddda42931b
+Description:  BIRD is an internet routing daemon which manages TCP/IP routing tables
+ with support of modern routing protocols, easy to use configuration
+ interface and powerful route filtering language. It is lightweight and
+ efficient and therefore appropriate for small embedded routers.
+ 
+ This is a BIRD lightweight command-line client. It is used to send commands to BIRD,
+ commands can perform simple actions such as enabling/disabling of
+ protocols, telling BIRD to show various information, telling it to show
+ a routing table filtered by a filter, or asking BIRD to reconfigure.
+ 
+
+Package: bmx6-json
+Version: r2018020902-5
+Depends: libc, bmx6, libjson-c
+Source: feeds/routing/bmx6
+License: GPL-2.0
+Section: net
+Maintainer: Axel Neumann <neumann@cgws.de>
+Architecture: mvebu64
+Installed-Size: 6466
+Filename: bmx6-json_r2018020902-5_mvebu64.ipk
+Size: 7149
+MD5Sum: e30673fdcd12771b313574e7e90b14ee
+SHA256sum: 57bfbdd6c10ac81209ef9d2652a588f9af7b2da4989b79354b8da94d0bdfd01c
+Description:  json plugin based on json-c
+
+Package: bmx6-sms
+Version: r2018020902-5
+Depends: libc, bmx6
+Source: feeds/routing/bmx6
+License: GPL-2.0
+Section: net
+Maintainer: Axel Neumann <neumann@cgws.de>
+Architecture: mvebu64
+Installed-Size: 4990
+Filename: bmx6-sms_r2018020902-5_mvebu64.ipk
+Size: 5668
+MD5Sum: 1e6121138bf75b70980afba84e897588
+SHA256sum: a2faf51f55c2a1bb3ed02fefc4bf82e22c555deb1378d62b92f63711523c1102
+Description:  sms plugin
+
+Package: bmx6-table
+Version: r2018020902-5
+Depends: libc, bmx6
+Source: feeds/routing/bmx6
+License: GPL-2.0
+Section: net
+Maintainer: Axel Neumann <neumann@cgws.de>
+Architecture: mvebu64
+Installed-Size: 8495
+Filename: bmx6-table_r2018020902-5_mvebu64.ipk
+Size: 9241
+MD5Sum: 1afdd31e74f44b62115af6f1bec31c4c
+SHA256sum: c2f45a4e2a260fdf121015f64626e8b8c92272694fddfb80f568d5578a19b7e2
+Description:  bmx6 table plugin to automatic announce routing-table routes via ip6ip tunnels
+
+Package: bmx6-uci-config
+Version: r2018020902-5
+Depends: libc, bmx6, libuci
+Source: feeds/routing/bmx6
+License: GPL-2.0
+Section: net
+Maintainer: Axel Neumann <neumann@cgws.de>
+Architecture: mvebu64
+Installed-Size: 8451
+Filename: bmx6-uci-config_r2018020902-5_mvebu64.ipk
+Size: 9232
+MD5Sum: d5c5326c70d5da35ba32a04f91a0ed43
+SHA256sum: 7ebe77689e84f22e26f6cb40f290666d13007b378f7c04ffa1858407178c44a2
+Description:  configuration plugin based on uci (recommended!)
+
 Package: bmx6
 Version: r2018020902-5
 Depends: libc, kmod-ip6-tunnel, kmod-iptunnel6, kmod-tun
@@ -117,6 +331,21 @@ MD5Sum: 75bcab92fdf5991ea4e9468040c98a02
 SHA256sum: 7501dc2047f46f2aa5742670a7a973a604ae3a8537535c7dc9e40fc4292ff704
 Description:  BMX6 layer 3 routing daemon supporting IPv4, IPv6, and IPv4 over IPv6
 
+Package: cjdns-tests
+Version: 0.20-1
+Depends: libc, libpthread, librt
+Source: feeds/routing/cjdns
+License: GPL-3.0
+Section: net
+Maintainer: Lars Gierth <larsg@systemli.org>
+Architecture: mvebu64
+Installed-Size: 241849
+Filename: cjdns-tests_0.20-1_mvebu64.ipk
+Size: 241915
+MD5Sum: 3168d022a833dfa2345dd2b61931168a
+SHA256sum: 47e55ad3f0462c4bac35746e88d537ef48103feee0cf21ed5e74e64f4331f9df
+Description:  cjdns test cases
+
 Package: cjdns
 Version: 0.20-1
 Depends: libc, kmod-tun, libnl-tiny, libpthread, librt, libuci-lua, lua-bencode, dkjson, luasocket, lua-sha2
@@ -125,16 +354,16 @@ License: GPL-3.0
 Section: net
 Maintainer: Lars Gierth <larsg@systemli.org>
 Architecture: mvebu64
-Installed-Size: 299246
+Installed-Size: 299237
 Filename: cjdns_0.20-1_mvebu64.ipk
-Size: 299587
-MD5Sum: 49856e313b5e98c1de8e849e27586ae6
-SHA256sum: 92aa0e8c9bc3e7be9497fd8a1ff9f334f301ba034aa3d43fc2ac8b35a9e22d92
+Size: 299556
+MD5Sum: a5bd40058f832a8a9faaebf3c0d3d510
+SHA256sum: f9b744d74e6781eec2279ca694c5bdd0bb24830a28441a85dfea5f3211d012ad
 Description:  Cjdns implements an encrypted IPv6 network using public-key cryptography for address allocation and a distributed hash table for routing. This provides near-zero-configuration networking, and prevents many of the security and scalability issues that plague existing networks.
 
 Package: kmod-batman-adv
 Version: 4.4.52+2017.4-0
-Depends: kernel (=4.4.52-1-2b186349e5c8cf3468921464a33d8b6f), kmod-lib-crc16, kmod-crypto-crc32c, kmod-lib-crc32c, kmod-cfg80211
+Depends: kernel (=4.4.52-1-a6d402be70767f5887c76f409a3f69c9), kmod-lib-crc16, kmod-crypto-crc32c, kmod-lib-crc32c, kmod-cfg80211
 Source: feeds/routing/batman-adv
 License: GPL-2.0
 Section: kernel
@@ -142,16 +371,16 @@ Maintainer: Simon Wunderlich <sw@simonwunderlich.de>
 Architecture: mvebu64
 Installed-Size: 117607
 Filename: kmod-batman-adv_4.4.52+2017.4-0_mvebu64.ipk
-Size: 117874
-MD5Sum: 517b0f8d73e18bf365a4fa140c89d6d6
-SHA256sum: 239dd9aefccb6eed8aebbff036e431b0353580f8844b511ba80868b887476eb2
+Size: 117875
+MD5Sum: e24ef2e69573f3fe7da003dfc44384ba
+SHA256sum: bef118174367f107badc82cae6767980b6085daccc49be2a2027e80bd64b61a9
 Description:  B.A.T.M.A.N. advanced is a kernel module which allows to
  build layer 2 mesh networks. This package builds
  version 2017.4 of the kernel module.
 
 Package: kmod-nat46
 Version: 4.4.52+11-1
-Depends: kernel (=4.4.52-1-2b186349e5c8cf3468921464a33d8b6f)
+Depends: kernel (=4.4.52-1-a6d402be70767f5887c76f409a3f69c9)
 Source: feeds/routing/nat46
 License: GPL-2.0
 Section: kernel
@@ -160,8 +389,8 @@ Architecture: mvebu64
 Installed-Size: 14402
 Filename: kmod-nat46_4.4.52+11-1_mvebu64.ipk
 Size: 15204
-MD5Sum: 73e9faa36523a1f6278befd1d776a904
-SHA256sum: d5019883a34b69a98b36a37223df2a0f9ad43136d494908437429113f5999fa3
+MD5Sum: ae519c1b61b2c79d9d80c47b78f5e543
+SHA256sum: d787e773deb100184ea93cc1279b0e18f0fd301839a96d694e2d01f88bd90a44
 Description:  Stateless NAT46 translation kernel module
 
 Package: luci-app-bird4
@@ -274,6 +503,23 @@ MD5Sum: 4abb9c6541d7bc782e02e5365927ff7e
 SHA256sum: ca0efc48b8f3f04002aae78e6d0e261afa9fc2b9f6f2c476c3c8eeaffa83c2a6
 Description:  minified javascript jQuery 1.4 library
 
+Package: mcproxy
+Version: 2017-08-24-93b5ace42268160ebbfff4c61818fb15fa2d9b99-1
+Depends: libc, libpthread, libstdcpp
+Source: feeds/routing/mcproxy
+License: GPL-2.0+
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 123609
+Filename: mcproxy_2017-08-24-93b5ace42268160ebbfff4c61818fb15fa2d9b99-1_mvebu64.ipk
+Size: 124418
+MD5Sum: fd3a6b1de9681098d44e058cc39f6c15
+SHA256sum: 765cf223beb489a8ceae118008c1b58192828a005c7e1f388f3541df077903a3
+Description:  mcproxy is a free & open source implementation of the IGMP/MLD proxy function (see  RFC 4605) for Linux systems.
+ It operates on the kernel tables for multicast routing and allows for multiple instantiations,
+ as well as dynamically changing downstream interfaces.
+
 Package: miniupnpd
 Version: 2.0.20170421-2
 Depends: libc, iptables, libip4tc, libip6tc, ip6tables, libuuid
@@ -282,10 +528,647 @@ License: BSD-3-Clause
 Section: net
 Maintainer: Markus Stenberg <fingon@iki.fi>
 Architecture: mvebu64
-Installed-Size: 59200
+Installed-Size: 62662
 Filename: miniupnpd_2.0.20170421-2_mvebu64.ipk
-Size: 60080
-MD5Sum: 24d7f758dd882587553e0ff5a80c706a
-SHA256sum: a822d264202c42b4b1e9ac80c0e2aeda95cbb3ade6d26a614784a8e1cb9858a8
+Size: 63519
+MD5Sum: ca3f50c5cba376f6c31f3a5383a9c2cc
+SHA256sum: 24f079dbfd601e6f2e0c1d82568065ebf02a6c50ac5c7fec31c9cdb3b72942d7
 Description:  Lightweight UPnP IGD, NAT-PMP & PCP daemon
+
+Package: nodogsplash2
+Version: 2.0.1-1
+Depends: libc, libpthread, iptables-mod-ipopt, libmicrohttpd-no-ssl
+Conflicts: nodogsplash
+Source: feeds/routing/nodogsplash2
+License: GPL-2.0+
+Section: net
+Maintainer: Moritz Warning <moritzwarning@web.de>
+Architecture: mvebu64
+Installed-Size: 44569
+Filename: nodogsplash2_2.0.1-1_mvebu64.ipk
+Size: 45235
+MD5Sum: 0f87dc20243d0d480801bf13a1939fdb
+SHA256sum: dcd0b6376507ce7aebda7c06e2c8969b34423f38f67219a8d462d7b1671df89d
+Description:  Nodogsplash offers a simple way to open a free hotspot providing
+ restricted access to an internet connection.
+
+Package: nodogsplash
+Version: 1.0.2-1
+Depends: libc, libpthread, iptables-mod-ipopt
+Source: feeds/routing/nodogsplash
+License: GPL-2.0+
+Section: net
+Architecture: mvebu64
+Installed-Size: 50125
+Filename: nodogsplash_1.0.2-1_mvebu64.ipk
+Size: 50756
+MD5Sum: 1145dbd5b279a8a7a5dbe2b4b9b74788
+SHA256sum: 8b3ce89a8296b8483747027fd95fe0ed1cd9608bff4846125123471e97e7081b
+Description:  Nodogsplash offers a simple way to open a free hotspot providing
+ restricted access to an internet connection.
+
+Package: ohybridproxy
+Version: 2016-06-28-8a28ae92c97099e771c9ede5641e3782ae809c27-1
+Depends: libc, libubox, mdnsd
+Source: feeds/routing/ohybridproxy
+License: GPL-2.0
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 11897
+Filename: ohybridproxy_2016-06-28-8a28ae92c97099e771c9ede5641e3782ae809c27-1_mvebu64.ipk
+Size: 12663
+MD5Sum: 2515fb7d04976b770864f94ea025f85a
+SHA256sum: aa23cef1f9d46b960da622a4a0a3e60fe2eb46487a55f004d3937cdba6d2e736
+Description:  This package provides a statically configured daemon for translating DNS
+ requests to Multicast DNS and back again.
+
+Package: olsrd-mod-arprefresh
+Version: 0.9.6.2-v0.9.6.2
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mvebu64
+Installed-Size: 2060
+Filename: olsrd-mod-arprefresh_0.9.6.2-v0.9.6.2_mvebu64.ipk
+Size: 2769
+MD5Sum: 10e2cc7c6b7e9d9745aab6642cc6f479
+SHA256sum: e9f41d4c740c177e6003602e922b1c73a440f149bbc4b651be4b7362df522eba
+Description:  Kernel ARP cache refresh plugin
+
+Package: olsrd-mod-bmf
+Version: 0.9.6.2-v0.9.6.2
+Depends: libc, olsrd, kmod-tun
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mvebu64
+Installed-Size: 11804
+Filename: olsrd-mod-bmf_0.9.6.2-v0.9.6.2_mvebu64.ipk
+Size: 12492
+MD5Sum: 3e55aa87b84428666bd9d1b34020668f
+SHA256sum: 982934b411603e5be1e06f879521d4ab65f6da27952c61ff470561235270f96c
+Description:  Basic multicast forwarding plugin
+
+Package: olsrd-mod-dot-draw
+Version: 0.9.6.2-v0.9.6.2
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mvebu64
+Installed-Size: 3864
+Filename: olsrd-mod-dot-draw_0.9.6.2-v0.9.6.2_mvebu64.ipk
+Size: 4577
+MD5Sum: c4dd6bed093dd9079e64b8fef861ec94
+SHA256sum: d863c3d4a8a168d996ce18ce97efe80ecb98b35c5764306e2b64d704327c1ebc
+Description:  Dot topology information plugin
+
+Package: olsrd-mod-dyn-gw-plain
+Version: 0.9.6.2-v0.9.6.2
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mvebu64
+Installed-Size: 2372
+Filename: olsrd-mod-dyn-gw-plain_0.9.6.2-v0.9.6.2_mvebu64.ipk
+Size: 3090
+MD5Sum: d032e67a0daa9948f63a47464589f149
+SHA256sum: 944c89c55f20e12c691b011044580a64da70d3be4a7f1368e4e1c81b820cc8e3
+Description:  Dynamic internet gateway plain plugin
+
+Package: olsrd-mod-dyn-gw
+Version: 0.9.6.2-v0.9.6.2
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mvebu64
+Installed-Size: 3939
+Filename: olsrd-mod-dyn-gw_0.9.6.2-v0.9.6.2_mvebu64.ipk
+Size: 4642
+MD5Sum: cad7f70c8ec1053afbe2387d6ad37908
+SHA256sum: f042e089b63aee25bd287721046c90c84b1dbe2b6a2132997fedbb0e58e4a59a
+Description:  Dynamic internet gateway plugin
+
+Package: olsrd-mod-httpinfo
+Version: 0.9.6.2-v0.9.6.2
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mvebu64
+Installed-Size: 29709
+Filename: olsrd-mod-httpinfo_0.9.6.2-v0.9.6.2_mvebu64.ipk
+Size: 30465
+MD5Sum: aac8562c658abb0df38d7f1a888ff959
+SHA256sum: b2291dd444b05e6ff911a1a80e79b9604656b0497ad6de51ef7b1cc63f3a79c3
+Description:  Small informative web server plugin
+
+Package: olsrd-mod-jsoninfo
+Version: 0.9.6.2-v0.9.6.2
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mvebu64
+Installed-Size: 21186
+Filename: olsrd-mod-jsoninfo_0.9.6.2-v0.9.6.2_mvebu64.ipk
+Size: 21881
+MD5Sum: cba3bac648d9d03e8955e733d69d9184
+SHA256sum: 5587650553cbcd6f3e085c1a944e6c6a1cf9e72d1bd34a2419bf8477be87d71c
+Description:  Small informative plugin with JSON output
+
+Package: olsrd-mod-mdns
+Version: 0.9.6.2-v0.9.6.2
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mvebu64
+Installed-Size: 8840
+Filename: olsrd-mod-mdns_0.9.6.2-v0.9.6.2_mvebu64.ipk
+Size: 9583
+MD5Sum: 52ab4c79aed61a9c7b64ef3e2c808322
+SHA256sum: 1d0fc87a1b3f10de225bbd3486fc7dcc51ea64077a479299527ecce805bd3b75
+Description:  MDNS/Zeroconf/Bonjour packet distribution 
+
+Package: olsrd-mod-nameservice
+Version: 0.9.6.2-v0.9.6.2
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mvebu64
+Installed-Size: 10682
+Filename: olsrd-mod-nameservice_0.9.6.2-v0.9.6.2_mvebu64.ipk
+Size: 11370
+MD5Sum: 675203a6fd8ec35c326cc89ac0e63e99
+SHA256sum: 34e9ff946df0ce2fe92b94bfd775a9b34b6ed18c27f4c15f07bfaf2c0a8f558c
+Description:  Lightweight hostname resolver plugin
+
+Package: olsrd-mod-netjson
+Version: 0.9.6.2-v0.9.6.2
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mvebu64
+Installed-Size: 12287
+Filename: olsrd-mod-netjson_0.9.6.2-v0.9.6.2_mvebu64.ipk
+Size: 12970
+MD5Sum: 26a59366491f0d456f29408a463e1710
+SHA256sum: b6e4109f6056d5d2204564ac85b7dfad4b28c9560a536f73c69b4b2761c239d0
+Description:  netjson plugin with JSON output
+
+Package: olsrd-mod-p2pd
+Version: 0.9.6.2-v0.9.6.2
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mvebu64
+Installed-Size: 8156
+Filename: olsrd-mod-p2pd_0.9.6.2-v0.9.6.2_mvebu64.ipk
+Size: 8871
+MD5Sum: 3c4ee2854a2fe709374e9815d17838d9
+SHA256sum: 3f44e141e3fe0de82b14b47aa562ec03c39b75fc7ae7bc6cce511452ce2e1a4e
+Description:  Peer to Peer Discovery plugin
+
+Package: olsrd-mod-pgraph
+Version: 0.9.6.2-v0.9.6.2
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mvebu64
+Installed-Size: 2886
+Filename: olsrd-mod-pgraph_0.9.6.2-v0.9.6.2_mvebu64.ipk
+Size: 3597
+MD5Sum: 22ba4a81fc546617e2cd7d9f6950ecb0
+SHA256sum: b54b3490fa236e587779f035e34c771c70b076178f3c8d0010c7d6eed74ca090
+Description:  output network topology for pgraph
+
+Package: olsrd-mod-pud
+Version: 0.9.6.2-v0.9.6.2
+Depends: libc, olsrd, libgps
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mvebu64
+Installed-Size: 54409
+Filename: olsrd-mod-pud_0.9.6.2-v0.9.6.2_mvebu64.ipk
+Size: 55113
+MD5Sum: c49bdc39d8bbac9af93459a5ce072027
+SHA256sum: 1f226709e65d60c8b1d8d5ddff25b27f52778320d3328a6e00451726893a16db
+Description:  Position Update Distribution plugin
+
+Package: olsrd-mod-quagga
+Version: 0.9.6.2-v0.9.6.2
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mvebu64
+Installed-Size: 5974
+Filename: olsrd-mod-quagga_0.9.6.2-v0.9.6.2_mvebu64.ipk
+Size: 6694
+MD5Sum: 0b51f931bc4cac04cde4b34f50d4b5aa
+SHA256sum: 34f9189b9e9d7308cb9549e42b430bab4eeef26f4ab4aabfc7e9dff93d6d02f3
+Description:  Quagga plugin
+
+Package: olsrd-mod-secure
+Version: 0.9.6.2-v0.9.6.2
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mvebu64
+Installed-Size: 10400
+Filename: olsrd-mod-secure_0.9.6.2-v0.9.6.2_mvebu64.ipk
+Size: 11180
+MD5Sum: a8c55b354b4c9b4839d43d5a0501e105
+SHA256sum: d1d787fcb7840ef62d810291875fd2dc27cb9d1084102dad9a4da247990c6ceb
+Description:  Message signing plugin to secure routing domain
+
+Package: olsrd-mod-sgwdynspeed
+Version: 0.9.6.2-v0.9.6.2
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mvebu64
+Installed-Size: 4435
+Filename: olsrd-mod-sgwdynspeed_0.9.6.2-v0.9.6.2_mvebu64.ipk
+Size: 5203
+MD5Sum: 8fb7a06f84a79b4fc81bc8418bd4eed3
+SHA256sum: 6c0495bc020576aebf497c15c2f726f59af77da8657cd157c82e90dced9f015d
+Description:  Smart Gateway dynamic speed plugin
+
+Package: olsrd-mod-txtinfo
+Version: 0.9.6.2-v0.9.6.2
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mvebu64
+Installed-Size: 13929
+Filename: olsrd-mod-txtinfo_0.9.6.2-v0.9.6.2_mvebu64.ipk
+Size: 14607
+MD5Sum: 3e04dc13d94b1ed66f1d3e7aa21d1069
+SHA256sum: 9703037cd21b342b633a07cbcec10e338798a2fe44c2d68819a1c4e60f7dc26e
+Description:  Small informative web server plugin
+
+Package: olsrd-mod-watchdog
+Version: 0.9.6.2-v0.9.6.2
+Depends: libc, olsrd
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mvebu64
+Installed-Size: 1583
+Filename: olsrd-mod-watchdog_0.9.6.2-v0.9.6.2_mvebu64.ipk
+Size: 2315
+MD5Sum: d9539cea646c6407c78470632ee06011
+SHA256sum: c02e6801961ed1c421cf7703b4995496b4f63c741f4acb61a716b1a8bf628369
+Description:  Watchdog plugin
+
+Package: olsrd
+Version: 0.9.6.2-v0.9.6.2
+Depends: libc, libpthread
+Source: feeds/routing/olsrd
+License: BSD-3-Clause
+Section: net
+Maintainer: Saverio Proto <zioproto@gmail.com>
+Architecture: mvebu64
+Installed-Size: 125590
+Filename: olsrd_0.9.6.2-v0.9.6.2_mvebu64.ipk
+Size: 126258
+MD5Sum: 363747013df7bc26cb3f94995a756ff2
+SHA256sum: 8a43270203b18c232408de255c25083b7434d3f00df8c090962ebaed1c372e50
+Description:  OLSR (Optimized Link State Routing) daemon
+
+Package: oonf-dlep-proxy
+Version: 0.14.1-1
+Depends: libc, librt, libnl-tiny, libuci, oonf-init-scripts
+Source: feeds/routing/oonf-dlep-proxy
+Section: net
+Maintainer: Henning Rogge <hrogge@gmail.com>
+Architecture: mvebu64
+Installed-Size: 99164
+Filename: oonf-dlep-proxy_0.14.1-1_mvebu64.ipk
+Size: 99928
+MD5Sum: 0b803b0f52a7123abeee466190414fe7
+SHA256sum: c5cf7cb86695b9d361010029028ba5d6b8fe29e999d54b8a5e9a879655e22289
+Description:  Build DLEP Radio+Router Agent
+
+Package: oonf-dlep-radio
+Version: 0.14.1-1
+Depends: libc, librt, libnl-tiny, libuci, oonf-init-scripts
+Source: feeds/routing/oonf-dlep-radio
+Section: net
+Maintainer: Henning Rogge <hrogge@gmail.com>
+Architecture: mvebu64
+Installed-Size: 95535
+Filename: oonf-dlep-radio_0.14.1-1_mvebu64.ipk
+Size: 96242
+MD5Sum: 0320a0863bbebec208023bd515e03c9f
+SHA256sum: d859b3ab4ab79457e2b9dfae3c9e3d6ec04ecb3b31c6e9d72af82204d825c17a
+Description:  Build DLEP Radio Agent
+
+Package: oonf-init-scripts
+Version: 0.9.1-r3
+Depends: libc
+Source: feeds/routing/oonf-init-scripts
+Section: net
+Maintainer: Henning Rogge <hrogge@gmail.com>
+Architecture: mvebu64
+Installed-Size: 1392
+Filename: oonf-init-scripts_0.9.1-r3_mvebu64.ipk
+Size: 2098
+MD5Sum: 46392b8f1432f45ec281fa4b6cc4bb9a
+SHA256sum: eb006916f099516bda1aa8b8daa8f3b64424b9f4945165a2c6e62e2c28b834d7
+Description:  Common OONF startup scripts
+
+Package: oonf-olsrd2
+Version: 0.14.1-1
+Depends: libc, librt, libnl-tiny, libuci, oonf-init-scripts
+Source: feeds/routing/oonf-olsrd2
+Section: net
+Maintainer: Henning Rogge <hrogge@gmail.com>
+Architecture: mvebu64
+Installed-Size: 159745
+Filename: oonf-olsrd2_0.14.1-1_mvebu64.ipk
+Size: 160437
+MD5Sum: 91973be36a159d1d282c82b2e71309d6
+SHA256sum: dee2e9656d6e2bc95596a3e5cf06b328c0fea4f55940ddeb0fb908d5aeba5471
+Description:  Build Olsrd V2 Routing Agent
+
+Package: prince
+Version: v0.3.1-2
+Depends: libc, libjson-c, libpthread
+Source: feeds/routing/poprouting
+Section: net
+Maintainer: Gabriele Gemmi <gabriel@autistici.org>
+Architecture: mvebu64
+Installed-Size: 23838
+Filename: prince_v0.3.1-2_mvebu64.ipk
+Size: 24712
+MD5Sum: fc699f9ae03dd439a5fe1dcfc7429545
+SHA256sum: 6d265771786b08c929ae2b5d0984bbd82fa10ec009664b39a1137c988084f4fe
+Description:  Prince is an open source implementation of the PopRouting Algorithm.
+ It has been developed as a Google Summer of Code Project in collaboration with Freifunk and the University of Trento.
+ 
+ It work by fetching topology data from a Link State routing demon(OONF, OLSR, OSPF, etc),
+ calculating the betweenness centrality using the topology, then using these data
+ the timer's value are optimized. Finally the timers are pushed back to the routing demon.
+ Currently it only supports OLSRd2 (aka OONF).
+
+Package: quagga-bgpd
+Version: 1.1.0-1
+Depends: libc, quagga, quagga-libzebra
+Source: feeds/routing/quagga
+License: GPL-2.0
+Section: net
+Maintainer: Vasilis Tsiligiannis <acinonyx@openwrt.gr>
+Architecture: mvebu64
+Installed-Size: 195297
+Filename: quagga-bgpd_1.1.0-1_mvebu64.ipk
+Size: 195237
+MD5Sum: 0d07874941393f6f631a831ac7c0c9f4
+SHA256sum: d38a25bbf28a14a1689b1cfcbdfd3f03aeb1bf76746c1da52637646b5606a9cc
+Description:  BGPv4, BGPv4+, BGPv4- routing engine
+
+Package: quagga-isisd
+Version: 1.1.0-1
+Depends: libc, quagga, quagga-libzebra
+Source: feeds/routing/quagga
+License: GPL-2.0
+Section: net
+Maintainer: Vasilis Tsiligiannis <acinonyx@openwrt.gr>
+Architecture: mvebu64
+Installed-Size: 88853
+Filename: quagga-isisd_1.1.0-1_mvebu64.ipk
+Size: 89392
+MD5Sum: 3ef6c0851f9c3c0f843c2bfbc6ec3230
+SHA256sum: f8af47c410d14e1f56324855ddabb6bffde61843fff468d7b0a56cb7e6d260ed
+Description:  IS-IS routing engine
+
+Package: quagga-libospf
+Version: 1.1.0-1
+Depends: libc, quagga, quagga-libzebra
+Source: feeds/routing/quagga
+License: GPL-2.0
+Section: net
+Maintainer: Vasilis Tsiligiannis <acinonyx@openwrt.gr>
+Architecture: mvebu64
+Installed-Size: 168745
+Filename: quagga-libospf_1.1.0-1_mvebu64.ipk
+Size: 166891
+MD5Sum: 0bb5ac030dea94bc02c4fb2d8b36c54a
+SHA256sum: 6b8678ccdd4015802828d676efdd9fb098637bba59865de7f869f23a410f5b3d
+Description:  OSPF library
+
+Package: quagga-libzebra
+Version: 1.1.0-1
+Depends: libc, quagga
+Source: feeds/routing/quagga
+License: GPL-2.0
+Section: net
+Maintainer: Vasilis Tsiligiannis <acinonyx@openwrt.gr>
+Architecture: mvebu64
+Installed-Size: 118016
+Filename: quagga-libzebra_1.1.0-1_mvebu64.ipk
+Size: 117063
+MD5Sum: 5bc5346e80dcb964a5f078b96ed3a509
+SHA256sum: a2d7ef525a8c8b10d61e1f5f40b9f9dccc40fefa47d01d08ce810f3f8f4db8a2
+Description:  zebra library
+
+Package: quagga-ospf6d
+Version: 1.1.0-1
+Depends: libc, quagga, quagga-libospf
+Source: feeds/routing/quagga
+License: GPL-2.0
+Section: net
+Maintainer: Vasilis Tsiligiannis <acinonyx@openwrt.gr>
+Architecture: mvebu64
+Installed-Size: 84131
+Filename: quagga-ospf6d_1.1.0-1_mvebu64.ipk
+Size: 84788
+MD5Sum: d663f5e04b5a5e7976ebbec85ef63201
+SHA256sum: 47125cc41c05bd78e956a8e30c2f09caa3196eb841a73896ea7c6be724932d57
+Description:  OSPFv3 routing engine
+
+Package: quagga-ospfd
+Version: 1.1.0-1
+Depends: libc, quagga, quagga-libospf
+Source: feeds/routing/quagga
+License: GPL-2.0
+Section: net
+Maintainer: Vasilis Tsiligiannis <acinonyx@openwrt.gr>
+Architecture: mvebu64
+Installed-Size: 3811
+Filename: quagga-ospfd_1.1.0-1_mvebu64.ipk
+Size: 4538
+MD5Sum: 29ef5aa8951de61b8812965e910980d2
+SHA256sum: a1b6f5b1a161a80dc65df1b00f32f186900d7c1d2fc97fa97f41d881f9a8a68a
+Description:  OSPFv2 routing engine
+
+Package: quagga-ripd
+Version: 1.1.0-1
+Depends: libc, quagga, quagga-libzebra
+Source: feeds/routing/quagga
+License: GPL-2.0
+Section: net
+Maintainer: Vasilis Tsiligiannis <acinonyx@openwrt.gr>
+Architecture: mvebu64
+Installed-Size: 35410
+Filename: quagga-ripd_1.1.0-1_mvebu64.ipk
+Size: 35958
+MD5Sum: 7fc8accf0e07903c98393161b2663767
+SHA256sum: df167d9f3bca22311e1bad9686684ac162fe738a69fd2b89fd5a878f97b4b69c
+Description:  RIP routing engine
+
+Package: quagga-ripngd
+Version: 1.1.0-1
+Depends: libc, quagga, quagga-libzebra
+Source: feeds/routing/quagga
+License: GPL-2.0
+Section: net
+Maintainer: Vasilis Tsiligiannis <acinonyx@openwrt.gr>
+Architecture: mvebu64
+Installed-Size: 28928
+Filename: quagga-ripngd_1.1.0-1_mvebu64.ipk
+Size: 29551
+MD5Sum: 2eeb651d1e7d08e060cc2adae727ef90
+SHA256sum: 2160d56f357dc36a65baf4efb39182771c6c90f11b45c4074cf43df669d450aa
+Description:  RIPNG routing engine
+
+Package: quagga-vtysh
+Version: 1.1.0-1
+Depends: libc, quagga, quagga-libzebra, libreadline, libncurses
+Source: feeds/routing/quagga
+License: GPL-2.0
+Section: net
+Maintainer: Vasilis Tsiligiannis <acinonyx@openwrt.gr>
+Architecture: mvebu64
+Installed-Size: 120396
+Filename: quagga-vtysh_1.1.0-1_mvebu64.ipk
+Size: 120269
+MD5Sum: 5e66401bc903be32a896b53899842988
+SHA256sum: 701133f73a751f3b85c4e614849a3b1fea4f99cf1d07c5f0d78d2545f9a22244
+Description:  integrated shell for Quagga routing software
+
+Package: quagga-watchquagga
+Version: 1.1.0-1
+Depends: libc, quagga, quagga-libzebra
+Source: feeds/routing/quagga
+License: GPL-2.0
+Section: net
+Maintainer: Vasilis Tsiligiannis <acinonyx@openwrt.gr>
+Architecture: mvebu64
+Installed-Size: 11451
+Filename: quagga-watchquagga_1.1.0-1_mvebu64.ipk
+Size: 12172
+MD5Sum: ee16fcfc7ef2be99afacfcfc460f01db
+SHA256sum: 16342d8069e9dc00f8c9e62729286a21d413fc7bf109537c2f037844efdf8edd
+Description:  Quagga watchdog
+
+Package: quagga-zebra
+Version: 1.1.0-1
+Depends: libc, quagga, quagga-libzebra
+Source: feeds/routing/quagga
+License: GPL-2.0
+Section: net
+Maintainer: Vasilis Tsiligiannis <acinonyx@openwrt.gr>
+Architecture: mvebu64
+Installed-Size: 87877
+Filename: quagga-zebra_1.1.0-1_mvebu64.ipk
+Size: 88292
+MD5Sum: 7a51a0fb3201bcc222bcef0fd15cb9ae
+SHA256sum: e823cf5f27e5c02da9dd48f135feb2dcefcfaec7b725fe1aa6d617a3d554fb49
+Description:  Zebra daemon
+
+Package: quagga
+Version: 1.1.0-1
+Depends: libc, librt
+Source: feeds/routing/quagga
+License: GPL-2.0
+Section: net
+Maintainer: Vasilis Tsiligiannis <acinonyx@openwrt.gr>
+Architecture: mvebu64
+Installed-Size: 2388
+Filename: quagga_1.1.0-1_mvebu64.ipk
+Size: 3172
+MD5Sum: 6b7aa03a71fa84b1ab31e9ed75fe7aa1
+SHA256sum: 98e0085a5d47d439df8793e7bd69fc67e44c41a3238e4f9fa98b7849c73f1753
+Description:  A routing software package that provides TCP/IP based routing services
+ with routing protocols support such as RIPv1, RIPv2, RIPng, OSPFv2,
+ OSPFv3, BGP-4, and BGP-4+
+
+Package: smcroute
+Version: 2.0.0-2
+Depends: libc
+Source: feeds/routing/smcroute
+License: GPL-2.0+
+Section: net
+Maintainer: Leonardo Brondani Schenkel <leonardo@schenkel.net>
+Architecture: mvebu64
+Installed-Size: 14268
+Filename: smcroute_2.0.0-2_mvebu64.ipk
+Size: 14869
+MD5Sum: c30685a7bd1b7dd2f76b95d65585d3b6
+SHA256sum: 4a42b9885545dc799098a07762d300b07679e80b41c72f28b144beeb9d693016
+Description:  SMCRoute is a command line tool to manipulate the multicast routes of the Linux kernel.
+
+Package: vis
+Version: 1440-0
+Depends: libc, libpthread
+Source: feeds/routing/vis
+License: GPL-2.0
+Section: net
+Maintainer: Corinna "Elektra" Aichele <onelektra@gmx.net>
+Architecture: mvebu64
+Installed-Size: 10211
+Filename: vis_1440-0_mvebu64.ipk
+Size: 10976
+MD5Sum: 5a648bc2030bcd56921c6f05db5c896a
+SHA256sum: 9162a663db2127c336c1a9fb21091828000fbd65807ca8dc987f2ea0ee9e2e61
+Description:  visualization server for B.A.T.M.A.N. layer 3
+
+Package: zonestitcher
+Version: 2016-06-28-8a28ae92c97099e771c9ede5641e3782ae809c27-1
+Depends: libc, libubox
+Source: feeds/routing/ohybridproxy
+License: GPL-2.0
+Section: net
+Maintainer: Steven Barth <cyrus@openwrt.org>
+Architecture: mvebu64
+Installed-Size: 9681
+Filename: zonestitcher_2016-06-28-8a28ae92c97099e771c9ede5641e3782ae809c27-1_mvebu64.ipk
+Size: 10478
+MD5Sum: 3fda24e4b46532043d14bdfcc0dd45a3
+SHA256sum: 1874e4cadd0ddea43f0fdf319db3d436a760cff09b5c9f82cf1187c9024061ec
+Description:  This package provides a statically configured daemon for translating DNS
+ requests to Multicast DNS and back again.
 

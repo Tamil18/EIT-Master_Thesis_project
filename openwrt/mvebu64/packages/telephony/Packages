@@ -1,6 +1,3174 @@
+Package: dahdi-cfg
+Version: 2.11.1-2
+Depends: libc, kmod-dahdi, libpthread, dahdi-tools-libtonezone
+Source: feeds/telephony/libs/dahdi-tools
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: utils
+Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
+Architecture: mvebu64
+Installed-Size: 25434
+Filename: dahdi-cfg_2.11.1-2_mvebu64.ipk
+Size: 26133
+MD5Sum: 1db2c63bb2b0974751d0a7179ee5ba4c
+SHA256sum: 081bce728739c97f7a0b047cd7e572d3a77d78367bf124843c7c0f5ca004d82a
+Description:  DAHDI tools dahdi_cfg, dahdi_scan and fxotune
+
+Package: dahdi-monitor
+Version: 2.11.1-2
+Depends: libc, kmod-dahdi
+Source: feeds/telephony/libs/dahdi-tools
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: utils
+Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
+Architecture: mvebu64
+Installed-Size: 10046
+Filename: dahdi-monitor_2.11.1-2_mvebu64.ipk
+Size: 10789
+MD5Sum: 2e9050d0c0ebb157b57b90bb643f9f21
+SHA256sum: 98a0b83ebf5af06e04b25a6d5e37533f265bd20c55f11281c678d399e6ab7d06
+Description:  DAHDI tools dahdi_monitor, dahdi_speed and dahdi_test
+
+Package: dahdi-tools-libtonezone
+Version: 2.11.1-2
+Depends: libc, kmod-dahdi
+Source: feeds/telephony/libs/dahdi-tools
+License: GPL-2.0
+LicenseFiles: LICENSE
+Section: libs
+Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
+Architecture: mvebu64
+Installed-Size: 9299
+Filename: dahdi-tools-libtonezone_2.11.1-2_mvebu64.ipk
+Size: 9933
+MD5Sum: 3105ddf82a3fbd13632848b1ef955137
+SHA256sum: d00cf5ff700f2345d77cff283ee8dda152b39c78dd91ed4e3b54220ef6f1e128
+Description:  DAHDI tonezone library
+
+Package: gsm-utils
+Version: 1.10-20140304-1
+Depends: libc, gsmlib
+Source: feeds/telephony/libs/gsmlib
+License: LGPL-2.1+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Architecture: mvebu64
+Installed-Size: 49140
+Filename: gsm-utils_1.10-20140304-1_mvebu64.ipk
+Size: 49435
+MD5Sum: 40849c2c813f461e82a6fdfadf0131cd
+SHA256sum: 93f03523351fc1cece6aa425522f2872b12d3b045c22495a0c7866280364b473
+Description:  Some simple command line programs to access GSM mobile phones via GSM modems.
+
+Package: gsmlib
+Version: 1.10-20140304-1
+Depends: libc, libstdcpp
+Source: feeds/telephony/libs/gsmlib
+License: LGPL-2.1+
+LicenseFiles: COPYING
+Section: libs
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Architecture: mvebu64
+Installed-Size: 118123
+Filename: gsmlib_1.10-20140304-1_mvebu64.ipk
+Size: 118180
+MD5Sum: 8ac914e6877e657c6e17425b634188ee
+SHA256sum: 98b26de30c0239eeec152ffcc554f7482a19a241da4fb6419fb08ee3c1b311d2
+Description:  A library to access GSM mobile phones via GSM modems.
+
+Package: kamailio5-lib-libkamailio-ims
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 23184
+Filename: kamailio5-lib-libkamailio-ims_5.1.1-3_mvebu64.ipk
+Size: 23922
+MD5Sum: 364c8bb6448ff969cd7230663386d50c
+SHA256sum: f989d6e37eab2e5291959a700ec0bf257fd9264b46074c90d13c8efc452fda90
+Description:  Kamailio5 IMS library
+
+Package: kamailio5-lib-libtrie
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 5748
+Filename: kamailio5-lib-libtrie_5.1.1-3_mvebu64.ipk
+Size: 6456
+MD5Sum: 49fa986cb86353a24a33b41ab287edfa
+SHA256sum: a43dedf46b111876de3fe69fb84c27e25b18e3f28bf4f953a10b2615d605d6ee
+Description:  Kamailio5 digital tree library
+
+Package: kamailio5-mod-acc-diameter
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-acc
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 25777
+Filename: kamailio5-mod-acc-diameter_5.1.1-3_mvebu64.ipk
+Size: 26489
+MD5Sum: 3d7de5590a2c4d1588f9fd4e28009a48
+SHA256sum: 6021d7f1bcb1d8f385596eeef5e3fa06862f4f4b352b0ada1601a882f3b2335a
+Description:  Accounting for DIAMETER backend for Kamailio5
+
+Package: kamailio5-mod-acc
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 46109
+Filename: kamailio5-mod-acc_5.1.1-3_mvebu64.ipk
+Size: 46877
+MD5Sum: d38a7f507b12ee5be83d7a544f49347c
+SHA256sum: 44c7cfd1cf6efd2d3b65aff826154d7269dc7925021d9a2a8e335253c4cee8c2
+Description:  Accounting for Kamailio5
+
+Package: kamailio5-mod-alias-db
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-db-sqlite
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 9904
+Filename: kamailio5-mod-alias-db_5.1.1-3_mvebu64.ipk
+Size: 10670
+MD5Sum: ccf5ba2ba8577a2224757b1b65bdce9d
+SHA256sum: 43f827d8f7908276bc5b7d6d5a3cc1c633ff5244afb0353cf565261e51eb5ad6
+Description:  Database-backend aliases for Kamailio5
+
+Package: kamailio5-mod-app-jsdt
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 163052
+Filename: kamailio5-mod-app-jsdt_5.1.1-3_mvebu64.ipk
+Size: 159832
+MD5Sum: 8ac46399ca0f03183bed06bb1f4063e8
+SHA256sum: 8c7ce2110bf1a6f802dfd55f55e5c650ac1491feee4cd3e73e4996cba6297cca
+Description:  Execute JavaScript scripts for Kamailio5
+
+Package: kamailio5-mod-app-lua
+Version: 5.1.1-3
+Depends: libc, kamailio5, liblua
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 102373
+Filename: kamailio5-mod-app-lua_5.1.1-3_mvebu64.ipk
+Size: 98785
+MD5Sum: 510046029efb2979e2b57989a68da7db
+SHA256sum: 6ae0873675b21f2cb95192b7aed997c377c6ee364f09e7be7965eae584da90c2
+Description:  Execute embedded Lua scripts for Kamailio5
+
+Package: kamailio5-mod-app-python
+Version: 5.1.1-3
+Depends: libc, kamailio5, python-light
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 52263
+Filename: kamailio5-mod-app-python_5.1.1-3_mvebu64.ipk
+Size: 49121
+MD5Sum: 5c6cf4eec9dc36aef12e2642cac8b70e
+SHA256sum: 5f410b10dc9d2ecd86986e71a2448164708665b10b9c412a15f27c7de5edbc99
+Description:  Execute Python scripts for Kamailio5
+
+Package: kamailio5-mod-app-sqlang
+Version: 5.1.1-3
+Depends: libc, kamailio5, libstdcpp
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 165758
+Filename: kamailio5-mod-app-sqlang_5.1.1-3_mvebu64.ipk
+Size: 162046
+MD5Sum: d77df897a33679702cb97bad9a941049
+SHA256sum: eb9f54ad2e33b93b3601b80b17a3ff6a639dd47e5eb090b45c7929ba14958cd4
+Description:  Execute Squirrel language scripts for Kamailio5
+
+Package: kamailio5-mod-async
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-tm, kamailio5-mod-tmx
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 10759
+Filename: kamailio5-mod-async_5.1.1-3_mvebu64.ipk
+Size: 11509
+MD5Sum: dae8f9b6d0ff46204f51e5ef22a221f1
+SHA256sum: 85ad7013d95638a666d619b1348eda8f7d4cf987c099fa2a43704f3ca308b887
+Description:  Asynchronous SIP handling functions for Kamailio5
+
+Package: kamailio5-mod-auth-db
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-auth, kamailio5-mod-db-sqlite
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 18412
+Filename: kamailio5-mod-auth-db_5.1.1-3_mvebu64.ipk
+Size: 19152
+MD5Sum: 1698b96925f752279c6317380ecc7a00
+SHA256sum: 902ec28c985df77239bd6314c4339d79ed264ecb2d20e5245ae4ddc99a6efdb4
+Description:  Database-backend authentication for Kamailio5
+
+Package: kamailio5-mod-auth-diameter
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-sl
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 32621
+Filename: kamailio5-mod-auth-diameter_5.1.1-3_mvebu64.ipk
+Size: 33410
+MD5Sum: b55aadb0c9b0ed052c5b02b2579648a9
+SHA256sum: 98c64f805b446f775b9295e8ee3973232cda431f43923cd7d4ef47d5053164c7
+Description:  Diameter authentication for Kamailio5
+
+Package: kamailio5-mod-auth-ephemeral
+Version: 5.1.1-3
+Depends: libc, kamailio5, libopenssl
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 20790
+Filename: kamailio5-mod-auth-ephemeral_5.1.1-3_mvebu64.ipk
+Size: 21545
+MD5Sum: e35f7f153c748b3c22bbae0552721b4e
+SHA256sum: a83590c2fbd18b8c3aca075f7bd7b3834cfc31df9c399a227acb6b0917b218cd
+Description:  Ephemeral credentials for Kamailio5
+
+Package: kamailio5-mod-auth-identity
+Version: 5.1.1-3
+Depends: libc, kamailio5, libopenssl, libcurl
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 37189
+Filename: kamailio5-mod-auth-identity_5.1.1-3_mvebu64.ipk
+Size: 37946
+MD5Sum: 527d8922bf6bebe2d6d515824472d305
+SHA256sum: 010fee19c43275e5efb88b291fe486f79dff695ef8fc10e06af3964f80512ec1
+Description:  Identity authentication for Kamailio5
+
+Package: kamailio5-mod-auth-xkeys
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-auth
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 12174
+Filename: kamailio5-mod-auth-xkeys_5.1.1-3_mvebu64.ipk
+Size: 12875
+MD5Sum: 4c82f408d0a6b64bd4edc0867829b390
+SHA256sum: 28e242414ae9814ac301708b48d6b52ec75f099c2d371267214ab3ab25f9d0e9
+Description:  Shared-key authentication for Kamailio5
+
+Package: kamailio5-mod-auth
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 36755
+Filename: kamailio5-mod-auth_5.1.1-3_mvebu64.ipk
+Size: 37493
+MD5Sum: 176f098b00a4336ce0b65e1c1093e3eb
+SHA256sum: 7e41b8caf978ace9ffd00f7eb1ca6a5a33f93a2e075490a02cad771a2459189c
+Description:  Authentication Framework for Kamailio5
+
+Package: kamailio5-mod-avp
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 24985
+Filename: kamailio5-mod-avp_5.1.1-3_mvebu64.ipk
+Size: 25644
+MD5Sum: 2fd0bcfe338cb4bb281b87f941d8e6be
+SHA256sum: fa2f9caf43e99b507d4fdaa9caca8dd3f26d6c8da84b72ca655fc82854388fbe
+Description:  Functions for handling AVPs for Kamailio5
+
+Package: kamailio5-mod-avpops
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 57482
+Filename: kamailio5-mod-avpops_5.1.1-3_mvebu64.ipk
+Size: 58235
+MD5Sum: b12b26b8254f85fd621f6b40a8306f92
+SHA256sum: 225b6fe96a6d4090cf2c2eb2f931c9681ef7e595f4615e13a47f4edcb57a64e5
+Description:  AVP operation for Kamailio5
+
+Package: kamailio5-mod-benchmark
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 8931
+Filename: kamailio5-mod-benchmark_5.1.1-3_mvebu64.ipk
+Size: 9714
+MD5Sum: 47ecbf8f1497a38df075ffc03fd7569c
+SHA256sum: b51048fd7190373b336875211138a217b11435055947f9bc42e6cb4d528227a9
+Description:  Config benchmark for Kamailio5
+
+Package: kamailio5-mod-blst
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 3642
+Filename: kamailio5-mod-blst_5.1.1-3_mvebu64.ipk
+Size: 4392
+MD5Sum: f3c1ee3039ddf4dbaf92a3fb1a5930ec
+SHA256sum: 173a8b667678e9b2d89b8fc56e10dfaef05f5b445878bc04e0a8070cc0e25b67
+Description:  Blacklisting API for config for Kamailio5
+
+Package: kamailio5-mod-call-control
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-dialog, kamailio5-mod-pv
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 17966
+Filename: kamailio5-mod-call-control_5.1.1-3_mvebu64.ipk
+Size: 18696
+MD5Sum: 3e4d71bc680c23b70aa20ebb1f9d10ac
+SHA256sum: ed04e967149e45da70092fbea272ddb1cb7635329b1b37752c87e4fa4f060ae8
+Description:  Call Control for Kamailio5
+
+Package: kamailio5-mod-call-obj
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 17366
+Filename: kamailio5-mod-call-obj_5.1.1-3_mvebu64.ipk
+Size: 18131
+MD5Sum: 91de9b19a3ed4997f66757d1536f063a
+SHA256sum: 213f9a9654f165c42738acb04aeefa7190514f817bd25db4d7511445f3e8e6ee
+Description:  Call identification support for Kamailio5
+
+Package: kamailio5-mod-carrierroute
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-lib-libtrie
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 77797
+Filename: kamailio5-mod-carrierroute_5.1.1-3_mvebu64.ipk
+Size: 78524
+MD5Sum: bb5735c1d19ce21783187a3932858f76
+SHA256sum: 4a2a3927062879234376c308c288343664695c867996f3763e9d3e8da690bd35
+Description:  Carrier Route for Kamailio5
+
+Package: kamailio5-mod-cdp-avp
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-cdp
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 45612
+Filename: kamailio5-mod-cdp-avp_5.1.1-3_mvebu64.ipk
+Size: 45403
+MD5Sum: a2c6402d17b643055ae70dbb73aa514b
+SHA256sum: 0383ad0c41884f1a110c3158c0cfff8759d0e1c48ce9cb5075a80c68629d985b
+Description:  CDP AVP helper module for Kamailio5
+
+Package: kamailio5-mod-cdp
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 138177
+Filename: kamailio5-mod-cdp_5.1.1-3_mvebu64.ipk
+Size: 138674
+MD5Sum: 943d50db91dd8446bb22d43a0425431b
+SHA256sum: be4c498b7eb1ea86826e265ae2de72f28ad5699b04e7d2c2f969e2a065f2c10f
+Description:  C Diameter Peer for Kamailio5
+
+Package: kamailio5-mod-cfg-db
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-db-sqlite
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 9981
+Filename: kamailio5-mod-cfg-db_5.1.1-3_mvebu64.ipk
+Size: 10738
+MD5Sum: e12ce5f8a64e7624f0b347b802fb57f6
+SHA256sum: e4699f292834e27f0ba5cb6d741df59049a4f149d8917aa99152441224a28b9a
+Description:  Load parameters from database for Kamailio5
+
+Package: kamailio5-mod-cfg-rpc
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 5603
+Filename: kamailio5-mod-cfg-rpc_5.1.1-3_mvebu64.ipk
+Size: 6339
+MD5Sum: f9d7a603de17762b3d8e2c87caf33d2d
+SHA256sum: 9549000c3260b45a60a5fbf972311cd71e39648219a0e2aa643518b3f3dbdad4
+Description:  Update parameters via RPC for Kamailio5
+
+Package: kamailio5-mod-cfgt
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 30127
+Filename: kamailio5-mod-cfgt_5.1.1-3_mvebu64.ipk
+Size: 30832
+MD5Sum: daf74b558a3ae6eb5c2bae63b9b6a9ec
+SHA256sum: 76b5c21a32b7fab5e864c232cacf165d65332f110a5b1d2e11cff98d66a19cb0
+Description:  Unit test reporting for Kamailio5
+
+Package: kamailio5-mod-cfgutils
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 15172
+Filename: kamailio5-mod-cfgutils_5.1.1-3_mvebu64.ipk
+Size: 15873
+MD5Sum: 0c0f1bcb9ff56f248aa4c9929b9d6654
+SHA256sum: 0245a389e1a1cff42aff2d9a5a6ee226aaf72877235d8031eee3cf2c8b6edfa8
+Description:  Config utilities for Kamailio5
+
+Package: kamailio5-mod-cnxcc
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-dialog, libhiredis, libevent2
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 54265
+Filename: kamailio5-mod-cnxcc_5.1.1-3_mvebu64.ipk
+Size: 55039
+MD5Sum: d02421f45b5d0ce0e124c9218f54e6da
+SHA256sum: fa97883d874ac3aacde9f81aef128a6966956e0e76ca70f55e7f640fdfffc420
+Description:  Limit call duration for Kamailio5
+
+Package: kamailio5-mod-corex
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 19885
+Filename: kamailio5-mod-corex_5.1.1-3_mvebu64.ipk
+Size: 20584
+MD5Sum: e5275d9b5b62c0daf35f8089f31575cd
+SHA256sum: d567dc3dcebbc50502c228b7533d2faf84efac8e3de45060c5767b2ccdba902f
+Description:  Legacy functions for Kamailio5
+
+Package: kamailio5-mod-counters
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 5541
+Filename: kamailio5-mod-counters_5.1.1-3_mvebu64.ipk
+Size: 6246
+MD5Sum: 5c999748d4115c68730594d9bd467d94
+SHA256sum: 05d57177e4df64c73d7bd29b1b9bc9a4629248fd06c7bcd93b0f0f21235a35e9
+Description:  Functions for counter manipulation for Kamailio5
+
+Package: kamailio5-mod-cplc
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-sl, kamailio5-mod-tm, kamailio5-mod-usrloc
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 124513
+Filename: kamailio5-mod-cplc_5.1.1-3_mvebu64.ipk
+Size: 125206
+MD5Sum: e41be280aa040425f559f45b9a94b177
+SHA256sum: 832b2f00eefc2b7f5b9f2267787920f5a1db210c26ea71f005ea4d3200763acd
+Description:  Call Processing Language interpreter for Kamailio5
+
+Package: kamailio5-mod-crypto
+Version: 5.1.1-3
+Depends: libc, kamailio5, libopenssl
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 13397
+Filename: kamailio5-mod-crypto_5.1.1-3_mvebu64.ipk
+Size: 14130
+MD5Sum: f392b5a95895cb22394e34e3ad51b483
+SHA256sum: d2f5584266916247bbbaaf73c5df66d5b136e3f4bbad19c97453d971be8af31c
+Description:  Various cryptography tools for Kamailio5
+
+Package: kamailio5-mod-ctl
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 69532
+Filename: kamailio5-mod-ctl_5.1.1-3_mvebu64.ipk
+Size: 70324
+MD5Sum: 3eb3de307b1c51fc7d644393306d72c3
+SHA256sum: 4dbf54bd2bd3e37d19dd56dea6a575a817ca6fefcf7e58e65b018871aefaf555
+Description:  BINRPC transport interface for Kamailio5
+
+Package: kamailio5-mod-db-berkeley
+Version: 5.1.1-3
+Depends: libc, kamailio5, libdb47
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 73804
+Filename: kamailio5-mod-db-berkeley_5.1.1-3_mvebu64.ipk
+Size: 74562
+MD5Sum: d2e291c0222311e64f109156e9dafbb0
+SHA256sum: 32d6b65dac62c99ed4ca5e3fceba651300517f9decc90cbe0a076767d83971bd
+Description:  Berkeley DB backend for Kamailio5
+
+Package: kamailio5-mod-db-cluster
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 29354
+Filename: kamailio5-mod-db-cluster_5.1.1-3_mvebu64.ipk
+Size: 30072
+MD5Sum: 75b5eec567837c1b98f620d8229995ca
+SHA256sum: 4b4ba1eb3e3ca1ecaf5e1bdf76b73b84eed28b55b4550c2806aa77d69f56038e
+Description:  Database clustering system for Kamailio5
+
+Package: kamailio5-mod-db-flatstore
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 21057
+Filename: kamailio5-mod-db-flatstore_5.1.1-3_mvebu64.ipk
+Size: 21806
+MD5Sum: 63671efeb962cb91de90c4755fb96912
+SHA256sum: 598c7c0e83cc9e42dc7dc7ec615cf444e77b3fc06d5b43ef09c2579241bb94d2
+Description:  fast write-only text DB-backend for Kamailio5
+
+Package: kamailio5-mod-db-mysql
+Version: 5.1.1-3
+Depends: libc, kamailio5, libmysqlclient
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 52468
+Filename: kamailio5-mod-db-mysql_5.1.1-3_mvebu64.ipk
+Size: 53213
+MD5Sum: 344f60026d2891c717f58e26bdbeb548
+SHA256sum: fffb1fd43b7fbd2b3a70e862e9a85539047ed632a82d84434945e20efe3027e7
+Description:  MySQL DB-backend for Kamailio5
+
+Package: kamailio5-mod-db-postgres
+Version: 5.1.1-3
+Depends: libc, kamailio5, libpq
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 68493
+Filename: kamailio5-mod-db-postgres_5.1.1-3_mvebu64.ipk
+Size: 69188
+MD5Sum: 6c64543b40e061ab66f79cf377d790a5
+SHA256sum: e2a5c3fa9433c4ef83a64676601e8846e190de142147408d0e3d4c239c575f9b
+Description:  PostgreSQL DB-backend for Kamailio5
+
+Package: kamailio5-mod-db-sqlite
+Version: 5.1.1-3
+Depends: libc, kamailio5, libsqlite3
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 19211
+Filename: kamailio5-mod-db-sqlite_5.1.1-3_mvebu64.ipk
+Size: 19977
+MD5Sum: bdeb9d40a4dfb40affaf182a66eaf706
+SHA256sum: 945eafc98eb0412275fac6431c6b8290a7c3038ed15a29ea130405caaffa61b8
+Description:  SQLite DB-backend for Kamailio5
+
+Package: kamailio5-mod-db-text
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 59361
+Filename: kamailio5-mod-db-text_5.1.1-3_mvebu64.ipk
+Size: 60099
+MD5Sum: 2135a48eccf6a3e80538f1c7f1039ceb
+SHA256sum: 7dd5b533d855707d7b90efd634a8fcc4ee824459b9e15b3f3c8e3c39cd3d48d3
+Description:  Text DB-backend for Kamailio5
+
+Package: kamailio5-mod-db-unixodbc
+Version: 5.1.1-3
+Depends: libc, kamailio5, unixodbc
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 27984
+Filename: kamailio5-mod-db-unixodbc_5.1.1-3_mvebu64.ipk
+Size: 28736
+MD5Sum: b2538c88a2460a76363eefaf673d6e82
+SHA256sum: ce748fdea2c219f41ff5443a5ebc19739ae640eb952bc31d06f365c457c253b4
+Description:  UnixODBC DB-backend for Kamailio5
+
+Package: kamailio5-mod-db2-ldap
+Version: 5.1.1-3
+Depends: libc, kamailio5, libopenldap
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 32821
+Filename: kamailio5-mod-db2-ldap_5.1.1-3_mvebu64.ipk
+Size: 33610
+MD5Sum: 5e4444f497982932b56f99b5bf6734df
+SHA256sum: 2b3400bb33e7dde1c2d269d5a5b6ef3590893e19b7d3bddf172f7127aee49376
+Description:  DBv2 LDAP module for Kamailio5
+
+Package: kamailio5-mod-db2-ops
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 22527
+Filename: kamailio5-mod-db2-ops_5.1.1-3_mvebu64.ipk
+Size: 23257
+MD5Sum: 5b50d88f1ae4d55cb90a57ccb47dba71
+SHA256sum: 8f5732891be1261e1e41d18d45d7b1f184344263eed3c13d111e04cd83997121
+Description:  Run SQL queries from script for Kamailio5
+
+Package: kamailio5-mod-debugger
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 31891
+Filename: kamailio5-mod-debugger_5.1.1-3_mvebu64.ipk
+Size: 32673
+MD5Sum: b5da991a514ff216ebdae58b7fd798b8
+SHA256sum: 2723837acbce8632796def7819f230bb04d8b2cd103e3336cb7a108a8222aa52
+Description:  Interactive config file debugger for Kamailio5
+
+Package: kamailio5-mod-dialog
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-rr, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 148559
+Filename: kamailio5-mod-dialog_5.1.1-3_mvebu64.ipk
+Size: 149110
+MD5Sum: c658f5d6948237971bf325cdc5926b16
+SHA256sum: fc8bd014a19114a7a5e302846d5fcbc4bbe19db88a97df8ad537ce290706326a
+Description:  Dialog support for Kamailio5
+
+Package: kamailio5-mod-dialplan
+Version: 5.1.1-3
+Depends: libc, kamailio5, libpcre
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 45278
+Filename: kamailio5-mod-dialplan_5.1.1-3_mvebu64.ipk
+Size: 46038
+MD5Sum: 475a4efbe2c4c54a0637314693634610
+SHA256sum: 42baba4d1bcbf7e778c6d5aba7216b3284660d7c7be4edb9e300df8e4bbe2194
+Description:  Dialplan management for Kamailio5
+
+Package: kamailio5-mod-dispatcher
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 66639
+Filename: kamailio5-mod-dispatcher_5.1.1-3_mvebu64.ipk
+Size: 67328
+MD5Sum: be333ac03c1a97c62806ae6ff7bf8eeb
+SHA256sum: dce51fde3f3711f0ba15a9ff50448583e9ba4d3a39e6f8c6bfd061db70abf1e0
+Description:  Dispatcher for Kamailio5
+
+Package: kamailio5-mod-diversion
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 4563
+Filename: kamailio5-mod-diversion_5.1.1-3_mvebu64.ipk
+Size: 5315
+MD5Sum: 29bd27a6018184bc85e21eeea4123010
+SHA256sum: b3f0bb0f2aa80318e8bcb26920de9b9d92ca235cde3e1a78157f43112a596a33
+Description:  Diversion header insertion for Kamailio5
+
+Package: kamailio5-mod-dmq-usrloc
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-dmq, kamailio5-mod-usrloc
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 22348
+Filename: kamailio5-mod-dmq-usrloc_5.1.1-3_mvebu64.ipk
+Size: 23072
+MD5Sum: 9047d43e9a8847c2a4bb55ded83f00b6
+SHA256sum: d18bca70e388857264c33213b42d6f151f2d352336a00be6d0a42704f94fa43e
+Description:  DMQ USRLOC replication for Kamailio5
+
+Package: kamailio5-mod-dmq
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-sl, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 45568
+Filename: kamailio5-mod-dmq_5.1.1-3_mvebu64.ipk
+Size: 46351
+MD5Sum: ea350ec25b666d7fc51371df2c6e57be
+SHA256sum: c1d4f58a42a4febb305a0b5055b8ddd9b63290ee074b0e99610cf8ff6e151afa
+Description:  Distributed Message Queue for Kamailio5
+
+Package: kamailio5-mod-domain
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 19323
+Filename: kamailio5-mod-domain_5.1.1-3_mvebu64.ipk
+Size: 20076
+MD5Sum: 1c497d57f9877e7ef6297f066e4180fa
+SHA256sum: bcf8bfa66dd7685090f813d20612ac8549b442b6b4795caad45aae12ff51662b
+Description:  Multi-domain support for Kamailio5
+
+Package: kamailio5-mod-domainpolicy
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 25669
+Filename: kamailio5-mod-domainpolicy_5.1.1-3_mvebu64.ipk
+Size: 26393
+MD5Sum: 86dd26354708e227f384a0d577ba07d5
+SHA256sum: 5f6059ab9ebeb5069775b14d3dec3760aa8533993f813d0bacd4787701ab32ad
+Description:  Domain policy for Kamailio5
+
+Package: kamailio5-mod-drouting
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 48451
+Filename: kamailio5-mod-drouting_5.1.1-3_mvebu64.ipk
+Size: 49238
+MD5Sum: f734b41dcee51fd3e1601607ae6be651
+SHA256sum: 971b680c49775c23a03131ad2278b19e0e68fbda707a1e0cdefec00d759da467
+Description:  Dynamic routing module for Kamailio5
+
+Package: kamailio5-mod-enum
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 20433
+Filename: kamailio5-mod-enum_5.1.1-3_mvebu64.ipk
+Size: 21161
+MD5Sum: d4defcc4ae8d68a1c091457b6ae588b7
+SHA256sum: 82b4fa364f80a7a2957cba9927ff829a29fc1984886905536f22d8dad5c49adf
+Description:  ENUM lookup for Kamailio5
+
+Package: kamailio5-mod-evapi
+Version: 5.1.1-3
+Depends: libc, kamailio5, libev
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 27784
+Filename: kamailio5-mod-evapi_5.1.1-3_mvebu64.ipk
+Size: 28531
+MD5Sum: 468ee148683f4282e244f21f8aec78f5
+SHA256sum: 39e6e280bd2963babce9716f01ecda3c30bbaf7ffbc6018423a6d74f26fa4de5
+Description:  push event details via tcp for Kamailio5
+
+Package: kamailio5-mod-evrexec
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 5597
+Filename: kamailio5-mod-evrexec_5.1.1-3_mvebu64.ipk
+Size: 6339
+MD5Sum: f99a01c1ce5dd845e8a72bc5ce3f278a
+SHA256sum: 3a20d4fe915052d173d809f12ec5676a1021a74ab48b64fbe70d2eb0659ac6ba
+Description:  Execut event routes at startup for Kamailio5
+
+Package: kamailio5-mod-exec
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 21222
+Filename: kamailio5-mod-exec_5.1.1-3_mvebu64.ipk
+Size: 21936
+MD5Sum: 0e0e564dce82aa1571bcedbfe3160176
+SHA256sum: 58d2e6d60f1050de815219efae2b0519ca95f6ebbf9cf20dc6a1088454b48e3c
+Description:  External exec for Kamailio5
+
+Package: kamailio5-mod-group
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 14063
+Filename: kamailio5-mod-group_5.1.1-3_mvebu64.ipk
+Size: 14799
+MD5Sum: 471048a0f8b0a6eb7ecb3eb9a1cceed3
+SHA256sum: 44d880a9de3bcdf05cbd4032a3bd05f9cfb9bb07ad7bcdfe6ffe71f486127344
+Description:  Database-backend user-groups for Kamailio5
+
+Package: kamailio5-mod-gzcompress
+Version: 5.1.1-3
+Depends: libc, kamailio5, zlib
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 7965
+Filename: kamailio5-mod-gzcompress_5.1.1-3_mvebu64.ipk
+Size: 8743
+MD5Sum: 49475eb7d1df726afbf31a0e38a6a161
+SHA256sum: aa04eac32563f10073ff7dd25b0f02ee157c7ed84e141898c77b0cb5c90943ac
+Description:  Compress SIP messages for Kamailio5
+
+Package: kamailio5-mod-h350
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-ldap, libopenldap
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 12316
+Filename: kamailio5-mod-h350_5.1.1-3_mvebu64.ipk
+Size: 13074
+MD5Sum: 8970d5a9514b0547fc0f46a2687fecda
+SHA256sum: 4dbe9a26c8bcfdbd28b50c5bd5eacb600d4d5562347079837fe69da506cbb1e8
+Description:  H.350 for Kamailio5
+
+Package: kamailio5-mod-htable
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 58753
+Filename: kamailio5-mod-htable_5.1.1-3_mvebu64.ipk
+Size: 59525
+MD5Sum: 8f9d3b469ea4c410827df354867f5515
+SHA256sum: a63e4d9f92be1738503cc283d8a363682552758215e64382a1ba630a32f3405d
+Description:  Hash Table for Kamailio5
+
+Package: kamailio5-mod-http-client
+Version: 5.1.1-3
+Depends: libc, kamailio5, libcurl
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 46468
+Filename: kamailio5-mod-http-client_5.1.1-3_mvebu64.ipk
+Size: 47189
+MD5Sum: 95eb884d181d682392da727fb745ed70
+SHA256sum: aabb41bf0bcbdb0a53bc6323fd479da82df63a93a163c4123e0c6b41415be084
+Description:  HTTP client using CURL for Kamailio5
+
+Package: kamailio5-mod-imc
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-db-mysql, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 39558
+Filename: kamailio5-mod-imc_5.1.1-3_mvebu64.ipk
+Size: 40373
+MD5Sum: a4649724275d698d3bfa50c444971253
+SHA256sum: ef4368d8b4c5effc09f6d180b516d420773d85e4340ba42a9e77bc86886d07f4
+Description:  IM conferencing for Kamailio5
+
+Package: kamailio5-mod-ims-auth
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-lib-libkamailio-ims, kamailio5-mod-cdp, kamailio5-mod-cdp-avp, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 58317
+Filename: kamailio5-mod-ims-auth_5.1.1-3_mvebu64.ipk
+Size: 59126
+MD5Sum: f694c5bae5caf64f3bbf202e595bc1ba
+SHA256sum: b237c8071606e74949be22f748cbc80da1ca48d33d9bef3699beca921cff753d
+Description:  IMS authentication module for Kamailio5
+
+Package: kamailio5-mod-ims-charging
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-lib-libkamailio-ims, kamailio5-mod-cdp, kamailio5-mod-cdp-avp, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 96660
+Filename: kamailio5-mod-ims-charging_5.1.1-3_mvebu64.ipk
+Size: 97349
+MD5Sum: 7f6b22339d00e1ebbecf8eb8aea06008
+SHA256sum: c4b35f4024b4ca4669ebad7e2e7e2448952ae85ab05bb8943e0263cec4924c45
+Description:  IMS charging component module for Kamailio5
+
+Package: kamailio5-mod-ims-dialog
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-rr, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 121159
+Filename: kamailio5-mod-ims-dialog_5.1.1-3_mvebu64.ipk
+Size: 121855
+MD5Sum: 3a6b8e6b8f2f5384d7459bfd714aa5d7
+SHA256sum: 867a1f6994e5956e4e2063950fe91167ecc88a498b1ebb2f64f5b0d01e0fd606
+Description:  IMS dialog tracking module for Kamailio5
+
+Package: kamailio5-mod-ims-diameter-server
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-lib-libkamailio-ims, kamailio5-mod-cdp, kamailio5-mod-cdp-avp
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 24372
+Filename: kamailio5-mod-ims-diameter-server_5.1.1-3_mvebu64.ipk
+Size: 25069
+MD5Sum: 0f849bae09b86219efba281b7d165025
+SHA256sum: a30d3497d2e596b096eefff8a91b3319a74f27b75df189393f38b110fb2e3163
+Description:  IMS DIAMETER server module for Kamailio5
+
+Package: kamailio5-mod-ims-icscf
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-lib-libkamailio-ims, kamailio5-mod-cdp, kamailio5-mod-cdp-avp, kamailio5-mod-sl, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 48784
+Filename: kamailio5-mod-ims-icscf_5.1.1-3_mvebu64.ipk
+Size: 49630
+MD5Sum: 43b2f4fab5c4cfc6f200a7a7314817a7
+SHA256sum: 53907f012dcbcb340b62bc43e00f5e5da3d73851d5eb8dffcdbfe20289336520
+Description:  IMS ICSCF component module for Kamailio5
+
+Package: kamailio5-mod-ims-isc
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-lib-libkamailio-ims, kamailio5-mod-ims-usrloc-scscf, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 38005
+Filename: kamailio5-mod-ims-isc_5.1.1-3_mvebu64.ipk
+Size: 38853
+MD5Sum: 59cfedfb131f77769852e17b542e46a9
+SHA256sum: b9670f8bfbd9f66ca144944a2b03b45cb9757d3607d941a252f5150c6e843269
+Description:  IMS ISC component module for Kamailio5
+
+Package: kamailio5-mod-ims-ocs
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-lib-libkamailio-ims, kamailio5-mod-cdp, kamailio5-mod-cdp-avp
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 14700
+Filename: kamailio5-mod-ims-ocs_5.1.1-3_mvebu64.ipk
+Size: 15451
+MD5Sum: 1eb7f00816f1d7eeb88e718845bd0e81
+SHA256sum: 99dc006355ec433e519fdb85d0f07ec3929baf2810b181c6094fe878578ca9cd
+Description:  MS OCS component module for Kamailio5
+
+Package: kamailio5-mod-ims-qos
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-lib-libkamailio-ims, kamailio5-mod-cdp, kamailio5-mod-cdp-avp, kamailio5-mod-ims-dialog, kamailio5-mod-ims-usrloc-pcscf, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 91839
+Filename: kamailio5-mod-ims-qos_5.1.1-3_mvebu64.ipk
+Size: 92581
+MD5Sum: 757d2036a2be89371440ec0fecd501b0
+SHA256sum: e80d263d5bd68e3054a4e222f925ad33d1bd622c331f0a99e8886a1cea7c80a0
+Description:  IMS Diameter Rx interface between PCSCF and PCRF functions for Kamailio5
+
+Package: kamailio5-mod-ims-registrar-pcscf
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-lib-libkamailio-ims, kamailio5-mod-ims-usrloc-pcscf
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 66921
+Filename: kamailio5-mod-ims-registrar-pcscf_5.1.1-3_mvebu64.ipk
+Size: 67697
+MD5Sum: a9e15b2552f985ca89c5d32b0784850c
+SHA256sum: bcabfdde5ae2dcb1e1f288361539689adb35e09fcff84352a35e68c17cc26898
+Description:  MS PCSCF registrar module for Kamailio5
+
+Package: kamailio5-mod-ims-registrar-scscf
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-lib-libkamailio-ims, kamailio5-mod-cdp, kamailio5-mod-cdp-avp, kamailio5-mod-ims-usrloc-scscf, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 155185
+Filename: kamailio5-mod-ims-registrar-scscf_5.1.1-3_mvebu64.ipk
+Size: 155864
+MD5Sum: 5d9a9206ba4a91c06bd80610bb7df1c3
+SHA256sum: 1a191090a6a8f09a79428c3a81a694e5032db0bb81002698d62665245bc70736
+Description:  IMS SCSCF registrar module for Kamailio5
+
+Package: kamailio5-mod-ims-usrloc-pcscf
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 48100
+Filename: kamailio5-mod-ims-usrloc-pcscf_5.1.1-3_mvebu64.ipk
+Size: 48869
+MD5Sum: 736e3b7d2782e76101329ae8fb0b7ece
+SHA256sum: f2817edbebecee6cac955f53eb37832fba38331c40c6a1cc28e1762336f9474b
+Description:  IMS PCSCF usrloc module for Kamailio5
+
+Package: kamailio5-mod-ims-usrloc-scscf
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 117400
+Filename: kamailio5-mod-ims-usrloc-scscf_5.1.1-3_mvebu64.ipk
+Size: 118104
+MD5Sum: e61adb2f92ce22c8cda8e84c0d4060dd
+SHA256sum: 90d59ed5737cc4b441fa2c3db6473b9222fc97c2223bf05fe17c8173b040f71b
+Description:  IMS SCSCF usrloc module for Kamailio5
+
+Package: kamailio5-mod-ipops
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 43221
+Filename: kamailio5-mod-ipops_5.1.1-3_mvebu64.ipk
+Size: 43930
+MD5Sum: cd11928bd5dd68bf56386d60221e7148
+SHA256sum: 7fb08b077e7d637fad3fd48cfb468166cd879a41635e3bf693c7b67f8de3283f
+Description:  IP and IPv6 operations for Kamailio5
+
+Package: kamailio5-mod-jansson
+Version: 5.1.1-3
+Depends: libc, kamailio5, jansson
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 12457
+Filename: kamailio5-mod-jansson_5.1.1-3_mvebu64.ipk
+Size: 13206
+MD5Sum: f403983ed3e3ce05d9f41b38783b464c
+SHA256sum: 973cd81b327c0677b812f98037e62a9ec6ad5f1c74194b55b17f15227cb33286
+Description:  Access to JSON attributes for Kamailio5
+
+Package: kamailio5-mod-janssonrpcc
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-jansson, libevent2
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 55843
+Filename: kamailio5-mod-janssonrpcc_5.1.1-3_mvebu64.ipk
+Size: 56582
+MD5Sum: f60b64630ef9af8e04c51572022fab47
+SHA256sum: 98eab4233559952360022d08098cfc4c2de15ce0b72ac24108222a059d383f84
+Description:  Alternative JSONRPC server for Kamailio5
+
+Package: kamailio5-mod-json
+Version: 5.1.1-3
+Depends: libc, kamailio5, libjson-c
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 3780
+Filename: kamailio5-mod-json_5.1.1-3_mvebu64.ipk
+Size: 4537
+MD5Sum: a7fe45eeb05116c421330f5a692eca6c
+SHA256sum: 3c7f0c0bcec4db654f2c169d8281c3bc1c865a2b72a323dbccbd4b8b01310508
+Description:  Access to JSON document attributes for Kamailio5
+
+Package: kamailio5-mod-jsonrpcs
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-json, libevent2
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 50172
+Filename: kamailio5-mod-jsonrpcs_5.1.1-3_mvebu64.ipk
+Size: 50959
+MD5Sum: 8501f4131c4cf586412590ed338ee822
+SHA256sum: cd5dbb19f9689f6ea0cf0cfec3a74d685a6c3dc3ba978316ecabe3beee56d597
+Description:  JSONRPC server over HTTP for Kamailio5
+
+Package: kamailio5-mod-keepalive
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 10052
+Filename: kamailio5-mod-keepalive_5.1.1-3_mvebu64.ipk
+Size: 10797
+MD5Sum: d150c7d61f543a9b7570f7f95c6e911e
+SHA256sum: bde2ca144f244ba782bdbc867fb2a4caa2e911f201fe39ecb47c1f8dd8a484ac
+Description:  SIP keepalive monitoring for Kamailio5
+
+Package: kamailio5-mod-kex
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 15087
+Filename: kamailio5-mod-kex_5.1.1-3_mvebu64.ipk
+Size: 15779
+MD5Sum: 9077413082797907b07fd7cd539be64c
+SHA256sum: 5c2ab1832cc90ab9e08ac32653cd17bd947b55342c36eca490baac4f9e249217
+Description:  Core extensions for Kamailio5
+
+Package: kamailio5-mod-lcr
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-tm, libpcre
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 61835
+Filename: kamailio5-mod-lcr_5.1.1-3_mvebu64.ipk
+Size: 62572
+MD5Sum: cb02a78463a416ecf953591b83a32624
+SHA256sum: 91497a5f5a1b3449c24fbfe3a35a0685548a409fea359cab220ccb68bd22d268
+Description:  Least Cost Routing for Kamailio5
+
+Package: kamailio5-mod-ldap
+Version: 5.1.1-3
+Depends: libc, kamailio5, libopenldap
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 26438
+Filename: kamailio5-mod-ldap_5.1.1-3_mvebu64.ipk
+Size: 27094
+MD5Sum: 28258727f1e051ca009cedf35be94e09
+SHA256sum: 4033f750551ca12a7e44698e4b76423e94764fdc14a543d323e60aee4180cc60
+Description:  LDAP connector for Kamailio5
+
+Package: kamailio5-mod-log-custom
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 4204
+Filename: kamailio5-mod-log-custom_5.1.1-3_mvebu64.ipk
+Size: 4948
+MD5Sum: b7815885f927565d18ed817f4d974a0b
+SHA256sum: f59395e9918b16875efae59314f7a29f3c883ddc4cbeffcd24ecd977966ddad1
+Description:  Logging to custom backends for Kamailio5
+
+Package: kamailio5-mod-mangler
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 23705
+Filename: kamailio5-mod-mangler_5.1.1-3_mvebu64.ipk
+Size: 24415
+MD5Sum: c12da7d6ab96c1636029ddebcf2e42de
+SHA256sum: 3afe8cd84e750c1c174f15de949240578e2543b6934e9a795f6298b03a880a2f
+Description:  SDP mangling for Kamailio5
+
+Package: kamailio5-mod-matrix
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 11709
+Filename: kamailio5-mod-matrix_5.1.1-3_mvebu64.ipk
+Size: 12458
+MD5Sum: a7e084be4ef2009164e0cfb30ebbf1cb
+SHA256sum: a5b93a23cc482e120ffe32061343875000cfb9311da62a768b024caef2eb604d
+Description:  Matrix operations for Kamailio5
+
+Package: kamailio5-mod-maxfwd
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 6624
+Filename: kamailio5-mod-maxfwd_5.1.1-3_mvebu64.ipk
+Size: 7396
+MD5Sum: 2231ea69c49d0aa5f6649a63624cbe3d
+SHA256sum: 3afb889c975ea66f2110f62e10461fc2c79a8509ccfee94fc196e5dc1f98c1ee
+Description:  Max-Forward processor for Kamailio5
+
+Package: kamailio5-mod-mediaproxy
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-dialog
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 29330
+Filename: kamailio5-mod-mediaproxy_5.1.1-3_mvebu64.ipk
+Size: 30064
+MD5Sum: 0b6b664c177c813a909ed43d14d45be1
+SHA256sum: bb7d45a136cc95534ccf7b7b8976bab758d5b1fdb07cc5ba0df0deea4a11e749
+Description:  Automatic NAT traversal for Kamailio5
+
+Package: kamailio5-mod-mohqueue
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-rtpproxy, kamailio5-mod-sl, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 50326
+Filename: kamailio5-mod-mohqueue_5.1.1-3_mvebu64.ipk
+Size: 51067
+MD5Sum: 2eb6e60a65e2635164872c3beb427b8e
+SHA256sum: 2482920226df3a4d0ef9159428cca0806e7b9265372b9289273c1a1db98b8a8d
+Description:  Music on hold queuing system for Kamailio5
+
+Package: kamailio5-mod-mqueue
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 11283
+Filename: kamailio5-mod-mqueue_5.1.1-3_mvebu64.ipk
+Size: 11998
+MD5Sum: cdd3ca74374f9a451bc5e4d330ef652c
+SHA256sum: 4c1f03c3ace6aea7b62e319801758b9789537564493821ed816d581c52607825
+Description:  Generic message queue system for Kamailio5
+
+Package: kamailio5-mod-msilo
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 36537
+Filename: kamailio5-mod-msilo_5.1.1-3_mvebu64.ipk
+Size: 37307
+MD5Sum: 07761e40f95cf8f162e124b5499b1e11
+SHA256sum: 9765aacdfaf73a091080a85541492d5595d9a499738556a86bdd6e0ade5af6c8
+Description:  SIP message silo for Kamailio5
+
+Package: kamailio5-mod-msrp
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-tls
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 38822
+Filename: kamailio5-mod-msrp_5.1.1-3_mvebu64.ipk
+Size: 39623
+MD5Sum: 652cb0a1a8c8926b8e5c482f016880f3
+SHA256sum: b811a53abfec4e16035c7b532afcccd326eb89c69ebb4790f25ff3503e75c86b
+Description:  MSRP routing engine for Kamailio5
+
+Package: kamailio5-mod-mtree
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 34791
+Filename: kamailio5-mod-mtree_5.1.1-3_mvebu64.ipk
+Size: 35588
+MD5Sum: 4237b91191d1b22da5a391d9bfb3b938
+SHA256sum: 39b9457fe7bd4ca8b0c28ba123ca3de84ad100bde702df83ba3b651d579300f2
+Description:  Memory caching system for Kamailio5
+
+Package: kamailio5-mod-nat-traversal
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-dialog, kamailio5-mod-sl, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 27588
+Filename: kamailio5-mod-nat-traversal_5.1.1-3_mvebu64.ipk
+Size: 28339
+MD5Sum: ce781901c3a8c52bf44639853a0a60c8
+SHA256sum: 0a4c572e5177a61c5ec6599597b8adfdc21614f1184d5a4eb6277fdc5ac22dad
+Description:  NAT traversal for Kamailio5
+
+Package: kamailio5-mod-nathelper
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-usrloc
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 46403
+Filename: kamailio5-mod-nathelper_5.1.1-3_mvebu64.ipk
+Size: 47198
+MD5Sum: 62777fa0c1f5bd4fb8f76e0816ac6695
+SHA256sum: 8b69fa5e0e3168e9fa6d599e52bcb070eaaef6324edfb78decb65a408db99a8e
+Description:  NAT helper for Kamailio5
+
+Package: kamailio5-mod-ndb-redis
+Version: 5.1.1-3
+Depends: libc, kamailio5, libhiredis
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 35785
+Filename: kamailio5-mod-ndb-redis_5.1.1-3_mvebu64.ipk
+Size: 36600
+MD5Sum: e2a2371433a6888dedcd94d85a801d22
+SHA256sum: fe7997797d30140aad661ab446b721ae57ccff2351da63dff2ab1bf94b4a3bd2
+Description:  Connect to REDIS NoSQL for Kamailio5
+
+Package: kamailio5-mod-nosip
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-rr
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 3671
+Filename: kamailio5-mod-nosip_5.1.1-3_mvebu64.ipk
+Size: 4416
+MD5Sum: 421eea4583cb72f70a6cf6dd6ec7f3f8
+SHA256sum: 79b602634172d464779f9d828f37c83d91711d4cc46a7c113a59f98cf63fd261
+Description:  non-sip package handling for Kamailio5
+
+Package: kamailio5-mod-outbound
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-stun, libopenssl
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 11212
+Filename: kamailio5-mod-outbound_5.1.1-3_mvebu64.ipk
+Size: 11939
+MD5Sum: 7863aedd75544f1b7178305174ac6076
+SHA256sum: 751ee7b6d779a18e2ce846a7910303b9a22416327b56ee72e807951ec772d9b6
+Description:  SIP Outbound implementation for Kamailio5
+
+Package: kamailio5-mod-p-usrloc
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 85390
+Filename: kamailio5-mod-p-usrloc_5.1.1-3_mvebu64.ipk
+Size: 86115
+MD5Sum: fb6165e8d000dd867115b99ca7319414
+SHA256sum: 2996c0349d5f0eb8ecd367505fc9955f4d21c981d19fbec93a588538887f66f5
+Description:  Partitioned USRLOC services for Kamailio5
+
+Package: kamailio5-mod-path
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-rr
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 10477
+Filename: kamailio5-mod-path_5.1.1-3_mvebu64.ipk
+Size: 11222
+MD5Sum: 6b16da2db551f64b2d026df30d6416d3
+SHA256sum: 5b53248d662769f5e24226b8b239bcf42ce1d1ea1224e34cae0ba66119731fda
+Description:  SIP path insertion for Kamailio5
+
+Package: kamailio5-mod-pdb
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 15516
+Filename: kamailio5-mod-pdb_5.1.1-3_mvebu64.ipk
+Size: 16226
+MD5Sum: 2c8ada31ca3273c2e92797401eab9333
+SHA256sum: 43c6fe44e5e173928f90ebae42439cd25a8830c61452dc87fd9ca787c213d14f
+Description:  Number portability module for Kamailio5
+
+Package: kamailio5-mod-pdt
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 20837
+Filename: kamailio5-mod-pdt_5.1.1-3_mvebu64.ipk
+Size: 21579
+MD5Sum: 788c51ce909e96b30f6a1bba2e0f2bd8
+SHA256sum: dd33bee049c4d2ad2f91ff7ce5c3e6dab7bf991a306af915c1ee3f92243c4d96
+Description:  Prefix-to-Domain translator for Kamailio5
+
+Package: kamailio5-mod-permissions
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 54807
+Filename: kamailio5-mod-permissions_5.1.1-3_mvebu64.ipk
+Size: 55501
+MD5Sum: 4bcb4f979b06d526ab65751e747aee63
+SHA256sum: fc4f258f34014370e00e2f2307f5017f3c2ca385ba13fdaae90e72ba1b218fd0
+Description:  Permissions control for Kamailio5
+
+Package: kamailio5-mod-pike
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 19539
+Filename: kamailio5-mod-pike_5.1.1-3_mvebu64.ipk
+Size: 20276
+MD5Sum: 248597b7a453bb519e7b308d7ab7e79d
+SHA256sum: aed022c1dcc24c5a72254e112617862c033785cdeaf2b5ad7421629cd1655385
+Description:  Flood detector for Kamailio5
+
+Package: kamailio5-mod-pipelimit
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-sl
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 23981
+Filename: kamailio5-mod-pipelimit_5.1.1-3_mvebu64.ipk
+Size: 24688
+MD5Sum: 7ef8244806369091b95b8d1a50ac3630
+SHA256sum: 1da297302dce2e4be5dcee923e8f958b3bc5a84b38898b3919a60d09c2782375
+Description:  Traffic shaping policies for Kamailio5
+
+Package: kamailio5-mod-prefix-route
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 11368
+Filename: kamailio5-mod-prefix-route_5.1.1-3_mvebu64.ipk
+Size: 12110
+MD5Sum: 7c5ae4ee75acd240f02a688e5a625b96
+SHA256sum: c098fc7526ac6473774955d13dfe50b0c731654166d07d698d2de46e596025b2
+Description:  Execute based on prefix for Kamailio5
+
+Package: kamailio5-mod-presence-conference
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-presence
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 8672
+Filename: kamailio5-mod-presence-conference_5.1.1-3_mvebu64.ipk
+Size: 9437
+MD5Sum: 7f63e8837b4e675fd473e56bfa6656f9
+SHA256sum: 42e442127037d7abef1c479d6eb2ba1ef114b3e446004a9c700e16d4f676cb4a
+Description:  Conference events for Kamailio5
+
+Package: kamailio5-mod-presence-dialoginfo
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-presence
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 16808
+Filename: kamailio5-mod-presence-dialoginfo_5.1.1-3_mvebu64.ipk
+Size: 17574
+MD5Sum: 9627b74f049d3a003edcd55b18d149fc
+SHA256sum: d086c684209260fb442dea53f6a6586ea4dbdee824e107db8c0ea6495e332495
+Description:  Dialog Event presence for Kamailio5
+
+Package: kamailio5-mod-presence-mwi
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-presence
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 4012
+Filename: kamailio5-mod-presence-mwi_5.1.1-3_mvebu64.ipk
+Size: 4753
+MD5Sum: b54302dd951e7a766ae557887e216981
+SHA256sum: 9fea4c9077529493d33483c7e61632da22ca1c3ee3535f26901ae553668096ef
+Description:  MWI presence for Kamailio5
+
+Package: kamailio5-mod-presence-profile
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-presence
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 3054
+Filename: kamailio5-mod-presence-profile_5.1.1-3_mvebu64.ipk
+Size: 3788
+MD5Sum: bcc639f63c8669c801fbf8219a78649e
+SHA256sum: 772edda5a9ed1870629962052e377e463ab28de8fc83813d0e2ced67cbe61e37
+Description:  User profile extensions for Kamailio5
+
+Package: kamailio5-mod-presence-reginfo
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-presence
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 3031
+Filename: kamailio5-mod-presence-reginfo_5.1.1-3_mvebu64.ipk
+Size: 3767
+MD5Sum: 08a1be67992cda2a721fec53430d6cf6
+SHA256sum: 5761b2d88a1bf4ab69d465553628d589c7241d3be3e6a298994b489158f9f0d3
+Description:  Registration info for Kamailio5
+
+Package: kamailio5-mod-presence-xml
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-presence, kamailio5-mod-xcap-client
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 40467
+Filename: kamailio5-mod-presence-xml_5.1.1-3_mvebu64.ipk
+Size: 41266
+MD5Sum: 9cc05691c5017fd0cf942dfaca039145
+SHA256sum: d7a9b1988deeab76dae4cc0db6e9bc97b5cb15e5abf014b7ccc54faf51a56514
+Description:  XCAP presence for Kamailio5
+
+Package: kamailio5-mod-presence
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-sl, kamailio5-mod-tm, libxml2
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 170148
+Filename: kamailio5-mod-presence_5.1.1-3_mvebu64.ipk
+Size: 170783
+MD5Sum: fc0ac5985f1e08439b52d0c2eb4b5a98
+SHA256sum: d2159b3572f7f4f9d30d69586f8356ae80c45901c00b001fcb70d2c53f820fdb
+Description:  Presence server for Kamailio5
+
+Package: kamailio5-mod-pua-bla
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-presence, kamailio5-mod-pua, kamailio5-mod-usrloc
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 11681
+Filename: kamailio5-mod-pua-bla_5.1.1-3_mvebu64.ipk
+Size: 12449
+MD5Sum: 35dbe7b468ddf290e1f87bccbf0e7b12
+SHA256sum: 4a350eb4b86b8cdaca0b4068aee40d937855f0d66f79918e00191cba8de98a83
+Description:  Bridged Line Appearence PUA for Kamailio5
+
+Package: kamailio5-mod-pua-dialoginfo
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-dialog, kamailio5-mod-pua
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 19313
+Filename: kamailio5-mod-pua-dialoginfo_5.1.1-3_mvebu64.ipk
+Size: 20094
+MD5Sum: 43a915f3622ee836e44613ff4c3c0396
+SHA256sum: 92eb2ada2c3464c46d921532f85ea4a67071387d12b3b01d56ee46d311184ac0
+Description:  Dialog Event PUA for Kamailio5
+
+Package: kamailio5-mod-pua-reginfo
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-pua, kamailio5-mod-usrloc
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 21417
+Filename: kamailio5-mod-pua-reginfo_5.1.1-3_mvebu64.ipk
+Size: 22176
+MD5Sum: 92ce81bcaee6810ec2916044ec5df26b
+SHA256sum: 7a0a483628778f7354bfbbca6c5a76f6c57e0cc59c401ccf05b84000b0f2ca89
+Description:  PUA registration info for Kamailio5
+
+Package: kamailio5-mod-pua-rpc
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-pua
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 9742
+Filename: kamailio5-mod-pua-rpc_5.1.1-3_mvebu64.ipk
+Size: 10492
+MD5Sum: 372e2d8633c83441f8cbd51936757e4c
+SHA256sum: 349a2246d0fbda7cc6082e8334ef24518ed46f3030ec057186b2ea1a6c974707
+Description:  RPC extensions for PUA for Kamailio5
+
+Package: kamailio5-mod-pua-usrloc
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-pua, kamailio5-mod-usrloc
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 11547
+Filename: kamailio5-mod-pua-usrloc_5.1.1-3_mvebu64.ipk
+Size: 12296
+MD5Sum: 2ca0a62fabf70bd372f8fcab99c85f98
+SHA256sum: baa0063b791f883f018acc55c5a14f9a16d361a95bf4105c8e3ca857a68beea5
+Description:  PUA User Location for Kamailio5
+
+Package: kamailio5-mod-pua-xmpp
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-presence, kamailio5-mod-pua, kamailio5-mod-xmpp
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 33854
+Filename: kamailio5-mod-pua-xmpp_5.1.1-3_mvebu64.ipk
+Size: 34669
+MD5Sum: 20de72d5fd2437343f90f66d18ec86e3
+SHA256sum: 173444fc3dd624e5f26ac50c85199acaecba50ed029d16237c5756d248f25c50
+Description:  PUA XMPP for Kamailio5
+
+Package: kamailio5-mod-pua
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-tm, libxml2
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 88483
+Filename: kamailio5-mod-pua_5.1.1-3_mvebu64.ipk
+Size: 89225
+MD5Sum: 2a3d32ab3af7121ad6eeb4e09320e62a
+SHA256sum: 2fd36cca2e3c493f1dff3ec18eab1eb04ce35db615a943c24bce0e1159937d03
+Description:  Presence User Agent for Kamailio5
+
+Package: kamailio5-mod-pv
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 120184
+Filename: kamailio5-mod-pv_5.1.1-3_mvebu64.ipk
+Size: 120696
+MD5Sum: 324f16410c02c03583a853e901c0654e
+SHA256sum: 3ee2a577b26606696b539c4afbea5588b4f356091d6d94c0df0e43c7ad481a98
+Description:  Pseudo-Variables for Kamailio5
+
+Package: kamailio5-mod-qos
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-dialog
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 24468
+Filename: kamailio5-mod-qos_5.1.1-3_mvebu64.ipk
+Size: 25156
+MD5Sum: 00a33da67e019ff40a5fd9d436db271a
+SHA256sum: 6daebb8eecb078e0440e1777d138bd9dd80f60d3eaad9a08213cd8fb5801b9c1
+Description:  QoS control for Kamailio5
+
+Package: kamailio5-mod-ratelimit
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 22086
+Filename: kamailio5-mod-ratelimit_5.1.1-3_mvebu64.ipk
+Size: 22817
+MD5Sum: 01dc40a6f68d811c6c5f44d47f1c866b
+SHA256sum: 1e38308bb9df1704979d67f458cf2af46c26b4d6b17c9fe74319a5d6588af86e
+Description:  Traffic shapping for Kamailio5
+
+Package: kamailio5-mod-regex
+Version: 5.1.1-3
+Depends: libc, kamailio5, libpcre
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 14497
+Filename: kamailio5-mod-regex_5.1.1-3_mvebu64.ipk
+Size: 15238
+MD5Sum: 86fcccafc9ee3ebded438d46e3d3613a
+SHA256sum: ce1e436ddafc0359b9510b90d32de145c109c4c0a32e7c8ba398bb7827a79a06
+Description:  Regular Expression for Kamailio5
+
+Package: kamailio5-mod-registrar
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-usrloc
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 64692
+Filename: kamailio5-mod-registrar_5.1.1-3_mvebu64.ipk
+Size: 65456
+MD5Sum: 1cc8888a1d2609b5219acf2cca633039
+SHA256sum: 2ad43b70c19131fdcb9b1fea9678846b4317c9150c77057902c8ea18fe103c48
+Description:  SIP Registrar for Kamailio5
+
+Package: kamailio5-mod-rls
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-presence, kamailio5-mod-pua, kamailio5-mod-tm, libxml2
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 104803
+Filename: kamailio5-mod-rls_5.1.1-3_mvebu64.ipk
+Size: 105523
+MD5Sum: c8b4a8589ee5364a12e9fb1dc45a14fc
+SHA256sum: 57290fce3cfc68a3ca3c9d3ba49945e664761755b053a3001f1c3ebc0f769256
+Description:  Resource List Server for Kamailio5
+
+Package: kamailio5-mod-rr
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 40518
+Filename: kamailio5-mod-rr_5.1.1-3_mvebu64.ipk
+Size: 41322
+MD5Sum: e4bd12b36b948bb3279e6f2b83afd691
+SHA256sum: 4c1dfc0db33e4dbe28169d309e410f07de53bc38c9d788197dd94630ba001458
+Description:  Record-Route and Route for Kamailio5
+
+Package: kamailio5-mod-rtimer
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 7294
+Filename: kamailio5-mod-rtimer_5.1.1-3_mvebu64.ipk
+Size: 8044
+MD5Sum: 34ced1aca4849fd07e539e7d947389af
+SHA256sum: f54805b49d47c0cd328ac9f9a97a3d5c0d7ce68547cc15a810062781e427c3bf
+Description:  Routing Timer for Kamailio5
+
+Package: kamailio5-mod-rtjson
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 12972
+Filename: kamailio5-mod-rtjson_5.1.1-3_mvebu64.ipk
+Size: 13719
+MD5Sum: 29e0aa79cc36d8af74ded20827280dd6
+SHA256sum: 1d7f278b62e304ef2b36fcc43e5aacab553f6cd223247c59e7cb6beeaf0893e9
+Description:  SIP routing based on JSON API for Kamailio5
+
+Package: kamailio5-mod-rtpengine
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 68587
+Filename: kamailio5-mod-rtpengine_5.1.1-3_mvebu64.ipk
+Size: 69344
+MD5Sum: 38e03ff7966f8b6bd49fb1d9db785713
+SHA256sum: 1251d6d7fd2aaa1a28dea4b3e688860b1037c2e87c0861422ac22834547e4500
+Description:  RTP engine for Kamailio5
+
+Package: kamailio5-mod-rtpproxy
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 48754
+Filename: kamailio5-mod-rtpproxy_5.1.1-3_mvebu64.ipk
+Size: 49512
+MD5Sum: ae5393966544c61949c1fe31a9c18c85
+SHA256sum: eef8d2bec0b7161a62a60c3bcf98c73ec0dd72cf1a9ac9abb7707437e07e9f55
+Description:  RTP proxy for Kamailio5
+
+Package: kamailio5-mod-sanity
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-sl
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 18556
+Filename: kamailio5-mod-sanity_5.1.1-3_mvebu64.ipk
+Size: 19296
+MD5Sum: 911569d468f8f8b6878ba95edd485056
+SHA256sum: bbee0f6dee8a6d38907ca4b6d2586c73901292d34f35979d18396ea13441865e
+Description:  SIP sanity checks for Kamailio5
+
+Package: kamailio5-mod-sca
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-sl, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 113675
+Filename: kamailio5-mod-sca_5.1.1-3_mvebu64.ipk
+Size: 114313
+MD5Sum: ddc0bbb0978a9a5fdca1b977440d0a24
+SHA256sum: 3bedd177be1f8cda09677fbba60c495acb695bcea7ff38b53247d0c5b5502d86
+Description:  Shared Call Appearances for Kamailio5
+
+Package: kamailio5-mod-sctp
+Version: 5.1.1-3
+Depends: libc, kamailio5, libsctp
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 38018
+Filename: kamailio5-mod-sctp_5.1.1-3_mvebu64.ipk
+Size: 38843
+MD5Sum: d6d0ec12f31e08aec2938f60d5aaead1
+SHA256sum: cdacc5b1442076235717dbb9a41e737feddf5c8ec1404fba14879a31f09cecc9
+Description:  SCTP support for Kamailio5
+
+Package: kamailio5-mod-sdpops
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 30154
+Filename: kamailio5-mod-sdpops_5.1.1-3_mvebu64.ipk
+Size: 30867
+MD5Sum: dcd31683e836804b4b536ef7351b138c
+SHA256sum: f70536068428327cd1a369b6d60952ff65ae5b0f9e003dbafabb294ef6b32595
+Description:  Managing SDP payloads for Kamailio5
+
+Package: kamailio5-mod-seas
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 109595
+Filename: kamailio5-mod-seas_5.1.1-3_mvebu64.ipk
+Size: 110305
+MD5Sum: c8badddf3bb63262898a9c23684736f6
+SHA256sum: 38bc1b3d6fe6df4b90f213e7cd6d1bbcbfd99cee6db1165e60deb7a3e19201d5
+Description:  Sip Express Application Server for Kamailio5
+
+Package: kamailio5-mod-sipcapture
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 56368
+Filename: kamailio5-mod-sipcapture_5.1.1-3_mvebu64.ipk
+Size: 57136
+MD5Sum: c4bb0c56ad70b7aba281dc6b78396878
+SHA256sum: e023750c0347a079c83f73e1ee58bf025a380a52c8d6cc78995ef2dc13db3929
+Description:  SIP capture for Kamailio5
+
+Package: kamailio5-mod-sipdump
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 11676
+Filename: kamailio5-mod-sipdump_5.1.1-3_mvebu64.ipk
+Size: 12399
+MD5Sum: 43541cac91b7e3a5766b3cde55f8e30d
+SHA256sum: cd3a7ce2cefd61d7f6d87cc217c1094987c671d2b5ceefd476716c258a24ecbf
+Description:  Save SIP traffic for Kamailio5
+
+Package: kamailio5-mod-sipt
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 12161
+Filename: kamailio5-mod-sipt_5.1.1-3_mvebu64.ipk
+Size: 12882
+MD5Sum: 7b2fea130da6a627be5e7380ce5e3c47
+SHA256sum: a87320a227efb59a940df802d933105f80ba69eec6a1536a3a489bd082422d8c
+Description:  SIP-T and SIP-I operations for Kamailio5
+
+Package: kamailio5-mod-siptrace
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 55884
+Filename: kamailio5-mod-siptrace_5.1.1-3_mvebu64.ipk
+Size: 56617
+MD5Sum: 23f59ca36f5cfc94e206e06993d7ec2a
+SHA256sum: a43470be60049d3c3bbc369a6ea5f3c11d0f20b1d28e5ebe5ef2afeb97d0c03d
+Description:  SIP trace for Kamailio5
+
+Package: kamailio5-mod-siputils
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-sl
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 49664
+Filename: kamailio5-mod-siputils_5.1.1-3_mvebu64.ipk
+Size: 50494
+MD5Sum: 0aa05959e553da33097807c1bb6b8378
+SHA256sum: a52c943a1217776bbb018ddac1e5d781870501f7f4ef86cfb5466eac4309a0dd
+Description:  SIP utilities for Kamailio5
+
+Package: kamailio5-mod-sl
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 23977
+Filename: kamailio5-mod-sl_5.1.1-3_mvebu64.ipk
+Size: 24633
+MD5Sum: af4f2cb5d04bd78a1f33cd1e12b75ae8
+SHA256sum: 4e4dc4adc1847323e14b71b110dcb18655c796ce6e289045b39eca9d847241f0
+Description:  Stateless replier for Kamailio5
+
+Package: kamailio5-mod-sms
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 44482
+Filename: kamailio5-mod-sms_5.1.1-3_mvebu64.ipk
+Size: 45255
+MD5Sum: 5fe0461c1a191d28f15ee0074521f6c5
+SHA256sum: ec3c156578f5509e98b176dcbbf0c2541d826c74131cf23731bec94de6a0ce94
+Description:  SIP-to-SMS IM gateway for Kamailio5
+
+Package: kamailio5-mod-smsops
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 13103
+Filename: kamailio5-mod-smsops_5.1.1-3_mvebu64.ipk
+Size: 13840
+MD5Sum: 4bf08c8166c5757875cdd1a6d857aaaa
+SHA256sum: 57b01a5cedd580d2914e1f454bb7d41092c59ca47346859d97a3ee7319732f6a
+Description:  Handle SMS packets in SIP for Kamailio5
+
+Package: kamailio5-mod-snmpstats
+Version: 5.1.1-3
+Depends: libc, kamailio5, libnetsnmp
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 67053
+Filename: kamailio5-mod-snmpstats_5.1.1-3_mvebu64.ipk
+Size: 67733
+MD5Sum: 71f4a23b2a891bfb7c2cd51ff2766eed
+SHA256sum: 2a9d840d0cc07d55da3073577940b4ef24ee462e09e529d851f49a1d6e6b521b
+Description:  SNMP interface for statistics for Kamailio5
+
+Package: kamailio5-mod-speeddial
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 7381
+Filename: kamailio5-mod-speeddial_5.1.1-3_mvebu64.ipk
+Size: 8151
+MD5Sum: 2cd00e93e32060b3b21be8b0bb1d43d4
+SHA256sum: b9dcb1a4fdb48de2ff7c94bb889454138b71c8488280c921fab56c51dd5e97fd
+Description:  Per-user speed-dial controller for Kamailio5
+
+Package: kamailio5-mod-sqlops
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 24189
+Filename: kamailio5-mod-sqlops_5.1.1-3_mvebu64.ipk
+Size: 24893
+MD5Sum: 1d9c1bd6b1273bbfa842e37e2bf3bfce
+SHA256sum: bd80eac24507e32abf6103aeb19951e9f9d3dab97dcfd1b3c0470f2185685766
+Description:  SQL operations for Kamailio5
+
+Package: kamailio5-mod-ss7ops
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 22627
+Filename: kamailio5-mod-ss7ops_5.1.1-3_mvebu64.ipk
+Size: 23322
+MD5Sum: 67fc89a0eba7644e184e0e2eb0188938
+SHA256sum: 9f50e12111d9df839c41985abb22a66a37e5b57278cdc6f58dd337da633d5cc1
+Description:  JSON Operations for SS7 over HEP for Kamailio5
+
+Package: kamailio5-mod-sst
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-dialog, kamailio5-mod-sl
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 17843
+Filename: kamailio5-mod-sst_5.1.1-3_mvebu64.ipk
+Size: 18617
+MD5Sum: ce4163baab694c35ec2a8965de81025a
+SHA256sum: 99d6817065b61db689836e7c479ca11c1d88fb3b277816d0e435fa3a7379d87d
+Description:  SIP Session Timer for Kamailio5
+
+Package: kamailio5-mod-statistics
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 7106
+Filename: kamailio5-mod-statistics_5.1.1-3_mvebu64.ipk
+Size: 7865
+MD5Sum: a70a41870a40d43ebfe068d8b43cc9b1
+SHA256sum: 5a988eb0d9edf8028ac06bbaf124dab65d5db96e9ce31570b6a54785a8bafecb
+Description:  Script statistics for Kamailio5
+
+Package: kamailio5-mod-statsc
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 7097
+Filename: kamailio5-mod-statsc_5.1.1-3_mvebu64.ipk
+Size: 7840
+MD5Sum: bd80f716e96660a47102f3aefe2dabdd
+SHA256sum: 7223b12f14f6f4896055faab3f31ddbd79804c92610038e9db777c54a190bac7
+Description:  Statistics collector for Kamailio5
+
+Package: kamailio5-mod-statsd
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 7554
+Filename: kamailio5-mod-statsd_5.1.1-3_mvebu64.ipk
+Size: 8319
+MD5Sum: dffd808f5c1c1c3b947a7f1fc3ea86e3
+SHA256sum: d60a55b26876a7305b409303330d33519c4ba760c66e5d122d1e3eea5c0fae7d
+Description:  Connector for statsd application for Kamailio5
+
+Package: kamailio5-mod-stun
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 12085
+Filename: kamailio5-mod-stun_5.1.1-3_mvebu64.ipk
+Size: 12833
+MD5Sum: 8eb9752dcbcbced512a29401711db512
+SHA256sum: 3154df3f649bc92f176ac6e90b0041a9b667f3dd1a1c63282af2481bffcce417
+Description:  STUN server support for Kamailio5
+
+Package: kamailio5-mod-tcpops
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 12982
+Filename: kamailio5-mod-tcpops_5.1.1-3_mvebu64.ipk
+Size: 13727
+MD5Sum: d72e5281f06b39022c9cc343d6ecbd9f
+SHA256sum: 847e9b663f858353fd7647d586c1ab3e3e74c87600660c98b721cd0058c4bdbb
+Description:  TCP options tweaking operations for Kamailio5
+
+Package: kamailio5-mod-textops
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 61767
+Filename: kamailio5-mod-textops_5.1.1-3_mvebu64.ipk
+Size: 62506
+MD5Sum: 4b547a39a4f8841f144059cd837ef849
+SHA256sum: aef22681c08488278bd6e8b162bdc2b48c75f1a42c89f9e204abcec3c162eaf4
+Description:  Text operations for Kamailio5
+
+Package: kamailio5-mod-textopsx
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 23524
+Filename: kamailio5-mod-textopsx_5.1.1-3_mvebu64.ipk
+Size: 24226
+MD5Sum: c171b13fbda806b29661e1ffb243693b
+SHA256sum: 097aa1c523f42b56557c8427d3df78e9efd1e2c98cae245306695e97e76d2141
+Description:  Extra text operations for Kamailio5
+
+Package: kamailio5-mod-timer
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 8791
+Filename: kamailio5-mod-timer_5.1.1-3_mvebu64.ipk
+Size: 9557
+MD5Sum: db30dcd3dda06b042cf71ca7018b0c48
+SHA256sum: 3f08393978fc49b05ec744280adec640cdabc11828fd79256470b7895e8d17cc
+Description:  Execute routing blocks on core timers for Kamailio5
+
+Package: kamailio5-mod-tls
+Version: 5.1.1-3
+Depends: libc, kamailio5, libopenssl
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 99964
+Filename: kamailio5-mod-tls_5.1.1-3_mvebu64.ipk
+Size: 100522
+MD5Sum: 2ba9888065295a9af05cd34a34a168c1
+SHA256sum: f31209b59eb8a996fb54c2fde93280bd14124930de702d11d5da514ea5421907
+Description:  TLS operations for Kamailio5
+
+Package: kamailio5-mod-tm
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 266285
+Filename: kamailio5-mod-tm_5.1.1-3_mvebu64.ipk
+Size: 266389
+MD5Sum: 2901d9f2e97fd2f46688a8c8804e038a
+SHA256sum: 28459fbc61632743e2f3a838175b7e13d5d2c1fc5c7c0c81532c78494f9ff36f
+Description:  Transaction for Kamailio5
+
+Package: kamailio5-mod-tmrec
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 6182
+Filename: kamailio5-mod-tmrec_5.1.1-3_mvebu64.ipk
+Size: 6953
+MD5Sum: 524c59f012e9bb6f5aa5cd670f267353
+SHA256sum: 5d3dd24139d65c9a2ae42c002642f8828e8c25edede08b076d519605061e1dc7
+Description:  Match time recurrences for Kamailio5
+
+Package: kamailio5-mod-tmx
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 25313
+Filename: kamailio5-mod-tmx_5.1.1-3_mvebu64.ipk
+Size: 26025
+MD5Sum: 638051124bc5151d7b270b26ba8adfa0
+SHA256sum: d67f7caf54c4ccc701b47e85e02da3c55814a49d793db0f9d97a301da9d74903
+Description:  Transaction module extensions for Kamailio5
+
+Package: kamailio5-mod-topoh
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-rr
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 33033
+Filename: kamailio5-mod-topoh_5.1.1-3_mvebu64.ipk
+Size: 33794
+MD5Sum: 6248970624e32151b10a9a3a3fe8c643
+SHA256sum: f4bfe214a1964ed7a024f5e043b7e125180f4843551d6b76c8b41f24eb1c0bb6
+Description:  Topology hiding for Kamailio5
+
+Package: kamailio5-mod-topos-redis
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-ndb-redis, kamailio5-mod-topos
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 30228
+Filename: kamailio5-mod-topos-redis_5.1.1-3_mvebu64.ipk
+Size: 30893
+MD5Sum: 9ac2f2832d3b55c129a81bb423605338
+SHA256sum: 55ab7c164e16970e2016c682438853c8a4984459ab70578fef224eb05a0b02b7
+Description:  Redis backend for topos module for Kamailio5
+
+Package: kamailio5-mod-topos
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-rr
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 41207
+Filename: kamailio5-mod-topos_5.1.1-3_mvebu64.ipk
+Size: 41835
+MD5Sum: d136174c122587352cc3270f90208123
+SHA256sum: a0e423441fc9feb87859f030c024e39798c21ca0fbdd2ff6a9f5cd458e281bca
+Description:  Topology stripping module for Kamailio5
+
+Package: kamailio5-mod-tsilo
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-registrar, kamailio5-mod-sl, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 19756
+Filename: kamailio5-mod-tsilo_5.1.1-3_mvebu64.ipk
+Size: 20520
+MD5Sum: 83fbbc7cdca92219b176a930373aed80
+SHA256sum: 4a290fd51bd5a3cd822d8ac54ffcf4922925881a6cfe9191628d828c3d34bac0
+Description:  Transaction storage for Kamailio5
+
+Package: kamailio5-mod-uac-redirect
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 13252
+Filename: kamailio5-mod-uac-redirect_5.1.1-3_mvebu64.ipk
+Size: 13995
+MD5Sum: cd723479070436bb50f25c9eea04226c
+SHA256sum: b19feeb591dbd02c3e551708c42f1293ab0f13671cf6d8630aab6229d555d814
+Description:  User Agent Client redirection for Kamailio5
+
+Package: kamailio5-mod-uac
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-tm
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 75345
+Filename: kamailio5-mod-uac_5.1.1-3_mvebu64.ipk
+Size: 76080
+MD5Sum: 067a6e08977fff2de617ba142be2e61e
+SHA256sum: e8e9fff141c5d995b312b341a76ce285aef1d74f283a511999d1b3884b352a2b
+Description:  User Agent Client for Kamailio5
+
+Package: kamailio5-mod-uid-auth-db
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-auth
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 13882
+Filename: kamailio5-mod-uid-auth-db_5.1.1-3_mvebu64.ipk
+Size: 14624
+MD5Sum: 687820c9224ddfd32682b6c9b977d25d
+SHA256sum: 131dabf4dbc1e3ba56537415a3f5a92c2971bd53d6fcd7f7131e19798b7b3946
+Description:  Authentication module for Kamailio5
+
+Package: kamailio5-mod-uid-avp-db
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 14150
+Filename: kamailio5-mod-uid-avp-db_5.1.1-3_mvebu64.ipk
+Size: 14881
+MD5Sum: dcb6bf7a9a117daa9a1cf60bb59689e1
+SHA256sum: 65f4a4609875e6feed300f6b44ce119db7531160d2aab132f774d07e28eaed89
+Description:  AVP database operations for Kamailio5
+
+Package: kamailio5-mod-uid-domain
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 15037
+Filename: kamailio5-mod-uid-domain_5.1.1-3_mvebu64.ipk
+Size: 15765
+MD5Sum: 4725e515d120a93b31f7463f9eed72b5
+SHA256sum: 09fc58e05ca3aac299523a94d56a08d6a88166eddc6f0e8e27bc1575b9b26f4c
+Description:  Domains management for Kamailio5
+
+Package: kamailio5-mod-uid-gflags
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 7742
+Filename: kamailio5-mod-uid-gflags_5.1.1-3_mvebu64.ipk
+Size: 8527
+MD5Sum: 49a4c4aa6d06f447cc84f14c0b0de96e
+SHA256sum: a4a11290f8eb074e2ed33d2fdf378e4df822ebd275cee867e0538fa0bbe2e9b7
+Description:  Global attributes and flags for Kamailio5
+
+Package: kamailio5-mod-uid-uri-db
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 8538
+Filename: kamailio5-mod-uid-uri-db_5.1.1-3_mvebu64.ipk
+Size: 9319
+MD5Sum: b5e3dd86e50861bb0c8d3f917e32c96e
+SHA256sum: c2a18e19c8450b53ff4a1769cad3b460c8b62d3278d8b4e3d68fadf76edcb4e2
+Description:  Database URI operations for Kamailio5
+
+Package: kamailio5-mod-uri-db
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 10213
+Filename: kamailio5-mod-uri-db_5.1.1-3_mvebu64.ipk
+Size: 10935
+MD5Sum: 5f01e2c1e870f9fe063e2c7936bd4842
+SHA256sum: 05c9c2e995af7c9613b2a4d0b06b3b70c2fc0e3b18ccabb4c218b27c7a66d329
+Description:  Database-backend SIP URI checking for Kamailio5
+
+Package: kamailio5-mod-userblacklist
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-lib-libtrie
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 15753
+Filename: kamailio5-mod-userblacklist_5.1.1-3_mvebu64.ipk
+Size: 16458
+MD5Sum: fb378f548137e2b409bdf993c3a286e1
+SHA256sum: e0617d89537b742f775babc19a1e3d608371edb40602381e09fe1b5c85f8befb
+Description:  User blacklists for Kamailio5
+
+Package: kamailio5-mod-usrloc
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 69688
+Filename: kamailio5-mod-usrloc_5.1.1-3_mvebu64.ipk
+Size: 70440
+MD5Sum: 949f269dd14a0fdb984e1fc5c0e1af3a
+SHA256sum: f44814c7bac818b2c184a4cc8db941ff6f1d12e3d23da4c2597b5b9a5094b88f
+Description:  User location for Kamailio5
+
+Package: kamailio5-mod-utils
+Version: 5.1.1-3
+Depends: libc, kamailio5, libcurl, libxml2
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 24062
+Filename: kamailio5-mod-utils_5.1.1-3_mvebu64.ipk
+Size: 24762
+MD5Sum: e35761074a684a64e0aa306b1e861394
+SHA256sum: bf4f3a95070c937a55f137490aca6d56c570a584f2ba325239b0a7213180949c
+Description:  Misc utilities for Kamailio5
+
+Package: kamailio5-mod-uuid
+Version: 5.1.1-3
+Depends: libc, kamailio5, libuuid
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 2827
+Filename: kamailio5-mod-uuid_5.1.1-3_mvebu64.ipk
+Size: 3568
+MD5Sum: 2d52acf35524ecdc4b2b9864eb4e3179
+SHA256sum: b4e62eb0b4e0496d381b37dceddcb48691578a6c685b4f8a64abce5a614b8c34
+Description:  UUID utilities for Kamailio5
+
+Package: kamailio5-mod-websocket
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-sl, kamailio5-mod-tm, libopenssl, libunistring
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 39344
+Filename: kamailio5-mod-websocket_5.1.1-3_mvebu64.ipk
+Size: 40178
+MD5Sum: e9f14f97e8ed4500b556ec83229a6fa7
+SHA256sum: fbf931a378f583cb063a3f54cd56db3577082ebb6093ca84655566c8a03bb2a7
+Description:  WebSocket transport layer for Kamailio5
+
+Package: kamailio5-mod-xcap-client
+Version: 5.1.1-3
+Depends: libc, kamailio5, libcurl
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 15583
+Filename: kamailio5-mod-xcap-client_5.1.1-3_mvebu64.ipk
+Size: 16314
+MD5Sum: f1ef366b0805d5963d2ee04fb8c7b1b5
+SHA256sum: 30310072c4f40f1dd0c1851aad1efd25787bcfda44e728c066f82e839ec7e855
+Description:  XCAP Client for Kamailio5
+
+Package: kamailio5-mod-xcap-server
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-xhttp, kamailio5-mod-sl
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 35753
+Filename: kamailio5-mod-xcap-server_5.1.1-3_mvebu64.ipk
+Size: 36579
+MD5Sum: 6e716a946e888e0f04475fce52ae9904
+SHA256sum: e61522e6b1167630f4536b8bed5ed83a1ad9f31d728b5efedd4d793039edd16d
+Description:  XCAP server implementation for Kamailio5
+
+Package: kamailio5-mod-xhttp-pi
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-xhttp
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 92287
+Filename: kamailio5-mod-xhttp-pi_5.1.1-3_mvebu64.ipk
+Size: 92908
+MD5Sum: 9e9107a2801713b14ee332dbcd75a811
+SHA256sum: 5b837079d2a8d1952e91252b0c24db450f03bd2b62d28e1a0405ddfd881c2661
+Description:  HTTP provisioning interface for Kamailio5
+
+Package: kamailio5-mod-xhttp-rpc
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-xhttp
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 22495
+Filename: kamailio5-mod-xhttp-rpc_5.1.1-3_mvebu64.ipk
+Size: 23224
+MD5Sum: 0f16432954244be84264cef46c80be52
+SHA256sum: 3ef80fac8b7342e9ace618ecf176c4e5b2e4d5a2e35b361f7f7f23faab76ab93
+Description:  RPC commands handling over HTTP for Kamailio5
+
+Package: kamailio5-mod-xhttp
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-sl
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 15303
+Filename: kamailio5-mod-xhttp_5.1.1-3_mvebu64.ipk
+Size: 16035
+MD5Sum: 6dc5e43860d4b5c38f96cedb2d3128d8
+SHA256sum: 44cca37afc6fad0c355591f0525038739545a4163577912fd6ff0848e9b0aeac
+Description:  Basic HTTP request handling server for Kamailio5
+
+Package: kamailio5-mod-xlog
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 12513
+Filename: kamailio5-mod-xlog_5.1.1-3_mvebu64.ipk
+Size: 13248
+MD5Sum: ab790c6abdc17f3892b6eb8d1df00da6
+SHA256sum: 9ef8f83737618cd0edd317a44ae492fa6fc25b33bfa046fdb404044d6e2245db
+Description:  Advanced logger for Kamailio5
+
+Package: kamailio5-mod-xmlops
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 8783
+Filename: kamailio5-mod-xmlops_5.1.1-3_mvebu64.ipk
+Size: 9535
+MD5Sum: 2721bf0a53c33eadb1872218e66647d2
+SHA256sum: f4cda65959444fc94f6698af76085512735c269bc0db5864189d1b11c6ba4fef
+Description:  XML operations for Kamailio5
+
+Package: kamailio5-mod-xmlrpc
+Version: 5.1.1-3
+Depends: libc, kamailio5, libxml2
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 26182
+Filename: kamailio5-mod-xmlrpc_5.1.1-3_mvebu64.ipk
+Size: 26876
+MD5Sum: 22a27f3b7997877451b86e2ec21fe612
+SHA256sum: bea3d1f3bce41054dc4285ade0cab08cf295d617c0e8a1056259a39aeb4adb8c
+Description:  XML RPC module for Kamailio5
+
+Package: kamailio5-mod-xmpp
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-tm, libexpat
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 39435
+Filename: kamailio5-mod-xmpp_5.1.1-3_mvebu64.ipk
+Size: 40209
+MD5Sum: a0eeb2a4ff2af5b6201781fe6761a817
+SHA256sum: c3634fb18dbfe387cb198eb1bfb3abd252adaa124d67eb07d5ac1f6bb00d8236
+Description:  SIP-to-XMPP Gateway for Kamailio5
+
+Package: kamailio5-mod-xprint
+Version: 5.1.1-3
+Depends: libc, kamailio5
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 26598
+Filename: kamailio5-mod-xprint_5.1.1-3_mvebu64.ipk
+Size: 27283
+MD5Sum: d0529544435a9ac987110c7c1d67028e
+SHA256sum: 04a1265e51b09f5e9a25bc76fa28f521163484e7f067c83ec1351a9a592c0a37
+Description:  Print messages with specifiers for Kamailio5
+
+Package: kamailio5-util-kambdb_recover
+Version: 5.1.1-3
+Depends: libc, kamailio5, kamailio5-mod-db-berkeley
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 6529
+Filename: kamailio5-util-kambdb_recover_5.1.1-3_mvebu64.ipk
+Size: 7328
+MD5Sum: 56ec463315a2197866ed20c0a35f8f10
+SHA256sum: 0c41f1a0d55eaef6b371ff09c2c5671652d999afecd9c48ac0e3e363d4e87118
+Description:  Kamailio5 Berkeley DB recovery utility
+
+Package: kamailio5
+Version: 5.1.1-3
+Depends: libc, libncurses, libpthread, libreadline, libxml2
+Source: feeds/telephony/net/kamailio-5.x
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 1137056
+Filename: kamailio5_5.1.1-3_mvebu64.ipk
+Size: 1136777
+MD5Sum: d2b6e41355811d0036435d05cafbda96
+SHA256sum: 0d99ab553cb9c08aeb9d043c2dbc4c1bf0ef1ebea0568cc85ca051ea0a2155d7
+Description:  Mature and flexible open source SIP server, v5.1.1
+
 Package: kmod-dahdi-dummy
 Version: 4.4.52+2.11.1-20180111-1
-Depends: kernel (=4.4.52-1-2b186349e5c8cf3468921464a33d8b6f), kmod-dahdi
+Depends: kernel (=4.4.52-1-a6d402be70767f5887c76f409a3f69c9), kmod-dahdi
 Source: feeds/telephony/libs/dahdi-linux
 License: GPL-2.0
 LicenseFiles: LICENSE
@@ -9,15 +3177,15 @@ Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
 Architecture: mvebu64
 Installed-Size: 2188
 Filename: kmod-dahdi-dummy_4.4.52+2.11.1-20180111-1_mvebu64.ipk
-Size: 3077
-MD5Sum: 8746ec977c2859428f247facaf817d5a
-SHA256sum: 4f763698099ee4f6e9cf9990a12418a83204cbb7e714dc1842fcdd61112c0897
+Size: 3079
+MD5Sum: bb5ed02f8ef1d00aa4338d1a772b5e42
+SHA256sum: 846ed06e05c8dd97c18f0073a130724886e448289b3ca4d0fedfbfd8449c6a78
 Description:  This package contains the dummy DAHDI driver providing only DAHDI timing
  without any real telephony hardware.
 
 Package: kmod-dahdi-echocan-oslec
 Version: 4.4.52+2.11.1-20180111-1
-Depends: kernel (=4.4.52-1-2b186349e5c8cf3468921464a33d8b6f), kmod-dahdi, kmod-echo
+Depends: kernel (=4.4.52-1-a6d402be70767f5887c76f409a3f69c9), kmod-dahdi, kmod-echo
 Source: feeds/telephony/libs/dahdi-linux
 License: GPL-2.0
 LicenseFiles: LICENSE
@@ -26,14 +3194,14 @@ Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
 Architecture: mvebu64
 Installed-Size: 1533
 Filename: kmod-dahdi-echocan-oslec_4.4.52+2.11.1-20180111-1_mvebu64.ipk
-Size: 2447
-MD5Sum: 446cc10c59c5bd070d888044e77232a2
-SHA256sum: bc86085313aab6e827b37cff908b14c3e12a97cad771fde80ed7d226382e7120
+Size: 2449
+MD5Sum: 147d315641bff636aecdc416c013e7e2
+SHA256sum: 4fd127b6bf456c8ea1767b6795cef50ebb92bdae8fb4b3ed744679dc1273beb1
 Description:  This package contains DAHDI OSLEC echo canceller support.
 
 Package: kmod-dahdi-hfcs
 Version: 4.4.52+2.11.1-20180111-1
-Depends: kernel (=4.4.52-1-2b186349e5c8cf3468921464a33d8b6f), kmod-dahdi
+Depends: kernel (=4.4.52-1-a6d402be70767f5887c76f409a3f69c9), kmod-dahdi
 Source: feeds/telephony/libs/dahdi-linux
 License: GPL-2.0
 LicenseFiles: LICENSE
@@ -42,14 +3210,14 @@ Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
 Architecture: mvebu64
 Installed-Size: 10654
 Filename: kmod-dahdi-hfcs_4.4.52+2.11.1-20180111-1_mvebu64.ipk
-Size: 11523
-MD5Sum: bc8ee96120f57c9450c44d934af9f5f1
-SHA256sum: 9d6cd4bf1d8a1537d0ee59d647c40e042f4fa7f94804ca06b46a7e2543fbaf68
+Size: 11520
+MD5Sum: 648f6ab11a3c4072a9a42936d5613bb3
+SHA256sum: 7151aef909da6ec0abc93afccdeec19b43526f8f174aef4e8bb5abe1d3b348f7
 Description:  This package contains DAHDI driver for HFC-S based PCI BRI adapters.
 
 Package: kmod-dahdi
 Version: 4.4.52+2.11.1-20180111-1
-Depends: kernel (=4.4.52-1-2b186349e5c8cf3468921464a33d8b6f), kmod-lib-crc-ccitt
+Depends: kernel (=4.4.52-1-a6d402be70767f5887c76f409a3f69c9), kmod-lib-crc-ccitt
 Source: feeds/telephony/libs/dahdi-linux
 License: GPL-2.0
 LicenseFiles: LICENSE
@@ -58,8 +3226,549 @@ Maintainer: Vittorio Gambaletta <openwrt@vittgam.net>
 Architecture: mvebu64
 Installed-Size: 56287
 Filename: kmod-dahdi_4.4.52+2.11.1-20180111-1_mvebu64.ipk
-Size: 56984
-MD5Sum: b8e8dff20beb9ba511cd6d6f4720c6f1
-SHA256sum: 6b4a5fa46a2794c6f75196a9749b1e6bbd3a3ded96e1a46af8c6540a2469de1f
+Size: 56985
+MD5Sum: 8ed23e2db59811f0fcd17898f911f2a6
+SHA256sum: baead7ab2be35bd609f39bf6c5042a77c32860565f3701f76668d1498834d3b5
 Description:  This package contains DAHDI basic infrastructure.
+
+Package: libosip2
+Version: 5.0.0-2
+Depends: libc, librt
+Source: feeds/telephony/libs/libosip2
+License: LGPL-2.1+
+LicenseFiles: COPYING
+Section: libs
+Architecture: mvebu64
+Installed-Size: 63309
+Filename: libosip2_5.0.0-2_mvebu64.ipk
+Size: 63696
+MD5Sum: 983595afcd772d85fbe5f2ad87cf19e3
+SHA256sum: b337ccf621f97eeb5607ca3a86e50986b1cc72e96db7db573cdad4e1cfd776c4
+Description:  GNU oSIP library, a Session Initiation Protocol (SIP) implementation.
+
+Package: libre
+Version: 0.5.7-1
+Depends: libc, libopenssl, zlib
+Source: feeds/telephony/libs/re
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: libs
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 150130
+Filename: libre_0.5.7-1_mvebu64.ipk
+Size: 148960
+MD5Sum: a30701df6347482025f48492ba178f56
+SHA256sum: 5f00369d6aaf45b53762a41ed788042b11d634f09f374c4ec795996bbc789a16
+Description:  Generic library for real-time communications with async IO support
+
+Package: miax
+Version: 1.4-2
+Depends: libc, libpthread
+Source: feeds/telephony/net/miax
+License: GPL-2.0
+LicenseFiles: COPYING LICENSE
+Section: net
+Architecture: mvebu64
+Installed-Size: 32513
+Filename: miax_1.4-2_mvebu64.ipk
+Size: 33317
+MD5Sum: 74e047575d03183d864dbf516479dbb5
+SHA256sum: 52bc8abbdacc43d09f3a62c9b39264a5594ea4f1c156f3506ff0d4895f6f804c
+Description:  miax is a console iax (asterisk) client, it can work with 
+ a soundcard as a normal voip phone, taking input/output from 
+ keyboard or analog/gsm/isdn modem.
+
+Package: pcapsipdump
+Version: 0.2-2
+Depends: libc, libpcap, libstdcpp
+Source: feeds/telephony/net/pcapsipdump
+License: GPL-2.0+
+LicenseFiles: LICENSE
+Section: net
+Architecture: mvebu64
+Installed-Size: 3713
+Filename: pcapsipdump_0.2-2_mvebu64.ipk
+Size: 4515
+MD5Sum: 2159c91184a420fe64d8d02b2e78aac6
+SHA256sum: 6f9f6a1f7142d7af344ca43f703910ec0f832155e8bead253da9dae1f91d2316
+Description:  pcapsipdump is a tool for dumping SIP sessions (+RTP traffic, if available) to disk in a
+ fashion similar to "tcpdump -w" (format is exactly the same), but one file per sip session
+ (even if there is thousands of concurrect SIP sessions).
+
+Package: restund-mod-mysql
+Version: 0.4.12-5
+Depends: libc, restund, libmysqlclient
+Source: feeds/telephony/net/restund
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 2693
+Filename: restund-mod-mysql_0.4.12-5_mvebu64.ipk
+Size: 3438
+MD5Sum: fc7fea7cda5e16466975531ef02e5130
+SHA256sum: 075c0f4b6d3aafbb07ee364bfdf8de35c24c8740f0582519ed32313a0735ba34
+Description:  restund MySQL database backend module
+
+Package: restund
+Version: 0.4.12-5
+Depends: libc, libre
+Source: feeds/telephony/net/restund
+License: BSD-3-Clause
+LicenseFiles: docs/COPYING
+Section: net
+Require-User: restund=373:restund=373
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 29735
+Filename: restund_0.4.12-5_mvebu64.ipk
+Size: 30505
+MD5Sum: 258aa1bd2be8d24adaf8d3e463706cbf
+SHA256sum: 92eb15667171f8cbe539a7c6c851fbfd94a820b712548a081e4be2e865727b55
+Description:  Modular STUN/TURN server
+
+Package: rtpproxy-mod-acct_csv
+Version: 2.1.0-20170914-1
+Depends: libc, rtpproxy
+Source: feeds/telephony/net/rtpproxy
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 3397
+Filename: rtpproxy-mod-acct_csv_2.1.0-20170914-1_mvebu64.ipk
+Size: 4123
+MD5Sum: add0d7b00d4a41c60f788e1df60c3ad2
+SHA256sum: c760651c5dccf43f5044c50417ffbc7f78861f82442db897bb60635a8f28e1ce
+Description:  RTPproxy accounting module
+
+Package: rtpproxy
+Version: 2.1.0-20170914-1
+Depends: libc, libpthread, librt
+Source: feeds/telephony/net/rtpproxy
+License: BSD-2-Clause
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 62425
+Filename: rtpproxy_2.1.0-20170914-1_mvebu64.ipk
+Size: 63233
+MD5Sum: 109060030df7970a4abafd9122454518
+SHA256sum: 4a4d8c5c9a3ff84c9818444269628caf23866d9c95d11c2cf8525ede27a384e5
+Description:  RTP (Realtime Transport Protocol) proxy
+
+Package: sipgrep
+Version: 2.2.1-20160621-1
+Depends: libc, libpcap, libpcre
+Source: feeds/telephony/net/sipgrep
+License: GPL-3.0
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Architecture: mvebu64
+Installed-Size: 22571
+Filename: sipgrep_2.2.1-20160621-1_mvebu64.ipk
+Size: 23333
+MD5Sum: b3977a3fcdfcc9ec7bcfa72d217be9bd
+SHA256sum: e504a042f07df6e10c43d956c8b48a150476c0525930b84e88965abb31a4830f
+Description:  Powerful pcap-aware command line tool to sniff, capture, display and
+ troubleshoot SIP signaling over IP networks, allowing the user to
+ specify extended regular expressions matching against SIP headers.
+
+Package: sipp
+Version: 3.5.1-2
+Depends: libc, libncurses, libpthread, libstdcpp
+Source: feeds/telephony/net/sipp
+License: GPL-2.0+ BSD-3-Clause Zlib
+LicenseFiles: LICENSE.txt
+Section: net
+Architecture: mvebu64
+Installed-Size: 144308
+Filename: sipp_3.5.1-2_mvebu64.ipk
+Size: 144912
+MD5Sum: c762c3c30fcab7535fce984b006499cf
+SHA256sum: 0b187dc57ccd520a8de279645e0d196ddfc54df908f2c1e0526a19d81bbc6ad3
+Description:  SIPp is a free Open Source test tool / traffic generator for the SIP
+ protocol. It includes a few basic SipStone user agent scenarios (UAC and
+ UAS) and establishes and releases multiple calls with the INVITE and BYE
+ methods.
+
+Package: siproxd-mod-codecfilter
+Version: 0.8.2-1
+Depends: libc, siproxd
+Source: feeds/telephony/net/siproxd
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Architecture: mvebu64
+Installed-Size: 3489
+Filename: siproxd-mod-codecfilter_0.8.2-1_mvebu64.ipk
+Size: 4180
+MD5Sum: 72c7164dfb75d3097b1bc2039b6c180c
+SHA256sum: c9181b399525e35e87e0d590d685ee2cfb09f248c2eb6a479a2c9dca1800516c
+Description:  siproxd codecfilter plugin
+
+Package: siproxd-mod-defaulttarget
+Version: 0.8.2-1
+Depends: libc, siproxd
+Source: feeds/telephony/net/siproxd
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Architecture: mvebu64
+Installed-Size: 2294
+Filename: siproxd-mod-defaulttarget_0.8.2-1_mvebu64.ipk
+Size: 2975
+MD5Sum: b850611fd579ad94302819ee05f03487
+SHA256sum: 2290dc91850f51be7fae7ddcb4925628dca8563197324f621423e90841d4b43c
+Description:  siproxd defaulttarget plugin
+
+Package: siproxd-mod-demo
+Version: 0.8.2-1
+Depends: libc, siproxd
+Source: feeds/telephony/net/siproxd
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Architecture: mvebu64
+Installed-Size: 1511
+Filename: siproxd-mod-demo_0.8.2-1_mvebu64.ipk
+Size: 2221
+MD5Sum: 3e9445f70d19b6b8c3d28051d1b9984a
+SHA256sum: e5679021352001b064dc93167c0a6bca509eba4c990e6614a95a16a7466660a7
+Description:  siproxd demo plugin
+
+Package: siproxd-mod-fix_DTAG
+Version: 0.8.2-1
+Depends: libc, siproxd
+Source: feeds/telephony/net/siproxd
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Architecture: mvebu64
+Installed-Size: 2307
+Filename: siproxd-mod-fix_DTAG_0.8.2-1_mvebu64.ipk
+Size: 2991
+MD5Sum: 3fae008a84c94537b7fe586f6dde9d8d
+SHA256sum: bd41650a9dd40624d78d49f9b83843b6fd905f05efe1e174add68fde53e614fd
+Description:  siproxd fix_DTAG plugin
+
+Package: siproxd-mod-fix_bogus_via
+Version: 0.8.2-1
+Depends: libc, siproxd
+Source: feeds/telephony/net/siproxd
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Architecture: mvebu64
+Installed-Size: 2306
+Filename: siproxd-mod-fix_bogus_via_0.8.2-1_mvebu64.ipk
+Size: 2988
+MD5Sum: a868a94628b38c86cdd2da8a981b5508
+SHA256sum: b07ab4c2b8237a2f21b11fc3397f6abdec6d59e705a8b30a44a90c1290301b70
+Description:  siproxd fix_bogus_via plugin
+
+Package: siproxd-mod-fix_fbox_anoncall
+Version: 0.8.2-1
+Depends: libc, siproxd
+Source: feeds/telephony/net/siproxd
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Architecture: mvebu64
+Installed-Size: 3077
+Filename: siproxd-mod-fix_fbox_anoncall_0.8.2-1_mvebu64.ipk
+Size: 3765
+MD5Sum: 19843882594c9e2a31e07a57231e1c66
+SHA256sum: 5fff2c77a57f09c3f8928fe453eedd9cebaab9c4521c43f8573859e8d7d9cd4e
+Description:  siproxd fix_fbox_anoncall plugin
+
+Package: siproxd-mod-logcall
+Version: 0.8.2-1
+Depends: libc, siproxd
+Source: feeds/telephony/net/siproxd
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Architecture: mvebu64
+Installed-Size: 1742
+Filename: siproxd-mod-logcall_0.8.2-1_mvebu64.ipk
+Size: 2451
+MD5Sum: 7c024ac55ad053c3aa85a316b8206cc5
+SHA256sum: 16e97ac7123e94b44b1a5678ec5e4a5f3e88bd35b2d80a8fd461b145b9e6e21c
+Description:  siproxd logcall plugin
+
+Package: siproxd-mod-prefix
+Version: 0.8.2-1
+Depends: libc, siproxd
+Source: feeds/telephony/net/siproxd
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Architecture: mvebu64
+Installed-Size: 2776
+Filename: siproxd-mod-prefix_0.8.2-1_mvebu64.ipk
+Size: 3460
+MD5Sum: d265672cb548a3efbc58f78753df089a
+SHA256sum: 42dd00017068e8f5b081a3317ffe87e0096ab0db7552bb553c65b164651e69d7
+Description:  siproxd prefix plugin
+
+Package: siproxd-mod-regex
+Version: 0.8.2-1
+Depends: libc, siproxd
+Source: feeds/telephony/net/siproxd
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Architecture: mvebu64
+Installed-Size: 4000
+Filename: siproxd-mod-regex_0.8.2-1_mvebu64.ipk
+Size: 4683
+MD5Sum: 50bdb103f1125a2b4378531d97bd52f7
+SHA256sum: ada26f4a7bdf3782c308406bd34e0d48f26a99346d63d8217a42862c5f07610b
+Description:  siproxd regex plugin
+
+Package: siproxd-mod-shortdial
+Version: 0.8.2-1
+Depends: libc, siproxd
+Source: feeds/telephony/net/siproxd
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Architecture: mvebu64
+Installed-Size: 2715
+Filename: siproxd-mod-shortdial_0.8.2-1_mvebu64.ipk
+Size: 3406
+MD5Sum: 29e2799e6f42caa7a91c596b28fab2d2
+SHA256sum: 5852f80b3f0fc48dd2b6688083989b8d49c5e7e7f56959f204ada42b16cbf64e
+Description:  siproxd shortdial plugin
+
+Package: siproxd-mod-siptrunk
+Version: 0.8.2-1
+Depends: libc, siproxd
+Source: feeds/telephony/net/siproxd
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Architecture: mvebu64
+Installed-Size: 3244
+Filename: siproxd-mod-siptrunk_0.8.2-1_mvebu64.ipk
+Size: 3923
+MD5Sum: e1c54ff3c0232e1a6316e0b759c8c35d
+SHA256sum: 092c716e296d7f2125dbdd5b02911647c40144424c410721c3f7c40d4209f01c
+Description:  siproxd siptrunk plugin
+
+Package: siproxd-mod-stripheader
+Version: 0.8.2-1
+Depends: libc, siproxd
+Source: feeds/telephony/net/siproxd
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Architecture: mvebu64
+Installed-Size: 2403
+Filename: siproxd-mod-stripheader_0.8.2-1_mvebu64.ipk
+Size: 3090
+MD5Sum: fe30c1c7e6af760e1cda9bc536b3ae20
+SHA256sum: 1f846a3d08b5adccfee957b589013ea1fcc86fb1d442c5e935ee04e79ab7c66e
+Description:  siproxd stripheader plugin
+
+Package: siproxd-mod-stun
+Version: 0.8.2-1
+Depends: libc, siproxd
+Source: feeds/telephony/net/siproxd
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Architecture: mvebu64
+Installed-Size: 3533
+Filename: siproxd-mod-stun_0.8.2-1_mvebu64.ipk
+Size: 4215
+MD5Sum: 225d9b13c04b07d3fcba98965ef2b60c
+SHA256sum: 5f302666a60ddf0a625715bd00d0c5c32eb13055e8e2c47c1b0269a3a5b59eed
+Description:  siproxd stun plugin
+
+Package: siproxd
+Version: 0.8.2-1
+Depends: libc, libltdl, libpthread, libosip2
+Source: feeds/telephony/net/siproxd
+License: GPL-2.0+
+LicenseFiles: COPYING
+Section: net
+Architecture: mvebu64
+Installed-Size: 52127
+Filename: siproxd_0.8.2-1_mvebu64.ipk
+Size: 52822
+MD5Sum: f1a4458d0cbae4da5cc6c6242e6262c1
+SHA256sum: 55ad99a5265533462c5125db22f3024bfd334688dba5b6c75d2a473feaa29948
+Description:  Siproxd is a proxy/masquerading daemon for the SIP protocol.
+
+Package: sngrep
+Version: 1.4.5-1
+Depends: libc, libncursesw, libopenssl, libpcap, libpcre
+Source: feeds/telephony/net/sngrep
+License: GPL-3.0+
+LicenseFiles: COPYING
+Section: utils
+Maintainer: Sebastian Kemper <sebastian_ml@gmx.net>
+Architecture: mvebu64
+Installed-Size: 62722
+Filename: sngrep_1.4.5-1_mvebu64.ipk
+Size: 63343
+MD5Sum: a1dbe2c99018c92434042f1ce6b9683e
+SHA256sum: 99863bcc88c7da68e02f50683129b2d93f666a9b2be34856629166919ed1481c
+Description:  sngrep displays SIP messages grouped by Call-Id into flow diagrams. It
+ can be used as an offline pcap viewer or for online capture using
+ libpcap functions.
+ 
+ It supports SIP UDP and TCP transports (when each message is delivered
+ in one packet).
+
+Package: yate-mod-dumbchan
+Version: 6.0.0-1-4
+Depends: libc, yate
+Source: feeds/telephony/net/yate
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 6254
+Filename: yate-mod-dumbchan_6.0.0-1-4_mvebu64.ipk
+Size: 6925
+MD5Sum: 51f73013337e24477c6d97dfc5c920a0
+SHA256sum: 1ad8a853eeffc83993fd388a97ac6a7e880bd10107a6381c212af03883b190f0
+Description:  Dummy Channel module for yate
+
+Package: yate-mod-regexroute
+Version: 6.0.0-1-4
+Depends: libc, yate
+Source: feeds/telephony/net/yate
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 20256
+Filename: yate-mod-regexroute_6.0.0-1-4_mvebu64.ipk
+Size: 20961
+MD5Sum: 04132fdabcdcf1b27f4b07a353135b23
+SHA256sum: 70796fa39111e0dce32fef2cf897af559d765900ac31e0658d78547593423e8c
+Description:  Regular Expression Based Routing module for yate
+
+Package: yate-mod-regfile
+Version: 6.0.0-1-4
+Depends: libc, yate
+Source: feeds/telephony/net/yate
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 10297
+Filename: yate-mod-regfile_6.0.0-1-4_mvebu64.ipk
+Size: 11044
+MD5Sum: 1726db623a1127331cb783ded569178f
+SHA256sum: f2d3e28ce99345ae7a386df2ce0c2db79846db29729d2af3e3e15d7e461a4129
+Description:  Registration based on users in file module for yate
+
+Package: yate-mod-rmanager
+Version: 6.0.0-1-4
+Depends: libc, yate
+Source: feeds/telephony/net/yate
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 23923
+Filename: yate-mod-rmanager_6.0.0-1-4_mvebu64.ipk
+Size: 24577
+MD5Sum: a498ed4185137ef10630cf025c41ade5
+SHA256sum: 57593da50c2eaf41382bff8bc6632d10f2fb160ebe0cb3547930b0b8705f996c
+Description:  Yate Remote Management module for yate
+
+Package: yate-mod-tonegen
+Version: 6.0.0-1-4
+Depends: libc, yate
+Source: feeds/telephony/net/yate
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 21407
+Filename: yate-mod-tonegen_6.0.0-1-4_mvebu64.ipk
+Size: 21986
+MD5Sum: bdd37f1f4b95f85d12ad5fe2a9003cc9
+SHA256sum: a3ad52971c8f3acaaa0a0170d50cda7397c799800db0f8f943c7be66ad879578
+Description:  Tones Generator module for yate
+
+Package: yate-mod-yrtpchan
+Version: 6.0.0-1-4
+Depends: libc, yate
+Source: feeds/telephony/net/yate
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 46492
+Filename: yate-mod-yrtpchan_6.0.0-1-4_mvebu64.ipk
+Size: 46873
+MD5Sum: 421f32bae7d6ac1f09ecdda29328a760
+SHA256sum: 08c3eac8c6252ff9afe07b07723423070499f0efbae2f76133033b0ca03fde2d
+Description:  RTP Channel and Other Data Helper module for yate
+
+Package: yate-mod-ysipchan
+Version: 6.0.0-1-4
+Depends: libc, yate
+Source: feeds/telephony/net/yate
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 137438
+Filename: yate-mod-ysipchan_6.0.0-1-4_mvebu64.ipk
+Size: 137151
+MD5Sum: 337b4ac0b313f61e4365a2d2e4e61c56
+SHA256sum: 094b46e031d6a33afc9077fa32ed9a7922f551767114a6e9da81b8676002620f
+Description:  SIP Channel module for yate
+
+Package: yate-sounds
+Version: 6.0.0-1-4
+Depends: libc, yate
+Source: feeds/telephony/net/yate
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 141390
+Filename: yate-sounds_6.0.0-1-4_mvebu64.ipk
+Size: 139874
+MD5Sum: 4836468fb57736d4e3506abd23fe42e9
+SHA256sum: 82b36dd68c7871522b77b66b39ef72851a2debf3ec12c315cdaf930be36469aa
+Description:  Sounds for Yate
+
+Package: yate
+Version: 6.0.0-1-4
+Depends: libc, libpthread, libstdcpp
+Source: feeds/telephony/net/yate
+License: GPL-2.0
+LicenseFiles: COPYING
+Section: net
+Maintainer: Jiri Slachta <jiri@slachta.eu>
+Architecture: mvebu64
+Installed-Size: 929016
+Filename: yate_6.0.0-1-4_mvebu64.ipk
+Size: 916016
+MD5Sum: 30af519a9c79eb732f4a4fffc37bccd6
+SHA256sum: c786d088eb8d5e3a88ecaa42d3a50789529a247635ab825ae6a3a4c2d62148d1
+Description:  Yet Another Telephony Engine
 
